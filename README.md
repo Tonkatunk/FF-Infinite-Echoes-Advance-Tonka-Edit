@@ -4,6 +4,8 @@ Translations and edits for FF IEA
 
 GAME VERSION: 0.31
 
+BACKUP "data" and "js" folders of your game, before you copy/paste these in!
+
 This is where I got my version of the game.
 https://x.com/spanish_ESP16/status/2012722574866948266
 
