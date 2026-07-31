@@ -1,0 +1,138 @@
+<D-Animation>
+sx = a.x+a.headX()+16
+sy = a.y+a.headY()
+id = 1645
+</D-Animation>
+
+<D-Animation>
+    delay = 60
+    sx = a.x+a.headX()+16
+    sy = a.y+a.headY()
+    ex = BattleManager.indexTarget(0).x
+    ey = BattleManager.indexTarget(0).y-BattleManager.indexTarget(0).height/2
+    target = BattleManager.indexTarget(0);
+    arrival = 10
+    id = 1646
+</D-Animation>
+<D-Motion>
+    delay = 70
+    condition = BattleManager.resultList()[0].hpDamage > 0
+    target = BattleManager.indexTarget(0)
+    script = BattleManager.indexTarget(0).startDamageShake();
+</D-Motion>
+
+<D-Animation>
+    delay = 65
+    sx = a.x+a.headX()+16
+    sy = a.y+a.headY()
+    ex = BattleManager.indexTarget(1).x
+    ey = BattleManager.indexTarget(1).y-BattleManager.indexTarget(1).height/2
+    target = BattleManager.indexTarget(1);
+    arrival = 10
+    id = 1646
+</D-Animation>
+<D-Motion>
+    delay = 75
+    condition = BattleManager.resultList()[1].hpDamage > 0
+    target = BattleManager.indexTarget(1)
+    script = BattleManager.indexTarget(1).startDamageShake();
+</D-Motion>
+
+<D-Animation>
+    delay = 70
+    sx = a.x+a.headX()+16
+    sy = a.y+a.headY()
+    ex = BattleManager.indexTarget(2).x
+    ey = BattleManager.indexTarget(2).y-BattleManager.indexTarget(2).height/2
+    target = BattleManager.indexTarget(2);
+    arrival = 10
+    id = 1646
+</D-Animation>
+<D-Motion>
+    delay = 80
+    condition = BattleManager.resultList()[2].hpDamage > 0
+    target = BattleManager.indexTarget(2)
+    script = BattleManager.indexTarget(2).startDamageShake();
+</D-Motion>
+
+<D-Animation>
+    delay = 75
+    sx = a.x+a.headX()+16
+    sy = a.y+a.headY()
+    ex = BattleManager.indexTarget(3).x
+    ey = BattleManager.indexTarget(3).y-BattleManager.indexTarget(3).height/2
+    target = BattleManager.indexTarget(3);
+    arrival = 10
+    id = 1646
+</D-Animation>
+<D-Motion>
+    delay = 85
+    condition = BattleManager.resultList()[3].hpDamage > 0
+    target = BattleManager.indexTarget(3)
+    script = BattleManager.indexTarget(3).startDamageShake();
+</D-Motion>
+
+<D-Animation>
+    delay = 80
+    sx = a.x+a.headX()+16
+    sy = a.y+a.headY()
+    ex = BattleManager.indexTarget(4).x
+    ey = BattleManager.indexTarget(4).y-BattleManager.indexTarget(4).height/2
+    target = BattleManager.indexTarget(4);
+    arrival = 10
+    id = 1646
+</D-Animation>
+<D-Motion>
+    delay = 90
+    condition = BattleManager.resultList()[4].hpDamage > 0
+    target = BattleManager.indexTarget(4)
+    script = BattleManager.indexTarget(4).startDamageShake();
+</D-Motion>
+
+<D-Animation>
+    delay = 85
+    sx = a.x+a.headX()+16
+    sy = a.y+a.headY()
+    ex = BattleManager.indexTarget(5).x
+    ey = BattleManager.indexTarget(5).y-BattleManager.indexTarget(5).height/2
+    target = BattleManager.indexTarget(5);
+    arrival = 10
+    id = 1646
+</D-Animation>
+<D-Motion>
+    delay = 95
+    condition = BattleManager.resultList()[5].hpDamage > 0
+    script = BattleManager.indexTarget(5).startDamageShake();
+</D-Motion>
+
+<D-Animation>
+    delay = 90
+    sx = a.x+a.headX()+16
+    sy = a.y+a.headY()
+    ex = BattleManager.indexTarget(6).x
+    ey = BattleManager.indexTarget(6).y-BattleManager.indexTarget(6).height/2
+    target = BattleManager.indexTarget(6);
+    arrival = 10
+    id = 1646
+</D-Animation>
+<D-Motion>
+    delay = 100
+    condition = BattleManager.resultList()[6].hpDamage > 0
+    script = BattleManager.indexTarget(6).startDamageShake();
+</D-Motion>
+
+<D-Animation>
+    delay = 95
+    sx = a.x+a.headX()+16
+    sy = a.y+a.headY()
+    ex = BattleManager.indexTarget(7).x
+    ey = BattleManager.indexTarget(7).y-BattleManager.indexTarget(7).height/2
+    target = BattleManager.indexTarget(7);
+    arrival = 10
+    id = 1646
+</D-Animation>
+<D-Motion>
+    delay = 105
+    condition = BattleManager.resultList()[7].hpDamage > 0
+    script = BattleManager.indexTarget(7).startDamageShake();
+</D-Motion>

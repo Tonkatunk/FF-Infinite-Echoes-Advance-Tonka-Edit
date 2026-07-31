@@ -1,0 +1,118 @@
+<D-Motion:noWait>
+script = $gameTroop.members()[2].setExHome(0,0); $gameTroop.members()[3].setExHome(0,0); $gameTroop.members()[4].setExHome(0,0); $gameTroop.members()[5].setExHome(0,0); 
+</D-Motion>
+<D-Motion:noWait&soon>
+performer = $gameTroop.members()[2]
+ey = 120
+ex = 80
+frame = 1
+</D-Motion>
+<D-Motion:noWait&soon>
+performer = $gameTroop.members()[3]
+ey = 120
+ex = 80
+frame = 1
+</D-Motion>
+<D-Motion:noWait&soon>
+performer = $gameTroop.members()[4]
+ey = 120
+ex = 80
+frame = 1
+</D-Motion>
+<D-Motion:noWait&soon>
+performer = $gameTroop.members()[5]
+ey = 120
+ex = 80
+frame = 1
+</D-Motion>
+
+
+<D-Motion:noWait>
+performer = $gameTroop.members()[2]
+ey = 140
+ex = 90
+frame = 60
+opacity = 127
+playSe = FF5 grand cross1
+</D-Motion>
+<D-Motion:noWait>
+performer = $gameTroop.members()[3]
+ey = 140
+ex = 90
+frame = 60
+opacity = 127
+</D-Motion>
+<D-Motion:noWait>
+performer = $gameTroop.members()[4]
+ey = 100
+ex = 70
+frame = 60
+opacity = 127
+</D-Motion>
+<D-Motion:noWait>
+performer = $gameTroop.members()[5]
+ey = 100
+ex = 70
+frame = 60
+opacity = 127
+</D-Motion>
+
+<D-Motion:noWait>
+performer = $gameTroop.members()[2]
+ey = 120
+ex = 120
+frame = 60
+opacity = 127
+delay = 60
+</D-Motion>
+<D-Motion:noWait>
+performer = $gameTroop.members()[3]
+ey = 140
+ex = 70
+frame = 60
+opacity = 127
+delay = 60
+</D-Motion>
+<D-Motion:noWait>
+performer = $gameTroop.members()[4]
+ey = 120
+ex = 40
+frame = 60
+opacity = 127
+delay = 60
+</D-Motion>
+<D-Motion:noWait>
+performer = $gameTroop.members()[5]
+ey = 100
+ex = 90
+frame = 60
+opacity = 127
+delay = 60
+</D-Motion>
+
+<D-Motion:noWait>
+performer = $gameTroop.members()[2]
+frame = 1
+opacity = 255
+delay = 120
+</D-Motion>
+<D-Motion:noWait>
+performer = $gameTroop.members()[3]
+frame = 1
+opacity = 255
+delay = 120
+</D-Motion>
+<D-Motion:noWait>
+performer = $gameTroop.members()[4]
+frame = 1
+opacity = 255
+delay = 120
+</D-Motion>
+<D-Motion:noWait>
+performer = $gameTroop.members()[5]
+frame = 1
+opacity = 255
+delay = 120
+</D-Motion>
+
+

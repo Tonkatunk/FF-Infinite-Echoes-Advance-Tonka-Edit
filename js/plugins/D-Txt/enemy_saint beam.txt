@@ -1,0 +1,72 @@
+<D-Animation>
+id = 870
+</D-Animation>
+
+<D-Animation>
+sx = -Graphics.boxWidth/4+Graphics.boxWidth*1.5*a.isActor();
+ex = Graphics.boxWidth*1.25-Graphics.boxWidth*1.5*a.isActor();
+delay = 30
+</D-Animation>
+
+<D-Motion>
+delay = 70
+condition = BattleManager.resultList().length > 0 && BattleManager.indexResult(0).hpDamage > 0
+performer = BattleManager.indexTarget(0)
+script = BattleManager.indexTarget(0).startDamageShake();
+</D-Motion>
+
+<D-Motion>
+delay = 70
+condition = BattleManager.resultList().length > 1 && BattleManager.indexResult(1).hpDamage > 0
+performer = BattleManager.indexTarget(1)
+script = BattleManager.indexTarget(1).startDamageShake();
+</D-Motion>
+
+<D-Motion>
+delay = 70
+condition = BattleManager.resultList().length > 2 && BattleManager.indexResult(2).hpDamage > 0
+performer = BattleManager.indexTarget(2)
+script = BattleManager.indexTarget(2).startDamageShake();
+</D-Motion>
+
+<D-Motion>
+delay = 70
+condition = BattleManager.resultList().length > 3 && BattleManager.indexResult(3).hpDamage > 0
+performer = BattleManager.indexTarget(3)
+script = BattleManager.indexTarget(3).startDamageShake();
+</D-Motion>
+
+<D-Motion>
+delay = 70
+condition = BattleManager.resultList().length > 4 && BattleManager.indexResult(4).hpDamage > 0
+performer = BattleManager.indexTarget(4)
+script = BattleManager.indexTarget(4).startDamageShake();
+</D-Motion>
+
+<D-Motion>
+delay = 70
+condition = BattleManager.resultList().length > 5 && BattleManager.indexResult(5).hpDamage > 0
+performer = BattleManager.indexTarget(5)
+script = BattleManager.indexTarget(5).startDamageShake();
+</D-Motion>
+
+<D-Motion>
+delay = 70
+condition = BattleManager.resultList().length > 6 && BattleManager.indexResult(6).hpDamage > 0
+performer = BattleManager.indexTarget(6)
+script = BattleManager.indexTarget(6).startDamageShake();
+</D-Motion>
+
+<D-Motion>
+delay = 70
+condition = BattleManager.resultList().length > 7 && BattleManager.indexResult(7).hpDamage > 0
+performer = BattleManager.indexTarget(7)
+script = BattleManager.indexTarget(7).startDamageShake();
+</D-Motion>
+
+<D-Motion>
+delay = 70
+condition = BattleManager.resultList().length > 8 && BattleManager.indexResult(8).hpDamage > 0
+performer = BattleManager.indexTarget(8)
+script = BattleManager.indexTarget(8).startDamageShake();
+</D-Motion>

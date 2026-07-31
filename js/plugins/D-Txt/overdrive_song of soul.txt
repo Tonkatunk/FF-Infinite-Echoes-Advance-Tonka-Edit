@@ -1,0 +1,19 @@
+
+
+<D-Motion:svChant>
+frame = 170
+plugin = tintBB12 127 127 127 127 127 127
+</D-Motion>
+<D-Animation:screen>
+id = 2288
+</D-Animation>
+<D-Animation>
+delay = 160
+id = 2289
+nextDelay = 0
+</D-Animation>
+
+<D-Motion:delay&return>
+arcY = 0
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

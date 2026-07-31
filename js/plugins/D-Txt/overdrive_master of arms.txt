@@ -1,0 +1,264 @@
+<D-Motion:svSwing>
+arcY = 0
+</D-Motion>
+
+<D-Animation:self>
+id = 2207
+z = 2.9
+sx = a.x+16
+sy = a.y-24
+</D-Animation>
+
+<D-Animation>
+delay = 6
+id = 2208
+arcY = -16
+arrival = 10
+sx = a.x+16
+sy = a.y-24
+ex = b.x
+ey = b.y-b.height/2
+</D-Animation>
+
+<D-Motion:svSpell>
+delay = 15
+arcY = 0
+</D-Motion>
+<D-Animation:self>
+delay = 15
+sx = a.x -16
+id = 2205
+</D-Animation>
+<D-Animation:lookCourse>
+delay = 40
+sx = a.x -16
+sy = a.y -16
+ex = b.x
+ey = b.y - b.height/2
+arrival = 10
+id = 2206
+</D-Animation>
+<D-Animation:lookCourse>
+delay = 40
+sx = a.x -16
+sy = a.y -20
+ex = b.x
+ey = b.y - b.height/2-4
+arrival = 10
+id = 2206
+</D-Animation>
+<D-Animation:lookCourse>
+delay = 40
+sx = a.x -16
+sy = a.y -24
+ex = b.x
+ey = b.y - b.height/2-8
+arrival = 10
+id = 2206
+</D-Animation>
+<D-Animation:lookCourse>
+delay = 40
+sx = a.x -16
+sy = a.y -12
+ex = b.x
+ey = b.y - b.height/2+4
+arrival = 10
+id = 2206
+</D-Animation>
+<D-Animation:lookCourse>
+delay = 40
+sx = a.x -16
+sy = a.y -8
+ex = b.x
+ey = b.y - b.height/2+8
+arrival = 10
+id = 2206
+</D-Animation>
+
+
+<D-Motion:svSwing>
+delay = 40
+arcY = 0
+</D-Motion>
+<D-Animation:self>
+delay = 40
+id = 2209
+z = 2.9
+sx = a.x+16
+sy = a.y-24
+</D-Animation>
+
+<D-Animation>
+delay = 46
+id = 2210
+arcY = -32
+arrival = 18
+sx = a.x+16
+sy = a.y-24
+ex = b.x
+ey = b.y-b.height/2
+</D-Animation>
+
+<D-Motion:svSwing>
+delay = 59
+arcY = 0
+</D-Motion>
+<D-Animation:self>
+delay = 59
+id = 2211
+z = 2.9
+sx = a.x+16
+sy = a.y-24
+</D-Animation>
+
+<D-Animation>
+delay = 65
+id = 2212
+arcY = 32
+arrival = 18
+sx = a.x+16
+sy = a.y-24
+ex = b.x
+ey = b.y-b.height/2
+</D-Animation>
+
+<D-Motion:svItem>
+delay = 77
+arcY = -16
+ex = b.x+b.width/2
+ey = b.y
+frame = 10
+</D-Motion>
+
+<D-Motion:fastpunch&noWait>
+delay = 87
+</D-Motion>
+<D-Motion:missile&noWait>
+delay = 91
+</D-Motion>
+<D-Motion:fastpunch&noWait>
+delay = 95
+</D-Motion>
+<D-Motion:missile&noWait>
+delay = 99
+</D-Motion>
+<D-Motion:fastpunch&noWait>
+delay = 103
+</D-Motion>
+<D-Motion:missile&noWait>
+delay = 107
+</D-Motion>
+<D-Motion:fastpunch&noWait>
+delay = 111
+</D-Motion>
+<D-Motion:missile&noWait>
+delay = 115
+</D-Motion>
+<D-Motion:fastpunch&noWait>
+delay = 119
+</D-Motion>
+<D-Motion:missile&noWait>
+delay = 123
+</D-Motion>
+
+<D-Animation>
+delay = 87
+sx = a.x - 48
+id = 1814
+</D-Animation>
+<D-Animation>
+delay = 87
+id = 1815
+repeat = 6 // 繰返回数
+interval = 8 // 間隔
+sxRandom = 16 // 始点Ｘ座標分散
+syRandom = 16 // 始点Ｙ座標分散
+</D-Animation>
+
+<D-Motion:missile&noWait>
+delay = 127
+frame = 20
+arcY = -32
+ex = a.x + 64
+playSe = {"name":"FF6 steal","volume":50,"pitch":100,"pan":0}
+</D-Motion>
+<D-Animation:follow&self>
+delay = 127
+sx = a.x
+sy = a.y
+arcY = -32
+id = 2213
+z = 2.9
+</D-Animation>
+
+<D-Motion:missile&noWait>
+delay = 147
+frame = 130
+arcY = 0
+</D-Motion>
+<D-Animation:lookCourse>
+delay = 147
+sx = a.x
+sy = a.y-8
+ex = b.x
+ey = b.y - b.height/2
+arrival = 10
+id = 2214
+</D-Animation>
+<D-Animation:screen>
+    delay = 157
+    id = 2098
+    z = 0.1
+</D-Animation>
+<D-Animation:screen>
+    delay = 157
+    id = 2099
+    z = 0
+</D-Animation>
+<D-Animation>
+    id = 2215
+</D-Animation>
+<D-Animation:lookCourse>
+delay = 147
+sx = a.x
+sy = a.y-8
+ex = b.x
+ey = b.y - b.height/2
+arrival = 10
+z = 2.9
+id = 2216
+arcY = -16
+</D-Animation>
+<D-Animation:lookCourse>
+delay = 147
+sx = a.x
+sy = a.y+8
+ex = b.x
+ey = b.y - b.height/2
+arrival = 10
+z = 2.9
+id = 2217
+arcY = 16
+</D-Animation>
+<D-Animation:lookCourse>
+delay = 147
+sx = a.x
+sy = a.y-8
+ex = b.x
+ey = b.y - b.height/2
+arrival = 10
+z = 2.9
+id = 2218
+arcY = -32
+</D-Animation>
+<D-Animation:lookCourse>
+delay = 147
+sx = a.x
+sy = a.y+8
+ex = b.x
+ey = b.y - b.height/2
+arrival = 10
+z = 2.9
+id = 2219
+arcY = 32
+</D-Animation>

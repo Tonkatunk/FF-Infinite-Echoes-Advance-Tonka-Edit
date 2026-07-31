@@ -1,0 +1,12 @@
+<D-Animation:self>
+sy = a.y-a.height
+id = 802
+</D-Animation>
+
+<D-Animation:shot&delay>
+sy = a.y-a.height
+id = 804
+arcY = -$TILE
+arrival = 20 // 到達フレーム
+script = target.startMagicNockback(10,20,BattleManager._firstTargets[0].getMagicAnimationId(BattleManager._action.item().meta.DAnimeId),BattleManager.resultList()[0]);
+</D-Animation>

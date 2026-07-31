@@ -1,0 +1,20 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+
+<D-Animation:self>
+id = 2493
+</D-Animation>
+
+<D-Animation>
+id = 2494
+delay = 55
+condition = BattleManager.resultList().length > 0
+performer = BattleManager.indexTarget(0)
+script = BattleManager.indexTarget(0).startDamageShake();
+</D-Animation>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

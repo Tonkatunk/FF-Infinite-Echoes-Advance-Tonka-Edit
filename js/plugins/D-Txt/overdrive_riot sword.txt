@@ -1,0 +1,20 @@
+<D-Motion:wait&svWalk&stepForward>
+ex = sx - 16
+frame = 8
+</D-Motion>
+<D-Motion:svItem&noWait>
+frame = 30
+</D-Motion>
+<D-Animation:shot&pierce>
+arcY = 16
+frame = 30
+id = 1186
+afterimage = 5 // 残像数
+afterimageInterval = 5 // 残像間隔
+</D-Animation>
+<D-Animation>
+delay = 16
+sx = b.x
+sy = b.y - b.height/2
+id = 1187
+</D-Animation>

@@ -1,0 +1,20 @@
+<D-Motion:svItem>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+
+//爆発
+<D-Animation:screen&wait>
+sy = Graphics.boxHeight/4*3
+sx = Graphics.boxWidth/5*4
+id = 944
+</D-Animation>
+
+<D-Animation:screen>
+id = 945
+</D-Animation>
+
+<D-Motion:delay>
+script = a.afterimage().end();
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>
+

@@ -1,0 +1,31 @@
+// 対象へ飛び込む
+<D-Motion:crash&svItem&wait>
+playSe = FF6 steal
+position = 2 // 足元
+frame = 15
+ex = b.x
+arcY = -$TILE*2
+</D-Motion>
+
+<D-Animation>
+delay = 15
+id = 1185
+</D-Animation>
+
+<D-Motion:revolve&svItem>
+playSe = 2000 Wind5
+frame = 60
+radiusX = b.width/2 // Ｘ方向の半径
+radiusY = b.height/2 // Ｙ方向の半径
+radX *= 9 // Ｘ方向の回転角度（３回転）
+radY *= 9 // Ｙ方向の回転角度（３回転）
+sy = b.y
+ey = b.y
+script = a.afterimage().start();
+</D-Motion>
+
+// 戻る
+<D-Motion:delay&return>
+frame = 15
+arcY = -$TILE*2 // 少し高めにジャンプ
+</D-Motion>

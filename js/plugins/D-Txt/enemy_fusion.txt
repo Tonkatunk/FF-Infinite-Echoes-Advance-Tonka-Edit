@@ -1,0 +1,23 @@
+<D-Motion>
+ex = b.x
+ey = b.y
+frame = 20
+playSe = {"name":"FF6 drain1","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation>
+delay = 20
+id = 1
+script = a.setHp(0)
+</D-Animation>
+<D-Animation>
+delay = 21
+id = 1
+script = a.requestEffect("collapse")
+playSe = {"name":"FF6 beat","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+
+<D-Animation>
+delay = 60
+id = 203
+</D-Animation>

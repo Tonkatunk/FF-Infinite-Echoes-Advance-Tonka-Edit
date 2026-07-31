@@ -1,0 +1,143 @@
+//同サイドが対象の場合、アニメーションを反転する
+<D-Setting:MirrorForFriend>
+
+<D-Motion:noWait>
+frame = 5
+scaleX = 1+0.5*(t/et)
+scaleY = 1-0.5*(t/et)
+playSe = {"name":"FF5 dark2","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Motion:noWait>
+frame = 5
+delay = 5
+scaleX = 1.5-1.5*(t/et)
+scaleY = 0.5+1.5*(t/et)
+</D-Motion>
+
+<D-Motion:noWait>
+frame = 5
+delay = 10
+scaleX = 0+1.5*(t/et)
+scaleY = 1.5-1*(t/et)
+sx = b.x-32
+sy = b.y
+</D-Motion>
+
+<D-Motion:noWait>
+frame = 5
+delay = 15
+scaleX = 1.5-0.5*(t/et)
+scaleY = 0.5+0.5*(t/et)
+</D-Motion>
+
+<D-Animation>
+delay = 20
+id = 2541
+script = BattleManager._targets[0].startDamageShake();
+condition = !BattleManager.resultList()[0].missed && !BattleManager.resultList()[0].evaded && !BattleManager.resultList()[0].golemed;
+</D-Animation>
+
+<D-Motion:noWait>
+frame = 5
+delay = 40
+scaleX = 1+0.5*(t/et)
+scaleY = 1-0.5*(t/et)
+playSe = {"name":"FF5 dark2","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Motion:noWait>
+frame = 5
+delay = 45
+scaleX = 1.5-1.5*(t/et)
+scaleY = 0.5+1.5*(t/et)
+</D-Motion>
+
+<D-Motion:home>
+frame = 1
+delay = 46
+</D-Motion>
+
+<D-Motion:noWait>
+frame = 5
+delay = 51
+scaleX = 0+1.5*(t/et)
+scaleY = 1.5-1*(t/et)
+</D-Motion>
+
+<D-Motion:noWait>
+frame = 5
+delay = 56
+scaleX = 1.5-0.5*(t/et)
+scaleY = 0.5+0.5*(t/et)
+</D-Motion>
+
+<D-Motion:return&noWait>
+frame = 1
+delay = 61
+</D-Motion>
+
+// 回避エフェクト-----------------------------------------------------------------------------
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+delay = 20
+condition = BattleManager.resultList()[0].missed;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// ゴーレムガード
+<D-Animation>
+delay = 20
+condition = BattleManager.resultList()[0].golemed && target.isActor();
+target = BattleManager._targets[0]
+id = 178
+</D-Animation>
+
+// オメガード
+<D-Animation>
+delay = 20
+condition = BattleManager.resultList()[0].golemed && target.isEnemy();
+target = BattleManager._targets[0]
+id = 180
+</D-Animation>
+
+// 武器1ブロッキング
+<D-Motion:svBlockR>
+delay = 20
+performer = BattleManager._targets[0]
+condition = b.isActor() && b.isWeapon1Block(BattleManager.resultList()[0].evaRand);
+playSe = {"name":"FF6 guard2","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// 武器2or盾ブロッキング
+<D-Motion:svBlockL>
+delay = 20
+performer = BattleManager._targets[0]
+condition = b.isActor() && ( b.isWeapon2Block(BattleManager.resultList()[0].evaRand) || b.isSealdBlock(b._result.evaRand));
+playSe = {"name":"FF6 guard2","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// アクセサリーブロッキング
+<D-Motion:svMant>
+delay = 20
+performer = BattleManager._targets[0]
+condition = b.isActor() && b.isAccessoryBlock(BattleManager.resultList()[0].evaRand);
+playSe = {"name":"MZ Equip3","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// マテリアブロッキング
+<D-Motion:svItem>
+delay = 20
+performer = BattleManager._targets[0]
+condition = b.isActor() && b.isMateriaBlock(BattleManager.resultList()[0].evaRand);
+playSe = {"name":"FF6 guard2","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// 通常回避モーション
+<D-Motion:svMissile>
+delay = 20
+performer = BattleManager._targets[0]
+condition = b.isActor() && b.isNormalEva(BattleManager.resultList()[0].isNormalEva);
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>

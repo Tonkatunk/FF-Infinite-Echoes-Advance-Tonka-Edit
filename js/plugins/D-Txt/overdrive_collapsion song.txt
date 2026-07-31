@@ -1,0 +1,29 @@
+<D-Motion:svChant>
+frame = 140
+plugin = tintBB12 127 127 127 127 127 127
+</D-Motion>
+
+<D-Animation:screen>
+sx = Graphics.boxWidth/2
+id = 2290
+</D-Animation>
+
+<D-Animation:screen>
+delay = 200
+sx = Graphics.boxWidth/2
+id = 2293
+script = BattleManager.startSummonEffect();
+</D-Animation>
+
+<D-Animation:screen>
+delay = 300
+sx = Graphics.boxWidth/2
+id = 2278
+z = 0
+</D-Animation>
+
+<D-Motion:delay&return>
+arcY = 0
+plugin = tintBB12 255 255 255 255 255 255
+script = BattleManager.endSummonEffect();
+</D-Motion>

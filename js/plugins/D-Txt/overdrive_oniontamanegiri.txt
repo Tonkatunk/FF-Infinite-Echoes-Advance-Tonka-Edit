@@ -1,0 +1,71 @@
+<D-Motion:noWait&tamanegiri1>
+arcY = -16
+frame = 20
+ex = Graphics.boxWidth-16
+ey = Graphics.boxHeight/3*2
+playSe = {"name":"MZ Sword3","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Motion:noWait&tamanegiri2>
+delay = 20
+arcY = 0
+frame = 10
+ex = -16
+script = a.afterimage().start();
+</D-Motion>
+
+<D-Animation:self&follow>
+delay = 20
+id = 2070
+z = 0
+</D-Animation>
+
+<D-Animation>
+delay = 30
+id = 4
+rotation = 0/360 * Math.PI
+</D-Animation>
+<D-Animation>
+delay = 35
+id = 4
+rotation = 90/360 * Math.PI
+</D-Animation>
+<D-Animation>
+delay = 40
+id = 4
+rotation = 225/360 * Math.PI
+</D-Animation>
+<D-Animation>
+delay = 45
+id = 4
+rotation = 45/360 * Math.PI
+</D-Animation>
+<D-Animation>
+delay = 50
+id = 4
+rotation = 135/360 * Math.PI
+</D-Animation>
+<D-Animation>
+delay = 55
+id = 4
+rotation = 270/360 * Math.PI
+</D-Animation>
+
+// 上空へ瞬間移動
+<D-Motion:soon&home&noWait>
+delay = 100
+frame = 1
+ey = -$TILE*10
+</D-Motion>
+
+// 降下
+<D-Motion:svDying&home&noWait>
+delay = 121
+frame = 10
+</D-Motion>
+
+<D-Motion:svGuard&delay&return>
+frame = 1
+delay = 131
+script = a.afterimage().end();
+</D-Motion>

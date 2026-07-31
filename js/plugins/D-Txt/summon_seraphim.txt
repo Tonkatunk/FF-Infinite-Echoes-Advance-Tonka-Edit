@@ -1,0 +1,31 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+<D-Animation>
+id = 1
+script = a.useMagicStone(975);
+</D-Animation>
+
+<D-Animation:screen>
+id = 1158
+sx = Graphics.boxWidth;
+sy = Graphics.boxHeight;
+ex = 0
+ey = 0
+frame = 120
+</D-Animation>
+<D-Animation:screen>
+id = 1159
+</D-Animation>
+
+<D-Animation:delay&screen>
+delay = 90
+sx = Graphics.boxWidth/5*4
+sy = Graphics.boxHeight/3*2
+id = 1157
+</D-Animation>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

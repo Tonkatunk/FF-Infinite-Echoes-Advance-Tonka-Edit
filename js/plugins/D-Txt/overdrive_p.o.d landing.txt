@@ -1,0 +1,82 @@
+//必殺技背景
+<D-Animation>
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/2
+id = 2181
+z = 0
+playSe = FF5 whirlpool ex
+scaleY = -1
+</D-Animation>
+
+<D-Motion:setupSpireDive&noWait&roll>
+sx = Graphics.boxWidth/2+16
+sy = -24
+ex = Graphics.boxWidth/2
+ey = Graphics.boxHeight/2+16
+frame = 10
+script = a.removeState(23); BattleManager.performHideWithoutSubject(); 
+noShadow = true
+rotation *= 0.125
+</D-Motion>
+</D-Motion>
+<D-Motion:setupSpireDive&noWait>
+delay = 10
+frame = 40
+noShadow = true
+</D-Motion>
+<D-Motion:setupSpireDive&noWait>
+delay = 50
+frame = 10
+noShadow = true
+ex = Graphics.boxWidth/2-16
+ey = Graphics.boxHeight+16
+</D-Motion>
+
+// 上空へ瞬間移動
+<D-Motion:soon&noWait&roll>
+delay = 60
+ex = Graphics.boxWidth/2
+ey = -$TILE*5
+script = BattleManager.endPerformHideAll();
+rotation *= 0
+</D-Motion>
+<D-Motion:delay&noWait>
+delay = 60
+script = a.afterimage().start();
+</D-Motion>
+
+// 降下
+<D-Motion:svItem&noWait>
+delay = 60
+playSe = FF5 landing
+ey = Graphics.boxHeight/3*2
+frame = 10
+</D-Motion>
+
+// しゃがみ
+<D-Motion:wait&svDying&noWait>
+arcY = 0
+delay = 70
+script = a.removeState(23);
+frame = 191
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/3*2
+noShadow = false
+</D-Motion>
+<D-Animation>
+delay = 70
+id = 1417
+</D-Animation>
+
+// 戻る
+<D-Motion:home&noWait>
+delay = 241
+script = a.afterimage().end();
+frame = 10
+arcY = -$TILE*2 // 少し高めにジャンプ
+</D-Motion>
+<D-Motion:return&delay>
+delay = 251
+frame = 1
+script = a.setTp(0);
+</D-Motion>

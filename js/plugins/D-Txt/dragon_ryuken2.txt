@@ -1,0 +1,41 @@
+//突進時にまとうオーラ
+<D-Animation:self&follow&noWait>
+id = 1966
+z = 2.9
+</D-Animation>
+
+//分身をまといつつ突進
+<D-Motion:noDelay&thrustW&noWait>
+playSe = FF5 ryuken
+ex = b.x
+ey = b.y
+frame = 40
+arcY = 0
+script = a.afterimage().start();
+</D-Motion>
+
+//ターゲットにまとわりつくオーラと突き刺しアニメ
+<D-Animation:noWait>
+delay = 40
+id = 1966
+sx = b.x + 16
+sy = b.y - b.height/2
+ex = b.x - 16
+</D-Animation>
+<D-Animation:noDelay>
+id = 1967
+</D-Animation>
+
+//帰還
+<D-Motion:svItem&noWait&pattern0&home>
+delay = 40
+frame = 20
+arcY = -16
+</D-Motion>
+
+//ちょっとだけ待ってダメージ表示
+<D-Motion:return&noWait&svGuard>
+frame = 1
+arcY = 0
+script = a.afterimage().end();
+</D-Motion>

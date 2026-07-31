@@ -1,0 +1,26 @@
+<D-Motion:svItem>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+
+<D-Animation:self>
+id = 946
+z = 0
+</D-Animation>
+
+<D-Motion:setupW>
+frame = 50
+</D-Motion>
+
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>
+
+<D-Animation:self>
+delay = 50
+id = 945
+</D-Animation>
+
+<D-Motion:svGuard>
+delay = 50
+frame = 10
+</D-Motion>

@@ -1,0 +1,24 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+
+<D-Motion:svItem>
+frame = 180
+</D-Motion>
+<D-Animation:screen>
+sx = Graphics.boxWidth*4/5
+sy = Graphics.boxHeight/3
+id = 1471
+z = -1
+</D-Animation>
+<D-Animation:self>
+id = 1474
+</D-Animation>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>
+
+<D-Animation:delay>
+</D-Animation>

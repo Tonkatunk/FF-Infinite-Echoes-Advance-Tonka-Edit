@@ -1,0 +1,40 @@
+//同サイドが対象の場合、アニメーションを反転する
+<D-Setting:MirrorForFriend>
+
+//冷凍光線
+<D-Animation:beam>
+target = BattleManager._targets[0];
+sx = a.x + 10
+sy = a.y - 25
+id = 1601
+condition = a.isEnemy();
+</D-Animation>
+
+//火炎放射
+<D-Animation:beam>
+delay = 20
+target = BattleManager._targets[1];
+sx = a.x - 30
+sy = a.y - 25
+id = 1601
+condition = a.isEnemy();
+</D-Animation>
+
+//火炎放射
+<D-Animation:beam>
+target = BattleManager._targets[0];
+sx = a.x
+sy = a.y - 4
+id = 1601
+condition = a.isActor();
+</D-Animation>
+
+//火炎放射
+<D-Animation:beam>
+delay = 20
+target = BattleManager._targets[1];
+sx = a.x
+sy = a.y - 4
+id = 1601
+condition = a.isActor();
+</D-Animation>

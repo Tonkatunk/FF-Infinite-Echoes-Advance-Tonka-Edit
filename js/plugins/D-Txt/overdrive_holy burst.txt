@@ -1,0 +1,101 @@
+<D-Motion:noWait&svItem>
+frame = 30
+arcY = 0
+playSe = FF4 holy1
+</D-Motion>
+
+//頭上に集まるオーラ左から
+<D-Animation:moveVortex&self>
+repeat = 4
+interval = 0 // 間隔
+id = 906
+sx = -$TILE
+ex = a.x
+sy = a.y-$TILE*4
+ey = a.y-$TILE*4
+radiusX /= 3 // 半径（Ｘ方向）
+radiusY /= 3 // 半径（Ｙ方向）
+radX += r*45;
+radY += r*45;
+</D-Animation>
+
+//頭上に集まるオーラ右から
+<D-Animation:moveVortex&self>
+repeat = 4
+interval = 0 // 間隔
+id = 906
+sx = Graphics.boxWidth+$TILE
+ex = a.x
+sy = a.y-$TILE*4
+ey = a.y-$TILE*4
+radiusX /= 3 // 半径（Ｘ方向）
+radiusY /= 3 // 半径（Ｙ方向）
+radX += r*45*22.5;
+radY += r*45*22.5;
+</D-Animation>
+
+<D-Motion:noWait&thrustL>
+delay = 30
+frame = 30
+arcY = 0
+playSe = FF4 holy2
+</D-Motion>
+
+//爆発
+<D-Animation>
+repeat = 10
+delay = 40
+interval = 3
+sy = Graphics.boxHeight*2/3
+sx = Graphics.boxWidth/3
+sxRandom = r * 10
+syRandom = r * 10 /2
+scaleX = 0.35
+scaleY = 0.35
+id = 908
+</D-Animation>
+<D-Animation>
+repeat = 10
+delay = 41
+interval = 3
+sy = Graphics.boxHeight*2/3
+sx = Graphics.boxWidth/3
+sxRandom = r * 10
+syRandom = r * 10 /2
+scaleX = 0.3
+scaleY = 0.3
+id = 908
+</D-Animation>
+<D-Animation>
+repeat = 10
+delay = 42
+interval = 3
+sy = Graphics.boxHeight*2/3
+sx = Graphics.boxWidth/3
+sxRandom = r * 10
+syRandom = r * 10 /2
+scaleX = 0.25
+scaleY = 0.25
+id = 908
+</D-Animation>
+
+//打ち込む
+<D-Animation:screen&shot>
+delay = 30
+repeat = 5 // 繰返回数
+scaleX = (5-r)*0.2
+scaleY = (5-r)*0.2
+sy = a.y-$TILE*4
+sx = a.x
+ey = Graphics.boxHeight*2/3
+ex = Graphics.boxWidth/3
+id = 909
+</D-Animation>
+
+//爆発
+<D-Animation:screen>
+delay = 40
+sy = Graphics.boxHeight*2/3
+sx = Graphics.boxWidth/3
+id = 907
+</D-Animation>

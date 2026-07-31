@@ -1,0 +1,69 @@
+<D-Motion:gunshotR&noWait>
+frame = 20
+arcY = 0
+plugin = tintBB12 127 127 127 127 127 127
+</D-Motion>
+
+<D-Animation>
+delay = 15
+id = 26
+target = BattleManager.indexTarget(0);
+</D-Animation>
+<D-Animation>
+delay = 15
+nextDelay = 4
+</D-Animation>
+
+<D-Motion:gunshotR&noWait>
+delay = 55
+frame = 20
+arcY = 0
+</D-Motion>
+<D-Animation>
+delay = 65
+id = 26
+target = BattleManager.indexTarget(0);
+</D-Animation>
+<D-Animation>
+delay = 65
+nextDelay = 4
+</D-Animation>
+
+<D-Motion:gunshotR&noWait>
+delay = 105
+frame = 20
+arcY = 0
+</D-Motion>
+<D-Animation>
+delay = 115
+id = 26
+target = BattleManager.indexTarget(0);
+</D-Animation>
+<D-Animation>
+delay = 115
+nextDelay = 4
+</D-Animation>
+
+<D-Motion:gunshotR&noWait>
+delay = 155
+frame = 20
+arcY = 0
+</D-Motion>
+<D-Animation>
+delay = 165
+id = 26
+target = BattleManager.indexTarget(0);
+</D-Animation>
+<D-Animation>
+delay = 165
+nextDelay = 4
+</D-Animation>
+
+<D-Animation>
+id = 1
+</D-Animation>
+
+<D-Motion>
+delay = 165
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

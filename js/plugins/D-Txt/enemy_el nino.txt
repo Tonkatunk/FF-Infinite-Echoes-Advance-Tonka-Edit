@@ -1,0 +1,10 @@
+<D-Animation>
+id = 2302
+sx = Graphics.boxWidth/2+64*mirroring
+ex = Graphics.boxWidth/2-64*mirroring
+</D-Animation>
+
+<D-Animation>
+delay = 100
+id = 2303
+</D-Animation>

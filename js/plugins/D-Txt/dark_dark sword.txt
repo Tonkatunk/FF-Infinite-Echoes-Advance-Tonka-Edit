@@ -1,0 +1,91 @@
+<D-Motion:upRightArm&noWait>
+frame = 60
+arcY = 0
+</D-Motion>
+
+<D-Animation:self&follow>
+id = 2310
+z = 2.9
+afterimage = 10 // 残像数
+afterimageInterval = 3 // 残像間隔
+</D-Animation>
+
+<D-Animation:self&follow>
+id = 2311
+</D-Animation>
+
+<D-Motion:upRightArm&noWait>
+delay = 60
+ex = b.x+b.width/2
+ey = b.y
+frame = 10
+arcY = -16
+script = a.afterimage().start();
+</D-Motion>
+
+<D-Motion:svDying&noWait>
+script = a.afterimage().end();
+delay = 70
+frame = 60
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+delay = 60
+id = 499
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+noMirror = true
+</D-Animation>
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+delay = 60
+id = 113
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation>
+delay = 70
+id = 2309
+sx = b.x + 32
+sy = b.y - 32 - b.height/2
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+</D-Animation>
+
+<D-Animation>
+delay = 80
+id = 2309
+sx = b.x + 16 
+sy = b.y - 16 -b.height/2
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+</D-Animation>
+
+<D-Animation>
+delay = 90
+id = 2309
+sx = b.x
+sy = b.y-b.height/2
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+</D-Animation>
+
+<D-Animation>
+delay = 100
+id = 2309
+sx = b.x - 16
+sy = b.y + 16-b.height/2
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+</D-Animation>
+
+<D-Animation>
+delay = 110
+id = 2309
+sx = b.x - 32
+sy = b.y + 32-b.height/2
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+</D-Animation>
+
+<D-Motion:return>
+delay = 140
+arcY = -16
+</D-Motion>

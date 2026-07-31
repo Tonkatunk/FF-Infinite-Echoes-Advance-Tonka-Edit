@@ -1,0 +1,41 @@
+<D-Animation>
+id = 1450
+z = 1
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/2
+</D-Animation>
+<D-Animation>
+id = 1451
+delay = 30
+z = 1
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/2
+</D-Animation>
+
+//効果音
+<D-Motion>
+delay = 30
+playSe = {"name":"FF5 comet","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation>
+delay = 30
+repeat = 6
+interval = 10
+id = 2463
+sx = Graphics.boxWidth/2-Graphics.boxWidth/3*mirroring
+sy = Graphics.boxHeight*2/3
+sxRandom = Graphics.boxWidth/4
+syRandom = Graphics.boxHeight/3
+</D-Animation>
+
+<D-Animation>
+delay = 50
+repeat = 6
+interval = 10
+id = 2467
+sx = Graphics.boxWidth/2-Graphics.boxWidth/3*mirroring
+sy = Graphics.boxHeight*2/3
+sxRandom = Graphics.boxWidth/4
+syRandom = Graphics.boxHeight/3
+</D-Animation>

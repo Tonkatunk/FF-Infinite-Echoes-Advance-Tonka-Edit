@@ -1,0 +1,34 @@
+<D-Animation>
+id = 2035
+z = 0
+</D-Animation>
+<D-Animation>
+delay = 200
+id = 2036
+z = 0
+</D-Animation>
+
+<D-Animation>
+id = 2033
+delay = 30
+</D-Animation>
+
+<D-Animation>
+id = 2034
+delay = 90
+</D-Animation>
+
+<D-Animation>
+id = 2006
+delay = 180
+</D-Animation>
+
+//炎ランダム
+<D-Animation:randomAll>
+delay = 220
+repeat = 20
+interval = 4
+sx = defaultX - $TILE*2
+sy = defaultY + $TILE
+id = 916
+</D-Animation>

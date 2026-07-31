@@ -1,0 +1,40 @@
+<D-Motion:svChant>
+frame = 30
+</D-Motion>
+<D-Motion:svItem>
+delay = 30
+frame = 30
+</D-Motion>
+<D-Animation:self>
+id = 1614
+z = 0
+</D-Animation>
+<D-Animation:self>
+id = 1940
+</D-Animation>
+<D-Animation:self>
+id = 1941
+z = 0
+</D-Animation>
+<D-Animation:screen>
+delay = 30
+id = 365
+z = 0
+</D-Animation>
+
+<D-Animation:self>
+id = 1941
+z = 0
+</D-Animation>
+<D-Animation:circle>
+delay = 60
+repeat = 80 // 繰返し回数
+interval = 2 // 間隔
+radiusX = 48 // 半径（Ｘ方向）
+radiusY = 24 // 半径（Ｙ方向）
+sx = Graphics.boxWidth*2/3 - Graphics.boxWidth/3 * mirroring
+sy = Graphics.boxHeight*3/4 - Graphics.boxHeight * r/repeat
+radX *= 8 // 回転角度（Ｘ）
+radY *= 8 // 回転角度（Ｙ）
+id = 1941
+</D-Animation>

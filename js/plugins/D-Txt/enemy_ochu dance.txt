@@ -1,0 +1,27 @@
+<D-Animation:self>
+id = 987
+script = a.startShake(30);
+</D-Animation>
+
+<D-Animation:self&delay>
+id = 820
+</D-Animation>
+
+<D-Animation:self&delay>
+id = 987
+playSe = MZ Down3
+</D-Animation>
+
+<D-Animation:screen>
+delay = 130
+id = 822
+</D-Animation>
+
+<D-Animation:rain>
+delay = 100
+arrival = 30 // 到達フレーム
+id = 821
+sx -= 64 * mirroring
+sy = 0
+ey -= 48
+</D-Animation>

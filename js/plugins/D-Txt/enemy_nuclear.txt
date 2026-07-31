@@ -1,0 +1,86 @@
+//フェード
+<D-Animation>
+z = 0
+id = 1453
+playSe = MZ Darkness8
+</D-Animation>
+
+<D-Animation>
+id = 2461
+plugin = tintBB12 64 64 64 64 64 64
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/3*2
+</D-Animation>
+
+<D-Animation>
+id = 2063
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/5*3
+z = 4
+</D-Animation>
+
+<D-Animation>
+id = 2064
+delay = 100
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/5*3
+z = 4
+</D-Animation>
+
+<D-Animation>
+id = 2065
+delay = 200
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/5*3
+z = 4
+</D-Animation>
+
+<D-Animation>
+id = 2444
+repeat = 40
+delay = 100
+nextDelay = 1
+sx = Graphics.boxWidth/2-Graphics.boxWidth/3*mirroring
+sy = Graphics.boxHeight/5*3
+sxRandom = Math.floor((Graphics.boxWidth/2)*r/40)
+syRandom = Math.floor((Graphics.boxHeight/3)*r/40)
+z = 3.9
+</D-Animation>
+
+<D-Motion:noWait&svDamage>
+performer = BattleManager.indexTarget(0)
+delay = 100
+arcY = 0
+condition = BattleManager.resultList().length > 0 && BattleManager.resultList()[0].hpDamage > 0;
+</D-Motion>
+<D-Motion:noWait&svDamage>
+performer = BattleManager.indexTarget(1)
+delay = 100
+arcY = 0
+condition = BattleManager.resultList().length > 1 && BattleManager.resultList()[1].hpDamage > 0;
+</D-Motion>
+<D-Motion:noWait&svDamage>
+performer = BattleManager.indexTarget(2)
+delay = 100
+arcY = 0
+condition = BattleManager.resultList().length > 2 && BattleManager.resultList()[2].hpDamage > 0;
+</D-Motion>
+<D-Motion:noWait&svDamage>
+performer = BattleManager.indexTarget(3)
+delay = 100
+arcY = 0
+condition = BattleManager.resultList().length > 3 && BattleManager.resultList()[3].hpDamage > 0;
+</D-Motion>
+<D-Motion:noWait&svDamage>
+performer = BattleManager.indexTarget(4)
+delay = 100
+arcY = 0
+condition = BattleManager.resultList().length > 4 && BattleManager.resultList()[4].hpDamage > 0;
+</D-Motion>
+
+<D-Animation>
+    id = 2250
+    delay = 150
+    plugin = tintBB12 255 255 255 255 255 255
+    z = 0
+</D-Animation>

@@ -1,0 +1,33 @@
+<D-Motion:accommodate>
+frame = 60
+</D-Motion>
+
+<D-Animation:self>
+repeat = 16
+sy = a.y-8
+interval = 4
+id = 2040
+</D-Animation>
+
+<D-Animation>
+target = BattleManager.indexTarget(0);
+id = 2041
+</D-Animation>
+
+<D-Animation>
+delay = 16
+target = BattleManager.indexTarget(1);
+id = 2041
+</D-Animation>
+
+<D-Animation>
+delay = 32
+target = BattleManager.indexTarget(2);
+id = 2041
+</D-Animation>
+
+<D-Animation>
+delay = 48
+target = BattleManager.indexTarget(3);
+id = 2041
+</D-Animation>

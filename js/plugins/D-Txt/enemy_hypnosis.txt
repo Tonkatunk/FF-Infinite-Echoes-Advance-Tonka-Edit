@@ -1,0 +1,20 @@
+<D-Animation:screen>
+z = 1
+id = 2544
+</D-Animation>
+
+<D-Animation>
+id = 2542
+condition = b.stateRate(10) > 0
+</D-Animation>
+<D-Animation>
+id = 2543
+condition = b.stateRate(10) == 0
+</D-Animation>
+
+<D-Animation>
+id = 1
+delay = 31
+condition = b.stateRate(10) > 0
+script = b.addState(10)
+</D-Animation>

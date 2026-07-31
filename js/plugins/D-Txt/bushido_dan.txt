@@ -1,0 +1,54 @@
+<D-Motion:svItem&noWait>
+script = a.afterimage().start();
+playSe = FF6 steal
+arcY = -$TILE;
+ex = 16
+frame = 12;
+</D-Motion>
+<D-Motion:svDying&noWait>
+delay = 10
+arcY = 0
+frame = 10;
+</D-Motion>
+<D-Motion:upper&noWait>
+delay = 20
+ey = -$TILE
+ex = 16
+playSe = FF6 slash2
+frame = 30;
+</D-Motion>
+
+// 上空へ瞬間移動
+<D-Motion:soon&home&noWait>
+delay = 36
+ey = -$TILE*10
+</D-Motion>
+
+// 降下
+<D-Motion:svDying&home&noWait>
+delay = 37
+frame = 10
+</D-Motion>
+
+// しゃがみ
+<D-Motion:wait&svDying&noWait>
+delay = 47
+frame = 10
+noShadow = false
+arcY = 0
+</D-Motion>
+
+// 刀を振り上げ
+<D-Motion:swingUpSwordMore&noWait>
+delay = 57
+script = a.afterimage().end();
+frame = 10
+arcY = 0
+playSe = FF6 altima2
+</D-Motion>
+
+<D-Motion>
+frame = 1
+delay = 72
+script = a.afterimage().end();
+</D-Motion>

@@ -1,0 +1,3 @@
+<D-Motion>
+script = BattleManager.pushActiveMessage("ギガフレアのためにパワーアップ！"); a.addState(74);
+</D-Motion>

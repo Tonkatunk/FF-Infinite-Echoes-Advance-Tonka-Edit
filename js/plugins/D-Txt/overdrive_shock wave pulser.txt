@@ -1,0 +1,298 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+
+<D-Animation:follow>
+playSe = {"name":"2000 Earth6","volume":100,"pitch":100,"pan":0}
+id = 2043
+</D-Animation>
+
+<D-Motion:noWait>
+delay = 40
+frame = 1
+performer = $gameTroop.indexMember(0)
+condition = BattleManager.indexTarget(0).isActor()
+sx = 9999
+</D-Motion>
+<D-Motion:noWait>
+delay = 40
+frame = 1
+performer = $gameTroop.indexMember(1)
+condition = BattleManager.indexTarget(0).isActor()
+sx = 9999
+</D-Motion>
+<D-Motion:noWait>
+delay = 40
+frame = 1
+performer = $gameTroop.indexMember(2)
+condition = BattleManager.indexTarget(0).isActor()
+sx = 9999
+</D-Motion>
+
+//回転しながら上へ移動
+<D-Motion:roll&noWait>
+delay = 40
+frame = 40
+rotation *= 3
+performer = BattleManager.indexTarget(0)
+condition = BattleManager.indexTarget(0).throwable()
+ey = BattleManager.indexTarget(0).y - 160
+</D-Motion>
+<D-Motion:roll&home&noWait>
+delay = 80
+frame = 40
+rotation *= 3
+performer = BattleManager.indexTarget(0)
+condition = BattleManager.indexTarget(0).throwable()
+sy = Graphics.boxHeight + BattleManager.indexTarget(0).height
+</D-Motion>
+<D-Animation>
+id = 1
+condition = BattleManager.indexTarget(0).isEnemy();
+</D-Animation>
+
+//回転しながら上へ移動
+<D-Motion:roll&noWait>
+delay = 40
+frame = 40
+rotation *= 3
+performer = BattleManager.indexTarget(1)
+condition = BattleManager.indexTarget(1).throwable()
+ey = BattleManager.indexTarget(1).y - 160
+</D-Motion>
+<D-Motion:roll&home&noWait>
+delay = 80
+frame = 40
+rotation *= 3
+performer = BattleManager.indexTarget(1)
+condition = BattleManager.indexTarget(1).throwable()
+sy = Graphics.boxHeight + BattleManager.indexTarget(1).height
+</D-Motion>
+
+//回転しながら上へ移動
+<D-Motion:roll&noWait>
+delay = 40
+frame = 40
+rotation *= 3
+performer = BattleManager.indexTarget(2)
+condition = BattleManager.indexTarget(2).throwable()
+ey = BattleManager.indexTarget(2).y - 160
+</D-Motion>
+<D-Motion:roll&home&noWait>
+delay = 80
+frame = 40
+rotation *= 3
+performer = BattleManager.indexTarget(2)
+condition = BattleManager.indexTarget(2).throwable()
+sy = Graphics.boxHeight + BattleManager.indexTarget(2).height
+</D-Motion>
+
+//回転しながら上へ移動
+<D-Motion:roll&noWait>
+delay = 40
+frame = 40
+rotation *= 3
+performer = BattleManager.indexTarget(3)
+condition = BattleManager.indexTarget(3).throwable()
+ey = BattleManager.indexTarget(3).y - 160
+</D-Motion>
+<D-Motion:roll&home&noWait>
+delay = 80
+frame = 40
+rotation *= 3
+performer = BattleManager.indexTarget(3)
+condition = BattleManager.indexTarget(3).throwable()
+sy = Graphics.boxHeight + BattleManager.indexTarget(3).height
+</D-Motion>
+
+//回転しながら上へ移動
+<D-Motion:roll&noWait>
+delay = 40
+frame = 40
+rotation *= 3
+performer = BattleManager.indexTarget(4)
+condition = BattleManager.indexTarget(4).throwable()
+ey = BattleManager.indexTarget(4).y - 160
+</D-Motion>
+<D-Motion:roll&home&noWait>
+delay = 80
+frame = 40
+rotation *= 3
+performer = BattleManager.indexTarget(4)
+condition = BattleManager.indexTarget(4).throwable()
+sy = Graphics.boxHeight + BattleManager.indexTarget(4).height
+</D-Motion>
+
+//回転しながら上へ移動
+<D-Motion:roll&noWait>
+delay = 40
+frame = 40
+rotation *= 3
+performer = BattleManager.indexTarget(5)
+condition = BattleManager.indexTarget(5).throwable()
+ey = BattleManager.indexTarget(5).y - 160
+</D-Motion>
+<D-Motion:roll&home&noWait>
+delay = 80
+frame = 40
+rotation *= 3
+performer = BattleManager.indexTarget(5)
+condition = BattleManager.indexTarget(5).throwable()
+sy = Graphics.boxHeight + BattleManager.indexTarget(5).height
+</D-Motion>
+
+//回転しながら上へ移動
+<D-Motion:roll&noWait>
+delay = 40
+frame = 40
+rotation *= 3
+performer = BattleManager.indexTarget(6)
+condition = BattleManager.indexTarget(6).throwable()
+ey = BattleManager.indexTarget(6).y - 160
+</D-Motion>
+<D-Motion:roll&home&noWait>
+delay = 80
+frame = 40
+rotation *= 3
+performer = BattleManager.indexTarget(6)
+condition = BattleManager.indexTarget(6).throwable()
+sy = Graphics.boxHeight + BattleManager.indexTarget(6).height
+</D-Motion>
+
+//回転しながら上へ移動
+<D-Motion:roll&noWait>
+delay = 40
+frame = 40
+rotation *= 3
+performer = BattleManager.indexTarget(7)
+condition = BattleManager.indexTarget(7).throwable()
+ey = BattleManager.indexTarget(7).y - 160
+</D-Motion>
+<D-Motion:roll&home&noWait>
+delay = 80
+frame = 40
+rotation *= 3
+performer = BattleManager.indexTarget(7)
+condition = BattleManager.indexTarget(7).throwable()
+sy = Graphics.boxHeight + BattleManager.indexTarget(7).height
+</D-Motion>
+
+//回転しながら上へ移動
+<D-Motion:roll&noWait>
+delay = 40
+frame = 40
+rotation *= 3
+performer = BattleManager.indexTarget(8)
+condition = BattleManager.indexTarget(8).throwable()
+ey = BattleManager.indexTarget(8).y - 160
+</D-Motion>
+<D-Motion:roll&home&noWait>
+delay = 80
+frame = 40
+rotation *= 3
+performer = BattleManager.indexTarget(8)
+condition = BattleManager.indexTarget(8).throwable()
+sy = Graphics.boxHeight + BattleManager.indexTarget(8).height
+</D-Motion>
+
+<D-Animation>
+delay = 70
+id = 2049
+</D-Animation>
+
+<D-Animation>
+playSe = {"name":"MZ Magic8","volume":100,"pitch":50,"pan":0}
+delay = 80
+id = 2048
+z = -1
+ex = 0
+</D-Animation>
+<D-Animation>
+delay = 170
+id = 2048
+z = -1
+ex = 0
+</D-Animation>
+
+<D-Animation>
+delay = 80
+id = 2047
+z = 0
+sy = 80
+ex = 40
+</D-Animation>
+<D-Animation>
+delay = 170
+id = 2047
+z = 0
+sy = 80
+ex = 40
+</D-Animation>
+
+<D-Animation>
+delay = 80
+id = 2047
+z = 0
+sy = -120
+ex = 40
+</D-Animation>
+<D-Animation>
+delay = 170
+id = 2047
+z = 0
+sy = -120
+ex = 40
+</D-Animation>
+
+<D-Animation>
+delay = 150
+id = 2046
+sx = Graphics.boxWidth/2
+z = 0
+</D-Animation>
+
+<D-Animation:screen>
+delay = 170
+sx = Graphics.boxWidth/2
+id = 2045
+</D-Animation>
+
+<D-Animation>
+delay = 150
+id = 2044
+sx = Graphics.boxWidth/2
+z = 0
+</D-Animation>
+
+<D-Animation:screen>
+delay = 330
+sx = Graphics.boxWidth/2
+id = 2050
+condition = BattleManager.indexTarget(0).isEnemy();
+script = BattleManager.endSummonEffect();
+</D-Animation>
+
+<D-Motion:home&&noWait>
+delay = 330
+frame = 1
+performer = $gameTroop.indexMember(0)
+condition = BattleManager.indexTarget(0).isActor()
+</D-Motion>
+<D-Motion:home&&noWait>
+delay = 330
+frame = 1
+performer = $gameTroop.indexMember(1)
+condition = BattleManager.indexTarget(0).isActor()
+</D-Motion>
+<D-Motion:home&&noWait>
+delay = 330
+frame = 1
+performer = $gameTroop.indexMember(2)
+condition = BattleManager.indexTarget(0).isActor()
+</D-Motion>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+delay = 270
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

@@ -1,0 +1,332 @@
+//---1撃目--------------------------------------------------------
+<D-Motion:svGuard&noWait>
+script = a.afterimage().start();
+frame = 10
+arcY = -16
+playSe = FF6 steal
+ex = BattleManager._targets[0].x + BattleManager._targets[0].width/2*mirroring
+ey = BattleManager._targets[0].y
+</D-Motion>
+
+<D-Motion:swingSword&noWait>
+delay = 10
+frame = 10
+arcY = 0
+</D-Motion>
+
+<D-Motion:svGuard&noWait>
+delay = 20
+frame = 10
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+target = BattleManager._targets[0]
+delay = 10
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+id = 1946
+script = BattleManager._targets[0].startDamageShake();
+</D-Animation>
+<D-Motion:noWait&svDamage>
+delay = 10
+condition = BattleManager.resultList()[1].hpDamage > 0;
+</D-Motion>
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+delay = 10
+id = 113
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+//---2撃目--------------------------------------------------------
+
+<D-Motion:svGuard&noWait>
+delay = 30
+frame = 10
+arcY = -16
+playSe = FF6 steal
+ex = BattleManager._targets[1].x + BattleManager._targets[1].width/2*mirroring
+ey = BattleManager._targets[1].y
+</D-Motion>
+
+<D-Motion:swingUpSword&noWait>
+delay = 40
+frame = 10
+arcY = 0
+</D-Motion>
+
+<D-Motion:svGuard&noWait>
+delay = 50
+frame = 10
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+target = BattleManager._targets[1]
+delay = 40
+condition = !(BattleManager.resultList()[1].missed||BattleManager.resultList()[1].evaded);
+id = 1947
+script = BattleManager._targets[1].startDamageShake();
+</D-Animation>
+<D-Motion:noWait&svDamage>
+delay = 40
+condition = BattleManager.resultList()[1].hpDamage > 0;
+</D-Motion>
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+delay = 40
+id = 113
+condition = BattleManager.resultList()[1].missed||BattleManager.resultList()[1].evaded;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+//---3撃目--------------------------------------------------------
+
+<D-Motion:svGuard&noWait>
+delay = 60
+frame = 10
+arcY = -16
+playSe = FF6 steal
+ex = BattleManager._targets[2].x + BattleManager._targets[2].width/2*mirroring
+ey = BattleManager._targets[2].y
+</D-Motion>
+
+<D-Motion:swingSword&noWait>
+delay = 70
+frame = 10
+arcY = 0
+</D-Motion>
+
+<D-Motion:svGuard&noWait>
+delay = 80
+frame = 10
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+target = BattleManager._targets[2]
+delay = 80
+condition = !(BattleManager.resultList()[2].missed||BattleManager.resultList()[2].evaded);
+id = 1948
+script = BattleManager._targets[2].startDamageShake();
+</D-Animation>
+<D-Motion:noWait&svDamage>
+delay = 80
+condition = BattleManager.resultList()[2].hpDamage > 0;
+</D-Motion>
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+delay = 80
+id = 113
+condition = BattleManager.resultList()[2].missed||BattleManager.resultList()[2].evaded;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+//---4撃目--------------------------------------------------------
+
+<D-Motion:svGuard&noWait>
+delay = 90
+frame = 10
+arcY = -16
+playSe = FF6 steal
+ex = BattleManager._targets[3].x + BattleManager._targets[3].width/2*mirroring
+ey = BattleManager._targets[3].y
+</D-Motion>
+
+<D-Motion:swingUpSword&noWait>
+delay = 100
+frame = 10
+arcY = 0
+</D-Motion>
+
+<D-Motion:svGuard&noWait>
+delay = 110
+frame = 10
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+target = BattleManager._targets[3]
+delay = 100
+condition = !(BattleManager.resultList()[3].missed||BattleManager.resultList()[3].evaded);
+id = 1949
+script = BattleManager._targets[3].startDamageShake();
+</D-Animation>
+<D-Motion:noWait&svDamage>
+delay = 100
+condition = BattleManager.resultList()[3].hpDamage > 0;
+</D-Motion>
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+delay = 100
+id = 113
+condition = BattleManager.resultList()[3].missed||BattleManager.resultList()[3].evaded;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+//---5撃目--------------------------------------------------------
+
+<D-Motion:svGuard&noWait>
+delay = 120
+frame = 10
+arcY = -16
+playSe = FF6 steal
+ex = BattleManager._targets[4].x + BattleManager._targets[4].width/2
+ey = BattleManager._targets[4].y
+</D-Motion>
+
+<D-Motion:swingUpSword&noWait>
+delay = 130
+frame = 10
+arcY = 0
+</D-Motion>
+
+<D-Motion:svGuard&noWait>
+delay = 140
+frame = 10
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+target = BattleManager._targets[4]
+delay = 130
+condition = !(BattleManager.resultList()[4].missed||BattleManager.resultList()[4].evaded);
+id = 1946
+script = BattleManager._targets[4].startDamageShake();
+</D-Animation>
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+delay = 130
+id = 113
+condition = BattleManager.resultList()[4].missed||BattleManager.resultList()[4].evaded;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+//---6撃目--------------------------------------------------------
+
+<D-Motion:svGuard&noWait>
+delay = 150
+frame = 10
+arcY = -16
+playSe = FF6 steal
+ex = BattleManager._targets[5].x + BattleManager._targets[5].width/2
+ey = BattleManager._targets[5].y
+</D-Motion>
+
+<D-Motion:swingUpSword&noWait>
+delay = 160
+frame = 10
+arcY = 0
+</D-Motion>
+
+<D-Motion:svGuard&noWait>
+delay = 170
+frame = 10
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+target = BattleManager._targets[5]
+delay = 160
+condition = !(BattleManager.resultList()[5].missed||BattleManager.resultList()[5].evaded);
+id = 1947
+script = BattleManager._targets[5].startDamageShake();
+</D-Animation>
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+delay = 160
+id = 113
+condition = BattleManager.resultList()[5].missed||BattleManager.resultList()[5].evaded;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+//---7撃目--------------------------------------------------------
+
+<D-Motion:svGuard&noWait>
+delay = 180
+frame = 10
+arcY = -16
+playSe = FF6 steal
+ex = BattleManager._targets[6].x + BattleManager._targets[6].width/2
+ey = BattleManager._targets[6].y
+</D-Motion>
+
+<D-Motion:swingUpSword&noWait>
+delay = 190
+frame = 10
+arcY = 0
+</D-Motion>
+
+<D-Motion:svGuard&noWait>
+delay = 200
+frame = 10
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+target = BattleManager._targets[6]
+delay = 190
+condition = !(BattleManager.resultList()[6].missed||BattleManager.resultList()[6].evaded);
+id = 1948
+script = BattleManager._targets[6].startDamageShake();
+</D-Animation>
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+delay = 190
+id = 113
+condition = BattleManager.resultList()[6].missed||BattleManager.resultList()[6].evaded;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+//---8撃目--------------------------------------------------------
+
+<D-Motion:svGuard&noWait>
+delay = 210
+frame = 10
+arcY = -16
+playSe = FF6 steal
+ex = BattleManager._targets[7].x + BattleManager._targets[7].width/2
+ey = BattleManager._targets[7].y
+</D-Motion>
+
+<D-Motion:swingUpSword&noWait>
+delay = 220
+frame = 10
+arcY = 0
+</D-Motion>
+
+<D-Motion:svGuard&noWait>
+delay = 230
+frame = 40
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+target = BattleManager._targets[7]
+delay = 220
+condition = !(BattleManager.resultList()[7].missed||BattleManager.resultList()[7].evaded);
+id = 1949
+script = BattleManager._targets[7].startDamageShake();
+</D-Animation>
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+delay = 220
+id = 113
+condition = BattleManager.resultList()[7].missed||BattleManager.resultList()[7].evaded;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Motion:svItem&return>
+script = a.afterimage().end();
+delay = 270
+arcY = -16
+</D-Motion>

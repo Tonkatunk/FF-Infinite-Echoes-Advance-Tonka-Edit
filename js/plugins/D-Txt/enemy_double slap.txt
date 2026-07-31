@@ -1,0 +1,172 @@
+<D-Animation>
+id = 2483
+scaleX = 1
+target = BattleManager._targets[0]
+</D-Animation>
+
+<D-Animation>
+delay = 20
+id = 2483
+scaleX = -1
+target = BattleManager._targets[1]
+</D-Animation>
+
+<D-Animation>
+delay = 5
+id = 2484
+script = b.startDamageShake();
+target = BattleManager._targets[0]
+condition = !BattleManager.resultList()[0].missed && !BattleManager.resultList()[0].evaded;
+</D-Animation>
+
+<D-Motion:noWait&svDamage>
+performer = b
+delay = 5
+arcY = 0
+condition = !BattleManager.resultList()[0].missed && !BattleManager.resultList()[0].evaded;
+</D-Motion>
+
+<D-Animation>
+delay = 25
+id = 2484
+script = b.startDamageShake();
+target = BattleManager._targets[1]
+condition = !BattleManager.resultList()[1].missed && !BattleManager.resultList()[1].evaded;
+</D-Animation>
+
+<D-Motion:noWait&svDamage>
+performer = b
+delay = 25
+arcY = 0
+condition = !BattleManager.resultList()[1].missed && !BattleManager.resultList()[1].evaded;
+</D-Motion>
+
+// 回避エフェクト1-----------------------------------------------------------------------------
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+delay = 5
+condition = BattleManager.resultList()[0].missed;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// ゴーレムガード
+<D-Animation>
+delay = 5
+condition = BattleManager.resultList()[0].golemed && target.isActor();
+target = BattleManager._targets[0]
+id = 178
+</D-Animation>
+
+// オメガード
+<D-Animation>
+delay = 5
+condition = BattleManager.resultList()[0].golemed && target.isEnemy();
+target = BattleManager._targets[0]
+id = 180
+</D-Animation>
+
+// 武器1ブロッキング
+<D-Motion:svBlockR>
+delay = 5
+performer = BattleManager._targets[0]
+condition = b.isActor() && b.isWeapon1Block(BattleManager.resultList()[0].evaRand);
+playSe = {"name":"FF6 guard2","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// 武器2or盾ブロッキング
+<D-Motion:svBlockL>
+delay = 5
+performer = BattleManager._targets[0]
+condition = b.isActor() && ( b.isWeapon2Block(BattleManager.resultList()[0].evaRand) || b.isSealdBlock(b._result.evaRand));
+playSe = {"name":"FF6 guard2","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// アクセサリーブロッキング
+<D-Motion:svMant>
+delay = 5
+performer = BattleManager._targets[0]
+condition = b.isActor() && b.isAccessoryBlock(BattleManager.resultList()[0].evaRand);
+playSe = {"name":"MZ Equip3","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// マテリアブロッキング
+<D-Motion:svItem>
+delay = 5
+performer = BattleManager._targets[0]
+condition = b.isActor() && b.isMateriaBlock(BattleManager.resultList()[0].evaRand);
+playSe = {"name":"FF6 guard2","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// 通常回避モーション
+<D-Motion:svMissile>
+delay = 5
+performer = BattleManager._targets[0]
+condition = b.isActor() && b.isNormalEva(BattleManager.resultList()[0].isNormalEva);
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// 回避エフェクト2-----------------------------------------------------------------------------
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+delay = 25
+condition = BattleManager.resultList()[1].missed;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// ゴーレムガード
+<D-Animation>
+delay = 25
+condition = BattleManager.resultList()[1].golemed && target.isActor();
+target = BattleManager._targets[1]
+id = 178
+</D-Animation>
+
+// オメガード
+<D-Animation>
+delay = 25
+condition = BattleManager.resultList()[1].golemed && target.isEnemy();
+target = BattleManager._targets[1]
+id = 180
+</D-Animation>
+
+// 武器1ブロッキング
+<D-Motion:svBlockR>
+delay = 25
+performer = BattleManager._targets[1]
+condition = b.isActor() && b.isWeapon1Block(BattleManager.resultList()[1].evaRand);
+playSe = {"name":"FF6 guard2","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// 武器2or盾ブロッキング
+<D-Motion:svBlockL>
+delay = 25
+performer = BattleManager._targets[1]
+condition = b.isActor() && ( b.isWeapon2Block(BattleManager.resultList()[1].evaRand) || b.isSealdBlock(b._result.evaRand));
+playSe = {"name":"FF6 guard2","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// アクセサリーブロッキング
+<D-Motion:svMant>
+delay = 25
+performer = BattleManager._targets[1]
+condition = b.isActor() && b.isAccessoryBlock(BattleManager.resultList()[1].evaRand);
+playSe = {"name":"MZ Equip3","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// マテリアブロッキング
+<D-Motion:svItem>
+delay = 25
+performer = BattleManager._targets[1]
+condition = b.isActor() && b.isMateriaBlock(BattleManager.resultList()[1].evaRand);
+playSe = {"name":"FF6 guard2","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// 通常回避モーション
+<D-Motion:svMissile>
+delay = 25
+performer = BattleManager._targets[1]
+condition = b.isActor() && b.isNormalEva(BattleManager.resultList()[1].isNormalEva);
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>

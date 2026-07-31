@@ -1,0 +1,42 @@
+<D-Motion:svItem>
+ex = b.x+b.width/2+8
+ey = b.y
+frame = 10
+arcY = -16
+playSe = FF6 steal
+</D-Motion>
+
+<D-Motion:nagi&noWait>
+delay = 10
+frame = 16
+arcY = 0
+</D-Motion>
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+delay = 10
+id = 113
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation>
+delay = 10
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+id = 1980
+script = b.startDamageShake();
+</D-Animation>
+
+<D-Motion:svItem&home>
+delay = 40
+frame = 10
+arcY = -10
+</D-Motion>
+<D-Animation>
+id = 1
+</D-Animation>
+
+<D-Motion:delay&return>
+frame = 1
+arcY = 0
+</D-Motion>

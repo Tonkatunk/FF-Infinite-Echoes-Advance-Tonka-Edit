@@ -1,0 +1,28 @@
+//同サイドが対象の場合、アニメーションを反転する
+<D-Setting:MirrorForFriend>
+
+//リフレク
+<D-Animation>
+condition = BattleManager._targetNum > 0;
+target = BattleManager._firstTargets[0];
+id = BattleManager._firstTargets[0].getMagicAnimationId(BattleManager._action.item().meta.DAnimeId);
+</D-Animation>
+
+//火炎放射
+<D-Animation:beam>
+target = BattleManager._targets[0];
+id = 525
+</D-Animation>
+
+//火炎放射炎
+<D-Animation>
+delay = 30
+id = 526
+sx = a.x-(a.x-b.x)/10*r
+ex = a.x-(a.x-b.x)/10*r
+sy = a.y-(a.y-b.y)/10*r-a.height/2
+ey = a.y-(a.y-b.y)/10*r-a.height/2
+interval = 2
+scale = 0.5
+repeat = 20
+</D-Animation>

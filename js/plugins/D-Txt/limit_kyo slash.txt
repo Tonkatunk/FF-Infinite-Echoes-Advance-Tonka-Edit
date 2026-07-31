@@ -1,0 +1,56 @@
+//歩く動きをしながら近づく
+<D-Motion:svWalk&near&noWait>
+playSe = FF7 dash
+frame = 20;
+</D-Motion>
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Animation>
+delay = 20
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+id = 569
+</D-Animation>
+
+<D-Animation>
+delay = 20
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+id = 568
+</D-Animation>
+
+<D-Motion:swingbothWquick&noWait> // 武器振り
+scaleX = 1
+delay = 20
+</D-Motion> 
+<D-Motion:svWait>//　リセット
+delay = 40
+</D-Motion>
+<D-Motion:swingbothWquick&noWait> // 武器振り
+scaleX = -1
+delay = 40
+</D-Motion>
+<D-Motion:svWait>//　リセット
+delay = 60
+</D-Motion>
+<D-Motion:swingbothWquick&noWait> // 武器振り
+scaleX = 1
+delay = 60
+</D-Motion>
+<D-Motion:svWait>//　リセット
+delay = 80
+</D-Motion>
+<D-Motion:swingbothWquick&noWait> // 武器振り
+scaleX = -1
+delay = 80
+</D-Motion>
+<D-Motion:svWait> //　リセット
+scaleX = 1
+delay = 96
+</D-Motion>
+
+<D-Animation>
+id = 1
+</D-Animation>
+
+<D-Motion:return>
+delay = 96
+</D-Motion>

@@ -1,0 +1,49 @@
+<D-Motion:svItem&noWait>
+</D-Motion>
+
+<D-Animation:screen>
+id = 125
+</D-Animation>
+
+<D-Animation:shot>
+id = 126
+sx = b.x
+sy = b.y - b.height/2
+ex = a.x
+ey = a.y - a.height/2
+arrival = 30
+</D-Animation>
+
+<D-Animation:shot>
+id = 126
+sx = b.x
+sy = b.y - b.height/2
+ex = a.x
+ey = a.y - a.height/2
+arrival = 30
+arcY = $TILE
+</D-Animation>
+
+<D-Animation:shot>
+id = 126
+sx = b.x
+sy = b.y - b.height/2
+ex = a.x
+ey = a.y - a.height/2
+arrival = 30
+arcY = -$TILE
+script = $gameSwitches.setValue(195,true);
+</D-Animation>
+
+<D-Animation:self>
+delay = 30
+id = 127
+script = $gameVariables.setValue(344,Math.min($gameVariables.value(344)+BattleManager.indexResult(0).mpDamage,100));
+condition = BattleManager.indexResult(0).mpDamage > 0;
+</D-Animation>
+
+//メッセージ表示
+<D-Motion:delay>
+script = BattleManager.pushActiveMessage("魔力充てん \\V[344]%"); if($gameVariables.value(344) >= 100){$gameSwitches.setValue(167,true)}
+condition = BattleManager.indexResult(0).mpDamage > 0;
+</D-Motion>

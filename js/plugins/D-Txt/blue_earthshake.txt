@@ -1,0 +1,43 @@
+<D-Animation:screen>
+id = 541
+sx = defaultX - $TILE*2*mirroring 
+z = 0
+</D-Animation>
+
+//岩ランダム
+<D-Animation:randomAll>
+repeat = 15
+interval = 10
+sx = defaultX - $TILE*1.5*mirroring 
+sy = defaultY + $TILE*1.5
+sxRandom = $TILE*4 // 始点Ｘ座標分散
+id = 542
+</D-Animation>
+
+//岩ランダム
+<D-Animation:randomAll>
+delay = 3
+repeat = 15
+interval = 10
+sx = defaultX - $TILE*1.5*mirroring 
+sy = defaultY + $TILE*1.5
+sxRandom = $TILE*4 // 始点Ｘ座標分散
+id = 543
+</D-Animation>
+
+//岩ランダム
+<D-Animation:randomAll>
+delay = 6
+repeat = 15
+interval = 10
+sx = defaultX - $TILE*1.5*mirroring 
+sy = defaultY + $TILE*1.5
+sxRandom = $TILE*4 // 始点Ｘ座標分散
+id = 544
+</D-Animation>
+
+<D-Motion:target&shake> // 対象を振動
+condition = !b.isStateAffected(38)
+frame = 180
+addX /= 6
+</D-Motion>

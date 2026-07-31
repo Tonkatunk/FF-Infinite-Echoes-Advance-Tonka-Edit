@@ -1,0 +1,62 @@
+<D-Motion:svItem&pattern0/>
+
+<D-Animation:self>
+id = 564
+sy = a.y-a.height
+rotation = t/et * Math.PI * 4 // 回転率
+</D-Animation>
+
+<D-Motion:svMissile&pattern0>
+delay = 60
+</D-Motion>
+
+<D-Animation:shot&lookCourse>
+delay = 60
+id = 565
+target = BattleManager._targets[0];
+sx = a.x
+ex = b.x+(b.width/2+8)*mirroring
+sy = a.y-a.height
+ey = b.y-b.height/2
+frame = 10
+</D-Animation>
+
+<D-Animation:delay>
+delay = 70
+id = 566
+target = BattleManager._targets[0];
+scaleX = 1*(1+b.isEnemy()*(-2))
+sx = b.x+(b.width/2)*(1+b.isActor()*(-2))
+sy = b.y-b.height/2
+</D-Animation>
+
+<D-Motion>
+delay = 70
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+
+<D-Animation>
+delay = 70
+id = 370
+target = BattleManager._targets[0];
+</D-Animation>
+
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>
+
+<D-Animation:wait>
+delay = 130
+condition = b.stateRate(1) == 0
+id = 21
+</D-Animation>
+<D-Animation:wait>
+delay = 130
+condition = b.stateRate(1) > 0
+id = 19
+</D-Animation>
+<D-Animation:delay>
+condition = b.stateRate(1) > 0
+script = b.addState(1)
+id = 1
+</D-Animation>

@@ -1,0 +1,39 @@
+<D-Animation>
+id = 1356
+z = 0
+</D-Animation>
+
+<D-Animation>
+id = 1354
+sxRandom = b.width
+syRandom = b.height
+exRandom = b.width
+eyRandom = b.height
+</D-Animation>
+
+<D-Animation>
+id = 1354
+sxRandom = b.width
+syRandom = b.height
+exRandom = b.width
+eyRandom = b.height
+delay = 10
+</D-Animation>
+
+<D-Animation>
+id = 1354
+sxRandom = b.width
+syRandom = b.height
+exRandom = b.width
+eyRandom = b.height
+delay = 20
+</D-Animation>
+
+<D-Animation>
+id = 1354
+sxRandom = b.width
+syRandom = b.height
+exRandom = b.width
+eyRandom = b.height
+delay = 30
+</D-Animation>

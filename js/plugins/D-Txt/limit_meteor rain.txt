@@ -1,0 +1,82 @@
+<D-Motion:swingAroundClaymore&noWait>
+frame = 45
+arcY = 0
+</D-Motion>
+
+<D-Animation:self>
+id = 1436
+</D-Animation>
+
+<D-Motion:svDying&noWait>
+delay = 45
+frame = 5
+arcY = 0
+</D-Motion>
+
+<D-Motion:svItem&noWait>
+delay = 50
+frame = 10
+arcY = -16
+ex = Graphics.boxWidth*5/6
+ey = 72
+noShadow = true
+</D-Motion>
+
+<D-Motion:woundUpClaymore&noWait>
+delay = 60
+frame = 60
+noShadow = true
+</D-Motion>
+<D-Animation:self>
+delay = 60
+id = 1437
+sx = a.x + 16
+sy = a.y - 24
+</D-Animation>
+
+<D-Motion:stubClaymore&noWait>
+delay = 120
+frame = 60
+noShadow = true
+</D-Motion>
+
+<D-Animation>
+target = BattleManager._targets[0]
+delay = 120
+id = 1433
+</D-Animation>
+<D-Animation>
+target = BattleManager._targets[1]
+delay = 125
+id = 1433
+</D-Animation>
+<D-Animation>
+target = BattleManager._targets[2]
+delay = 130
+id = 1433
+</D-Animation>
+<D-Animation>
+target = BattleManager._targets[3]
+delay = 135
+id = 1433
+</D-Animation>
+<D-Animation>
+target = BattleManager._targets[4]
+delay = 140
+id = 1433
+</D-Animation>
+<D-Animation>
+target = BattleManager._targets[5]
+delay = 145
+id = 1433
+</D-Animation>
+
+<D-Motion:home&noWait>
+    delay = 180
+    frame = 20
+    noShadow = false
+</D-Motion>
+<D-Motion:return&noWait>
+    delay = 200
+    frame = 1
+</D-Motion>

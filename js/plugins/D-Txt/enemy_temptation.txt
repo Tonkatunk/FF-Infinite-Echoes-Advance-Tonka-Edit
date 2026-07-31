@@ -1,0 +1,15 @@
+<D-Motion:banzai&noWait>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+
+<D-Animation:self>
+sx = a.x
+sy = a.y-a.height/2
+id = 2460
+z = 2.9
+</D-Animation>
+
+<D-Animation>
+id = 1
+plugin = tintBB12 255 255 255 255 255 255
+</D-Animation>

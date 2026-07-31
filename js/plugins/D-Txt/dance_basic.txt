@@ -1,0 +1,38 @@
+
+
+// 一歩前へ出る
+<D-Motion:delay&stepForward>
+ex += $TILE*2;
+</D-Motion>
+
+<D-Motion:jump&wait&svGuard>
+playSe = FF6 dance hop
+arcY = -$DOT*10
+frame = 10
+</D-Motion>
+
+<D-Motion:jump&wait&svGuard>
+playSe = FF6 dance hop
+arcY = -$DOT*10
+frame = 10
+</D-Motion>
+
+<D-Motion:wait&dancespin>
+playSe = FF6 dance spin
+frame = 30
+</D-Motion>
+
+<D-Animation:delay&screen>
+id = 2431
+z = 0
+</D-Animation>
+
+<D-Motion:upper&noWait>
+frame = 150
+</D-Motion>
+
+<D-Animation:self&wait>
+</D-Animation>
+
+<D-Motion:return&delay>
+</D-Motion>

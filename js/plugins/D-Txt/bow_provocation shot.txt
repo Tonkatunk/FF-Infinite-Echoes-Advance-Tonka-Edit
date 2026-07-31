@@ -1,0 +1,54 @@
+<D-Animation:self>
+id = a.readyBowAnimationId()+21
+sy = a.y - 10
+sx = a.x - 1
+z = 0
+frame = 20
+</D-Animation>
+
+<D-Motion:readyBow>
+frame = 20
+</D-Motion>
+
+<D-Motion:shotArrow>
+frame = 60
+</D-Motion>
+
+<D-Animation:shot&lookCourse>
+delay = 20
+sy = a.y - 10
+ey = b.y - b.height/2
+arrival = 10
+id = a.readyBowAnimationId()+36
+playSe = {"name":"FF5 throw","volume":100,"pitch":100,"pan":0}
+condition = !b.result().missed && !b.result().evaded
+</D-Animation>
+
+<D-Animation:shot&lookCourse&pierce>
+delay = 20
+sy = a.y - 10 *$DOT
+ex = 0
+arrival = 20
+id = a.readyBowAnimationId()+21
+playSe = {"name":"FF5 throw","volume":100,"pitch":100,"pan":0}
+condition = b.result().missed || b.result().evaded
+</D-Animation>
+
+<D-Animation>
+id = a.readyBowAnimationId()+9
+delay = 30
+sy = b.y - b.height/2
+condition = !b.result().missed && !b.result().evaded
+</D-Animation>
+
+<D-Animation>
+id = 1896
+delay = 30
+condition = !b.result().missed && !b.result().evaded
+</D-Animation>
+
+<D-Animation>
+delay = 30
+id = 113
+condition = b.result().missed || b.result().evaded
+</D-Animation>

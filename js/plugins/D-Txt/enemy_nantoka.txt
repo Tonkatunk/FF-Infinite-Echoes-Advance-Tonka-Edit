@@ -1,0 +1,63 @@
+//同サイドが対象の場合、アニメーションを反転する
+<D-Setting:MirrorForFriend>
+
+<D-Animation:screen>
+id = 423
+sx = defaultX + 12 * mirroring
+</D-Animation>
+
+<D-Animation:screen>
+id = 422
+</D-Animation>
+
+<D-Animation:screen>
+delay = 80
+id = 368
+</D-Animation>
+
+<D-Animation:screen>
+playSe = {"name":"FF8 meteor2","volume":90,"pitch":100,"pan":0}
+delay = 100
+id = 424
+z = 0
+</D-Animation>
+<D-Animation:screen>
+delay = 292
+id = 425
+z = 0
+</D-Animation>
+
+<D-Animation:screen>
+playSe = {"name":"FF8 altima1","volume":90,"pitch":150,"pan":0}
+delay = 200
+id = 1
+</D-Animation>
+
+<D-Animation:screen>
+delay = 184
+sx = Graphics.boxWidth/2
+id = 1547
+</D-Animation>
+<D-Animation:screen>
+delay = 234
+sx = Graphics.boxWidth/2
+id = 1547
+</D-Animation>
+<D-Animation:screen>
+delay = 284
+sx = Graphics.boxWidth/2
+id = 1547
+</D-Animation>
+
+<D-Animation:screen>
+delay = 284
+noMirror = true
+sx = Graphics.boxWidth/2
+id = 1545
+</D-Animation>
+
+<D-Animation:screen>
+delay = 484
+id = 1546
+sx = Graphics.boxWidth/2
+</D-Animation>

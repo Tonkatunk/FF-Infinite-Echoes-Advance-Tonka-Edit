@@ -1,0 +1,278 @@
+<D-Animation:self>
+id = a.readyBowAnimationId()+21
+sy = a.y - 10
+sx = a.x - 1
+z = 0
+frame = 20
+</D-Animation>
+
+<D-Motion:readyBow>
+frame = 3
+arcY = 0
+</D-Motion>
+
+<D-Motion:shotArrow>
+frame = 2
+playSe = {"name":"FF5 throw","volume":100,"pitch":100,"pan":0}
+arcY = 0
+</D-Motion>
+
+<D-Animation:shot&lookCourse>
+delay = 5
+sy = a.y - 10
+ey = Graphics.boxHeight/4
+ex = Graphics.boxWidth/2+(Graphics.boxWidth/2+10)*mirroring
+arrival = 10
+id = a.readyBowAnimationId()+21
+playSe = {"name":"FF5 throw","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+
+<D-Motion:readyBow>
+delay = 5
+frame = 3
+arcY = 0
+</D-Motion>
+
+<D-Motion:shotArrow>
+delay = 8
+frame = 2
+playSe = {"name":"FF5 throw","volume":100,"pitch":100,"pan":0}
+arcY = 0
+</D-Motion>
+
+<D-Animation:shot&lookCourse>
+delay = 10
+sy = a.y - 10
+ey = Graphics.boxHeight/4*3
+ex = -10
+arrival = 10
+id = a.readyBowAnimationId()+21
+playSe = {"name":"FF5 throw","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+
+<D-Motion:readyBow>
+delay = 10
+frame = 3
+arcY = 0
+</D-Motion>
+
+<D-Motion:shotArrow>
+delay = 13
+frame = 2
+arcY = 0
+playSe = {"name":"FF5 throw","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation:shot&lookCourse>
+delay = 15
+sy = a.y - 10
+ey = Graphics.boxHeight/4*2
+ex = -10
+arrival = 10
+id = a.readyBowAnimationId()+21
+playSe = {"name":"FF5 throw","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+
+<D-Motion:readyBow>
+delay = 15
+frame = 3
+arcY = 0
+</D-Motion>
+
+<D-Motion:shotArrow>
+delay = 18
+frame = 2
+arcY = 0
+playSe = {"name":"FF5 throw","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation:shot&lookCourse>
+delay = 20
+sy = a.y - 10
+ey = Graphics.boxHeight/8
+ex = -10
+arrival = 10
+id = a.readyBowAnimationId()+21
+playSe = {"name":"FF5 throw","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+
+<D-Motion:readyBow>
+delay = 20
+frame = 3
+arcY = 0
+</D-Motion>
+
+<D-Motion:shotArrow>
+delay = 23
+frame = 2
+arcY = 0
+playSe = {"name":"FF5 throw","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation:shot&lookCourse>
+delay = 25
+sy = a.y - 10
+ey = Graphics.boxHeight/4
+ex = -10
+arrival = 10
+id = a.readyBowAnimationId()+21
+playSe = {"name":"FF5 throw","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+
+<D-Motion:readyBow>
+delay = 25
+frame = 3
+arcY = 0
+</D-Motion>
+
+<D-Motion:shotArrow>
+delay = 28
+frame = 2
+arcY = 0
+playSe = {"name":"FF5 throw","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation:shot&lookCourse>
+delay = 30
+sy = a.y - 10
+ey = Graphics.boxHeight/4*3.5
+ex = -10
+arrival = 10
+id = a.readyBowAnimationId()+21
+playSe = {"name":"FF5 throw","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+
+<D-Motion:readyBow>
+delay = 30
+frame = 3
+arcY = 0
+</D-Motion>
+
+<D-Motion:shotArrow>
+delay = 33
+frame = 2
+arcY = 0
+playSe = {"name":"FF5 throw","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation:shot&lookCourse>
+delay = 35
+sy = a.y - 10
+ey = Graphics.boxHeight/3
+ex = -10
+arrival = 10
+id = a.readyBowAnimationId()+21
+playSe = {"name":"FF5 throw","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+
+<D-Motion:readyBow>
+delay = 35
+frame = 3
+arcY = 0
+</D-Motion>
+
+<D-Motion:shotArrow>
+delay = 38
+frame = 2
+arcY = 0
+playSe = {"name":"FF5 throw","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation:shot&lookCourse>
+delay = 40
+sy = a.y - 10
+ey = Graphics.boxHeight/3
+ex = -10
+arrival = 10
+id = a.readyBowAnimationId()+21
+playSe = {"name":"FF5 throw","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+
+<D-Animation>
+delay = 20
+condition = BattleManager._targets.length >= 1&&!BattleManager.indexTarget(0).result().missed && !BattleManager.indexTarget(0).result().evaded;
+target = BattleManager.indexTarget(0);
+id = a.readyBowAnimationId()+9
+sx = BattleManager.indexTarget(0).x;
+sy = BattleManager.indexTarget(0).y-BattleManager.indexTarget(0).height/2
+playSe = {"name":"FF6 scratch","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+<D-Animation>
+delay = 25
+condition = BattleManager._targets.length >= 2&&!BattleManager.indexTarget(1).result().missed && !BattleManager.indexTarget(1).result().evaded;
+target = BattleManager.indexTarget(1);
+id = a.readyBowAnimationId()+9
+sx = BattleManager.indexTarget(1).x;
+sy = BattleManager.indexTarget(1).y-BattleManager.indexTarget(1).height/2
+playSe = {"name":"FF6 scratch","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+
+<D-Animation>
+delay = 30
+condition = BattleManager._targets.length >= 3&&!BattleManager.indexTarget(2).result().missed && !BattleManager.indexTarget(2).result().evaded;
+target = BattleManager.indexTarget(2);
+id = a.readyBowAnimationId()+9
+sx = BattleManager.indexTarget(2).x;
+sy = BattleManager.indexTarget(2).y-BattleManager.indexTarget(2).height/2
+playSe = {"name":"FF6 scratch","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+
+<D-Animation>
+delay = 35
+condition = BattleManager._targets.length >= 4&&!BattleManager.indexTarget(3).result().missed && !BattleManager.indexTarget(3).result().evaded;
+target = BattleManager.indexTarget(3);
+id = a.readyBowAnimationId()+9
+sx = BattleManager.indexTarget(3).x;
+sy = BattleManager.indexTarget(3).y-BattleManager.indexTarget(3).height/2
+playSe = {"name":"FF6 scratch","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+
+<D-Animation>
+delay = 40
+condition = BattleManager._targets.length >= 5&&!BattleManager.indexTarget(4).result().missed && !BattleManager.indexTarget(4).result().evaded;
+target = BattleManager.indexTarget(4);
+id = a.readyBowAnimationId()+9
+sx = BattleManager.indexTarget(4).x;
+sy = BattleManager.indexTarget(4).y-BattleManager.indexTarget(4).height/2
+playSe = {"name":"FF6 scratch","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+
+<D-Animation>
+delay = 45
+condition = BattleManager._targets.length >= 6&&!BattleManager.indexTarget(5).result().missed && !BattleManager.indexTarget(5).result().evaded;
+target = BattleManager.indexTarget(5);
+id = a.readyBowAnimationId()+9
+sx = BattleManager.indexTarget(5).x;
+sy = BattleManager.indexTarget(5).y-BattleManager.indexTarget(5).height/2
+playSe = {"name":"FF6 scratch","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+
+<D-Animation>
+delay = 50
+condition = BattleManager._targets.length >= 7&&!BattleManager.indexTarget(6).result().missed && !BattleManager.indexTarget(6).result().evaded;
+target = BattleManager.indexTarget(6);
+id = a.readyBowAnimationId()+9
+sx = BattleManager.indexTarget(6).x;
+sy = BattleManager.indexTarget(6).y-BattleManager.indexTarget(6).height/2
+playSe = {"name":"FF6 scratch","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+
+<D-Animation>
+delay = 55
+condition = BattleManager._targets.length >= 8&&!BattleManager.indexTarget(7).result().missed && !BattleManager.indexTarget(7).result().evaded;
+target = BattleManager.indexTarget(7);
+id = a.readyBowAnimationId()+9
+sx = BattleManager.indexTarget(7).x;
+sy = BattleManager.indexTarget(7).y-BattleManager.indexTarget(7).height/2
+playSe = {"name":"FF6 scratch","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+
+<D-Animation>
+delay = 60
+condition = BattleManager._targets.length >= 9&&!BattleManager.indexTarget(8).result().missed && !BattleManager.indexTarget(8).result().evaded;
+target = BattleManager.indexTarget(8);
+id = a.readyBowAnimationId()+9
+sx = BattleManager.indexTarget(8).x;
+sy = BattleManager.indexTarget(8).y-BattleManager.indexTarget(8).height/2
+playSe = {"name":"FF6 scratch","volume":100,"pitch":100,"pan":0}
+</D-Animation>

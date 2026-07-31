@@ -1,0 +1,35 @@
+<D-Animation:self>
+id = 1964
+sx = a.x+16
+sy = a.y-8
+scaleX = 0.5
+scaleY = 0.5
+</D-Animation>
+
+<D-Animation>
+delay = 40
+id = 1608
+arrival = 30
+repeat = 18
+interval = 8
+sx = a.x-(a.width/2)*mirroring
+ex = a.x-Graphics.boxWidth*mirroring
+sy = a.y-40
+ey = Graphics.boxHeight/4+Math.sin(Math.PI / 9 * (r%9))*$TILE*6
+</D-Animation>
+
+<D-Animation:randomAll>
+id = 1607
+repeat = 40
+interval = 4
+delay = 40
+sx = defaultX - Graphics.boxWidth/3 * mirroring
+sy = defaultY + $TILE*2
+sxRandom = Graphics.boxWidth/3
+syRandom = Graphics.boxHeight/5
+</D-Animation>
+
+//効果音
+<D-Motion:noWait>
+playSe = {"name":"FF8 brrizaga3","volume":100,"pitch":70,"pan":0}
+</D-Motion>

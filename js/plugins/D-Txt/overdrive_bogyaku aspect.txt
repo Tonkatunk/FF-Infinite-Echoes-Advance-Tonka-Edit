@@ -1,0 +1,103 @@
+<D-Motion:svChant&noWait>
+arcY = 0
+frame = 160
+</D-Motion>
+<D-Animation:screen>
+id = 2257
+z = 0
+script = BattleManager.startSummonEffect();
+</D-Animation>
+<D-Animation:screen>
+id = 2275
+delay = 60
+plugin = tintBB12 64 64 64 64 64 64
+z = 0
+</D-Animation>
+
+//バルフレアの場合
+<D-Animation:screen>
+id = 2273
+delay = 60
+sx = Graphics.boxHeight/2
+sy = Graphics.boxHeight*2/3
+condition = a.actorId() != 45 && a.actorId() != 10
+</D-Animation>
+<D-Animation:screen>
+id = 2274
+delay = 184
+ey = -32
+sx = Graphics.boxHeight/2
+sy = Graphics.boxHeight*2/3
+afterimage = 10 // 残像数
+afterimageInterval = 3 // 残像間隔
+condition = a.actorId() != 45 && a.actorId() != 10
+</D-Animation>
+
+//バッツの場合
+<D-Animation:screen>
+id = 2279
+delay = 60
+sx = Graphics.boxHeight/2
+sy = Graphics.boxHeight*2/3
+condition = a.actorId() == 10
+</D-Animation>
+<D-Animation:screen>
+id = 2280
+delay = 184
+ey = -32
+sx = Graphics.boxHeight/2
+sy = Graphics.boxHeight*2/3
+afterimage = 10 // 残像数
+afterimageInterval = 3 // 残像間隔
+condition = a.actorId() == 10
+</D-Animation>
+
+//ゴゴの場合
+<D-Animation:screen>
+id = 2281
+delay = 60
+sx = Graphics.boxHeight/2
+sy = Graphics.boxHeight*2/3
+condition = a.actorId() == 45
+</D-Animation>
+<D-Animation:screen>
+id = 2282
+delay = 184
+ey = -32
+sx = Graphics.boxHeight/2
+sy = Graphics.boxHeight*2/3
+afterimage = 10 // 残像数
+afterimageInterval = 3 // 残像間隔
+condition = a.actorId() == 45
+</D-Animation>
+
+<D-Animation:screen>
+id = 2272
+delay = 120
+sx = Graphics.boxHeight/2
+sy = Graphics.boxHeight*2/3
+z = 0.1
+</D-Animation>
+<D-Animation:screen>
+id = 2276
+delay = 208
+</D-Animation>
+<D-Animation:screen>
+id = 2277
+delay = 307
+</D-Animation>
+<D-Animation:screen>
+id = 2278
+delay = 290
+z = 0.1
+</D-Animation>
+
+<D-Motion>
+delay = 307
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>
+<D-Animation:wait>
+delay = 390
+id = 1
+script = BattleManager.endSummonEffect();
+</D-Animation>

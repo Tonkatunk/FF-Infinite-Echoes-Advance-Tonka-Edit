@@ -1,0 +1,308 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+<D-Animation:wait>
+id = 990
+script = BattleManager.startSummonEffect();
+</D-Animation>
+
+<D-Animation:screen>
+delay = 20
+id = 560
+z = 0
+</D-Animation>
+
+<D-Animation:screen>
+delay = 40
+id = 425
+z = -1
+</D-Animation>
+
+<D-Animation:screen>
+delay = 40
+id = 1487
+</D-Animation>
+
+<D-Motion>
+delay = 40
+performer = BattleManager.indexTarget(0)
+condition = BattleManager.indexTarget(0).throwable()
+ex = Graphics.boxWidth/3
+ey = Graphics.boxHeight/3*2
+scaleX = 1-(t/et)+0.01
+scaleY = 1-(t/et)+0.01
+frame = 60
+</D-Motion>
+
+<D-Motion>
+delay = 40
+performer = BattleManager.indexTarget(1)
+condition = BattleManager.indexTarget(1).throwable()
+ex = Graphics.boxWidth/3
+ey = Graphics.boxHeight/3*2
+scaleX = 1-(t/et)+0.01
+scaleY = 1-(t/et)+0.01
+frame = 60
+</D-Motion>
+
+<D-Motion>
+delay = 40
+performer = BattleManager.indexTarget(2)
+condition = BattleManager.indexTarget(2).throwable()
+ex = Graphics.boxWidth/3
+ey = Graphics.boxHeight/3*2
+scaleX = 1-(t/et)+0.01
+scaleY = 1-(t/et)+0.01
+frame = 60
+</D-Motion>
+
+<D-Motion>
+delay = 40
+performer = BattleManager.indexTarget(3)
+condition = BattleManager.indexTarget(3).throwable()
+ex = Graphics.boxWidth/3
+ey = Graphics.boxHeight/3*2
+scaleX = 1-(t/et)+0.01
+scaleY = 1-(t/et)+0.01
+frame = 60
+</D-Motion>
+
+<D-Motion>
+delay = 40
+performer = BattleManager.indexTarget(4)
+condition = BattleManager.indexTarget(4).throwable()
+ex = Graphics.boxWidth/3
+ey = Graphics.boxHeight/3*2
+scaleX = 1-(t/et)+0.01
+scaleY = 1-(t/et)+0.01
+frame = 60
+</D-Motion>
+
+<D-Motion>
+delay = 40
+performer = BattleManager.indexTarget(5)
+condition = BattleManager.indexTarget(5).throwable()
+ex = Graphics.boxWidth/3
+ey = Graphics.boxHeight/3*2
+scaleX = 1-(t/et)+0.01
+scaleY = 1-(t/et)+0.01
+frame = 60
+</D-Motion>
+
+<D-Motion>
+delay = 40
+performer = BattleManager.indexTarget(6)
+condition = BattleManager.indexTarget(6).throwable()
+ex = Graphics.boxWidth/3
+ey = Graphics.boxHeight/3*2
+scaleX = 1-(t/et)+0.01
+scaleY = 1-(t/et)+0.01
+frame = 60
+</D-Motion>
+
+<D-Motion>
+delay = 40
+performer = BattleManager.indexTarget(7)
+condition = BattleManager.indexTarget(7).throwable()
+ex = Graphics.boxWidth/3
+ey = Graphics.boxHeight/3*2
+scaleX = 1-(t/et)+0.01
+scaleY = 1-(t/et)+0.01
+frame = 60
+</D-Motion>
+
+<D-Motion>
+delay = 40
+performer = BattleManager.indexTarget(8)
+condition = BattleManager.indexTarget(8).throwable()
+ex = Graphics.boxWidth/3
+ey = Graphics.boxHeight/3*2
+scaleX = 1-(t/et)+0.01
+scaleY = 1-(t/et)+0.01
+frame = 60
+</D-Motion>
+
+<D-Motion>
+delay = 70
+performer = BattleManager.indexTarget(0)
+condition = BattleManager.indexTarget(0).throwable()
+ex = BattleManager.indexTarget(0)._homeX
+ey = BattleManager.indexTarget(0)._homeY-150
+frame = 1
+</D-Motion>
+
+<D-Motion>
+delay = 70
+performer = BattleManager.indexTarget(1)
+condition = BattleManager.indexTarget(1).throwable()
+ex = BattleManager.indexTarget(1)._homeX
+ey = BattleManager.indexTarget(1)._homeY-150
+frame = 1
+</D-Motion>
+
+<D-Motion>
+delay = 70
+performer = BattleManager.indexTarget(2)
+condition = BattleManager.indexTarget(2).throwable()
+ex = BattleManager.indexTarget(2)._homeX
+ey = BattleManager.indexTarget(2)._homeY-150
+frame = 1
+</D-Motion>
+
+<D-Motion>
+delay = 70
+performer = BattleManager.indexTarget(3)
+condition = BattleManager.indexTarget(3).throwable()
+ex = BattleManager.indexTarget(3)._homeX
+ey = BattleManager.indexTarget(3)._homeY-150
+frame = 1
+</D-Motion>
+
+<D-Motion>
+delay = 70
+performer = BattleManager.indexTarget(4)
+condition = BattleManager.indexTarget(4).throwable()
+ex = BattleManager.indexTarget(4)._homeX
+ey = BattleManager.indexTarget(4)._homeY-150
+frame = 1
+</D-Motion>
+
+<D-Motion>
+delay = 70
+performer = BattleManager.indexTarget(5)
+condition = BattleManager.indexTarget(5).throwable()
+ex = BattleManager.indexTarget(5)._homeX
+ey = BattleManager.indexTarget(5)._homeY-150
+frame = 1
+</D-Motion>
+
+<D-Motion>
+delay = 70
+performer = BattleManager.indexTarget(6)
+condition = BattleManager.indexTarget(6).throwable()
+ex = BattleManager.indexTarget(6)._homeX
+ey = BattleManager.indexTarget(6)._homeY-150
+frame = 1
+</D-Motion>
+
+<D-Motion>
+delay = 70
+performer = BattleManager.indexTarget(7)
+condition = BattleManager.indexTarget(7).throwable()
+ex = BattleManager.indexTarget(7)._homeX
+ey = BattleManager.indexTarget(7)._homeY-150
+frame = 1
+</D-Motion>
+
+<D-Motion>
+delay = 70
+performer = BattleManager.indexTarget(8)
+condition = BattleManager.indexTarget(8).throwable()
+ex = BattleManager.indexTarget(8)._homeX
+ey = BattleManager.indexTarget(8)._homeY-150
+frame = 1
+</D-Motion>
+
+<D-Animation:screen>
+delay = 45
+id = 1485
+sx = defaultX - $TILE*1.5*mirroring 
+sy = defaultY + $TILE*1.5
+</D-Animation>
+
+<D-Animation:screen>
+delay = 80
+id = 1486
+sx = defaultX - $TILE*1.5*mirroring 
+sy = defaultY + $TILE*1.5
+</D-Animation>
+
+<D-Animation:screen>
+delay = 150
+id = 561
+</D-Animation>
+
+<D-Motion>
+delay = 200
+performer = BattleManager.indexTarget(0)
+condition = BattleManager.indexTarget(0).throwable()
+sx = defaultX - $TILE*1.5
+sy = defaultY + $TILE*1.5
+scaleX = 1
+scaleY = 1
+frame = 10
+</D-Motion>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+playSe = {"name":"FF8 holy2","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Motion:home&noWait>
+delay = 240
+performer = BattleManager.indexTarget(0)
+condition = BattleManager.indexTarget(0).throwable()
+frame = 10
+</D-Motion>
+
+<D-Motion:home&noWait>
+delay = 240
+performer = BattleManager.indexTarget(1)
+condition = BattleManager.indexTarget(1).throwable()
+frame = 10
+</D-Motion>
+
+<D-Motion:home&noWait>
+delay = 240
+performer = BattleManager.indexTarget(2)
+condition = BattleManager.indexTarget(2).throwable()
+frame = 10
+</D-Motion>
+
+<D-Motion:home&noWait>
+delay = 240
+performer = BattleManager.indexTarget(3)
+condition = BattleManager.indexTarget(3).throwable()
+frame = 10
+</D-Motion>
+
+<D-Motion:home&noWait>
+delay = 240
+performer = BattleManager.indexTarget(4)
+condition = BattleManager.indexTarget(4).throwable()
+frame = 10
+</D-Motion>
+
+<D-Motion:home&noWait>
+delay = 240
+performer = BattleManager.indexTarget(5)
+condition = BattleManager.indexTarget(5).throwable()
+frame = 10
+</D-Motion>
+
+<D-Motion:home&noWait>
+delay = 240
+performer = BattleManager.indexTarget(6)
+condition = BattleManager.indexTarget(6).throwable()
+frame = 10
+</D-Motion>
+
+<D-Motion:home&noWait>
+delay = 240
+performer = BattleManager.indexTarget(7)
+condition = BattleManager.indexTarget(7).throwable()
+frame = 10
+</D-Motion>
+
+<D-Motion:home&noWait>
+delay = 240
+performer = BattleManager.indexTarget(8)
+condition = BattleManager.indexTarget(8).throwable()
+frame = 10
+</D-Motion>
+
+<D-Animation:delay>
+id = 1
+script = BattleManager.endSummonEffect();
+</D-Animation>

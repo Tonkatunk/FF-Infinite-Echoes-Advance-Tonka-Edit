@@ -1,0 +1,40 @@
+<D-Motion:svWait&noWait>
+scaleX = -1
+</D-Motion>
+
+<D-Animation:self>
+id = 2039
+sx = a.x + 4
+sy = a.y - 16
+</D-Animation>
+
+<D-Motion:svWait&noWait>
+delay = 75
+scaleX = 1
+</D-Motion>
+
+<D-Animation:self>
+delay = 75
+id = 2037
+sx = a.x - 16
+</D-Animation>
+
+<D-Motion:svWait>
+delay = 129
+scaleX = 1
+</D-Motion>
+
+<D-Motion:svWait>
+delay = 159
+playSe = FF7 exprode
+</D-Motion>
+
+<RangeEx:horizontal>
+<D-Animation:horizontal&delay>
+delay = 159
+repeat = 10
+interval = 0
+sx = a.x-16-32*r
+sy = Graphics.boxHeight
+id = 2038
+</D-Animation>

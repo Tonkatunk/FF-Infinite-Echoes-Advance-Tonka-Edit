@@ -1,0 +1,32 @@
+//歩く動きをしながら近づく
+<D-Motion:svWalk&near&noWait>
+playSe = FF7 dash
+frame = 20;
+</D-Motion>
+
+<D-Motion:thrustkick>
+delay = 20
+arcY = 0
+</D-Motion>
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+delay = 20
+id = 113
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation>
+delay = 20
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+id = 576
+</D-Animation>
+
+<D-Animation>
+id = 1
+</D-Animatipn>
+
+<D-Motion:return&delay>
+arcY = -16
+</D-Motion>

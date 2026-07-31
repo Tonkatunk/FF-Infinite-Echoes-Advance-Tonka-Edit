@@ -1,0 +1,43 @@
+<D-Motion:swingWhip&noWait>
+frame = 15
+playSe = {"name":"FF5 whip","volume":50,"pitch":100,"pan":0}
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+<D-Motion:swingWhip&noWait>
+delay = 15
+frame = 15
+playSe = {"name":"FF5 whip","volume":50,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation>
+delay = 30
+sx = Graphics.boxWidth+64
+arcY = -16
+sy = Graphics.boxHeight/2
+ex = Graphics.boxWidth - 64
+id = 2189
+</D-Animation>
+
+<D-Animation>
+delay = 50
+sx = Graphics.boxWidth - 64
+sy = Graphics.boxHeight/2
+id = 2190
+</D-Animation>
+
+<D-Animation:radiate>
+delay = 50
+sx = Graphics.boxWidth - 64
+sy = Graphics.boxHeight/2
+radiusX /= 3 // 半径（Ｘ方向）
+radiusY /= 3 // 半径（Ｙ方向）
+id = 2191
+</D-Animation>
+
+
+<D-Motion:return>
+delay = 200
+frame = 10
+arcY = -8
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

@@ -1,0 +1,37 @@
+<D-Motion:swingW&noWait>
+frame = 20
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+delay = 8
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+</D-Animation>
+
+<D-Animation>
+id = 1
+</D-Animation>
+
+<D-Motion:noWait>
+delay = 8
+script = b.startDamageShake(); a.gainTp(8); if(a.isStateAffected(31)){a.gainTp(5);} if(a.isStateAffected(32)){a.gainTp(5);}
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+</D-Motion>
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+delay = 8
+arcY = 0
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Motion:home&noWait>
+frame = 20
+arcY = -16
+delay = 30
+</D-Motion>
+<D-Motion:return&noWait>
+frame = 0
+delay = 50
+</D-Motion>

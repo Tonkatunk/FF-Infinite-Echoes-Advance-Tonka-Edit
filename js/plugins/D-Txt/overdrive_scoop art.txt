@@ -1,0 +1,62 @@
+<D-Animation:lookCourse>
+sx = b.x + $DOT*100
+sy = b.y-b.height/2 - 100
+ex = b.x - $DOT*100
+ey = b.y-b.height/2 + 100
+arrival = 20 // 到達フレーム
+id = 918
+afterimage = 5 // 残像数
+afterimageInterval = 1 // 残像間隔
+</D-Animation>
+
+<D-Animation:wait&screen>
+id = 983
+</D-Animation>
+<D-Animation>
+id = 919
+</D-Animation>
+<D-Animation:wait&screen>
+id = 993
+</D-Animation>
+
+<D-Animation:lookCourse>
+sx = b.x + $DOT*100
+sy = b.y-b.height/2 - 50
+ex = b.x - $DOT*100
+ey = b.y-b.height/2 + 50
+arrival = 20 // 到達フレーム
+id = 918
+afterimage = 5 // 残像数
+afterimageInterval = 1 // 残像間隔
+</D-Animation>
+
+<D-Animation:wait&screen>
+id = 983
+</D-Animation>
+<D-Animation>
+id = 919
+</D-Animation>
+<D-Animation:wait&screen>
+id = 993
+</D-Animation>
+
+<D-Animation:lookCourse>
+sx = b.x - $DOT*100
+sy = b.y-b.height/2 - 100
+ex = b.x + $DOT*100
+ey = b.y-b.height/2 + 100
+arrival = 20 // 到達フレーム
+id = 918
+afterimage = 5 // 残像数
+afterimageInterval = 1 // 残像間隔
+</D-Animation>
+
+<D-Animation:wait&screen>
+id = 983
+</D-Animation>
+<D-Animation>
+id = 919
+</D-Animation>
+<D-Animation:wait&screen>
+id = 993
+</D-Animation>

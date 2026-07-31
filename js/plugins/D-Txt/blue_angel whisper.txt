@@ -1,0 +1,21 @@
+<D-Animation:screen>
+id = 373
+z = 0
+</D-Animation>
+
+<D-Animation>
+condition = BattleManager._reflectCount > 0;
+id = 408
+</D-Animation>
+
+<D-Animation>
+target = BattleManager._targets[0]
+delay = BattleManager._reflectCount * 20
+id = 371
+</D-Animation>
+
+<D-Animation>
+target = BattleManager._targets[0]
+delay = 20 + BattleManager._reflectCount * 20
+id = 372
+</D-Animation>

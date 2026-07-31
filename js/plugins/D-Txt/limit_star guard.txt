@@ -1,0 +1,69 @@
+<D-Animation>
+id = 1461
+nextDelay = 0
+</D-Animation>
+<D-Animation>
+id = 1462
+delay = 51
+repeat = 4
+interval = 0
+scaleX = 0.5
+scaleY = 0.5
+sx = b.x
+sy = b.y-b.height/2
+exRandom = 32
+eyRandom = 32
+nextDelay = 0
+</D-Animation>
+<D-Animation>
+id = 1462
+delay = 51
+repeat = 4
+interval = 0
+scaleX = 0.5
+scaleY = 0.5
+sx = a.x
+sy = b.y-b.height/2
+exRandom = 32
+eyRandom = 32
+nextDelay = 0
+</D-Animation>
+<D-Animation>
+id = 1463
+delay = 51
+repeat = 4
+interval = 0
+scaleX = 0.5
+scaleY = 0.5
+sx = b.x
+sy = b.y-b.height/2
+exRandom = 32
+eyRandom = 32
+nextDelay = 0
+</D-Animation>
+<D-Animation>
+id = 1462
+delay = 51
+repeat = 4
+interval = 0
+scaleX = 0.25
+scaleY = 0.25
+sx = b.x
+sy = b.y-b.height/2
+exRandom = 32
+eyRandom = 32
+nextDelay = 0
+</D-Animation>
+<D-Animation>
+id = 1463
+delay = 51
+repeat = 4
+interval = 0
+scaleX = 0.25
+scaleY = 0.25
+sx = b.x
+sy = b.y-b.height/2
+exRandom = 32
+eyRandom = 32
+nextDelay = 0
+</D-Animation>

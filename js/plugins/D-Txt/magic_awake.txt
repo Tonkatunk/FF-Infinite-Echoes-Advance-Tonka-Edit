@@ -1,0 +1,178 @@
+<D-Motion:svItem&noWait>
+frame = 40
+</D-Motion>
+
+<D-Animation:self>
+id = 1913
+</D-Animation>
+
+<D-Motion:svSwing&noWait>
+delay = 60
+frame = 15
+condition = BattleManager._targets.length > 0
+</D-Motion>
+<D-Animation:self>
+delay = 60
+id = 1914
+z = 2.9
+condition = BattleManager._targets.length > 0 && a.isActor()
+</D-Animation>
+<D-Animation>
+delay = 68
+id = 1915
+script = BattleManager.indexTarget(0).startDamageShake();
+target = BattleManager.indexTarget(0)
+condition = BattleManager._targets.length > 0
+</D-Animation>
+
+<D-Motion:svSwing&noWait>
+delay = 75
+frame = 15
+condition = BattleManager._targets.length > 1
+</D-Motion>
+<D-Animation:self>
+delay = 75
+id = 1914
+z = 2.9
+condition = BattleManager._targets.length > 1 && a.isActor()
+</D-Animation>
+<D-Animation>
+delay = 83
+id = 1915
+script = BattleManager.indexTarget(1).startDamageShake();
+target = BattleManager.indexTarget(1)
+condition = BattleManager._targets.length > 1
+</D-Animation>
+
+<D-Motion:svSwing&noWait>
+delay = 90
+frame = 15
+condition = BattleManager._targets.length > 2
+</D-Motion>
+<D-Animation:self>
+delay = 90
+id = 1914
+z = 2.9
+condition = BattleManager._targets.length > 2 && a.isActor()
+</D-Animation>
+<D-Animation>
+delay = 98
+id = 1915
+script = BattleManager.indexTarget(2).startDamageShake();
+target = BattleManager.indexTarget(2)
+condition = BattleManager._targets.length > 2
+</D-Animation>
+
+<D-Motion:svSwing&noWait>
+delay = 105
+frame = 15
+condition = BattleManager._targets.length > 3
+</D-Motion>
+<D-Animation:self>
+delay = 105
+id = 1914
+z = 2.9
+condition = BattleManager._targets.length > 3 && a.isActor()
+</D-Animation>
+<D-Animation>
+delay = 113
+id = 1915
+script = BattleManager.indexTarget(3).startDamageShake();
+target = BattleManager.indexTarget(3)
+condition = BattleManager._targets.length > 3
+</D-Animation>
+
+<D-Motion:svSwing&noWait>
+delay = 120
+frame = 15
+condition = BattleManager._targets.length > 4
+</D-Motion>
+<D-Animation:self>
+delay = 120
+id = 1914
+z = 2.9
+condition = BattleManager._targets.length > 4 && a.isActor()
+</D-Animation>
+<D-Animation>
+delay = 128
+id = 1915
+script = BattleManager.indexTarget(4).startDamageShake();
+target = BattleManager.indexTarget(4)
+condition = BattleManager._targets.length > 4
+</D-Animation>
+
+<D-Motion:svSwing&noWait>
+delay = 135
+frame = 15
+condition = BattleManager._targets.length > 5
+</D-Motion>
+<D-Animation:self>
+delay = 135
+id = 1914
+z = 2.9
+condition = BattleManager._targets.length > 5 && a.isActor()
+</D-Animation>
+<D-Animation>
+delay = 143
+id = 1915
+script = BattleManager.indexTarget(5).startDamageShake();
+target = BattleManager.indexTarget(5)
+condition = BattleManager._targets.length > 5
+</D-Animation>
+
+<D-Motion:svSwing&noWait>
+delay = 150
+frame = 15
+condition = BattleManager._targets.length > 6
+</D-Motion>
+<D-Animation:self>
+delay = 150
+id = 1914
+z = 2.9
+condition = BattleManager._targets.length > 6 && a.isActor()
+</D-Animation>
+<D-Animation>
+delay = 158
+id = 1915
+script = BattleManager.indexTarget(6).startDamageShake();
+target = BattleManager.indexTarget(6)
+condition = BattleManager._targets.length > 6
+</D-Animation>
+
+<D-Motion:svSwing&noWait>
+delay = 165
+frame = 15
+condition = BattleManager._targets.length > 7
+</D-Motion>
+<D-Animation:self>
+delay = 165
+id = 1914
+z = 2.9
+condition = BattleManager._targets.length > 7 && a.isActor()
+</D-Animation>
+<D-Animation>
+delay = 173
+id = 1915
+script = BattleManager.indexTarget(7).startDamageShake();
+target = BattleManager.indexTarget(7)
+condition = BattleManager._targets.length > 7
+</D-Animation>
+
+<D-Motion:svSwing&noWait>
+delay = 180
+frame = 15
+condition = BattleManager._targets.length > 8
+</D-Motion>
+<D-Animation:self>
+delay = 180
+id = 1914
+z = 2.9
+condition = BattleManager._targets.length > 8 && a.isActor()
+</D-Animation>
+<D-Animation>
+delay = 188
+id = 1915
+script = BattleManager.indexTarget(8).startDamageShake();
+target = BattleManager.indexTarget(8)
+condition = BattleManager._targets.length > 8
+</D-Animation>

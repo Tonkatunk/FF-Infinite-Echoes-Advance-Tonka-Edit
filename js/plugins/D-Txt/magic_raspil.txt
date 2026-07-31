@@ -1,0 +1,28 @@
+<D-Animation>
+condition = BattleManager._reflectCount > 0;
+target = BattleManager._firstTargets[0];
+id = 408
+</D-Animation>
+
+<D-Animation>
+condition = BattleManager._targetNum > 0;
+target = BattleManager._targets[0];
+id = 342;
+</D-Animation>
+
+<D-Animation:delay&radiate>
+repeat = 20 // 繰返し回数
+id = 343
+interval = 2 // 間隔
+scaleX = 1 * (t/et) // 横幅
+scaleY = 1 * (t/et) // 縦幅
+arrival = 30 // 到達フレーム
+radiusX = $TILE*6 * (t/et) // 横幅
+radiusY = $TILE*6 * (t/et) // 縦幅
+</D-Animation>
+
+<D-Animation:>
+delay = 110;
+playSe = {"name":"FF6 raspil2","volume":90,"pitch":100,"pan":0}
+id = 359
+</D-Animation>

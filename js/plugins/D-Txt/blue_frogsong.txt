@@ -1,0 +1,12 @@
+<D-Animation:noMirror>
+</D-Animation>
+
+<D-Animation:screen>
+id = 1000
+</D-Animation>
+
+<D-Animation:delay>
+id = 1
+script = BattleManager._targets[0].addStateInMotion()
+</D-Animation>
+

@@ -1,0 +1,150 @@
+<D-Animation>
+id = 2087
+z = 0
+</D-Animation>
+<D-Motion:noWait>
+delay = 30
+plugin = tintBB12 127 127 127 127 127 127
+</D-Motion>
+
+<D-Motion:swingW&noWait>
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+delay = 5
+id = 1987
+sx = a.x
+sy = a.y - 24
+</D-Animation>
+
+<D-Motion:nagi&noWait>
+delay = 30
+frame = 16
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+delay = 35
+id = 1988
+sx = a.x
+sy = a.y - 24
+</D-Animation>
+
+<D-Motion:thrustW&noWait>
+delay = 60
+arcY = 0
+frame = 16
+</D-Motion>
+
+<D-Animation:lookCourse>
+delay = 65
+id = 1989
+sx = a.x - 16
+sy = a.y - 8
+ex = -16
+scaleX = 0.5
+scaleY = 0.5
+addY = Math.sin(Math.PI*(t/(et/2))) * 64
+</D-Animation>
+<D-Animation:lookCourse>
+delay = 67
+id = 1990
+sx = a.x - 16
+sy = a.y - 8
+ex = -16
+scaleX = 0.5
+scaleY = 0.5
+addY = Math.sin(Math.PI*(t/(et/2))) * 64
+</D-Animation>
+<D-Animation:lookCourse>
+delay = 69
+id = 1990
+sx = a.x - 16
+sy = a.y - 8
+ex = -16
+scaleX = 0.45
+scaleY = 0.45
+addY = Math.sin(Math.PI*(t/(et/2))) * 64
+</D-Animation>
+<D-Animation:lookCourse>
+delay = 71
+id = 1990
+sx = a.x - 16
+sy = a.y - 8
+ex = -16
+scaleX = 0.4
+scaleY = 0.4
+addY = Math.sin(Math.PI*(t/(et/2))) * 64
+</D-Animation>
+<D-Animation:lookCourse>
+delay = 73
+id = 1990
+sx = a.x - 16
+sy = a.y - 8
+ex = -16
+scaleX = 0.35
+scaleY = 0.35
+addY = Math.sin(Math.PI*(t/(et/2))) * 64
+</D-Animation>
+
+<D-Animation:lookCourse>
+delay = 65
+id = 1991
+sx = a.x - 16
+sy = a.y - 8
+ex = -16
+scaleX = 0.5
+scaleY = 0.5
+addY = -Math.sin(Math.PI*(t%22/(et/2))) * 64
+</D-Animation>
+<D-Animation:lookCourse>
+delay = 67
+id = 1992
+sx = a.x - 16
+sy = a.y - 8
+ex = -16
+scaleX = 0.5
+scaleY = 0.5
+addY = -Math.sin(Math.PI*(t/(et/2))) * 64
+</D-Animation>
+<D-Animation:lookCourse>
+delay = 69
+id = 1992
+sx = a.x - 16
+sy = a.y - 8
+ex = -16
+scaleX = 0.45
+scaleY = 0.45
+addY = -Math.sin(Math.PI*(t/(et/2))) * 64
+</D-Animation>
+<D-Animation:lookCourse>
+delay = 71
+id = 1992
+sx = a.x - 16
+sy = a.y - 8
+ex = -16
+scaleX = 0.4
+scaleY = 0.4
+addY = -Math.sin(Math.PI*(t/(et/2))) * 64
+</D-Animation>
+<D-Animation:lookCourse>
+delay = 73
+id = 1992
+sx = a.x - 16
+sy = a.y - 8
+ex = -16
+scaleX = 0.35
+scaleY = 0.35
+addY = -Math.sin(Math.PI*(t/(et/2))) * 64
+</D-Animation>
+
+<D-Animation>
+id = 2093
+delay = 103
+z = 0
+</D-Animation>
+<D-Motion>
+delay = 103
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

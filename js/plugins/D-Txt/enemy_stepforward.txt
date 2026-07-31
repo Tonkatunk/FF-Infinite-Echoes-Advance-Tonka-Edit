@@ -1,0 +1,6 @@
+<D-Motion>
+script = a.addStepForward(1)
+</D-Motion>
+<D-Motion:home>
+playSe = {"name":"MZ Earth3","volume":100,"pitch":100,"pan":0}
+</D-Motion>

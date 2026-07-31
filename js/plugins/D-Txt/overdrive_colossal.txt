@@ -1,0 +1,67 @@
+<D-Motion:svItem>
+frame = 120
+opponentSideZ = 0
+scaleX = 1+(t/et)*3
+scaleY = 1+(t/et)*3
+playSe = {"name":"FF8 merton1","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Motion:svWait>
+delay = 120
+frame = 10
+scaleX = 4
+scaleY = 4
+opponentSideZ = 0
+</D-Motion>
+
+<D-Motion:svItem>
+delay = 130
+frame = 20
+opponentSideZ = -1
+ex = Graphics.boxWidth/3
+ey = Graphics.boxHeight/6*5
+scaleX = 4
+scaleY = 4
+arcY = -16
+</D-Motion>
+
+<D-Motion:yareyare>
+delay = 150
+frame = 20
+opponentSideZ = -1
+scaleX = 4
+scaleY = 4
+arcY = 0
+</D-Motion>
+
+<D-Motion:yareyare>
+delay = 170
+frame = 30
+opponentSideZ = -1
+scaleX = 4-(t/et)*3
+scaleY = 4-(t/et)*3
+arcY = 0
+</D-Motion>
+
+<D-Animation:screen>
+delay = 150
+id = 1488
+z = -1
+sx = Graphics.boxWidth/3
+sy = Graphics.boxHeight/3*2
+</D-Animation>
+
+<D-Motion:svItem&home>
+delay = 200
+frame = 20
+opponentSideZ = -1
+scaleX = 1
+scaleY = 1
+arcY = -16
+</D-Motion>
+
+//returnするとダメージ表示
+<D-Motion:return&delay>
+frame = 10
+arcY = 0
+</D-Motion>

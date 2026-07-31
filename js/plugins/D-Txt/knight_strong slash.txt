@@ -1,0 +1,48 @@
+<D-Motion:strongSlashReady&noWait>
+frame = 20
+script = a.afterimage().start();
+arcY = 0
+ex = b.x + b.width/2 *mirroring
+ey = b.y
+</D-Motion>
+
+<D-Motion:strongSlash&noWait>
+delay = 20
+frame = 40
+script = a.afterimage().end();
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+delay = 20
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+</D-Animation>
+
+<D-Animation>
+id = 1
+</D-Animation>
+
+<D-Motion:noWait>
+delay = 30
+script = b.startDamageShake();
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+</D-Motion>
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+delay = 15
+arcY = 0
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Motion:home&noWait>
+frame = 20
+arcY = -16
+delay = 60
+script = a.afterimage().end();
+</D-Motion>
+<D-Motion:return&noWait>
+frame = 0
+delay = 81
+</D-Motion>

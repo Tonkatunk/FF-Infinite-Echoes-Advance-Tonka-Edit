@@ -1,0 +1,14 @@
+<D-Animation:self>
+id = 1964
+sx = a.x+16
+sy = a.y-8
+scaleX = 0.5
+scaleY = 0.5
+</D-Animation>
+
+<D-Animation>
+sx = a.x-16
+sy = a.y-48
+id = 1131
+delay = 40
+</D-Animation>

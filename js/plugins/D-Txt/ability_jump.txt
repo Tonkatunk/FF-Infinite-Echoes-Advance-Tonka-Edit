@@ -1,0 +1,23 @@
+<D-Motion:svItem&wait>
+playSe = 2000 Wind7
+arcY = -$TILE/2;
+ex = sx - $TILE
+frame = 12;
+</D-Motion>
+<D-Motion:svDying>
+arcY = 0
+frame = 10;
+</D-Motion>
+<D-Motion:upper&delay>
+script = a.afterimage().start();
+ey = sy-$TILE*10
+ex = sx-$TILE
+playSe = FF5 jump
+frame = 20;
+</D-Motion>
+<D-Motion:delay>
+script = a.afterimage().end();
+</D-Motion>
+<D-Motion:delay>
+script = a.addState(23);
+</D-Motion>

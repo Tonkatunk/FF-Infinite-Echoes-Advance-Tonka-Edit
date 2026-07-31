@@ -1,0 +1,36 @@
+//発動アニメーション１
+<D-Animation:self&wait>
+id = 105;
+</D-Animation>
+
+<D-Animation>
+id = 1;
+script = BattleManager._subject.removeState(28)
+</D-Animation>
+
+//眠り・石化・麻痺・ストップ・捕らわれは解除
+<D-Animation>
+id = 1;
+script = BattleManager._subject.removeState(10)
+</D-Animation>
+<D-Animation>
+id = 1;
+script = BattleManager._subject.removeState(11)
+</D-Animation>
+<D-Animation>
+id = 1;
+script = BattleManager._subject.removeState(12)
+</D-Animation>
+<D-Animation>
+id = 1;
+script = BattleManager._subject.removeState(37)
+</D-Animation>
+<D-Animation>
+id = 1;
+script = BattleManager._subject.removeState(62)
+</D-Animation>
+
+//発動アニメーション２
+<D-Animation:self&wait>
+id = 106;
+</D-Animation>

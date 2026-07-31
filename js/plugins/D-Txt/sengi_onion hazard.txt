@@ -1,0 +1,75 @@
+<D-Motion:svSwing&pattern1&noWait&near>
+script = a.afterimage().start();
+frame = 10
+arcY = -16
+</D-Motion>
+
+<D-Motion:onion>
+script = a.afterimage().end();
+delay = 10
+frame = 41
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+delay = 10
+id = 124
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+</D-Animation>
+<D-Animation>
+delay = 10
+id = 1787
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+</D-Animation>
+
+
+<D-Motion:onionL>
+delay = 55
+frame = 41
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+delay = 55
+id = 124
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+</D-Animation>
+<D-Animation>
+delay = 55
+id = 1787
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+</D-Animation>
+
+<D-Motion:svWait>
+delay = 96
+frame = 10
+arcY = 0
+</D-Motion>
+
+<D-Motion:swingUpSwordMore&noWait>
+delay = 106
+frame = 60
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+delay = 106
+id = 1786
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+</D-Animation>
+<D-Animation>
+delay = 106
+id = 113
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+</D-Animation>
+
+<D-Motion:svItem&home&noWait>
+delay = 166
+frame = 10
+arcY = -16
+</D-Motion>
+
+<D-Motion:return&noWait>
+delay = 176
+arcY = 0
+</D-Motion>

@@ -1,0 +1,102 @@
+<D-Motion:strongSlashReady&noWait>
+frame = 20
+arcY = -16
+ex = b.x + b.width/2*mirroring
+ey = b.y - b.height/2
+playSe = {"name":"FF6 steal","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Motion:spinningEdge&noWait>
+delay = 20
+frame = 90
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+target = BattleManager.indexTarget(0);
+delay = 20
+id = 469
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+</D-Animation>
+
+<D-Animation>
+target = BattleManager.indexTarget(0);
+delay = 32
+id = 469
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+</D-Animation>
+
+<D-Animation>
+target = BattleManager.indexTarget(0);
+delay = 44
+id = 469
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+</D-Animation>
+
+<D-Animation>
+target = BattleManager.indexTarget(0);
+delay = 56
+id = 469
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+</D-Animation>
+
+<D-Animation>
+target = BattleManager.indexTarget(0);
+delay = 68
+id = 470
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+</D-Animation>
+
+
+<D-Motion>
+delay = 20
+id = 1
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+</D-Motion>
+
+<D-Motion>
+delay = 32
+id = 1
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+</D-Motion>
+
+<D-Motion>
+delay = 44
+id = 1
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+</D-Motion>
+
+<D-Motion>
+delay = 56
+id = 1
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+</D-Motion>
+
+<D-Motion>
+delay = 68
+id = 1
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+</D-Motion>
+
+
+<D-Motion:strongSlashReady&noWait>
+frame = 5
+ex = b.x + b.width/2
+ey = b.y
+</D-Motion>
+
+<D-Motion:svItem&home&noWait>
+frame = 20
+arcY = -16
+delay = 80
+rotation = 0/360 * Math.PI
+</D-Motion>
+<D-Motion:return&noWait>
+frame = 0
+delay = 101
+</D-Motion>

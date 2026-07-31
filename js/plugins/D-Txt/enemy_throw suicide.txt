@@ -1,0 +1,19 @@
+<D-Motion:crash&roll> // 衝突＆回転
+rotation *= 5 // ５回転
+frame= 10 // １０フレームで移動
+</D-Motion>
+
+<D-Motion>
+script = a.addState(34)
+</D-Motion>
+
+<D-Animation>
+id = 832
+script = target.startMagicNockback(10,BattleManager._firstTargets[0].getMagicAnimationId(BattleManager._action.item().meta.DAnimeId),BattleManager.resultList()[0]);
+</D-Animation>
+
+<D-Motion>
+condition = !BattleManager.resultList()[0].missed && !BattleManager.resultList()[0].evaded;
+target = BattleManager.indexTarget(0)
+script = BattleManager.indexTarget(0).startDamageShake();
+</D-Motion>

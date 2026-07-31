@@ -1,0 +1,63 @@
+<D-Motion:svGuard&noWait>
+arcY = 0
+frame = 90
+</D-Motion>
+
+<D-Animation>
+id = 2249
+z = 0
+</D-Animation>
+
+<D-Animation:self>
+id = 2251
+delay = 60
+plugin = tintBB12 64 64 64 64 64 64
+playSe = {"name":"FF5 warp","volume":50,"pitch":100,"pan":0}
+</D-Animation>
+
+<D-Animation:self>
+id = 2251
+delay = 90
+</D-Animation>
+
+<D-Animation:self>
+id = 2251
+delay = 120
+</D-Animation>
+
+<D-Animation:self>
+id = 2251
+delay = 150
+</D-Animation>
+
+<D-Animation:self>
+id = 2252
+delay = 150
+</D-Animation>
+
+<D-Animation:screen>
+id = 2253
+delay = 240
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/2
+</D-Animation>
+
+<D-Animation:screen>
+id = 2254
+delay = 240
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/2
+</D-Animation>
+
+<D-Motion:upper&noWait>
+arcY = 0
+frame = 60
+delay = 180
+</D-Motion>
+
+// アニメーション終了を待って実行
+<D-Motion:return>
+arcY = 0
+delay = 430
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

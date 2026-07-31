@@ -1,0 +1,161 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+
+<D-Animation>
+sx = Graphics.boxWidth/7*4
+sy = Graphics.boxHeight/5*3
+id = 1139
+z = 100
+playSe = {"name":"FF8 wavecannonA1","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+<D-Animation>
+delay = 180
+sx = Graphics.boxWidth/7*4
+sy = Graphics.boxHeight/5*3
+id = 1141
+z = 100
+</D-Animation>
+<D-Animation>
+delay = 180
+sx = Graphics.boxWidth/7*4
+sy = Graphics.boxHeight/5*3
+id = 1142
+z = 101
+playSe = {"name":"FF8 wavecannonA2","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+<D-Animation>
+delay = 180
+sx = Graphics.boxWidth*1.4-a.isActor()*Graphics.boxWidth*1.6
+sy = Graphics.boxHeight/5*3
+id = 883
+z = 100
+</D-Animation>
+
+<D-Motion>
+    delay = 180
+    condition = !BattleManager.resultList()[0].missed && !BattleManager.resultList()[0].evaded;
+    target = BattleManager.indexTarget(0)
+    script = BattleManager.indexTarget(0).startDamageShake();
+    </D-Motion>
+    <D-Motion>
+    delay = 180
+    condition = BattleManager.resultList().length > 1 && !BattleManager.indexResult(1).missed && !BattleManager.indexResult(1).evaded;
+    target = BattleManager.indexTarget(1)
+    script = BattleManager.indexTarget(1).startDamageShake();
+    </D-Motion>
+    <D-Motion>
+    delay = 180
+    condition = BattleManager.resultList().length > 2 && !BattleManager.indexResult(2).missed && !BattleManager.indexResult(2).evaded;
+    target = BattleManager.indexTarget(2)
+    script = BattleManager.indexTarget(2).startDamageShake();
+    </D-Motion>
+    <D-Motion>
+    delay = 180
+    condition = BattleManager.resultList().length > 3 && !BattleManager.indexResult(3).missed && !BattleManager.indexResult(3).evaded;
+    target = BattleManager.indexTarget(3)
+    script = BattleManager.indexTarget(3).startDamageShake();
+    </D-Motion>
+    <D-Motion>
+    delay = 180
+    condition = BattleManager.resultList().length > 4 && !BattleManager.indexResult(4).missed && !BattleManager.indexResult(4).evaded;
+    target = BattleManager.indexTarget(4)
+    script = BattleManager.indexTarget(4).startDamageShake();
+    </D-Motion>
+    <D-Motion>
+    delay = 180
+    condition = BattleManager.resultList().length > 5 && !BattleManager.indexResult(5).missed && !BattleManager.indexResult(5).evaded;
+    target = BattleManager.indexTarget(5)
+    script = BattleManager.indexTarget(5).startDamageShake();
+    </D-Motion>
+    <D-Motion>
+    delay = 180
+    condition = BattleManager.resultList().length > 6 && !BattleManager.indexResult(6).missed && !BattleManager.indexResult(6).evaded;
+    target = BattleManager.indexTarget(6)
+    script = BattleManager.indexTarget(6).startDamageShake();
+    </D-Motion>
+    <D-Motion>
+    delay = 180
+    condition = BattleManager.resultList().length > 7 && !BattleManager.indexResult(7).missed && !BattleManager.indexResult(7).evaded;
+    target = BattleManager.indexTarget(7)
+    script = BattleManager.indexTarget(7).startDamageShake();
+    </D-Motion>
+    <D-Motion>
+    delay = 180
+    condition = BattleManager.resultList().length > 8 && !BattleManager.indexResult(8).missed && !BattleManager.indexResult(8).evaded;
+    target = BattleManager.indexTarget(8)
+    script = BattleManager.indexTarget(8).startDamageShake();
+    </D-Motion>
+
+    <D-Motion>
+    delay = 360
+    condition = !BattleManager.resultList()[0].missed && !BattleManager.resultList()[0].evaded;
+    target = BattleManager.indexTarget(0)
+    script = BattleManager.indexTarget(0).startDamageShake();
+    </D-Motion>
+    <D-Motion>
+    delay = 360
+    condition = BattleManager.resultList().length > 1 && !BattleManager.indexResult(1).missed && !BattleManager.indexResult(1).evaded;
+    target = BattleManager.indexTarget(1)
+    script = BattleManager.indexTarget(1).startDamageShake();
+    </D-Motion>
+    <D-Motion>
+    delay = 360
+    condition = BattleManager.resultList().length > 2 && !BattleManager.indexResult(2).missed && !BattleManager.indexResult(2).evaded;
+    target = BattleManager.indexTarget(2)
+    script = BattleManager.indexTarget(2).startDamageShake();
+    </D-Motion>
+    <D-Motion>
+    delay = 360
+    condition = BattleManager.resultList().length > 3 && !BattleManager.indexResult(3).missed && !BattleManager.indexResult(3).evaded;
+    target = BattleManager.indexTarget(3)
+    script = BattleManager.indexTarget(3).startDamageShake();
+    </D-Motion>
+    <D-Motion>
+    delay = 360
+    condition = BattleManager.resultList().length > 4 && !BattleManager.indexResult(4).missed && !BattleManager.indexResult(4).evaded;
+    target = BattleManager.indexTarget(4)
+    script = BattleManager.indexTarget(4).startDamageShake();
+    </D-Motion>
+    <D-Motion>
+    delay = 360
+    condition = BattleManager.resultList().length > 5 && !BattleManager.indexResult(5).missed && !BattleManager.indexResult(5).evaded;
+    target = BattleManager.indexTarget(5)
+    script = BattleManager.indexTarget(5).startDamageShake();
+    </D-Motion>
+    <D-Motion>
+    delay = 360
+    condition = BattleManager.resultList().length > 6 && !BattleManager.indexResult(6).missed && !BattleManager.indexResult(6).evaded;
+    target = BattleManager.indexTarget(6)
+    script = BattleManager.indexTarget(6).startDamageShake();
+    </D-Motion>
+    <D-Motion>
+    delay = 360
+    condition = BattleManager.resultList().length > 7 && !BattleManager.indexResult(7).missed && !BattleManager.indexResult(7).evaded;
+    target = BattleManager.indexTarget(7)
+    script = BattleManager.indexTarget(7).startDamageShake();
+    </D-Motion>
+    <D-Motion>
+    delay = 360
+    condition = BattleManager.resultList().length > 8 && !BattleManager.indexResult(8).missed && !BattleManager.indexResult(8).evaded;
+    target = BattleManager.indexTarget(8)
+    script = BattleManager.indexTarget(8).startDamageShake();
+    </D-Motion>
+
+<D-Animation>
+delay = 290
+z = 102
+id = 1145
+</D-Animation>
+
+<D-Animation>
+delay = 300
+id = 1147
+z = 0
+</D-Animation>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+delay = 300
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

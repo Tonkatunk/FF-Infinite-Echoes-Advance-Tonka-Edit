@@ -1,0 +1,49 @@
+// 前進禁止
+<D-Setting:NoStep>
+
+// 上空へ瞬間移動
+<D-Motion:crash&soon>
+ex = BattleManager.indexTarget(0).x
+ey = BattleManager.indexTarget(0).y-$TILE*10
+</D-Motion>
+<D-Motion:delay>
+script = a.afterimage().start();
+</D-Motion>
+
+// 降下
+<D-Motion:crash&svItem&delay&noWait>
+playSe = FF5 landing
+ey = BattleManager.indexTarget(0).y
+frame = 10
+</D-Motion>
+
+// しゃがみ
+<D-Motion:svDying&noWait>
+delay = 10
+script = a.removeState(23); a.afterimage().end();
+frame = 10
+noShadow = false
+</D-Motion>
+
+// ジャンプ二回目
+<D-Motion:svItem&noWait>
+playSe = FF5 landing
+delay = 20
+ey = BattleManager.indexTarget(1).y
+ex = BattleManager.indexTarget(1).x
+frame = 10
+arcY = -$TILE*10
+</D-Motion>
+
+// しゃがみ
+<D-Motion:noWait&svDying>
+delay = 30
+frame = 10
+noShadow = false
+</D-Motion>
+
+// 戻る
+<D-Motion:return&delay>
+frame = 10
+arcY = -$TILE*2 // 少し高めにジャンプ
+</D-Motion>

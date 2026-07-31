@@ -1,0 +1,46 @@
+<D-Motion:noWait&upper>
+frame = 400
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+id = 2397
+delay = 30
+sx = Graphics.boxWidth/2
+</D-Animation>
+<D-Animation>
+id = 2398
+delay = 230
+sx = Graphics.boxWidth/2
+</D-Animation>
+<D-Animation>
+id = 2399
+delay = 150
+sx = Graphics.boxWidth/2-20
+</D-Animation>
+<D-Animation>
+id = 2399
+delay = 180
+sx = Graphics.boxWidth/2-40
+</D-Animation>
+<D-Animation>
+id = 2399
+delay = 210
+sx = Graphics.boxWidth/2-60
+</D-Animation>
+<D-Animation>
+id = 2399
+delay = 240
+sx = Graphics.boxWidth/2
+</D-Animation>
+
+<D-Animation>
+id = 2064
+delay = 390
+sx = Graphics.boxWidth/3
+</D-Animation>
+<D-Animation>
+id = 2065
+delay = 490
+sx = Graphics.boxWidth/3
+</D-Animation>

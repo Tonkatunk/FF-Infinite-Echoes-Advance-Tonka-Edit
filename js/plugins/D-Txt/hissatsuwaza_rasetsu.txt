@@ -1,0 +1,73 @@
+<D-Motion:svGuard&noWait&pattern0>
+    frame = 60
+    arcY = 0
+</D-Motion>
+
+<D-Animation:self>
+delay = 20
+id = 1828
+</D-Animation>
+<D-Animation:self>
+id = 1847
+</D-Animation>
+
+<D-Motion:svItem&noWait&pattern0>
+    delay = 40
+    frame = 20
+    arcY = -16
+    ex = b.x + b.width/2
+    ey = b.y
+</D-Motion>
+
+<D-Motion:upper&noWait>
+    delay = 60
+    frame = 5
+    ex = b.x
+    ey = b.y - b.height/2
+</D-Motion>
+
+<D-Motion:upper&noWait>
+    delay = 65
+    frame = 150
+    arcY = 0
+    ex = b.x - 16
+    ey = b.y - b.height/2 - 16
+</D-Motion>
+<D-Animation:self&follow>
+delay = 65
+id = 1846
+</D-Animation>
+<D-Animation:screen>
+    delay = 65
+    id = 2098
+    z = 0.1
+</D-Animation>
+<D-Animation:screen>
+    delay = 65
+    id = 2099
+    z = 0
+</D-Animation>
+<D-Animation>
+    delay = 65
+    id = 1848
+    z = 2.9
+</D-Animation>
+
+<D-Motion:upper&noWait>
+    delay = 215
+    frame = 20
+    arcY = -4
+    ex = b.x - 16 - b.width/2
+    ey = b.y
+</D-Motion>
+
+<D-Motion:svItem&noWait&home>
+    delay = 235
+    frame = 15
+    arcY = -16
+</D-Motion>
+
+<D-Motion:return&delay>
+    frame = 1
+    arcY = 0
+</D-Motion>

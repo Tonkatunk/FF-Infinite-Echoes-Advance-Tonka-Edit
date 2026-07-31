@@ -1,0 +1,95 @@
+<D-Animation:self>
+sx = a.x
+sy = a.y-a.height/2
+noMirror = true
+</D-Animation>
+
+<D-Motion:noWait>
+delay = 25
+frame = 8
+performer = BattleManager.indexTarget(0);
+arcY = 0
+ex = BattleManager.subject().x
+ey = BattleManager.subject().y
+condition = BattleManager._targets.length > 0
+</D-Motion>
+
+<D-Motion:noWait>
+performer = BattleManager.indexTarget(0);
+delay = 33
+arcY = 0
+script = b.addStateInMotion();
+condition = BattleManager._targets.length > 0
+</D-Motion>
+
+<D-Motion:noWait>
+delay = 25
+frame = 8
+performer = BattleManager.indexTarget(1);
+arcY = 0
+ex = BattleManager.subject().x
+ey = BattleManager.subject().y
+condition = BattleManager._targets.length > 1
+</D-Motion>
+
+<D-Motion:noWait>
+performer = BattleManager.indexTarget(1);
+delay = 33
+arcY = 0
+script = b.addStateInMotion();
+condition = BattleManager._targets.length > 1
+</D-Motion>
+
+<D-Motion:noWait>
+delay = 25
+frame = 8
+performer = BattleManager.indexTarget(2);
+arcY = 0
+ex = BattleManager.subject().x
+ey = BattleManager.subject().y
+condition = BattleManager._targets.length > 2
+</D-Motion>
+
+<D-Motion:noWait>
+performer = BattleManager.indexTarget(2);
+delay = 33
+arcY = 0
+script = b.addStateInMotion();
+condition = BattleManager._targets.length > 2
+</D-Motion>
+
+<D-Motion:noWait>
+delay = 25
+frame = 8
+performer = BattleManager.indexTarget(3);
+arcY = 0
+ex = BattleManager.subject().x
+ey = BattleManager.subject().y
+condition = BattleManager._targets.length > 3
+</D-Motion>
+
+<D-Motion:noWait>
+performer = BattleManager.indexTarget(3);
+delay = 33
+arcY = 0
+script = b.addStateInMotion();
+condition = BattleManager._targets.length > 3
+</D-Motion>
+
+<D-Motion:noWait>
+delay = 25
+frame = 8
+performer = BattleManager.indexTarget(4);
+arcY = 0
+ex = BattleManager.subject().x
+ey = BattleManager.subject().y
+condition = BattleManager._targets.length > 4
+</D-Motion>
+
+<D-Motion:noWait>
+performer = BattleManager.indexTarget(4);
+delay = 33
+arcY = 0
+script = b.addStateInMotion();
+condition = BattleManager._targets.length > 2
+</D-Motion>

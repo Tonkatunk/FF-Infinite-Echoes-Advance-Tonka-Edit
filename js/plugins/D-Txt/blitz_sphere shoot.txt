@@ -1,0 +1,73 @@
+<D-Motion:svEvade>
+</D-Motion>
+
+<D-Animation:wait>
+id = 1161
+arcY = -16
+sx = a.x - 4
+ex = a.x
+sy = a.y - 8
+ey = a.y - 32
+</D-Animation>
+
+<D-Motion:svWait>
+</D-Motion>
+
+<D-Animation>
+id = 1162
+arcY = -16
+sx = a.x
+ex = a.x
+sy = a.y - 32
+ey = a.y - 48
+</D-Animation>
+
+<D-Motion:svItem&delay>
+delay = 15
+frame = 5
+sx = a.x
+ex = a.x
+sy = a.y
+ey = a.y - 40
+</D-Motion>
+
+<D-Motion:svItem>
+delay = 15
+frame = 10
+sx = a.x
+ex = a.x
+sy = a.y
+ey = a.y - 32
+</D-Motion>
+
+<D-Motion:roll&svEvade>
+rotation *= 1
+delay = 20
+frame = 15
+</D-Motion>
+
+<D-Animation>
+delay = 20
+id = 1163
+sx = a.x
+ex = b.x
+sy = a.y - 16
+ey = b.y - b.height/2
+</D-Animation>
+
+<D-Animation>
+condition = !b.result().missed && !b.result().evaded
+delay = 30
+id = 1164
+</D-Animation>
+
+<D-Animation>
+delay = 30
+id = 1163
+sx = b.x
+ex = 0
+ey = Graphics.boxHeight/2
+sy = b.y - b.height/2
+</D-Animation>
+
+<D-Motion:return/>

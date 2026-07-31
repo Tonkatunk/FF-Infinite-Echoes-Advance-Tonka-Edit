@@ -1,0 +1,601 @@
+[null,
+
+{"id":1,"animationId":4,"description":"Attack 127 Legendary sword...?","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":20,"value":1}],"iconIndex":16,"name":"Excalipur.","note":"<image:Sword1,1>\n<noOptimize //Exclude from Best Equip","params":[0,0,127,0,0,0,0,0],"price":2,"wtypeId":1},
+
+{"id":2,"animationId":4,"description":"Attack 12","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":16,"name":"Copper Sword","note":"<image:Sword1,2>","params":[0,0,12,0,0,0,0,0],"price":100,"wtypeId":1},
+
+{"id":3,"animationId":4,"description":"Attack 14","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":16,"name":"Long Sword","note":"","params":[0,0,14,0,0,0,0,0],"price":600,"wtypeId":1},
+
+{"id":4,"animationId":4,"description":"Attack 16","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":16,"name":"Iron Sword","note":"<image:Sword1,3>\n","params":[0,0,16,0,0,0,0,0],"price":1250,"wtypeId":1},
+
+{"id":5,"animationId":27,"description":"Attack 28 ◆Sleep strong","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":32,"dataId":10,"value":0.75}],"iconIndex":16,"name":"Ancient Sword","note":"<image:Sword1,4>\n<sort:13.1>","params":[0,0,28,0,0,0,0,0],"price":8800,"wtypeId":1},
+
+{"id":6,"animationId":4,"description":"Attack 34 Always crit at the cost of MP","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":2,"value":1}],"iconIndex":16,"name":"Rune Blade","note":"<mpcost:5>\n<image:Sword1,5>\n<criticalAnimation:40>\n<lune:15>\n<sort:15.9>","params":[0,0,34,0,0,0,0,0],"price":10500,"wtypeId":1},
+
+{"id":7,"animationId":29,"description":"Attack 20","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":16,"name":"Fraternity","note":"<image:Sword1,6>","params":[0,0,20,0,0,0,0,0],"price":3000,"wtypeId":1},
+
+{"id":8,"animationId":30,"description":"Attack 20 Sword that transforms magic into power","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":16,"name":"Mana Blade","note":"<mat>\n<image:Sword1,7>","params":[0,0,20,0,0,0,0,0],"price":7500,"wtypeId":1},
+
+{"id":9,"animationId":31,"description":"Attack 28 ◆Fire Usable:Fire magic\n","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":2,"value":1}],"iconIndex":16,"name":"Salamander","note":"<image:Sword1,8>\n<use:1601>\n//<persuit:skillId,確率>で追撃効果を指定\n<persuit:901,25>","params":[0,0,28,0,0,0,0,0],"price":9000,"wtypeId":1},
+
+{"id":10,"animationId":32,"description":"Attack 28 ◆Ice Usable:Blizzard magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":3,"value":1}],"iconIndex":16,"name":"Icebrand","note":"<image:Sword1,9>\n<use:1604>\n//<persuit:skillId,確率>で追撃効果を指定\n<persuit:902,25>","params":[0,0,28,0,0,0,0,0],"price":9000,"wtypeId":1},
+
+{"id":11,"animationId":33,"description":"Attack 28 ◆Thunder Usable:Thunder magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":4,"value":1}],"iconIndex":16,"name":"Bolt Edge","note":"<image:Sword1,10>\n<use:1603>\n//<persuit:skillId,確率>で追撃効果を指定\n<persuit:903,25>","params":[0,0,28,0,0,0,0,0],"price":9000,"wtypeId":1},
+
+{"id":12,"animationId":35,"description":"Attack 28 ◆Water Usable:Water magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":5,"value":1}],"iconIndex":16,"name":"Liquid Edge","note":"<image:Sword1,6>\n<use:1605>\n//<persuit:skillId,確率>で追撃効果を指定\n<persuit:904,25>","params":[0,0,29,0,0,0,2,0],"price":9000,"wtypeId":1},
+
+{"id":13,"animationId":50,"description":"Attack 28 ◆Earth ◆Petrify weak","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":32,"dataId":11,"value":0.25},{"code":31,"dataId":6,"value":1}],"iconIndex":16,"name":"Terra Edge","note":"<image:Sword1,11>","params":[0,0,28,0,0,0,0,0],"price":12500,"wtypeId":1},
+
+{"id":14,"animationId":4,"description":"Attack 29","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":16,"name":"Mythril Sword","note":"<image:Sword1,12>","params":[0,0,29,0,0,0,0,0],"price":8000,"wtypeId":1},
+
+{"id":15,"animationId":34,"description":"Attack 29 ◆Vampire","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":27,"value":1}],"iconIndex":16,"name":"Blood Sword","note":"<image:Sword2,9>","params":[0,0,29,0,0,0,0,0],"price":15000,"wtypeId":1},
+
+{"id":16,"animationId":30,"description":"Attack 37 Sword that transforms magic into power","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":16,"name":"Force Edge","note":"<mat>\n<image:Sword2,3>","params":[0,0,37,0,0,0,0,0],"price":18000,"wtypeId":1},
+
+{"id":17,"animationId":4,"description":"Attack 43, Magic 3","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":16,"name":"Defender","note":"\n<image:Sword2,2>","params":[0,0,43,0,3,0,0,0],"price":22000,"wtypeId":1},
+
+{"id":18,"animationId":1897,"description":"Attack 46","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":16,"name":"Diamond Sword","note":"\n<image:Sword2,2>","params":[0,0,46,0,0,0,0,0],"price":23500,"wtypeId":1},
+
+{"id":19,"animationId":4,"description":"Attack 53, Evade 5","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":1,"value":0.05}],"iconIndex":16,"name":"Falchion","note":"\n<image:Sword2,4>","params":[0,0,53,0,0,0,0,0],"price":26000,"wtypeId":1},
+
+{"id":20,"animationId":4,"description":"Attack 59 MP consumption halved.","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":23,"dataId":4,"value":0.5}],"iconIndex":16,"name":"Astral Sword","note":"\n<image:Sword2,5>","params":[0,0,59,0,0,0,0,0],"price":30000,"wtypeId":1},
+
+{"id":21,"animationId":1897,"description":"Attack 62","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":16,"name":"Crystal Sword","note":"\n<image:Sword2,6>","params":[0,0,62,0,0,0,0,0],"price":32000,"wtypeId":1},
+
+{"id":22,"animationId":123,"description":"Attack 90 Evade 10 Crit 15 Allows those with Onion Mastery to equip it.","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":1,"value":0.1},{"code":22,"dataId":2,"value":0.15}],"iconIndex":16,"name":"Onion Sword","note":"<onion>\n<image:Sword2,7>\n<criticalAnimation:2470>\n<sort:23.9>","params":[0,0,90,0,0,0,0,0],"price":0,"wtypeId":17},
+
+{"id":23,"animationId":4,"description":"Attack 1+??? A sword that gives strength to those who dare.","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":16,"name":"Brave Blade","note":"<brave>\n<image:Sword2,8>","params":[0,0,1,0,0,0,0,0],"price":0,"wtypeId":1},
+
+{"id":24,"animationId":124,"description":"Attack 90 Crit 15 Agility 5 Equipped by those with onion mastery.","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":2,"value":0.15}],"iconIndex":16,"name":"Onion Sword II","note":"<onion>\n<image:Sword3,12>\n<criticalAnimation:2471>","params":[0,0,90,0,0,0,5,0],"price":0,"wtypeId":17},
+
+{"id":25,"animationId":14,"description":"Attack 14 ◆Darkness","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":9,"value":0}],"iconIndex":17,"name":"Dark Blade","note":"<image:Sword2,10>","params":[0,0,14,0,0,0,0,0],"price":600,"wtypeId":2},
+
+{"id":26,"animationId":14,"description":"Attack 29 ◆Darkness","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":9,"value":0}],"iconIndex":17,"name":"Shadow Blade","note":"<image:Sword2,11>","params":[0,0,29,0,0,0,0,0],"price":8000,"wtypeId":2},
+
+{"id":27,"animationId":72,"description":"Attack 35 ◆Bio Usable:Bio magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":9,"value":0}],"iconIndex":17,"name":"Bio Edge","note":"<image:Sword3,3>\n<persuit:930,25>\n<use:1619>","params":[0,0,35,0,0,0,0,0],"price":12000,"wtypeId":2},
+
+{"id":28,"animationId":70,"description":"Attack 44 ◆Darkness ◆Death weak","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":9,"value":0},{"code":32,"dataId":1,"value":0.25}],"iconIndex":17,"name":"Deathbringer","note":"<image:Sword2,12>","params":[0,0,44,0,0,0,0,0],"price":20000,"wtypeId":2},
+
+{"id":29,"animationId":71,"description":"Attack 59 ◆Anti-Biped","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":9,"value":0},{"code":31,"dataId":14,"value":1}],"iconIndex":17,"name":"Avenger","note":"<image:Sword3,1>","params":[0,0,59,0,0,0,0,0],"price":30000,"wtypeId":2},
+
+{"id":30,"animationId":72,"description":"Attack 68 ◆Darkness","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":9,"value":0}],"iconIndex":17,"name":"Shikoku Regalia","note":"<image:Sword3,2>","params":[0,0,68,0,0,0,0,0],"price":32000,"wtypeId":2},
+
+{"id":31,"animationId":14,"description":"Attack 79 ◆Darkness","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":9,"value":0}],"iconIndex":17,"name":"Valhalla","note":"<image:Sword3,4>","params":[0,0,79,0,0,0,0,0],"price":0,"wtypeId":2},
+
+{"id":32,"animationId":14,"description":"Attack 63 ◆Dark","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":9,"value":1}],"iconIndex":18,"name":"Criminal Soul","note":"<image:Sword3,8>\n<sort:29.5>","params":[0,0,63,0,0,0,0,0],"price":40000,"wtypeId":2},
+
+{"id":33,"animationId":74,"description":"Attack 18 ◆Holy","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":8,"value":1}],"iconIndex":18,"name":"Mythgraven","note":"<image:Sword3,5>","params":[0,0,18,0,0,0,0,0],"price":5000,"wtypeId":3},
+
+{"id":34,"animationId":55,"description":"Attack 42 ◆Holy","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":8,"value":1}],"iconIndex":18,"name":"Wightslayer","note":"<image:Sword3,9>","params":[0,0,42,0,0,0,0,0],"price":15000,"wtypeId":3},
+
+{"id":35,"animationId":75,"description":"Attack 48 Magic 3 Evade 8 ◆Holy","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":8,"value":1},{"code":22,"dataId":1,"value":0.08}],"iconIndex":18,"name":"Sword of Legend","note":"<image:Sword3,7>","params":[0,0,48,0,3,0,0,0],"price":25000,"wtypeId":3},
+
+{"id":36,"animationId":55,"description":"Attack 65 ◆Holy","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":8,"value":1}],"iconIndex":18,"name":"Excalibur","note":"<image:Sword3,8>","params":[0,0,65,0,0,0,0,0],"price":32000,"wtypeId":3},
+
+{"id":37,"animationId":55,"description":"Attack 74, Evade 11 ◆Holy","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":8,"value":1},{"code":22,"dataId":1,"value":0.11}],"iconIndex":18,"name":"Lightbringer","note":"<image:Sword3,6>\n<persuit:932,25>","params":[0,0,74,0,0,0,0,0],"price":50000,"wtypeId":3},
+
+{"id":38,"animationId":55,"description":"Attack 90 ◆Holy","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":8,"value":1}],"iconIndex":18,"name":"Excalibur II","note":"<image:Sword3,10>","params":[0,0,90,0,0,0,0,0],"price":0,"wtypeId":3},
+
+{"id":39,"animationId":76,"description":"Attack 84 ◆Holy","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":8,"value":1}],"iconIndex":18,"name":"Ragnarok","note":"<image:Sword3,11>","params":[0,0,84,0,0,0,0,0],"price":0,"wtypeId":3},
+
+{"id":40,"animationId":55,"description":"Attack 63 ◆Holy","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":8,"value":1}],"iconIndex":18,"name":"Lohengrin","note":"<image:Sword3,8>\n<sort:35.5>","params":[0,0,63,0,0,0,0,0],"price":40000,"wtypeId":3},
+
+{"id":41,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":42,"animationId":13,"description":"Attack 16 ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":54,"dataId":2,"value":1},{"code":55,"dataId":0,"value":1},{"code":31,"dataId":19,"value":1}],"iconIndex":19,"name":"Claymore","note":"<image:Claymore1,1>","params":[0,0,16,0,0,0,0,0],"price":500,"wtypeId":4},
+
+{"id":43,"animationId":13,"description":"Attack 23 ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":54,"dataId":2,"value":1},{"code":55,"dataId":0,"value":1},{"code":31,"dataId":19,"value":1}],"iconIndex":19,"name":"Bastard Sword","note":"","params":[0,0,23,0,0,0,0,0],"price":800,"wtypeId":4},
+
+{"id":44,"animationId":13,"description":"Attack 27 ◆Piercing Always crit at the cost of MP","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":54,"dataId":2,"value":1},{"code":22,"dataId":2,"value":1},{"code":55,"dataId":0,"value":1},{"code":31,"dataId":19,"value":1}],"iconIndex":19,"name":"Organics","note":"<image:Claymore1,2>\n<lune:15>","params":[0,0,27,0,0,0,0,0],"price":10000,"wtypeId":4},
+
+{"id":45,"animationId":1898,"description":"Attack 30 ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":54,"dataId":2,"value":1},{"code":55,"dataId":0,"value":1},{"code":31,"dataId":19,"value":1}],"iconIndex":19,"name":"Mythril Buster","note":"<image:Claymore1,3>","params":[0,0,30,0,0,0,0,0],"price":8500,"wtypeId":4},
+
+{"id":46,"animationId":13,"description":"Attack 38 ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":54,"dataId":2,"value":1},{"code":55,"dataId":0,"value":1},{"code":31,"dataId":19,"value":1}],"iconIndex":19,"name":"Hard Edge","note":"<image:Claymore1,7>","params":[0,0,38,0,0,0,0,0],"price":19000,"wtypeId":4},
+
+{"id":47,"animationId":1898,"description":"Attack 50 ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":54,"dataId":2,"value":1},{"code":55,"dataId":0,"value":1},{"code":31,"dataId":19,"value":1}],"iconIndex":19,"name":"Diamond Blade","note":"<image:Claymore1,8>","params":[0,0,50,0,0,0,0,0],"price":30000,"wtypeId":4},
+
+{"id":48,"animationId":13,"description":"Attack 43, Evade 10 ◆Piercing ◆Protect","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":54,"dataId":2,"value":1},{"code":55,"dataId":0,"value":1},{"code":22,"dataId":1,"value":0.1},{"code":31,"dataId":19,"value":1},{"code":43,"dataId":212,"value":1}],"iconIndex":19,"name":"Defender","note":"<image:Claymore1,4>","params":[0,0,43,0,0,0,0,0],"price":21000,"wtypeId":4},
+
+{"id":49,"animationId":1899,"description":"Attack 64 ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":54,"dataId":2,"value":1},{"code":55,"dataId":0,"value":1},{"code":31,"dataId":19,"value":1}],"iconIndex":19,"name":"Apocalypse","note":"<image:Claymore1,5>","params":[0,0,64,0,0,0,0,0],"price":35000,"wtypeId":4},
+
+{"id":50,"animationId":15,"description":"Attack 67+? ◆Piercing The lower the user's HP, the higher the Attack.","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":54,"dataId":2,"value":1},{"code":55,"dataId":0,"value":1},{"code":31,"dataId":19,"value":1}],"iconIndex":19,"name":"Ultima Weapon","note":"<image:Claymore1,6>\n<atkupbyhp>","params":[0,0,67,0,0,0,0,0],"price":0,"wtypeId":4},
+
+{"id":51,"animationId":17,"description":"Attack 15 Converts Physical damage to magic.","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":54,"dataId":2,"value":1},{"code":55,"dataId":0,"value":1}],"iconIndex":20,"name":"revolver","note":"\n<mdf> //対象のDefense をMagic Defense で計算","params":[0,0,15,0,0,0,0,0],"price":300,"wtypeId":5},
+
+{"id":52,"animationId":17,"description":"Attack 16 Converts Physical damage to magic.","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":54,"dataId":2,"value":1},{"code":55,"dataId":0,"value":1}],"iconIndex":20,"name":"Blazing Edge","note":"<image:Gunblade1,1>\n<mdf> //対象のDefense をMagic Defense で計算","params":[0,0,16,0,0,0,0,0],"price":500,"wtypeId":5},
+
+{"id":53,"animationId":17,"description":"Attack 22 Converts Physical damage to magic.","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":54,"dataId":2,"value":1},{"code":55,"dataId":0,"value":1}],"iconIndex":20,"name":"Kierstrate","note":"<image:Gunblade1,2>\n<mdf> //対象のDefense をMagic Defense で計算","params":[0,0,22,0,0,0,0,0],"price":1000,"wtypeId":5},
+
+{"id":54,"animationId":17,"description":"Attack 33 Converts Physical damage to magic.","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":54,"dataId":2,"value":1},{"code":55,"dataId":0,"value":1}],"iconIndex":20,"name":"Cutting Trigger","note":"<image:Gunblade1,3>\n<mdf> //対象のDefense をMagic Defense で計算","params":[0,0,33,0,0,0,0,0],"price":0,"wtypeId":5},
+
+{"id":55,"animationId":17,"description":"Attack 45 Converts Physical damage to magic.","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":54,"dataId":2,"value":1},{"code":55,"dataId":0,"value":1}],"iconIndex":20,"name":"Kresnik's Lance","note":"<image:Gunblade1,7>\n<mdf> //対象のDefense をMagic Defense で計算","params":[0,0,45,0,0,0,0,0],"price":0,"wtypeId":5},
+
+{"id":56,"animationId":17,"description":"Attack 49 ◆Protect","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":54,"dataId":2,"value":1},{"code":55,"dataId":0,"value":1},{"code":43,"dataId":212,"value":1}],"iconIndex":20,"name":"Helter Skelter","note":"<image:Gunblade1,5>\n<mdf> //対象のDefense をMagic Defense で計算","params":[0,0,49,0,0,0,0,0],"price":0,"wtypeId":5},
+
+{"id":57,"animationId":17,"description":"Attack 60 Converts Physical damage to magic.","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":54,"dataId":2,"value":1},{"code":55,"dataId":0,"value":1}],"iconIndex":20,"name":"Hyperion","note":"<image:Gunblade1,6>\n<mdf> //対象のDefense をMagic Defense で計算","params":[0,0,60,0,0,0,0,0],"price":0,"wtypeId":5},
+
+{"id":58,"animationId":17,"description":"Attack 69 Converts Physical damage to magic.","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":54,"dataId":2,"value":1},{"code":55,"dataId":0,"value":1}],"iconIndex":20,"name":"Crime & Penalty","note":"<image:Gunblade1,4>\n<mdf> //対象のDefense をMagic Defense で計算","params":[0,0,69,0,0,0,0,0],"price":0,"wtypeId":5},
+
+{"id":59,"animationId":77,"description":"Attack 92 Converts Physical damage to magic.","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":54,"dataId":2,"value":1},{"code":55,"dataId":0,"value":1}],"iconIndex":20,"name":"Lionheart","note":"<image:Gunblade1,8>\n<mdf> //対象のDefense をMagic Defense で計算","params":[0,0,92,0,0,0,0,0],"price":0,"wtypeId":5},
+
+{"id":60,"animationId":7,"description":"Attack 9 Crit 12","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":2,"value":0.12}],"iconIndex":21,"name":"Asura","note":"<criticalAnimation:39>\n","params":[0,0,9,0,0,0,0,0],"price":150,"wtypeId":6},
+
+{"id":61,"animationId":7,"description":"Attack 12, Crit 12","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":2,"value":0.12}],"iconIndex":21,"name":"Kotetsu","note":"<criticalAnimation:39>\n<image:Katana1,1>","params":[0,0,12,0,0,0,0,0],"price":350,"wtypeId":6},
+
+{"id":62,"animationId":7,"description":"Attack 16 Crit 8","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":2,"value":0.08}],"iconIndex":21,"name":"Bizen Boat","note":"<criticalAnimation:39>\n<image:Katana1,2>","params":[0,0,16,0,0,0,0,0],"price":1100,"wtypeId":6},
+
+{"id":63,"animationId":7,"description":"Attack 20 Crit 8","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":2,"value":0.08}],"iconIndex":21,"name":"Murasame","note":"<criticalAnimation:39>\n<image:Katana1,3>","params":[0,0,20,0,0,0,0,0],"price":5000,"wtypeId":6},
+
+{"id":64,"animationId":7,"description":"Attack 26 Evade 10 Crit 8","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":2,"value":0.08},{"code":22,"dataId":1,"value":0.1}],"iconIndex":21,"name":"Training Sword","note":"<criticalAnimation:39>\n<image:Katana1,4>","params":[0,0,26,0,0,0,0,0],"price":11200,"wtypeId":6},
+
+{"id":65,"animationId":78,"description":"Attack 26 Crit 8 ◆Wind Usable:Aerora magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":7,"value":1},{"code":22,"dataId":2,"value":0.08}],"iconIndex":21,"name":"Ame-no-Murakumo","note":"<criticalAnimation:39>\n<image:Katana1,5>\n<use:931>\n//<persuit:skillId,確率>で追撃効果を指定\n<persuit:931,25>","params":[0,0,26,0,0,0,0,0],"price":12000,"wtypeId":6},
+
+{"id":66,"animationId":80,"description":"Attack32 Crit 16 Usable:Protect magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":2,"value":0.16}],"iconIndex":21,"name":"Kiyomori","note":"<criticalAnimation:81>\n<image:Katana1,6>\n<use:1620>","params":[0,0,32,0,0,0,0,0],"price":14500,"wtypeId":6},
+
+{"id":67,"animationId":86,"description":"Attack 37 ◆Paralysis moderate","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":32,"dataId":12,"value":0.5}],"iconIndex":21,"name":"Muramasa","note":"<criticalAnimation:87>\n<image:Katana1,7>","params":[0,0,37,0,0,0,0,0],"price":16000,"wtypeId":6},
+
+{"id":68,"animationId":86,"description":"Attack 40 Evade 15 ◆Blind severe","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":1,"value":0.15},{"code":32,"dataId":5,"value":1}],"iconIndex":21,"name":"Hazy Moon","note":"<criticalAnimation:87>\n<image:Katana1,8>","params":[0,0,40,0,0,0,0,0],"price":27500,"wtypeId":6},
+
+{"id":69,"animationId":7,"description":"Attack 63 Crit 20","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":2,"value":0.2}],"iconIndex":21,"name":"Kiuichimonji","note":"<criticalAnimation:39>\n<image:Katana1,9>","params":[0,0,63,0,0,0,0,0],"price":0,"wtypeId":6},
+
+{"id":70,"animationId":7,"description":"Attack 57 Crit 13 ◆Rapid","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":43,"dataId":216,"value":1},{"code":22,"dataId":2,"value":0.13}],"iconIndex":21,"name":"Masamune","note":"<criticalAnimation:39>\n<image:Katana1,10>","params":[0,0,57,0,0,0,0,0],"price":0,"wtypeId":6},
+
+{"id":71,"animationId":82,"description":"Attack 58 Crit 8 ◆Vampire ◆Confuse weak","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":32,"dataId":8,"value":0.2},{"code":31,"dataId":27,"value":1},{"code":22,"dataId":2,"value":0.08}],"iconIndex":21,"name":"Chirijiraden","note":"<criticalAnimation:83>\n<image:Katana1,11>","params":[0,0,58,0,0,0,0,0],"price":45000,"wtypeId":6},
+
+{"id":72,"animationId":7,"description":"Attack 67, Crit 15","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":2,"value":0.15}],"iconIndex":21,"name":"Sasuke's Katana","note":"<criticalAnimation:39>\n<image:Katana1,12>","params":[0,0,67,0,0,0,0,0],"price":0,"wtypeId":6},
+
+{"id":73,"animationId":86,"description":"Attack 69 Crit 8 ◆Holy ◆??? weak","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":2,"value":0.08},{"code":32,"dataId":64,"value":0.25}],"iconIndex":21,"name":"Mutsunokami","note":"<criticalAnimation:87>\n<image:Katana2,1>","params":[0,0,69,0,0,0,0,0],"price":0,"wtypeId":6},
+
+{"id":74,"animationId":7,"description":"Attack 67 Crit 8 ◆Bio","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":2,"value":0.08}],"iconIndex":21,"name":"Zantetsuken","note":"<image:Katana2,2>\n<persuit:936,33>","params":[0,0,67,0,0,0,0,0],"price":0,"wtypeId":6},
+
+{"id":75,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":76,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":77,"animationId":37,"description":"30 Attack ◆Osmose Hidden Ability","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":28,"value":1}],"iconIndex":22,"name":"Chef's Knife","note":"<image:Knife1,1>\n<def0> //対象のDefense を0として計算","params":[0,0,30,0,0,0,0,0],"price":24800,"wtypeId":7},
+
+{"id":78,"animationId":5,"description":"Attack 8","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":22,"name":"Dagger","note":"<image:Knife1,2>","params":[0,0,8,0,0,0,0,0],"price":120,"wtypeId":7},
+
+{"id":79,"animationId":5,"description":"Attack 9","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":22,"name":"Jack-Knife","note":"","params":[0,0,9,0,0,0,0,0],"price":400,"wtypeId":7},
+
+{"id":80,"animationId":37,"description":"Attack 11 ◆Anti-Mage ◆Silence moderate","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":32,"dataId":6,"value":0.5},{"code":31,"dataId":16,"value":1}],"iconIndex":22,"name":"Mage Masher","note":"<image:Knife1,3>","params":[0,0,11,0,0,0,0,0],"price":2000,"wtypeId":7},
+
+{"id":81,"animationId":5,"description":"Attack 11, Evade 5","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":1,"value":0.05}],"iconIndex":22,"name":"Main Gauche","note":"<image:Knife1,4>","params":[0,0,11,0,0,0,0,0],"price":2250,"wtypeId":7},
+
+{"id":82,"animationId":62,"description":"Attack 13 ◆Poison element ◆Poison status","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":32,"dataId":4,"value":1},{"code":31,"dataId":10,"value":1}],"iconIndex":22,"name":"Poison Knife","note":"<image:Knife1,5>","params":[0,0,13,0,0,0,0,0],"price":3500,"wtypeId":7},
+
+{"id":83,"animationId":5,"description":"Attack 15, Evade 5 ◆Steal","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":1,"value":0.05}],"iconIndex":22,"name":"Bandit's Edge","note":"<image:Knife1,7>\n<steal>","params":[0,0,15,0,0,0,0,0],"price":0,"wtypeId":7},
+
+{"id":84,"animationId":5,"description":"Attack 17 ◆Anti-Biped","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":14,"value":1}],"iconIndex":22,"name":"Man-Eater","note":"<image:Knife1,8>","params":[0,0,17,0,0,0,0,0],"price":4500,"wtypeId":7},
+
+{"id":85,"animationId":63,"description":"Attack 24 ◆Wind Usable:Aero magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":7,"value":0}],"iconIndex":22,"name":"Air Knife","note":"<image:Knife1,9>\n<use:1625>","params":[0,0,24,0,0,0,0,0],"price":5500,"wtypeId":7},
+
+{"id":86,"animationId":5,"description":"Attack 25, Evade 10","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":1,"value":0.1}],"iconIndex":22,"name":"Swordbreaker","note":"<image:Knife1,5>","params":[0,0,25,0,0,0,0,0],"price":6500,"wtypeId":7},
+
+{"id":87,"animationId":5,"description":"Attack 27 Evade 15","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":1,"value":0.15}],"iconIndex":22,"name":"Miss Rudger","note":"<image:Knife1,10>","params":[0,0,27,0,0,0,0,0],"price":6500,"wtypeId":7},
+
+{"id":88,"animationId":64,"description":"Attack 32 ◆Death moderate","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":32,"dataId":1,"value":0.5}],"iconIndex":22,"name":"Assassin's Dagger","note":"<image:Knife1,11>","params":[0,0,32,0,0,0,0,0],"price":25000,"wtypeId":7},
+
+{"id":89,"animationId":65,"description":"Attack 32 ◆Haste","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":43,"dataId":314,"value":1}],"iconIndex":22,"name":"Axel Dagger","note":"<image:Knife1,12>","params":[0,0,32,0,0,0,0,0],"price":0,"wtypeId":7},
+
+{"id":90,"animationId":67,"description":"Attack 37 ◆Water Usable:Watera magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":5,"value":1}],"iconIndex":22,"name":"Triton's Dagger","note":"<image:Knife2,1>\n<use:1606>","params":[0,0,37,0,0,0,0,0],"price":17500,"wtypeId":7},
+
+{"id":91,"animationId":68,"description":"Attack 41 Evade 12 ◆Holy","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":1,"value":0.12},{"code":31,"dataId":8,"value":1}],"iconIndex":22,"name":"Gladius","note":"<image:Knife2,2>","params":[0,0,41,0,0,0,0,0],"price":26000,"wtypeId":7},
+
+{"id":92,"animationId":69,"description":"Attack 53 Evade 12, ◆Sleep severe","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":1,"value":0.12},{"code":32,"dataId":10,"value":1}],"iconIndex":22,"name":"Zorinshape","note":"<image:Knife2,3>","params":[0,0,53,0,0,0,0,0],"price":44000,"wtypeId":7},
+
+{"id":93,"animationId":67,"description":"Attack 50 Evade 18","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":1,"value":0.18}],"iconIndex":22,"name":"Orichalcum","note":"<image:Knife2,4>","params":[0,0,50,0,0,0,0,0],"price":38000,"wtypeId":7},
+
+{"id":94,"animationId":66,"description":"Attack 63 ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":19,"value":1}],"iconIndex":22,"name":"Variant Knife","note":"<image:Knife2,5>","params":[0,0,63,0,0,0,0,0],"price":0,"wtypeId":7},
+
+{"id":95,"animationId":68,"description":"Attack 1+??? The more you run away, the more Attack you gain.","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":22,"name":"Chicken Knife","note":"<chicken>\n<image:Knife2,6>","params":[0,0,1,0,0,0,0,0],"price":0,"wtypeId":7},
+
+{"id":96,"animationId":68,"description":"Attack 23 Always crit at the cost of MP","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":2,"value":1}],"iconIndex":22,"name":"Rune Dagger","note":"<image:Knife1,5>\n<criticalAnimation:166>\n<lune:10>\n<sort:87.1>","params":[0,0,23,0,0,0,0,0],"price":8000,"wtypeId":7},
+
+{"id":97,"animationId":37,"description":"Attack 41 Agility 2 ◆Holy ◆Steal","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":22,"name":"Mugger","note":"<image:Knife1,7>\n<steal>\n\n<sort:89.9>","params":[0,0,41,0,0,0,2,0],"price":0,"wtypeId":7},
+
+{"id":98,"animationId":37,"description":"Attack 58 Agility 5","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":22,"name":"Last Dagger","note":"<image:Knife1,3>","params":[0,0,58,0,0,0,5,0],"price":0,"wtypeId":7},
+
+{"id":99,"animationId":701,"description":"Attack 10 ◆Anti-Air ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0.8},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":26,"value":0}],"iconIndex":23,"name":"Boomerang","note":"<image:Boomerang1,1>","params":[0,0,10,0,0,0,0,0],"price":800,"wtypeId":8},
+
+{"id":100,"animationId":703,"description":"Attack 16 ◆Anti-Air ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0.8},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":26,"value":0}],"iconIndex":23,"name":"Boomerang","note":"<image:Boomerang1,2>","params":[0,0,16,0,0,0,0,0],"price":1500,"wtypeId":8},
+
+{"id":101,"animationId":702,"description":"Attack 20 ◆Anti-Air ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0.8},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":26,"value":0}],"iconIndex":23,"name":"Hawkeye","note":"<image:Boomerang1,3>","params":[0,0,20,0,0,0,0,0],"price":5000,"wtypeId":8},
+
+{"id":102,"animationId":709,"description":"Attack 25 ◆Anti-Air ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0.8},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":26,"value":0}],"iconIndex":23,"name":"Sniper","note":"<image:Boomerang1,4>","params":[0,0,25,0,0,0,0,0],"price":7900,"wtypeId":8},
+
+{"id":103,"animationId":711,"description":"Attack 31 ◆Anti-Air ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0.8},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":26,"value":0}],"iconIndex":23,"name":"Twin Viper","note":"<image:Boomerang1,5>","params":[0,0,31,0,0,0,0,0],"price":10500,"wtypeId":8},
+
+{"id":104,"animationId":710,"description":"40 Attack ◆Anti-Air ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0.8},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":26,"value":0}],"iconIndex":23,"name":"Pinwheel","note":"<image:Boomerang1,6>","params":[0,0,40,0,0,0,0,0],"price":16000,"wtypeId":8},
+
+{"id":105,"animationId":712,"description":"Attack 52 ◆Anti-Air ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0.8},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":26,"value":0}],"iconIndex":23,"name":"Rising Sun","note":"<image:Boomerang1,7>","params":[0,0,52,0,0,0,0,0],"price":22000,"wtypeId":8},
+
+{"id":106,"animationId":147,"description":"Attack 64 ◆Anti-Air ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0.8},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":26,"value":0}],"iconIndex":23,"name":"Crystal Cross","note":"<image:Boomerang1,10>","params":[0,0,58,0,0,0,0,0],"price":42000,"wtypeId":8},
+
+{"id":107,"animationId":148,"description":"Attack 63 ◆Anti-Air ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0.8},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":26,"value":0}],"iconIndex":23,"name":"Oritsuru","note":"<image:Boomerang1,11>","params":[0,0,63,0,0,0,0,0],"price":0,"wtypeId":8},
+
+{"id":108,"animationId":713,"description":"Attack 67 ◆Anti-Air ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0.8},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":26,"value":0}],"iconIndex":23,"name":"Shooting Star","note":"<image:Boomerang1,8>","params":[0,0,67,0,0,0,5,0],"price":0,"wtypeId":8},
+
+{"id":109,"animationId":714,"description":"Attack 69 Magic 6 ◆Anti-Air ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0.8},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":26,"value":0}],"iconIndex":23,"name":"Rising Sun","note":"<image:Boomerang1,9>","params":[0,0,69,0,6,0,0,0],"price":0,"wtypeId":8},
+
+{"id":110,"animationId":720,"description":"Attack 8 ◆Anti-Air ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1}],"iconIndex":24,"name":"Bow","note":"","params":[0,0,8,0,0,0,0,0],"price":150,"wtypeId":9},
+
+{"id":111,"animationId":708,"description":"Attack 10 ◆Anti-Air ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1}],"iconIndex":24,"name":"Crossbow","note":"<image:Bow1,1>","params":[0,0,10,0,0,0,0,0],"price":1300,"wtypeId":9},
+
+{"id":112,"animationId":708,"description":"Attack 12 ◆Anti-Air ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1}],"iconIndex":24,"name":"Longbow","note":"<image:Bow1,2>","params":[0,0,12,0,0,0,0,0],"price":1500,"wtypeId":9},
+
+{"id":113,"animationId":717,"description":"Attack 14 ◆Anti-Mage/Anti-Air ◆Range ◆Silence moderate","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":32,"dataId":6,"value":0.5},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1},{"code":31,"dataId":16,"value":1}],"iconIndex":24,"name":"Silence","note":"<image:Bow1,3>","params":[0,0,14,0,0,0,0,0],"price":2200,"wtypeId":9},
+
+{"id":114,"animationId":723,"description":"Attack 25 ◆Fire ◆Anti-Air ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":2,"value":1},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1}],"iconIndex":24,"name":"Blaze Bow","note":"<image:Bow1,4>","params":[0,0,25,0,0,0,0,0],"price":8000,"wtypeId":9},
+
+{"id":115,"animationId":726,"description":"25 Attack ◆Ice ◆Anti-Air ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":3,"value":1},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1}],"iconIndex":24,"name":"Frost Bow","note":"<image:Bow1,5>","params":[0,0,25,0,0,0,0,0],"price":8000,"wtypeId":9},
+
+{"id":116,"animationId":729,"description":"Attack 25 ◆Thunder ◆Anti-Air ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":4,"value":1},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1}],"iconIndex":24,"name":"Bolt Bow' residence (in the inner Heian Palace)","note":"<image:Bow1,6>","params":[0,0,25,0,0,0,0,0],"price":8000,"wtypeId":9},
+
+{"id":117,"animationId":732,"description":"25 Attack ◆Water ◆Anti-Air ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":5,"value":1},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1}],"iconIndex":24,"name":"Aqua Bow","note":"<image:Bow1,7>","params":[0,0,25,0,0,0,0,0],"price":8000,"wtypeId":9},
+
+{"id":118,"animationId":708,"description":"Attack 26 ◆Anti-Air ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1}],"iconIndex":24,"name":"Mythril Bow","note":"<image:Bow1,8>","params":[0,0,26,0,0,0,0,0],"price":7000,"wtypeId":9},
+
+{"id":119,"animationId":717,"description":"Attack 32 ◆Anti-Air ◆Anti-Biped ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":14,"value":1},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1}],"iconIndex":24,"name":"Killer Bow","note":"<image:Bow1,9>","params":[0,0,32,0,0,0,0,0],"price":13500,"wtypeId":9},
+
+{"id":120,"animationId":738,"description":"Attack 39 ◆Anti-Air ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1}],"iconIndex":24,"name":"Diamond Bow","note":"<image:Bow2,3>","params":[0,0,39,0,0,0,0,0],"price":18000,"wtypeId":9},
+
+{"id":121,"animationId":717,"description":"Attack 48 ◆Rapid ◆Anti-Air ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1},{"code":43,"dataId":216,"value":1}],"iconIndex":24,"name":"Artemis Bow","note":"<image:Bow1,10>","params":[0,0,48,0,0,0,0,0],"price":0,"wtypeId":9},
+
+{"id":122,"animationId":717,"description":"Attack 52 Magic 4 ◆Anti-Mage ◆Anti-Air ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":16,"value":1},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1}],"iconIndex":24,"name":"Elfin Bow","note":"<image:Bow1,11>","params":[0,0,52,0,4,0,0,0],"price":33500,"wtypeId":9},
+
+{"id":123,"animationId":741,"description":"Attack 55 ◆Anti-Air ◆Range ◆Confuse severe","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":32,"dataId":8,"value":1},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1}],"iconIndex":24,"name":"Traitor's Bow","note":"<image:Bow1,12>","params":[0,0,55,0,0,0,0,0],"price":45000,"wtypeId":9},
+
+{"id":124,"animationId":738,"description":"Attack 59 Agility 3 ◆Anti-Beast ◆Anti-Air ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":15,"value":1},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1}],"iconIndex":24,"name":"Yoichi Bow","note":"<image:Bow2,1>","params":[0,0,59,0,0,0,3,0],"price":0,"wtypeId":9},
+
+{"id":125,"animationId":735,"description":"Attack 64 ◆Anti-Air ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1}],"iconIndex":24,"name":"Sagittarius","note":"<image:Bow2,2>","params":[0,0,64,0,0,0,0,0],"price":0,"wtypeId":9},
+
+{"id":126,"animationId":10,"description":"Attack 8 ◆Anti-Beast ◆Range ◆Paralysis marginal","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":32,"dataId":12,"value":0.15},{"code":31,"dataId":15,"value":1},{"code":31,"dataId":26,"value":0}],"iconIndex":25,"name":"Whip","note":"","params":[0,0,8,0,0,0,0,0],"price":160,"wtypeId":10},
+
+{"id":127,"animationId":10,"description":"Attack 13 ◆Anti-Beast ◆Range ◆Paralysis weak","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":32,"dataId":12,"value":0.25},{"code":31,"dataId":15,"value":1},{"code":31,"dataId":26,"value":0}],"iconIndex":25,"name":"Chain Whip","note":"<image:Whip1,1>","params":[0,0,13,0,0,0,0,0],"price":1500,"wtypeId":10},
+
+{"id":128,"animationId":133,"description":"Attack 16 ◆Thunder ◆Anti-Beast ◆Range ◆Paralysis moderate","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":4,"value":1},{"code":32,"dataId":12,"value":0.5},{"code":31,"dataId":15,"value":1},{"code":31,"dataId":26,"value":0}],"iconIndex":25,"name":"Blitz","note":"<image:Whip1,2>","params":[0,0,16,0,0,0,0,0],"price":4000,"wtypeId":10},
+
+{"id":129,"animationId":135,"description":"Attack 23 ◆Anti-Beast ◆Range ◆Paralysis weak","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":32,"dataId":12,"value":0.25},{"code":31,"dataId":15,"value":1},{"code":31,"dataId":26,"value":0}],"iconIndex":25,"name":"Red Scorpion","note":"<image:Whip1,4>","params":[0,0,23,0,0,0,0,0],"price":7000,"wtypeId":10},
+
+{"id":130,"animationId":134,"description":"Attack 27 ◆Ice ◆Anti-Beast ◆Range ◆Paralysis weak","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":32,"dataId":12,"value":0.25},{"code":31,"dataId":15,"value":1},{"code":31,"dataId":26,"value":0},{"code":31,"dataId":3,"value":1}],"iconIndex":25,"name":"Ice Whip","note":"<image:Whip1,9>","params":[0,0,27,0,0,0,0,0],"price":8000,"wtypeId":10},
+
+{"id":131,"animationId":10,"description":"Attack 32 ◆Anti-Beast ◆Range ◆Paralysis weak","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":32,"dataId":12,"value":0.25},{"code":31,"dataId":15,"value":1},{"code":31,"dataId":26,"value":0}],"iconIndex":25,"name":"Sleipnir Tail","note":"<image:Whip1,3>","params":[0,0,32,0,0,0,0,0],"price":9000,"wtypeId":10},
+
+{"id":132,"animationId":137,"description":"Attack27 ◆Water ◆Anti-Beast ◆Range ◆Paralysis weak","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":32,"dataId":12,"value":0.25},{"code":31,"dataId":15,"value":1},{"code":31,"dataId":26,"value":0},{"code":31,"dataId":5,"value":1}],"iconIndex":25,"name":"Whalebone","note":"<image:Whip1,10>","params":[0,0,27,0,0,0,0,0],"price":9500,"wtypeId":10},
+
+{"id":133,"animationId":136,"description":"Attack 36 ◆Fire ◆Anti-Beast ◆Range ◆Paralysis weak","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":2,"value":1},{"code":31,"dataId":15,"value":1},{"code":31,"dataId":26,"value":0},{"code":32,"dataId":12,"value":0.25}],"iconIndex":25,"name":"Fire Butte","note":"<image:Whip1,5>\n<persuit:909,25>","params":[0,0,36,0,0,0,0,0],"price":35000,"wtypeId":10},
+
+{"id":134,"animationId":10,"description":"Attack 45 ◆Anti-Beast ◆Range ◆Confuse weak ◆Paralysis weak","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":32,"dataId":12,"value":0.25},{"code":32,"dataId":8,"value":0.25},{"code":31,"dataId":15,"value":1},{"code":31,"dataId":26,"value":0}],"iconIndex":25,"name":"Star Whip","note":"<image:Whip1,7>","params":[0,0,45,0,0,0,0,0],"price":40000,"wtypeId":10},
+
+{"id":135,"animationId":138,"description":"Attack 43, Magic 5 ◆Anti-Beast ◆Range ◆Paralysis weak","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":32,"dataId":12,"value":0.25},{"code":31,"dataId":15,"value":1},{"code":31,"dataId":26,"value":0}],"iconIndex":25,"name":"Mystic Whip","note":"<image:Whip1,8>","params":[0,0,43,0,5,0,0,0],"price":0,"wtypeId":10},
+
+{"id":136,"animationId":10,"description":"Attack 52 ◆Anti-Dragon/Anti-Beast ◆Range ◆Paralysis strong","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":32,"dataId":12,"value":0.5},{"code":31,"dataId":15,"value":1},{"code":31,"dataId":13,"value":1},{"code":31,"dataId":26,"value":0}],"iconIndex":25,"name":"Dragon Whisker","note":"<image:Whip1,6>","params":[0,0,52,0,0,0,0,0],"price":0,"wtypeId":10},
+
+{"id":137,"animationId":8,"description":"Attack 10","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":26,"name":"Spear","note":"","params":[0,0,10,0,0,0,0,0],"price":200,"wtypeId":11},
+
+{"id":138,"animationId":8,"description":"Attack 14","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":26,"name":"Javelin","note":"<image:Spire1,1>","params":[0,0,14,0,0,0,0,0],"price":1100,"wtypeId":11},
+
+{"id":139,"animationId":88,"description":"Attack 23 ◆Wind","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":7,"value":1}],"iconIndex":26,"name":"Wind Spear","note":"<image:Spire1,2>","params":[0,0,23,0,0,0,0,0],"price":4150,"wtypeId":11},
+
+{"id":140,"animationId":89,"description":"Attack 32 ◆Fire","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":2,"value":1}],"iconIndex":26,"name":"Flame Spear","note":"<image:Spire1,3>\n<persuit:905,25>","params":[0,0,32,0,0,0,0,0],"price":7500,"wtypeId":11},
+
+{"id":141,"animationId":8,"description":"Attack 34","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":26,"name":"Mythril Spear","note":"<image:Spire1,4>","params":[0,0,34,0,0,0,0,0],"price":7000,"wtypeId":11},
+
+{"id":142,"animationId":90,"description":"35 Attack ◆Vampire","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":27,"value":1}],"iconIndex":26,"name":"Blood Spear","note":"<image:Spire1,5>","params":[0,0,35,0,0,0,0,0],"price":10000,"wtypeId":11},
+
+{"id":143,"animationId":8,"description":"Attack 41","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":26,"name":"Golden Spear","note":"<image:Spire1,6>","params":[0,0,41,0,0,0,0,0],"price":10000,"wtypeId":11},
+
+{"id":144,"animationId":1900,"description":"Attack 45","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":26,"name":"Diamond Spear","note":"<image:Spire2,1>","params":[0,0,45,0,0,0,0,0],"price":18500,"wtypeId":11},
+
+{"id":145,"animationId":8,"description":"Attack 60","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":26,"name":"Crystal Spear","note":"<image:Spire1,7>","params":[0,0,60,0,0,0,0,0],"price":32500,"wtypeId":11},
+
+{"id":146,"animationId":8,"description":"Attack 62 ◆Anti-Mage","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":16,"value":1}],"iconIndex":26,"name":"Evil Spear","note":"<image:Spire1,8>","params":[0,0,62,0,0,0,0,0],"price":34000,"wtypeId":11},
+
+{"id":147,"animationId":8,"description":"Attack 68 ◆Anti-Dragon","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":13,"value":1}],"iconIndex":26,"name":"Ruthless Attempt","note":"<image:Spire1,9>","params":[0,0,68,0,0,0,0,0],"price":50000,"wtypeId":11},
+
+{"id":148,"animationId":91,"description":"Attack 74","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":26,"name":"Gastro Trident","note":"<image:Spire1,10>","params":[0,0,74,0,0,0,0,0],"price":50000,"wtypeId":11},
+
+{"id":149,"animationId":8,"description":"Attack 72 ◆Concentrate","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":43,"dataId":322,"value":1}],"iconIndex":26,"name":"Gungnir","note":"<image:Spire1,11>","params":[0,0,72,0,0,0,0,0],"price":55000,"wtypeId":11},
+
+{"id":150,"animationId":92,"description":"Attack 77 Magic 2 ◆Holy ◆Auto-Raise","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":8,"value":1},{"code":43,"dataId":219,"value":1}],"iconIndex":26,"name":"Venus Gospel","note":"<image:Spire1,12>","params":[0,0,77,0,2,0,0,0],"price":60000,"wtypeId":11},
+
+{"id":151,"animationId":1900,"description":"Attack 53","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":26,"name":"Breunach.","note":"<image:Spire2,3>\n<sort:144.1>","params":[0,0,53,0,0,0,0,0],"price":25000,"wtypeId":11},
+
+{"id":152,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":153,"animationId":9,"description":"Attack 12 ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":19,"value":1}],"iconIndex":27,"name":"Lance","note":"<image:Lance1,1>","params":[0,0,12,0,0,0,0,0],"price":200,"wtypeId":12},
+
+{"id":154,"animationId":9,"description":"Attack 16 ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":19,"value":1}],"iconIndex":27,"name":"Stinger","note":"","params":[0,0,16,0,0,0,0,0],"price":1500,"wtypeId":12},
+
+{"id":155,"animationId":9,"description":"Attack 21 ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":19,"value":1}],"iconIndex":27,"name":"Heavy Lance","note":"<image:Lance1,2>","params":[0,0,21,0,0,0,0,0],"price":5000,"wtypeId":12},
+
+{"id":156,"animationId":9,"description":"Attack 26 ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":19,"value":1}],"iconIndex":27,"name":"Partisan","note":"<image:Lance1,3>","params":[0,0,26,0,0,0,0,0],"price":6500,"wtypeId":12},
+
+{"id":157,"animationId":93,"description":"Attack 30 ◆Thunder ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":4,"value":1},{"code":31,"dataId":19,"value":1}],"iconIndex":27,"name":"Trident","note":"<image:Lance1,4>\n<persuit:907,25>","params":[0,0,30,0,0,0,0,0],"price":9000,"wtypeId":12},
+
+{"id":158,"animationId":94,"description":"Attack 30 ◆Ice ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":3,"value":1},{"code":31,"dataId":19,"value":1}],"iconIndex":27,"name":"Ice Lance","note":"<image:Lance1,5>\n<persuit:906,25>","params":[0,0,30,0,0,0,0,0],"price":9000,"wtypeId":12},
+
+{"id":159,"animationId":9,"description":"Attack 33 ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":19,"value":1}],"iconIndex":27,"name":"Mythril Lance","note":"<image:Lance1,6>","params":[0,0,33,0,0,0,0,0],"price":8500,"wtypeId":12},
+
+{"id":160,"animationId":1673,"description":"Attack 39 ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":19,"value":1}],"iconIndex":27,"name":"Gold Lance","note":"<image:Lance1,12>","params":[0,0,39,0,0,0,0,0],"price":12500,"wtypeId":12},
+
+{"id":161,"animationId":94,"description":"Attack 48 ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":19,"value":1}],"iconIndex":27,"name":"Diamond Lance","note":"<image:Lance2,2>","params":[0,0,48,0,0,0,0,0],"price":33200,"wtypeId":12},
+
+{"id":162,"animationId":95,"description":"Attack 53 ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":19,"value":1}],"iconIndex":27,"name":"Crystal Lance","note":"<image:Lance2,1>","params":[0,0,53,0,0,0,0,0],"price":38000,"wtypeId":12},
+
+{"id":163,"animationId":9,"description":"Attack 60 ◆Anti-Dragon ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":19,"value":1},{"code":31,"dataId":13,"value":1}],"iconIndex":27,"name":"Dragoon Lance","note":"<image:Lance1,7>","params":[0,0,60,0,0,0,0,0],"price":42000,"wtypeId":12},
+
+{"id":164,"animationId":95,"description":"Attack 62 Magic 3 ◆Holy ◆Piercing Usable:Holy magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":8,"value":1},{"code":31,"dataId":19,"value":1}],"iconIndex":27,"name":"Holy Lance","note":"<image:Lance1,8>\n<use:1626>","params":[0,0,62,0,3,0,0,0],"price":42000,"wtypeId":12},
+
+{"id":165,"animationId":9,"description":"Attack 72 ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":19,"value":1}],"iconIndex":27,"name":"Glorance","note":"<image:Lance1,9>","params":[0,0,72,0,0,0,0,0],"price":45000,"wtypeId":12},
+
+{"id":166,"animationId":9,"description":"Attack 69, Evade 15 ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":1,"value":0.15},{"code":31,"dataId":19,"value":1}],"iconIndex":27,"name":"Longinus","note":"<image:Lance1,10>","params":[0,0,69,0,0,0,0,0],"price":45000,"wtypeId":12},
+
+{"id":167,"animationId":9,"description":"Attack 75 ◆Piercing ◆Counter","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":19,"value":1},{"code":43,"dataId":290,"value":1}],"iconIndex":27,"name":"Gaebolg","note":"<image:Lance1,11>","params":[0,0,75,0,0,0,0,0],"price":0,"wtypeId":12},
+
+{"id":168,"animationId":96,"description":"◆Fire","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0.8},{"code":31,"dataId":2,"value":1}],"iconIndex":28,"name":"Blaze Claw","note":"<image:Knuckle1,1>\n<criticalAnimation:764>\n","params":[0,0,0,0,0,0,0,0],"price":4500,"wtypeId":13},
+
+{"id":169,"animationId":97,"description":"◆Ice","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0.8},{"code":31,"dataId":3,"value":1}],"iconIndex":28,"name":"Ice Claw","note":"<image:Knuckle1,2>\n<criticalAnimation:765>","params":[0,0,0,0,0,0,0,0],"price":4500,"wtypeId":13},
+
+{"id":170,"animationId":99,"description":"◆Water","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0.8},{"code":31,"dataId":5,"value":1}],"iconIndex":28,"name":"Tidal Claw","note":"<image:Knuckle1,3>\n<criticalAnimation:767>","params":[0,0,0,0,0,0,0,0],"price":4500,"wtypeId":13},
+
+{"id":171,"animationId":98,"description":"◆Thunder","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0.8},{"code":31,"dataId":4,"value":1}],"iconIndex":28,"name":"Bolt Claw","note":"<image:Knuckle1,4>\n<criticalAnimation:766>","params":[0,0,0,0,0,0,0,0],"price":4500,"wtypeId":13},
+
+{"id":172,"animationId":757,"description":"◆Blind severe","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0.8},{"code":31,"dataId":9,"value":1},{"code":32,"dataId":5,"value":1}],"iconIndex":28,"name":"Dark Claw","note":"<image:Knuckle1,5>\n<criticalAnimation:768>","params":[0,0,0,0,0,0,0,0],"price":5200,"wtypeId":13},
+
+{"id":173,"animationId":758,"description":"◆Poison strong","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0.8},{"code":31,"dataId":10,"value":1},{"code":32,"dataId":4,"value":0.5}],"iconIndex":28,"name":"Poison Claw","note":"<image:Knuckle1,6>\n<criticalAnimation:769>","params":[0,0,0,0,0,0,0,0],"price":5500,"wtypeId":13},
+
+{"id":174,"animationId":759,"description":"Crit 5","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0.8},{"code":22,"dataId":2,"value":0.05}],"iconIndex":28,"name":"Ms. Clough.","note":"<image:Knuckle1,7>\n<criticalAnimation:770>","params":[0,0,0,0,0,0,0,0],"price":10000,"wtypeId":13},
+
+{"id":175,"animationId":760,"description":"◆Vampire","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0.8},{"code":31,"dataId":27,"value":1}],"iconIndex":28,"name":"Blood Claw","note":"<image:Knuckle1,8>\n<criticalAnimation:771>","params":[0,0,0,0,0,0,0,0],"price":17500,"wtypeId":13},
+
+{"id":176,"animationId":761,"description":"◆Anti-Dragon ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0.8},{"code":31,"dataId":13,"value":1},{"code":31,"dataId":19,"value":1}],"iconIndex":28,"name":"Dragon Claw","note":"<image:Knuckle1,9>\n<criticalAnimation:772>","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":13},
+
+{"id":177,"animationId":762,"description":"◆Anti-Beast ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0.8},{"code":31,"dataId":15,"value":1},{"code":31,"dataId":19,"value":1}],"iconIndex":28,"name":"Tiger Fang","note":"<image:Knuckle1,10>\n<criticalAnimation:773>","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":13},
+
+{"id":178,"animationId":763,"description":"◆Holy","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0.8},{"code":31,"dataId":8,"value":1}],"iconIndex":28,"name":"Godhand","note":"<image:Knuckle1,11>\n<criticalAnimation:774>\n<persuit:932,25>\n","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":13},
+
+{"id":179,"animationId":762,"description":"Attack 25","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0.8}],"iconIndex":28,"name":"kaiser knuckle","note":"<image:Knuckle1,12>\n<criticalAnimation:773>","params":[0,0,25,0,0,0,0,0],"price":0,"wtypeId":13},
+
+{"id":180,"animationId":757,"description":"◆Steal ◆Dark","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0.8},{"code":31,"dataId":9,"value":1}],"iconIndex":28,"name":"Bandit Claw","note":"<image:Knuckle1,5>\n<criticalAnimation:768>\n<steal>","params":[0,0,0,0,0,0,0,0],"price":5200,"wtypeId":13},
+
+{"id":181,"animationId":11,"description":"Attack 6, Magic 1","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":29,"name":"Staff","note":"<stick>","params":[0,0,6,0,1,0,0,0],"price":130,"wtypeId":14},
+
+{"id":182,"animationId":11,"description":"30 Attack 2 Magic 2 ◆Cure ◆Range Usable:Heal magic -8 mp","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":21,"value":1},{"code":31,"dataId":26,"value":0}],"iconIndex":29,"name":"Healing Staff","note":"<mat:1>\n<use:335>\n<recover:1>\n<image:Wand1,1>\n<noOptimize //Exclude from Best Equip","params":[0,0,30,0,2,0,0,0],"price":2000,"wtypeId":14},
+
+{"id":183,"animationId":11,"description":"Attack 8, Magic 1","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":29,"name":"Oak Staff","note":"<stick>\n<image:Wand1,2>","params":[0,0,8,0,1,0,0,0],"price":800,"wtypeId":14},
+
+{"id":184,"animationId":11,"description":"Attack 9 Magic 2 Usable:Thunder magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":29,"name":"Ramuh Staff","note":"<stick>\n<use:1623>\n<image:Wand1,1>","params":[0,0,9,0,2,0,0,0],"price":3000,"wtypeId":14},
+
+{"id":185,"animationId":11,"description":"Attack 10, Magic 2 ◆Sleep severe","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":32,"dataId":10,"value":1}],"iconIndex":29,"name":"Sleep Staff","note":"<stick>\n<image:Wand1,3>","params":[0,0,10,0,2,0,0,0],"price":4000,"wtypeId":14},
+
+{"id":186,"animationId":11,"description":"Attack 12 Magic 2 ◆Confuse severe","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":32,"dataId":8,"value":1}],"iconIndex":29,"name":"Choco Staff","note":"<image:Wand1,4><stick>","params":[0,0,12,0,2,0,0,0],"price":5000,"wtypeId":14},
+
+{"id":187,"animationId":752,"description":"Attack 14 Magic 3 ◆Petrify weak","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":32,"dataId":11,"value":0.25}],"iconIndex":29,"name":"Golem Wand","note":"\n<image:Wand1,5><stick>","params":[0,0,14,0,3,0,0,0],"price":11000,"wtypeId":14},
+
+{"id":188,"animationId":750,"description":"Attack 15, Magic 3","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":29,"name":"Mythril Staff","note":"\n<image:Wand1,7><stick>","params":[0,0,15,0,3,0,0,0],"price":5000,"wtypeId":14},
+
+{"id":189,"animationId":131,"description":"Attack 25 ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0.8},{"code":31,"dataId":26,"value":0}],"iconIndex":29,"name":"Flail","note":"\n<image:Wand1,6>","params":[0,0,25,0,0,0,0,0],"price":2500,"wtypeId":14},
+
+{"id":190,"animationId":11,"description":"Attack 28 Magic 4 ◆Holy","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":8,"value":1}],"iconIndex":29,"name":"Walking Stick","note":"<mat:1>\n<mdf> //対象のDefense をMagic Defense で計算\n<image:Wand1,8><stick>","params":[0,0,28,0,4,0,0,0],"price":13500,"wtypeId":14},
+
+{"id":191,"animationId":11,"description":"Attack 34 ◆Berserk severe","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":32,"dataId":7,"value":1}],"iconIndex":29,"name":"Strength Staff","note":"\n<image:Wand1,9><stick>","params":[0,0,34,0,0,0,0,0],"price":20000,"wtypeId":14},
+
+{"id":192,"animationId":742,"description":"Attack 38 Magic 3 A wand used to stave off calamities.","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":29,"name":"Calamity Staff","note":"<mat:1>\n<mdf> //対象のDefense をMagic Defense で計算\n<mpcost:5>\n\n<image:Wand1,10><stick>","params":[0,0,38,0,3,0,0,0],"price":33000,"wtypeId":14},
+
+{"id":193,"animationId":743,"description":"Attack 38 Magic 5 Holy enhancement","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":43,"dataId":183,"value":1}],"iconIndex":29,"name":"Sage's Staff","note":"<stick>\n<image:Wand1,11>","params":[0,0,38,0,5,0,0,0],"price":0,"wtypeId":14},
+
+{"id":194,"animationId":744,"description":"Attack 40, Magic 4 Usable:Thundaga magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":29,"name":"Storm Staff","note":"<use:1628>\n\n<image:Wand1,12><stick>","params":[0,0,40,0,4,0,0,0],"price":0,"wtypeId":14},
+
+{"id":195,"animationId":753,"description":"42 Attack 6 Magic Attack 3/4 MP Consumption","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":23,"dataId":4,"value":0.75}],"iconIndex":29,"name":"nirNirvanavana","note":"\n<image:Wand2,1><stick>","params":[0,0,42,0,6,0,0,0],"price":0,"wtypeId":14},
+
+{"id":196,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":197,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":198,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":199,"animationId":11,"description":"Attack 6, Magic 1 Usable:Magic Arrow magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":30,"name":"Wand","note":"<stick><use:1602>","params":[0,0,6,0,1,0,0,0],"price":150,"wtypeId":15},
+
+{"id":200,"animationId":746,"description":"Attack 8 Magic 2 ◆Ruin Usable:Ruin magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":30,"name":"Mazda Wand","note":"<image:Rod1,1><stick>\n<use:1607>","params":[0,0,8,0,2,0,0,0],"price":1300,"wtypeId":15},
+
+{"id":201,"animationId":743,"description":"Attack 10 Magic 3 ◆Fire Usable:Fira magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":2,"value":1}],"iconIndex":30,"name":"Fire Wand","note":"<mat:1>\n<image:Rod1,2><stick>\n<use:1608>","params":[0,0,10,0,3,0,0,0],"price":4000,"wtypeId":15},
+
+{"id":202,"animationId":747,"description":"Attack 10 Magic 3 ◆Ice Usable:Blizzara magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":3,"value":1}],"iconIndex":30,"name":"Frigid Wand","note":"<mat:1>\n<image:Rod1,3><stick>\n<use:1609>","params":[0,0,10,0,3,0,0,0],"price":4000,"wtypeId":15},
+
+{"id":203,"animationId":744,"description":"Attack 10, Magic 3 ◆Thundara Usable:Thundara magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":4,"value":1}],"iconIndex":30,"name":"Bolt Wand","note":"<mat:1>\n<image:Rod1,4><stick>\n<use:1610>","params":[0,0,10,0,3,0,0,0],"price":4000,"wtypeId":15},
+
+{"id":204,"animationId":742,"description":"Attack 10, Magic 3 ◆Water Usable:Watera magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":5,"value":1}],"iconIndex":30,"name":"Koi Wand","note":"<mat:1>\n<image:Rod1,5><stick>\n<use:1611>","params":[0,0,10,0,3,0,0,0],"price":4000,"wtypeId":15},
+
+{"id":205,"animationId":749,"description":"Attack 13 Usable:Magic Spear magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":30,"name":"Metal Wand","note":"<image:Rod1,6><stick>\n<use:1612>","params":[0,0,13,0,0,0,0,0],"price":1000,"wtypeId":15},
+
+{"id":206,"animationId":750,"description":"Attack 16 Magic 3 Usable:Ruinra magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":30,"name":"Mythril Wand","note":"<image:Rod1,7><stick>\n<use:1613>","params":[0,0,16,0,3,0,0,0],"price":2500,"wtypeId":15},
+
+{"id":207,"animationId":748,"description":"Attack 15 Magic 3 ◆Frog severe Usable:Frogga magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":32,"dataId":14,"value":1}],"iconIndex":30,"name":"Frog Wand","note":"<image:Rod1,8><stick>\n<use:1614>","params":[0,0,16,0,3,0,0,0],"price":9500,"wtypeId":15},
+
+{"id":208,"animationId":752,"description":"Attack 17 Magic 4 Usable:Gravira magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":30,"name":"Gravity Wand","note":"<image:Rod1,9><stick>\n<use:1615>","params":[0,0,17,0,4,0,0,0],"price":15000,"wtypeId":15},
+
+{"id":209,"animationId":743,"description":"Attack 20 Magic 7 Usable:Flare magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":30,"name":"Wizard Wand","note":"<image:Rod1,10>\n<stick>\n<use:1616>","params":[0,0,24,0,7,0,0,0],"price":0,"wtypeId":15},
+
+{"id":210,"animationId":746,"description":"Attack 30 Magic 6, MP consumption reduced by 20 Usable:Meteor magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":23,"dataId":4,"value":0.8}],"iconIndex":30,"name":"Stardust Wand","note":"<mat:1>\n<image:Rod1,11><stick>\n<use:1617>","params":[0,0,30,0,6,0,0,0],"price":0,"wtypeId":15},
+
+{"id":211,"animationId":751,"description":"Attack 24 Magic 6 Defense 3 Magic Defense 3 ◆Holy Usable:Holy magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":8,"value":1}],"iconIndex":30,"name":"Holy Wand","note":"<mat:1>\n<image:Rod1,12><stick>\n<use:1618>\n<persuit:932,33>","params":[0,0,24,3,6,3,0,0],"price":0,"wtypeId":15},
+
+{"id":212,"animationId":750,"description":"Attack 28 Magic 7","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":30,"name":"eight-holed arrow whistle","note":"<mat:1>\n<image:Wand1,4><stick>","params":[0,0,28,0,7,0,0,0],"price":42000,"wtypeId":15},
+
+{"id":213,"animationId":744,"description":"Attack 30 Magic 9 MP 100 ◆Dark","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":9,"value":1}],"iconIndex":30,"name":"Hela Mace","note":"<mat:1>\n<image:Rod2,1><stick>","params":[0,100,30,0,9,0,0,0],"price":0,"wtypeId":15},
+
+{"id":214,"animationId":12,"description":"Attack 12 ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":19,"value":1}],"iconIndex":31,"name":"Stone Axe","note":"<image:Ax1,11>","params":[0,0,12,0,0,0,0,0],"price":280,"wtypeId":16},
+
+{"id":215,"animationId":12,"description":"Attack 18 ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":19,"value":1}],"iconIndex":31,"name":"Battle Axe","note":"","params":[0,0,18,0,0,0,0,0],"price":1100,"wtypeId":16},
+
+{"id":216,"animationId":12,"description":"Attack 15 ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":19,"value":1}],"iconIndex":31,"name":"Tomahawk","note":"<tomahawk:704>\n<image:Ax1,10>","params":[0,0,15,0,0,0,0,0],"price":1300,"wtypeId":16},
+
+{"id":217,"animationId":754,"description":"Attack 20 ◆Piercing ◆Poison severe","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":10,"value":1},{"code":32,"dataId":4,"value":1},{"code":31,"dataId":19,"value":1}],"iconIndex":31,"name":"Poison Axe","note":"<image:Ax1,1>","params":[0,0,20,0,0,0,0,0],"price":1400,"wtypeId":16},
+
+{"id":218,"animationId":12,"description":"Attack 22 *Can be thrown ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":19,"value":1}],"iconIndex":31,"name":"Francesca","note":"<tomahawk:705>\n<image:Ax1,10>","params":[0,0,22,0,0,0,0,0],"price":3600,"wtypeId":16},
+
+{"id":219,"animationId":12,"description":"Attack 24 ◆Piercing ◆Anti-Biped","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":14,"value":1},{"code":31,"dataId":19,"value":1}],"iconIndex":31,"name":"Ogre","note":"<image:Ax1,12>","params":[0,0,24,0,0,0,0,0],"price":3800,"wtypeId":16},
+
+{"id":220,"animationId":12,"description":"Attack 31 ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":19,"value":1}],"iconIndex":31,"name":"Mythril Axe","note":"<image:Ax1,3>","params":[0,0,31,0,0,0,0,0],"price":4600,"wtypeId":16},
+
+{"id":221,"animationId":755,"description":"Attack 31 ◆Vampire ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":27,"value":1},{"code":31,"dataId":19,"value":1}],"iconIndex":31,"name":"Blood Axe","note":"<image:Ax1,4>","params":[0,0,31,0,0,0,0,0],"price":8000,"wtypeId":16},
+
+{"id":222,"animationId":12,"description":"Attack 33 ◆Piercing Always crit at the cost of MP Usable:Silence magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":19,"value":1},{"code":22,"dataId":2,"value":1}],"iconIndex":31,"name":"Rune Axe","note":"<lune:15>\n<criticalAnimation:165>\n<use:1624>\n<image:Ax1,5>","params":[0,0,33,0,0,0,0,0],"price":10000,"wtypeId":16},
+
+{"id":223,"animationId":12,"description":"Attack 52 ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":19,"value":1}],"iconIndex":31,"name":"Gold Axe","note":"<image:Ax1,2>","params":[0,0,52,0,0,0,0,0],"price":30000,"wtypeId":16},
+
+{"id":224,"animationId":12,"description":"Attack 57 ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":19,"value":1}],"iconIndex":31,"name":"Crystal Axe","note":"<image:Ax1,6>","params":[0,0,57,0,0,0,0,0],"price":36000,"wtypeId":16},
+
+{"id":225,"animationId":756,"description":"Attack 58 ◆Anti-Mage ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":16,"value":1},{"code":31,"dataId":19,"value":1}],"iconIndex":31,"name":"Devil Axe","note":"<image:Ax1,7>","params":[0,0,58,0,0,0,0,0],"price":40000,"wtypeId":16},
+
+{"id":226,"animationId":756,"description":"Attack 70 ◆Piercing ◆Anti-Biped","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":14,"value":1},{"code":31,"dataId":19,"value":1}],"iconIndex":31,"name":"Gigant","note":"<image:Ax1,8>","params":[0,0,70,0,0,0,0,0],"price":0,"wtypeId":16},
+
+{"id":227,"animationId":756,"description":"Attack 67 ◆Piercing ◆Earth Shake","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":19,"value":1}],"iconIndex":31,"name":"Earthbreaker","note":"<image:Ax1,9>\n\n<persuit:933,33>","params":[0,0,67,0,0,0,0,0],"price":0,"wtypeId":16},
+
+{"id":228,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":229,"animationId":1040,"description":"Attack 7 ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1}],"iconIndex":15,"name":"Gilded Words","note":"<mat>\n<mdf> //対象のDefense をMagic Defense で計算\n<image:Harp1,1>","params":[0,0,7,0,0,0,0,0],"price":300,"wtypeId":18},
+
+{"id":230,"animationId":1051,"description":"Attack 21 ◆Range ◆Sleep moderate","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1},{"code":32,"dataId":10,"value":0.5}],"iconIndex":15,"name":"Lamia","note":"<mat>\n<image:Harp1,2>\n<mdf> //対象のDefense をMagic Defense で計算","params":[0,0,21,0,0,0,0,0],"price":8000,"wtypeId":18},
+
+{"id":231,"animationId":1018,"description":"Attack 26 ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1}],"iconIndex":15,"name":"Golden Rule","note":"<mat>\n<image:Harp1,4>\n<mdf> //対象のDefense をMagic Defense で計算","params":[0,0,26,0,0,0,0,0],"price":12000,"wtypeId":18},
+
+{"id":232,"animationId":1051,"description":"Attack 27 ◆Range ◆Confuse strong","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1},{"code":32,"dataId":8,"value":0.5}],"iconIndex":15,"name":"Lamia's Verses","note":"<mat>\n<image:Harp1,3>\n<mdf> //対象のDefense をMagic Defense で計算","params":[0,0,27,0,0,0,0,0],"price":12000,"wtypeId":18},
+
+{"id":233,"animationId":1007,"description":"Attack 29 ◆Range ◆Mini strong","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1},{"code":32,"dataId":35,"value":0.5}],"iconIndex":15,"name":"Fairy-Tale Harp","note":"<mat>\n<mdf> //対象のDefense をMagic Defense で計算","params":[0,0,29,0,0,0,0,0],"price":15000,"wtypeId":18},
+
+{"id":234,"animationId":1062,"description":"Attack 36 ◆Range ◆Def↓ severe","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1},{"code":32,"dataId":56,"value":1}],"iconIndex":15,"name":"Orphean Maneuver","note":"<mat>\n<image:Harp1,5>\n<mdf> //対象のDefense をMagic Defense で計算","params":[0,0,36,0,0,0,0,0],"price":25000,"wtypeId":18},
+
+{"id":235,"animationId":1029,"description":"Attack 43 ◆Range ◆Frog strong","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1},{"code":32,"dataId":14,"value":0.5}],"iconIndex":15,"name":"Act of the Muse","note":"<mat>\n<image:Harp1,6>\n<mdf> //対象のDefense をMagic Defense で計算","params":[0,0,43,0,0,0,0,0],"price":33000,"wtypeId":18},
+
+{"id":236,"animationId":1040,"description":"Attack 53 ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1}],"iconIndex":15,"name":"Crystal Harp","note":"<mat>\n<image:Harp1,7>\n<mdf> //対象のDefense をMagic Defense で計算","params":[0,0,53,0,0,0,0,0],"price":40000,"wtypeId":18},
+
+{"id":237,"animationId":1062,"description":"Attack 49 ◆Range ◆Confuse strong Follow up with a tone that strikes the entire enemy.","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1},{"code":32,"dataId":8,"value":0.5}],"iconIndex":15,"name":"Mermaid Harp","note":"<mat>\n<image:Harp1,8>\n<mdf> //対象のDefense をMagic Defense で計算\n<persuit:934,100>","params":[0,0,49,0,0,0,0,0],"price":0,"wtypeId":18},
+
+{"id":238,"animationId":1073,"description":"Attack 62 ◆Range ◆Holy ◆Anti-Dragon","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1},{"code":11,"dataId":13,"value":2},{"code":31,"dataId":8,"value":1}],"iconIndex":15,"name":"Apollo's Harp","note":"<mat>\n<image:Harp1,9>\n<mdf> //対象のDefense をMagic Defense で計算","params":[0,0,62,0,0,0,0,0],"price":0,"wtypeId":18},
+
+{"id":239,"animationId":1084,"description":"Attack 64 ◆Range ◆Anti-ALL","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1},{"code":11,"dataId":11,"value":1.5},{"code":11,"dataId":12,"value":1.5},{"code":11,"dataId":13,"value":1.5},{"code":11,"dataId":14,"value":1.5},{"code":11,"dataId":15,"value":1.5},{"code":11,"dataId":16,"value":1.5},{"code":11,"dataId":17,"value":1.5}],"iconIndex":15,"name":"Loki's Deed","note":"<mat>\n<image:Harp1,10>\n<mdf> //対象のDefense をMagic Defense で計算","params":[0,0,64,0,0,0,0,0],"price":0,"wtypeId":18},
+
+{"id":240,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":241,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":242,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":243,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":244,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":245,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":246,"animationId":1897,"description":"Attack 74 ◆Dark If the target is Dark resistant, deal physical damage.","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":9,"value":1},{"code":43,"dataId":207,"value":1}],"iconIndex":16,"name":"Gluttonous Sword","note":"<sort:21.1>\n<image:Sword2,6>","params":[0,0,74,0,0,0,0,0],"price":0,"wtypeId":1},
+
+{"id":247,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":248,"animationId":55,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":18,"name":"Excalibur","note":"セシルのトランス時専用の特殊なエクスカリバー\n<paladin>\n<image:Sword3,8>","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":2},
+
+{"id":249,"animationId":123,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"onion sword","note":"<sonion>\n<onion>\n<image:Sword2,7>","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":1},
+
+{"id":250,"animationId":124,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0},{"code":43,"dataId":316,"value":1},{"code":55,"dataId":1,"value":1}],"iconIndex":0,"name":"Onion Sword II","note":"<sonion>\n<onion>\n<image:Sword3,12>","params":[0,0,10,0,0,0,0,0],"price":0,"wtypeId":1},
+
+{"id":251,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":252,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":253,"animationId":131,"description":"Attack 21 ◆Anti-Machine","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":17,"value":1}],"iconIndex":80,"name":"Warhammer","note":"<image:Hammer1,1>","params":[0,0,21,0,0,0,0,0],"price":2000,"wtypeId":20},
+
+{"id":254,"animationId":140,"description":"31 Attack ◆Anti-Machine","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":17,"value":1}],"iconIndex":80,"name":"Mythril Hammer","note":"<image:Hammer1,2>","params":[0,0,31,0,0,0,0,0],"price":4000,"wtypeId":20},
+
+{"id":255,"animationId":141,"description":"Attack 36 ◆Earth ◆Anti-Machine Usable:Tremor Large magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":17,"value":1},{"code":31,"dataId":6,"value":1}],"iconIndex":80,"name":"Gaia Hammer","note":"<image:Hammer1,3>\n<use:1627>","params":[0,0,36,0,0,0,0,0],"price":12500,"wtypeId":20},
+
+{"id":256,"animationId":142,"description":"Attack 47 ◆Thunder ◆Anti-Machine Usable:Thundara magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":17,"value":1},{"code":31,"dataId":4,"value":1}],"iconIndex":80,"name":"Thor's Hammer","note":"<image:Hammer1,4>\n<use:1621>","params":[0,0,47,0,0,0,0,0],"price":35000,"wtypeId":20},
+
+{"id":257,"animationId":143,"description":"Attack 58 ◆Water ◆Anti-Machine Usable:Watera magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":17,"value":1},{"code":31,"dataId":5,"value":1}],"iconIndex":80,"name":"Triton Hammer","note":"<image:Hammer1,5>\n<use:1622>","params":[0,0,58,0,0,0,0,0],"price":27500,"wtypeId":20},
+
+{"id":258,"animationId":144,"description":"Attack 70 ◆Flare ◆Anti-Machine","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":17,"value":1}],"iconIndex":80,"name":"Flare Sledge","note":"<image:Hammer1,6>\n<persuit:935,33>","params":[0,0,70,0,0,0,0,0],"price":65000,"wtypeId":20},
+
+{"id":259,"animationId":2468,"description":"Attack 75 Crit 20 ◆Anti-Machine","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":17,"value":1},{"code":22,"dataId":2,"value":0.2}],"iconIndex":80,"name":"Scorpion Tail","note":"<image:Hammer1,7>\n<criticalAnimation:2469>","params":[0,0,75,0,0,0,0,0],"price":80000,"wtypeId":20},
+
+{"id":260,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":261,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":262,"animationId":152,"description":"Attack 17 ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0},{"code":31,"dataId":26,"value":0}],"iconIndex":86,"name":"38 Rounds","note":"<learnByOwning:1856>","params":[0,0,17,0,0,0,0,0],"price":30,"wtypeId":22},
+
+{"id":263,"animationId":153,"description":"Attack 20 ◆Earth ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0},{"code":31,"dataId":6,"value":1},{"code":31,"dataId":26,"value":0}],"iconIndex":86,"name":"Terra","note":"<shot>\n<learnByOwning:1857>","params":[0,0,20,0,0,0,0,0],"price":40,"wtypeId":22},
+
+{"id":264,"animationId":154,"description":"Attack 30 ◆Range ◆Silence severe","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0},{"code":31,"dataId":26,"value":0},{"code":32,"dataId":6,"value":1}],"iconIndex":86,"name":"Silent","note":"<shot>\n<learnByOwning:1858>","params":[0,0,30,0,0,0,0,0],"price":100,"wtypeId":22},
+
+{"id":265,"animationId":155,"description":"Attack 35 ◆Piercing ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0},{"code":31,"dataId":26,"value":0},{"code":31,"dataId":19,"value":0}],"iconIndex":86,"name":"AP Rounds","note":"<shot>\n<learnByOwning:1859>","params":[0,0,35,0,0,0,0,0],"price":150,"wtypeId":22},
+
+{"id":266,"animationId":156,"description":"Attack 35 ◆Water ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0},{"code":31,"dataId":26,"value":0},{"code":31,"dataId":5,"value":1}],"iconIndex":86,"name":"Aqua Bullet","note":"<shot>\n<learnByOwning:1860>","params":[0,0,35,0,0,0,0,0],"price":150,"wtypeId":22},
+
+{"id":267,"animationId":157,"description":"Attack 40 ◆Fire ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0},{"code":31,"dataId":26,"value":0},{"code":31,"dataId":2,"value":1}],"iconIndex":86,"name":"Infernal Bullet","note":"<shot>\n<learnByOwning:1861>","params":[0,0,40,0,0,0,0,0],"price":250,"wtypeId":22},
+
+{"id":268,"animationId":158,"description":"Attack 50 ◆Dark ◆Range ◆Blind severe","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0},{"code":31,"dataId":26,"value":0},{"code":31,"dataId":9,"value":1},{"code":32,"dataId":5,"value":1}],"iconIndex":86,"name":"Demon Bullet","note":"<shot>\n<learnByOwning:1862>","params":[0,0,50,0,0,0,0,0],"price":350,"wtypeId":22},
+
+{"id":269,"animationId":167,"description":"Attack 50 ◆Range Always crit at the cost of MP","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0},{"code":31,"dataId":26,"value":0},{"code":22,"dataId":2,"value":1}],"iconIndex":86,"name":"Rune Bullet","note":"<shot>\n<lune:15>\n<criticalAnimation:2504>\n<learnByOwning:1863>","params":[0,0,50,0,0,0,0,0],"price":1000,"wtypeId":22},
+
+{"id":270,"animationId":159,"description":"Attack 50 ◆Range ◆Petrification strong","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0},{"code":31,"dataId":26,"value":0},{"code":32,"dataId":11,"value":0.5}],"iconIndex":86,"name":"Fossil Pellet","note":"<shot>\n<learnByOwning:1864>","params":[0,0,50,0,0,0,0,0],"price":1200,"wtypeId":22},
+
+{"id":271,"animationId":160,"description":"Attack 60 ◆Range Action Gauge halved on hit.","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0},{"code":31,"dataId":26,"value":0}],"iconIndex":86,"name":"rapid-fire brigade","note":"<shot>\n<learnByOwning:1865>","params":[0,0,60,0,0,0,0,0],"price":1500,"wtypeId":22},
+
+{"id":272,"animationId":161,"description":"Attack 65 ◆Wind ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0},{"code":31,"dataId":26,"value":0},{"code":31,"dataId":7,"value":1}],"iconIndex":86,"name":"Sonic Round","note":"<shot>\n<learnByOwning:1866>\n","params":[0,0,65,0,0,0,0,0],"price":1650,"wtypeId":22},
+
+{"id":273,"animationId":162,"description":"Attack 90 ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0},{"code":31,"dataId":26,"value":0}],"iconIndex":86,"name":"disbandment party","note":"<shot>\n<learnByOwning:1867>","params":[0,0,90,0,0,0,0,0],"price":1800,"wtypeId":22},
+
+{"id":274,"animationId":163,"description":"Attack 120 ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0},{"code":31,"dataId":26,"value":0}],"iconIndex":86,"name":"wave bomb","note":"<shot>\n<learnByOwning:1868>","params":[0,0,120,0,0,0,0,0],"price":2000,"wtypeId":22},
+
+{"id":275,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":276,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":277,"animationId":738,"description":"Attack 24 ◆Anti-Mage Always crit at the cost of MP","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":16,"value":1},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1},{"code":22,"dataId":2,"value":1}],"iconIndex":24,"name":"Rune Bow","note":"<image:Bow2,4>\n<lune:15>\n<criticalAnimation:1536>\n<sort:119.1>","params":[0,0,24,0,0,0,0,0],"price":8750,"wtypeId":9},
+
+{"id":278,"animationId":10,"description":"Attack 30 ◆Anti-Beast ◆Range ◆Paralysis weak Always crit at the cost of MP","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":32,"dataId":12,"value":0.25},{"code":31,"dataId":15,"value":1},{"code":31,"dataId":26,"value":0},{"code":22,"dataId":2,"value":1}],"iconIndex":25,"name":"Rune Whip","note":"<image:Whip1,11>\n<sort:130.1>\n<lune:15>\n<criticalAnimation:1537>","params":[0,0,30,0,0,0,0,0],"price":12000,"wtypeId":10},
+
+{"id":279,"animationId":8,"description":"Attack 32 Always crit at the cost of MP","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":2,"value":1}],"iconIndex":26,"name":"Rune Spear.","note":"<image:Spire2,2>\n<lune:15>\n<sort:143.1>\n<criticalAnimation:1538>","params":[0,0,32,0,0,0,0,0],"price":10000,"wtypeId":11},
+
+{"id":280,"animationId":9,"description":"Attack 34 ◆Piercing Always crit at the cost of MP","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":19,"value":1},{"code":22,"dataId":2,"value":1}],"iconIndex":27,"name":"Rune Lance","note":"<image:Lance2,3>\n<criticalAnimation:1539>\n<lune:15>\n<sort:160.1>","params":[0,0,34,0,0,0,0,0],"price":12500,"wtypeId":12},
+
+{"id":281,"animationId":762,"description":"Always crit at the cost of MP","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0.8},{"code":22,"dataId":2,"value":1}],"iconIndex":28,"name":"Rune Claw","note":"<image:Knuckle1,11>\n<criticalAnimation:3>\n<sort:175.1>\n<lune:10>","params":[0,0,0,0,0,0,0,0],"price":10000,"wtypeId":13},
+
+{"id":282,"animationId":744,"description":"Attack 21 MP consumed, critical","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":2,"value":1}],"iconIndex":29,"name":"Rune Staff","note":"<sort:189.1>\n<image:Wand2,2>\n<stick>\n<lune:15>\n<criticalAnimation:1541>","params":[0,0,21,0,0,0,0,0],"price":5000,"wtypeId":14},
+
+{"id":283,"animationId":1018,"description":"Attack 30 ◆Range Always crit at the cost of MP","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1},{"code":22,"dataId":2,"value":1}],"iconIndex":15,"name":"Rune Harp","note":"<mat>\n<mdf> //対象のDefense をMagic Defense で計算\n<sort:234.1>\n<lune:15>\n<image:Harp1,11>","params":[0,0,30,0,0,0,0,0],"price":15000,"wtypeId":18},
+
+{"id":284,"animationId":141,"description":"Attack 36 ◆Anti-Machine Always crit at the cost of MP Usable:Thundara magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":17,"value":1},{"code":22,"dataId":2,"value":1}],"iconIndex":80,"name":"Rune Hammer","note":"<image:Hammer1,4>\n<use:1621>\n<sort:255.1>\n<lune:15>\n<criticalAnimation:1540>","params":[0,0,36,0,0,0,0,0],"price":25000,"wtypeId":20},
+
+{"id":285,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":286,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":287,"animationId":1898,"description":"Attack 60 ◆Piercing","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":54,"dataId":2,"value":1},{"code":55,"dataId":0,"value":1},{"code":31,"dataId":19,"value":1}],"iconIndex":19,"name":"Volcano Spada","note":"<image:Claymore1,9>\n<sort:48.1>","params":[0,0,60,0,0,0,0,0],"price":30000,"wtypeId":4},
+
+{"id":288,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":289,"animationId":17,"description":"Attack 35 ◆Fire Converts Physical damage to magic. Usable:Fire magic","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":54,"dataId":2,"value":1},{"code":55,"dataId":0,"value":1}],"iconIndex":20,"name":"Flame Tongue","note":"<image:Gunblade1,9>\n<sort:54.1>\n<mdf> //対象のDefense をMagic Defense で計算\n<use:1601>\n//<persuit:skillId,確率>で追撃効果を指定\n<persuit:901,25>","params":[0,0,35,0,0,0,0,0],"price":0,"wtypeId":5},
+
+{"id":290,"animationId":741,"description":"Attack 60, Magic 5 MP +50, ◆Anti-Air ◆Range","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":31,"dataId":18,"value":1},{"code":31,"dataId":26,"value":0},{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1}],"iconIndex":24,"name":"Perseus Lily","note":"<image:Bow2,5>\n<sort:124.1>","params":[0,50,60,0,5,0,0,0],"price":0,"wtypeId":9},
+
+{"id":291,"animationId":2549,"description":"Attack 32","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0}],"iconIndex":22,"name":"Platinum Messer","note":"<image:Knife1,10>\n<sort:87.1>","params":[0,0,32,0,0,0,0,0],"price":9500,"wtypeId":7},
+
+{"id":292,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":293,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":294,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":295,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":296,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":297,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":298,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":299,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+
+{"id":300,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0}]

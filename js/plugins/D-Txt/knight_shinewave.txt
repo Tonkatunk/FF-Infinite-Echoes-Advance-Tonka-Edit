@@ -1,0 +1,37 @@
+<D-Motion:wait>
+ex = Graphics.boxWidth/6*5;
+ey = Graphics.boxHeight/10*9;
+arcY = -16
+frame = 20
+</D-Motion>
+
+<D-Motion:swingupW>
+delay = 10
+arcY = 0
+frame = 20
+</D-Motion>
+
+<D-Animation:screen>
+delay = 20
+id = 462
+sx = a.x - 16
+sy = Graphics.boxHeight
+ex = -Graphics.boxHeight
+arrival = 120
+repeat = 3
+interval = 0
+</D-Animation>
+
+//ホームポジションへ
+<D-Motion:svItem&home&noWait>
+delay = 140
+frame = 15
+arcY = -16
+</D-Motion>
+
+//ホームポジションへ
+<D-Motion:return&noWait>
+delay = 155
+frame = 1
+arcY = 0
+</D-Motion>

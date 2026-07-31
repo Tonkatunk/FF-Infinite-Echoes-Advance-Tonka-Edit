@@ -1,0 +1,58 @@
+<D-Animation>
+z = 2
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/2
+id = 1431
+playSe = FF6 drain1
+</D-Animation>
+
+<D-Animation>
+z = 2.1
+delay = 10
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/2
+id = 1714
+</D-Animation>
+
+<D-Animation>
+z = 2.2
+delay = 50
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/2
+id = 1715
+playSe = FF5 whirlpoolR ex2
+</D-Animation>
+
+<D-Animation>
+z = 2.2
+delay = 80
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/2
+id = 1715
+</D-Animation>
+
+<D-Animation>
+z = 2.2
+delay = 110
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/2
+id = 1715
+</D-Animation>
+
+<D-Animation>
+z = 2.2
+delay = 140
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/2
+id = 1715
+</D-Animation>
+
+<D-Animation>
+delay = 80
+</D-Animation>
+
+<D-Animation>
+delay = 200
+id = 1
+script = BattleManager.pushActiveMessage("希望に満ちた呪いを約束しましょう");
+</D-Animation>

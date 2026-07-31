@@ -1,0 +1,26 @@
+<D-Motion>
+    ey = sy - 100
+    frame = 60
+    playSe = {"name":"FF7 fira","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation:self&follow>
+    id = 1528
+    z = 0
+</D-Animation>
+
+<D-Animation:screen>
+    delay = 90
+    id = 1527
+</D-Animation>
+
+<D-Motion:return>
+    delay = 150
+    frame = 60
+</D-Motion>
+
+<D-Animation:self&follow>
+    delay = 150
+    id = 1528
+    z = 0
+</D-Animation>

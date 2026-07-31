@@ -1,0 +1,10 @@
+<D-Motion:soon&wait>
+ex = sx+$TILE*3;
+</D-Motion>
+
+<D-Motion:delay&home&svWalk>
+playSe = FF7 dash
+frame = 20
+ex = sx+$TILE*3;
+script = a.removeState(21);
+</D-Motion>

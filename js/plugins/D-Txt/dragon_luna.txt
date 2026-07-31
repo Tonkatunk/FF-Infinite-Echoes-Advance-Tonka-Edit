@@ -1,0 +1,16 @@
+<D-Motion:svItem&pattern0&noWait>
+frame = 60
+</D-Motion>
+
+<D-Animation:screen>
+id = 1962
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/2*1.1
+z = 0
+</D-Animation>
+
+<D-Animation:screen>
+id = 1963
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight*3/4
+</D-Animation>

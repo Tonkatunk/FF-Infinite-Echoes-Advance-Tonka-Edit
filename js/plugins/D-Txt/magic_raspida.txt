@@ -1,0 +1,9 @@
+<D-Animation>
+id = 368
+z = 0
+</D-Animation>
+
+<D-Animation>
+id = 2538
+sx = Graphics.boxWidth/2+16+Graphics.boxWidth/3
+</D-Animation>

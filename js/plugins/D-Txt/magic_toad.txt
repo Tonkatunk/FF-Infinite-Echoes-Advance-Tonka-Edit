@@ -1,0 +1,24 @@
+//同サイドが対象の場合、アニメーションを反転する
+<D-Setting:MirrorForFriend>
+
+<D-Animation>
+condition = BattleManager._targetNum > 0;
+target = BattleManager._firstTargets[0];
+id = BattleManager._firstTargets[0].getMagicAnimationId(BattleManager._action.item().meta.DAnimeId);
+</D-Animation>
+
+<D-Animation>
+condition = BattleManager._reflectCount > 0;
+target = BattleManager._reflectTowards[0];
+id = BattleManager._action.item().meta.DAnimeId;
+</D-Animation>
+
+<D-Animation>
+id = 1000
+</D-Animation>
+
+<D-Animation:delay>
+id = 1
+script = BattleManager._targets[0].addStateInMotion()
+</D-Animation>
+

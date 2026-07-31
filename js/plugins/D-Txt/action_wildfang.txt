@@ -1,0 +1,18 @@
+<D-Animation>
+sx = b.x+Graphics.boxWidth/3*2
+ex = b.x
+sy = b.y
+id = 1202
+</D-Animation>
+
+<D-Animation:delay>
+id = 803
+</D-Animation>
+
+<D-Animation>
+delay = 24
+sx = b.x
+ex = b.x-+Graphics.boxWidth/3*2
+sy = b.y
+id = 1203
+</D-Animation>

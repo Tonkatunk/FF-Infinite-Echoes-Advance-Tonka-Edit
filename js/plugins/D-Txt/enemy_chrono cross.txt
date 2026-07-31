@@ -1,0 +1,264 @@
+<D-Animation:self>
+id = 969
+</D-Animation>
+
+<D-Motion:noWait&noDelay>
+frame = 120
+addY = Math.floor(Math.random()*3)
+addX = Math.floor(Math.random()*3)
+</D-Motion>
+
+<D-Animation>
+id = 2513
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/2
+</D-Animation>
+
+<D-Animation:self>
+id = 2521
+delay = 80
+z = 1
+scaleX = -1
+sx = Graphics.boxWidth/2-32
+sy = Graphics.boxHeight/2
+</D-Animation>
+<D-Animation:self>
+id = 2522
+delay = 180
+z = 1
+scaleX = -1
+sx = Graphics.boxWidth/2-32
+sy = Graphics.boxHeight/2
+</D-Animation>
+<D-Animation:self>
+id = 2521
+delay = 130
+z = 0.99
+scaleX = -1
+sx = Graphics.boxWidth/2-32
+sy = Graphics.boxHeight/2
+</D-Animation>
+<D-Animation:self>
+id = 2522
+delay = 230
+z = 0.99
+scaleX = -1
+sx = Graphics.boxWidth/2-32
+sy = Graphics.boxHeight/2
+</D-Animation>
+<D-Animation:self>
+id = 2521
+delay = 180
+z = 0.98
+scaleX = -1
+sx = Graphics.boxWidth/2-32
+sy = Graphics.boxHeight/2
+</D-Animation>
+<D-Animation:self>
+id = 2522
+delay = 280
+z = 0.98
+scaleX = -1
+sx = Graphics.boxWidth/2-32
+sy = Graphics.boxHeight/2
+</D-Animation>
+
+
+
+<D-Animation>
+id = 2514
+delay = 60
+repeat = 6
+interval = 30
+sx = 0
+ex = Graphics.boxWidth*1.1
+sy = Graphics.boxHeight/2
+addY = Math.sin(Math.PI*2*(t%30/30))*30
+scale = 0.125
+</D-Animation>
+
+<D-Animation>
+id = 2514
+delay = 140
+repeat = 6
+interval = 20
+arrival = 60
+sx = 0
+ex = Graphics.boxWidth*1.5
+sy = Graphics.boxHeight/1.7
+addY = Math.cos(Math.PI*2*(t%30/30))*30
+scale = 0.3
+</D-Animation>
+<D-Animation>
+id = 2515
+delay = 145
+repeat = 6
+interval = 20
+arrival = 40
+sx = 0
+ex = Graphics.boxWidth*1.25
+sy = Graphics.boxHeight/2
+addY = -Math.sin(Math.PI*2*(t%70/70))*35
+scale = 0.5
+</D-Animation>
+<D-Animation>
+id = 2516
+delay = 150
+repeat = 6
+interval = 20
+arrival = 30
+sx = 0
+ex = Graphics.boxWidth*1.5
+sy = Graphics.boxHeight/1.5
+addY = Math.cos(Math.PI*2*(t%45/45))*30
+scale = 0.4
+</D-Animation>
+<D-Animation>
+id = 2517
+delay = 155
+repeat = 6
+interval = 20
+arrival = 70
+sx = 0
+ex = Graphics.boxWidth*1.25
+sy = Graphics.boxHeight/2
+addY = -Math.sin(Math.PI*2*(t%35/35))*70
+scale = 0.125
+</D-Animation>
+<D-Animation>
+id = 2516
+delay = 160
+repeat = 6
+interval = 20
+arrival = 40
+sx = 0
+ex = Graphics.boxWidth*1.5
+sy = Graphics.boxHeight/4
+addY = Math.cos(Math.PI*2*(t%30/30))*35
+scale = 0.125
+</D-Animation>
+<D-Animation>
+id = 2514
+delay = 165
+repeat = 6
+interval = 20
+arrival = 65
+sx = 0
+ex = Graphics.boxWidth*1.5
+sy = Graphics.boxHeight/3
+addY = Math.sin(Math.PI*2*(t%25/25))*50
+scale = 0.25
+</D-Animation>
+<D-Animation>
+id = 2515
+delay = 170
+repeat = 6
+interval = 20
+arrival = 50
+sx = 0
+ex = Graphics.boxWidth*1.4
+sy = Graphics.boxHeight/2.75
+addY = Math.sin(Math.PI*2*(t%20/20))*40
+scale = 0.5
+</D-Animation>
+<D-Animation>
+id = 2516
+delay = 140
+repeat = 6
+interval = 20
+arrival = 25
+sx = 0
+ex = Graphics.boxWidth*1.5
+sy = Graphics.boxHeight/2.5
+addY = -Math.cos(Math.PI*2*(t%70/70))*50
+scale = 0.4
+</D-Animation>
+<D-Animation>
+id = 2517
+delay = 150
+repeat = 6
+interval = 20
+arrival = 90
+sx = 0
+ex = Graphics.boxWidth*1.3
+sy = Graphics.boxHeight/1.2
+addY = -Math.sin(Math.PI*2*(t%40/40))*60
+scale = 0.25
+</D-Animation>
+
+<D-Animation>
+id = 1
+delay = 331
+playSe = {"name":"FF5 whirlpool ex","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+<D-Animation>
+id = 2523
+delay = 271
+</D-Animation>
+
+<D-Motion:noWait&noDelay>
+delay = 331
+frame = 120
+script = BattleManager.indexTarget(0).addStateInMotion();
+condition = BattleManager._targets.length > 0
+</D-Motion>
+<D-Motion:noWait&noDelay>
+delay = 331
+frame = 120
+script = BattleManager.indexTarget(1).addStateInMotion();
+condition = BattleManager._targets.length > 1
+</D-Motion>
+<D-Motion:noWait&noDelay>
+delay = 331
+frame = 120
+script = BattleManager.indexTarget(2).addStateInMotion();
+condition = BattleManager._targets.length > 2
+</D-Motion>
+<D-Motion:noWait&noDelay>
+delay = 331
+frame = 120
+script = BattleManager.indexTarget(3).addStateInMotion();
+condition = BattleManager._targets.length > 3
+</D-Motion>
+<D-Motion:noWait&noDelay>
+delay = 331
+frame = 120
+script = BattleManager.indexTarget(4).addStateInMotion();
+condition = BattleManager._targets.length > 4
+</D-Motion>
+
+<D-Animation>
+delay = 500
+id = 1
+script = BattleManager.indexTarget(0).startDamageShake();
+target = BattleManager.indexTarget(0)
+condition = BattleManager._targets.length > 0
+</D-Animation>
+<D-Animation>
+delay = 500
+id = 1
+script = BattleManager.indexTarget(1).startDamageShake();
+target = BattleManager.indexTarget(1)
+condition = BattleManager._targets.length > 1
+</D-Animation>
+<D-Animation>
+delay = 500
+id = 1
+script = BattleManager.indexTarget(2).startDamageShake();
+target = BattleManager.indexTarget(2)
+condition = BattleManager._targets.length > 2
+</D-Animation>
+<D-Animation>
+delay = 500
+id = 1
+script = BattleManager.indexTarget(3).startDamageShake();
+target = BattleManager.indexTarget(3)
+condition = BattleManager._targets.length > 3
+</D-Animation>
+<D-Animation>
+delay = 500
+id = 1
+script = BattleManager.indexTarget(4).startDamageShake();
+target = BattleManager.indexTarget(4)
+condition = BattleManager._targets.length > 4
+</D-Animation>

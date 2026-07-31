@@ -1,0 +1,352 @@
+//画面下へ移動
+<D-Motion:svItem>
+arcY = -8
+frame = 15
+ex = Graphics.boxWidth-48
+ey = Graphics.boxHeight-18
+script = BattleManager.performHideAllActorsWithoutSubject();
+</D-Motion>
+
+//ムチ2回
+<D-Motion:swingWhip&noWait>
+delay = 15
+arcY = 0
+playSe = {"name":"FF5 whip","volume":50,"pitch":100,"pan":0}
+</D-Motion>
+<D-Motion:swingWhip&noWait>
+arcY = 0
+delay = 30
+frame = 15
+playSe = {"name":"FF5 whip","volume":50,"pitch":100,"pan":0}
+</D-Motion>
+
+//カタストロフィ登場
+<D-Animation>
+delay = 45
+id = 2198
+arcY = -8
+sx = Graphics.boxWidth + 64
+sy = Graphics.boxHeight/2+8
+ex = Graphics.boxWidth - 56
+z= 2.9
+</D-Animation>
+
+//カタストロフィ
+<D-Animation>
+delay = 65
+id = 2199
+sy = Graphics.boxHeight/2+8
+sx = Graphics.boxWidth - 56
+z= 2.9
+</D-Animation>
+
+//カタストロフィ
+<D-Animation>
+delay = 265
+id = 2199
+sy = Graphics.boxHeight/2+8
+sx = Graphics.boxWidth - 56
+z= 2.9
+</D-Animation>
+
+//カタストロフィ
+<D-Animation>
+delay = 465
+id = 2199
+sy = Graphics.boxHeight/2+8
+sx = Graphics.boxWidth - 56
+z= 2.9
+</D-Animation>
+
+//カタストロフィ
+<D-Animation>
+delay = 665
+id = 2204
+sy = Graphics.boxHeight/2+8
+sx = Graphics.boxWidth - 56
+z= 2.9
+</D-Animation>
+//1セット目--------------------------------------------------------------------------
+
+//時空発動
+<D-Animation:self>
+delay = 45
+id = 400
+</D-Animation>
+
+<D-Motion:noWait&svItem>
+delay = 45
+frame = 30
+arcY = 0
+</D-Motion>
+
+<D-Animation:target&follow>
+delay = 75
+id = 421
+nextDelay = 0
+</D-Animation>
+
+<D-Motion:target>
+delay = 100
+frame = 60
+ey = b.y-200
+</D-Motion>
+
+<D-Animation:screen>
+delay = 140
+id = 2201
+sy = Graphics.boxHeight/2+32
+sx = Graphics.boxWidth - 64
+</D-Animation>
+
+<D-Animation:screen>
+delay = 160
+id = 2202
+sy = Graphics.boxHeight/4*3
+sx = Graphics.boxWidth/3
+</D-Animation>
+
+<D-Motion:target>
+delay = 185
+frame = 10
+ey = b.y+200
+scaleY = -1
+</D-Motion>
+
+<D-Animation:target>
+delay = 195
+id = 1418
+nextDelay = 0
+playSe = {"name":"MZ Earth4","volume":50,"pitch":100,"pan":0}
+z= 2.9
+</D-Animation>
+
+//2セット目--------------------------------------------------------------------------
+
+//時空発動
+<D-Animation:self>
+delay = 195
+id = 400
+</D-Animation>
+
+<D-Motion:noWait&svItem>
+delay = 195
+frame = 30
+arcY = 0
+</D-Motion>
+
+<D-Animation:target&follow>
+delay = 225
+id = 421
+nextDelay = 0
+</D-Animation>
+
+<D-Motion:target>
+delay = 250
+frame = 60
+ey = b.y-200
+</D-Motion>
+
+<D-Animation:screen>
+delay = 290
+id = 2201
+sy = Graphics.boxHeight/2+32
+sx = Graphics.boxWidth - 64
+</D-Animation>
+
+<D-Animation:screen>
+delay = 310
+id = 2202
+sy = Graphics.boxHeight/4*3
+sx = Graphics.boxWidth/3
+</D-Animation>
+
+<D-Motion:target>
+delay = 335
+frame = 10
+ey = b.y+200
+scaleY = -1
+</D-Motion>
+
+<D-Animation:target>
+delay = 345
+id = 1418
+nextDelay = 0
+playSe = {"name":"MZ Earth4","volume":50,"pitch":100,"pan":0}
+z= 2.9
+</D-Animation>
+
+//3セット目--------------------------------------------------------------------------
+
+//時空発動
+<D-Animation:self>
+delay = 345
+id = 2203
+</D-Animation>
+
+<D-Motion:noWait&svItem>
+delay = 345
+frame = 30
+arcY = 0
+</D-Motion>
+
+<D-Animation:target&follow>
+delay = 360
+id = 421
+nextDelay = 0
+</D-Animation>
+
+<D-Motion:target>
+delay = 370
+frame = 30
+ey = b.y-200
+</D-Motion>
+
+<D-Animation:screen>
+delay = 400
+id = 2201
+sy = Graphics.boxHeight/2+32
+sx = Graphics.boxWidth - 64
+</D-Animation>
+
+<D-Animation:screen>
+delay = 415
+id = 2202
+sy = Graphics.boxHeight/4*3
+sx = Graphics.boxWidth/3
+</D-Animation>
+
+<D-Motion:target>
+delay = 430
+frame = 10
+ey = b.y+200
+scaleY = -1
+</D-Motion>
+
+<D-Animation:target>
+delay = 440
+id = 1418
+nextDelay = 0
+playSe = {"name":"MZ Earth4","volume":50,"pitch":100,"pan":0}
+z= 2.9
+</D-Animation>
+
+//4セット目--------------------------------------------------------------------------
+
+//時空発動
+<D-Animation:self>
+delay = 440
+id = 2203
+</D-Animation>
+
+<D-Motion:noWait&svItem>
+delay = 440
+frame = 30
+arcY = 0
+</D-Motion>
+
+<D-Animation:target&follow>
+delay = 455
+id = 421
+nextDelay = 0
+</D-Animation>
+
+<D-Motion:target>
+delay = 465
+frame = 30
+ey = b.y-200
+</D-Motion>
+
+<D-Animation:screen>
+delay = 495
+id = 2201
+sy = Graphics.boxHeight/2+32
+sx = Graphics.boxWidth - 64
+</D-Animation>
+
+<D-Animation:screen>
+delay = 510
+id = 2202
+sy = Graphics.boxHeight/4*3
+sx = Graphics.boxWidth/3
+</D-Animation>
+
+<D-Motion:target>
+delay = 525
+frame = 10
+ey = b.y+200
+scaleY = -1
+</D-Motion>
+
+<D-Animation:target>
+delay = 535
+id = 1418
+nextDelay = 0
+playSe = {"name":"MZ Earth4","volume":50,"pitch":100,"pan":0}
+z= 2.9
+</D-Animation>
+
+//5セット目--------------------------------------------------------------------------
+
+//時空発動
+<D-Animation:self>
+delay = 535
+id = 2203
+</D-Animation>
+
+<D-Motion:noWait&svItem>
+delay = 535
+frame = 30
+arcY = 0
+</D-Motion>
+
+<D-Animation:target&follow>
+delay = 550
+id = 421
+nextDelay = 0
+</D-Animation>
+
+<D-Motion:target>
+delay = 560
+frame = 30
+ey = b.y-200
+</D-Motion>
+
+<D-Animation:screen>
+delay = 590
+id = 2201
+sy = Graphics.boxHeight/2+32
+sx = Graphics.boxWidth - 64
+</D-Animation>
+
+<D-Animation:screen>
+delay = 605
+id = 2202
+sy = Graphics.boxHeight/4*3
+sx = Graphics.boxWidth/3
+</D-Animation>
+
+<D-Motion:target>
+delay = 620
+frame = 10
+ey = b.y+200
+scaleY = -1
+</D-Motion>
+
+<D-Animation>
+delay = 630
+id = 1417
+</D-Animation>
+
+<D-Motion:home&noWait>
+arcY = -16
+delay = 850
+frame = 20
+script = BattleManager.endPerformHideAll();
+</D-Motion>
+
+<D-Motion:return>
+arcY = 0
+delay = 870
+frame = 1
+</D-Motion>

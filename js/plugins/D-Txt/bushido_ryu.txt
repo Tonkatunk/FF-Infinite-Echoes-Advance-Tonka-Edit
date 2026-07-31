@@ -1,0 +1,21 @@
+<D-Motion:swingSword&noWait>
+frame = 15
+arcY = 0
+</D-Motion>
+
+<D-Animation:shot>
+arrival = 20
+delay = 8
+id = 1950
+</D-Animation>
+<D-Motion:noWait&svDamage>
+delay = 20
+condition = BattleManager.resultList()[0].hpDamage > 0;
+script = BattleManager._targets[0].startDamageShake();
+</D-Motion>
+
+<D-Motion:svItem&return>
+delay = 78
+frame = 10
+arcY = 0
+</D-Motion>

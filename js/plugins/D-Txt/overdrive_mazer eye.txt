@@ -1,0 +1,22 @@
+<D-Motion:svWait>
+scaleX = -1
+</D-Motion>
+<D-Animation:self>
+id = 1195
+sx = a.x+a.headX()
+sy = a.y+a.headY()
+</D-Animation>
+<D-Motion:svWait&delay>
+scaleX = 1
+delay = 40
+</D-Motion>
+<D-Animation:beam>
+delay = 40
+id = 1193
+sx = a.x+a.headX()
+sy = a.y+a.headY()
+</D-Animation>
+<D-Animation>
+delay = 120 // 時間差
+id = 1194
+</D-Animation>

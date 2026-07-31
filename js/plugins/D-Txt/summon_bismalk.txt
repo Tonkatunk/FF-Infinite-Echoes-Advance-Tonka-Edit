@@ -1,0 +1,88 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+<D-Animation>
+id = 1
+script = a.useMagicStone(977);
+</D-Animation>
+
+<D-Animation:wait>
+id = 990
+script = BattleManager.startSummonEffect();
+</D-Animation>
+
+<D-Animation:screen>
+id = 1098
+z = -1
+</D-Animation>
+<D-Animation>
+delay = 45
+id = 1101
+</D-Animation>
+
+<D-Animation:screen>
+id = 1099
+sx = Graphics.boxWidth;
+ex = 0
+sy = Graphics.boxHeight/3;
+ey = Graphics.boxHeight/2;
+arcY = 24
+z = 100
+</D-Animation>
+<D-Motion>
+delay = 45
+plugin = tintBB12 64 64 128 64 64 128
+</D-Motion>
+<D-Animation:screen>
+delay = 45
+repeat = 8
+sx = Graphics.boxWidth;
+ex = 0
+sy = Graphics.boxHeight/2;
+interval = 15
+scaleX = 0.25
+scaleY = 0.25
+id = 1100
+z = 99
+syRandom = 32 // 始点Ｙ座標分散
+eyRandom = 32 // 終点Ｙ座標分散
+</D-Animation>
+<D-Animation:screen>
+delay = 50
+repeat = 8
+sx = Graphics.boxWidth;
+ex = 0
+sy = Graphics.boxHeight/2;
+interval = 15
+scaleX = 0.5
+scaleY = 0.5
+id = 1100
+z = 99
+syRandom = 32 // 始点Ｙ座標分散
+eyRandom = 32 // 終点Ｙ座標分散
+</D-Animation>
+<D-Animation:screen>
+delay = 55
+repeat = 8
+sx = Graphics.boxWidth;
+ex = 0
+sy = Graphics.boxHeight/2;
+interval = 15
+scaleX = 0.75
+scaleY = 0.75
+id = 1100
+z = 99
+syRandom = 32 // 始点Ｙ座標分散
+eyRandom = 32 // 終点Ｙ座標分散
+</D-Animation>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>
+
+<D-Animation:delay&wait>
+delay = 200
+id = 1
+script = BattleManager.endSummonEffect();
+</D-Animation>

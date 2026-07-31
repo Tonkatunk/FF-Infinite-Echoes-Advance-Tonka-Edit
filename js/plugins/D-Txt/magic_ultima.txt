@@ -1,0 +1,33 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+
+<D-Animation>
+id = 340
+sx = defaultX + 12 * mirroring
+</D-Animation>
+<D-Animation>
+delay = 190
+id = 341
+sx = defaultX + 12 * mirroring
+</D-Animation>
+<D-Animation>
+delay = 240
+id = 365
+z = 0
+</D-Animation>
+
+//爆発ランダム
+<D-Animation:randomAll>
+delay = 260
+repeat = 20
+interval = 5
+sx = defaultX - $TILE*2*mirroring 
+sy = defaultY + $TILE
+id = 360
+</D-Animation>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

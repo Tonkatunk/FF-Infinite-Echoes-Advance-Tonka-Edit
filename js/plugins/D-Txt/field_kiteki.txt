@@ -1,0 +1,56 @@
+<D-Animation>
+    id = 1431
+    playSe = ETC kiteki
+</D-Animation>
+
+<D-Animation>
+    id = 1
+    delay = 30
+    script = BattleManager.indexTarget(0).addStateInMotion();
+</D-Animation>
+
+<D-Animation>
+    id = 1
+    delay = 30
+    script = BattleManager.indexTarget(1).addStateInMotion();
+</D-Animation>
+<D-Animation>
+    id = 1
+    delay = 30
+    script = BattleManager.indexTarget(2).addStateInMotion();
+</D-Animation>
+<D-Animation>
+    id = 1
+    delay = 30
+    script = BattleManager.indexTarget(3).addStateInMotion();
+</D-Animation>
+<D-Animation>
+    id = 1
+    delay = 30
+    script = BattleManager.indexTarget(4).addStateInMotion();
+</D-Animation>
+<D-Animation>
+    id = 1
+    delay = 30
+    script = BattleManager.indexTarget(5).addStateInMotion();
+</D-Animation>
+<D-Animation>
+    id = 1
+    delay = 30
+    script = BattleManager.indexTarget(6).addStateInMotion();
+</D-Animation>
+<D-Animation>
+    id = 1
+    delay = 30
+    script = BattleManager.indexTarget(7).addStateInMotion();
+</D-Animation>
+<D-Animation>
+    id = 1
+    delay = 30
+    script = BattleManager.indexTarget(8).addStateInMotion();
+</D-Animation>
+
+<D-Animation>
+    delay = 30
+    id = 1432
+</D-Animation>

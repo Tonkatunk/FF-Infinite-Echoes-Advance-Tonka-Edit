@@ -1,0 +1,80 @@
+// 対象へ飛び込む
+<D-Motion:crash&svItem&noWait>
+playSe = FF6 steal
+position = 2 // 足元
+frame = 12
+arcY = -$TILE*2
+</D-Motion>
+
+// 投げる
+<D-Motion:upper>
+condition = BattleManager.resultList()[0].hpDamage > 0;
+delay = 12
+frame = 30
+noShadow = true
+ey = b.y-150
+</D-Motion>
+
+// 投げられる
+<D-Motion:target&noWait>
+condition = BattleManager.resultList()[0].hpDamage > 0;
+delay = 12
+frame = 30
+sy = b.y-b.height
+ey = b.y-150
+scaleY = -1;
+playSe = {"name":"FF5 jump","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+// 落ちる音
+<D-Motion:target&noWait>
+condition = BattleManager.resultList()[0].hpDamage > 0;
+delay = 56
+playSe = {"name":"FF6 flow","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+// 落ちる
+<D-Motion:target&noWait>
+condition = BattleManager.resultList()[0].hpDamage > 0;
+delay = 86
+frame = 10
+scaleY = -1
+ey = b.y+150-b.height
+</D-Motion>
+<D-Motion:target&noWait>
+delay = 96
+frame = 120
+scaleY = -1
+</D-Motion>
+
+<D-Animation>
+condition = BattleManager.resultList()[0].hpDamage > 0;
+delay = 96
+sy = b.y+b.height
+id = 2054
+</D-Animation>
+
+<D-Motion:target&noWait>
+condition = BattleManager.resultList()[0].hpDamage > 0;
+delay = 216
+frame = 1
+sy = b.y+b.height
+scaleY = 1;
+</D-Motion>
+
+// 戻る
+<D-Motion:home&noWait>
+delay = 216
+frame = 30
+arcY = -$TILE
+</D-Motion>
+<D-Motion:return&noWait>
+delay = 246
+frame = 1
+arcT = 0
+</D-Motion>
+
+//フリーズ防止
+<D-Animation>
+id = 1
+</D-Animation>

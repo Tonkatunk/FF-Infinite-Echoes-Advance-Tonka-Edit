@@ -1,0 +1,38 @@
+<D-Motion:svItem&wait>
+playSe = 2000 Wind7
+arcY = -$TILE/2;
+ex = sx - $TILE
+frame = 12;
+</D-Motion>
+<D-Motion:svDying>
+arcY = 0
+frame = 10;
+</D-Motion>
+<D-Motion:svItem&delay>
+script = a.afterimage().start();
+ey = sy-$TILE*10
+ex = sx-$TILE
+playSe = FF5 jump
+frame = 20;
+</D-Motion>
+<D-Motion:delay>
+script = a.afterimage().end();
+</D-Motion>
+
+<D-Animation:delay&wait&self>
+id = 994
+playSe = {"name":"FF5 syldra roar","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+
+<D-Animation:delay&wait&self>
+id = 1189
+sx = Graphics.boxWidth+$TILE*2
+sy = -$TILE*2
+ex = -$TILE*2
+ey = Graphics.boxHeight+$TILE*2
+arrival = 40
+</D-Animation>
+
+<D-Animation:delay&wait>
+id = 1188
+</D-Animation>

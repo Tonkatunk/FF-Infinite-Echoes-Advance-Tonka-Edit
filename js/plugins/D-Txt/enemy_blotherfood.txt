@@ -1,0 +1,66 @@
+<D-Motion:self>
+ex = $gameTroop.members()[1].x - $gameTroop.members()[1].width/2
+ey = $gameTroop.members()[1].y
+frame = 20
+arcY = -16
+playSe = {"name":"FF6 steal","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation:delay>
+noMirror = true
+id = 878
+target = $gameTroop.members()[1]
+</D-Animation>
+
+<D-Motion>
+performer = $gameTroop.members()[1];
+ex = Graphics.boxWidth/4
+ey = -160
+delay = 30
+frame = 20
+</D-Motion>
+
+<D-Motion>
+delay = 40
+frame = 60
+playSe = {"name":"FF6 flow","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Motion>
+battlerZ = 2
+performer = $gameTroop.members()[1];
+sx = Graphics.boxWidth/4*3
+ex = Graphics.boxWidth/4*3
+sy = -160
+ey = Graphics.boxHeight/5*4-$gameTroop.members()[1].height;
+scaleY = -1
+delay = 110
+frame = 10
+</D-Motion>
+
+<D-Animation:delay>
+id = 1417
+</D-Animation>
+<D-Motion>
+battlerZ = 2
+performer = $gameTroop.members()[1];
+sx = Graphics.boxWidth/4*3
+sy = Graphics.boxHeight/5*4-$gameTroop.members()[1].height
+scaleY = -1
+delay = 120
+frame = 171
+</D-Motion>
+
+<D-Motion:home&delay>
+performer = $gameTroop.members()[1];
+frame = 20
+arcY = -16
+scaleY = 1
+sy = Graphics.boxHeight/5*4
+playSe = {"name":"FF6 steal","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+<D-Motion:home&delay>
+frame = 20
+arcY = -16
+playSe = {"name":"FF6 steal","volume":90,"pitch":100,"pan":0}
+</D-Motion>

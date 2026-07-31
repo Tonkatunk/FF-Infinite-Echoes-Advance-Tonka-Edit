@@ -1,0 +1,16 @@
+<D-Animation:randomAll>
+id = 1602
+sy = defaultY + 48 // 始点Ｙ座標
+sxRandom = 120 // 始点Ｘ座標分散
+repeat = 12 // 繰返回数
+inetrval = 3
+</D-Animation>
+
+<D-Animation>
+id = 1604
+</D-Animation>
+
+<D-Animation>
+delay = 60
+id = 1603
+</D-Animation>

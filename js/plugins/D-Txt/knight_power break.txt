@@ -1,0 +1,22 @@
+<D-Motion:swingW&noWait>
+</D-Motion>
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation>
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+</D-Animation>
+<D-Motion>
+delay = 5
+condition = !BattleManager.resultList()[0].missed && !BattleManager.resultList()[0].evaded;
+target = BattleManager.indexTarget(0)
+script = BattleManager.indexTarget(0).startDamageShake();
+</D-Motion>
+
+<D-Animation>
+id = 1
+</D-Animation>

@@ -1,0 +1,30 @@
+<D-Animation>
+id = 1450
+z = 0
+script = BattleManager.startSummonEffect();
+</D-Animation>
+
+<D-Animation>
+    id = 1452
+    delay = 30
+    z = 0
+</D-Animation>
+
+<D-Animation>
+    id = 1451
+    delay = 230
+    z = 0
+    script = BattleManager.endSummonEffect();
+</D-Animation>
+
+<D-Animation>
+    id = 1449
+    delay = 30
+    sx = Graphics.boxWidth/2
+</D-Animation>
+
+<D-Animation>
+    id = 1448
+    delay = 50
+    sx = Graphics.boxWidth/2
+</D-Animation>

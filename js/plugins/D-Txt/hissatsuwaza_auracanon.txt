@@ -1,0 +1,26 @@
+<D-Animation:self>
+id = 1816
+</D-Animation>
+
+<D-Motion:svItem&noWait>
+frame = 35
+</D-Motion>
+
+<D-Animation:beam>
+delay = 35
+sx = a.x-a.width/2*mirroring
+sy = a.y-a.height/2
+id = 1817
+</D-Animation>
+
+<D-Motion:accommodate&noWait>
+delay = 35
+frame = 85
+</D-Motion>
+
+<D-Motion:return&delay>
+arcY = -8
+</D-Motion>
+
+
+

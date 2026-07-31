@@ -1,0 +1,61 @@
+<D-Motion:svThrust&noWait>
+</D-Motion>
+
+//ボール弾む
+<D-Animation:self>
+id = 1161
+arcY = -24
+sx = a.x - 6
+ex = a.x - 6
+sy = a.y - 8
+ey = a.y - 18
+</D-Animation>
+
+//ボールとボールにエフェクト
+<D-Animation:self>
+delay = 20
+id = 1470
+sx = a.x - 6
+sy = a.y - 18
+</D-Animation>
+<D-Animation:self>
+delay = 20
+id = 1477
+sx = a.x - 6
+sy = a.y - 18
+</D-Animation>
+
+//再度はずむ
+<D-Animation>
+delay = 85
+id = 1167
+arcY = -24
+sx = a.x - 6
+ex = a.x - 6
+sy = a.y - 12
+ey = a.y - 18
+</D-Animation>
+
+<D-Motion:thrustkick&noWait>
+delay = 95
+arcY = 0
+</D-Motion>
+
+<D-Animation:shot&lookCourse>
+delay = 105
+id = 2339
+sx = a.x
+sy = a.y - 16
+target = BattleManager.indexTarget(0);
+</D-Animation>
+
+<D-Animation>
+delay = 115
+id = 1478
+target = BattleManager.indexTarget(0);
+</D-Animation>
+
+<D-Motion:return>
+arcY = 0
+delay = 140
+</D-Motion>

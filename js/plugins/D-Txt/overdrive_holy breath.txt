@@ -1,0 +1,54 @@
+<D-Animation>
+id = 2087
+z = 0
+</D-Animation>
+<D-Motion:noWait>
+delay = 30
+plugin = tintBB12 127 127 127 127 127 127
+</D-Motion>
+
+<D-Animation:self>
+id = 2179
+sx = a.x+16
+sy = a.y-8
+scaleX = 0.5
+scaleY = 0.5
+</D-Animation>
+
+<D-Animation>
+delay = 40
+id = 2177
+sx = a.x-16
+sy = a.y-48
+</D-Animation>
+
+<D-Animation>
+delay = 110
+id = 2178
+sx = a.x
+sy = a.y-48
+scaleX = 2
+scaleY = 2
+</D-Animation>
+
+<D-Animation:screen&randomAll>
+id = 2180
+delay = 140
+repeat = 30
+interval = 3
+sx = defaultX-r*5
+sy = defaultY + 30
+scaleX = 0.25
+scaleY = 0.25
+</D-Animation>
+
+<D-Animation>
+id = 2093
+delay = 140
+z = 0
+</D-Animation>
+<D-Motion>
+delay = 140
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>
+

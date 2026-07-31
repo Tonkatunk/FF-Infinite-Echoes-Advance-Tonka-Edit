@@ -1,0 +1,14 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+
+<D-Animation>
+id = 524
+sx = Graphics.boxWidth/2+Graphics.boxWidth/2*mirroring
+ex = Graphics.boxWidth/2-Graphics.boxWidth/2*mirroring
+</D-Animation>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

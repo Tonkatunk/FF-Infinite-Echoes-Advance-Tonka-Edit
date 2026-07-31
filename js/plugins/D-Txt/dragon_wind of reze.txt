@@ -1,0 +1,16 @@
+<D-Motion:svItem&pattern0&noWait>
+frame = 60
+</D-Motion>
+
+<D-Animation:screen>
+id = 1959
+sx = Graphics.boxWidth/2 + Graphics.boxWidth/3.5 * mirroring
+sy = Graphics.boxHeight*2/3
+delay = 30
+</D-Animation>
+
+<D-Animation:screen>
+id = 1960
+sx = Graphics.boxWidth/2 + Graphics.boxWidth/3.5 * mirroring
+sy = Graphics.boxHeight*7/8
+</D-Animation>

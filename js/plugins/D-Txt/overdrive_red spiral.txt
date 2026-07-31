@@ -1,0 +1,62 @@
+<D-Motion:svGuard&noWait>
+arcY = 0
+frame = 90
+</D-Motion>
+
+<D-Animation:self>
+id = 2248
+delay = 60
+plugin = tintBB12 64 64 64 64 64 64
+</D-Animation>
+
+<D-Animation:screen>
+id = 2249
+z = 0
+</D-Animation>
+
+<D-Motion:svWalk&noWait>
+arcY = 0
+frame = 10
+delay = 90
+ex = sx - $DOT*16*mirroring
+</D-Motion>
+
+<D-Motion:upper&noWait>
+arcY = 0
+frame = 60
+delay = 100
+</D-Motion>
+
+<D-Animation>
+id = 2245
+delay = 100
+</D-Animation>
+<D-Animation>
+id = 2247
+delay = 100
+z = 0
+</D-Animation>
+
+<D-Animation>
+id = 2243
+delay = 100
+z = 0.1
+</D-Animation>
+
+<D-Animation>
+id = 2246
+delay = 160
+</D-Animation>
+
+<D-Motion:return&noWait>
+arcY = 0
+frame = 20
+delay = 160
+</D-Animation>
+
+// アニメーション終了を待って実行
+<D-Motion:return>
+arcY = 0
+delay = 270
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

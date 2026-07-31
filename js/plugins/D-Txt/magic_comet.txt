@@ -1,0 +1,46 @@
+<D-Animation>
+playSe = {"name":"FF5 cometex","volume":100,"pitch":100,"pan":0}
+id = 1;
+</D-Animation>
+<D-Animation>
+playSe = {"name":"FF6 beatBoss","volume":100,"pitch":100,"pan":0}
+id = 1;
+</D-Animation>
+<D-Animation>
+playSe = {"name":"FF5 comet","volume":100,"pitch":100,"pan":0}
+delay = 40
+id = 1;
+</D-Animation>
+
+<D-Animation:delay>
+id = 418
+sx = b.x +$DOT*32
+sy = b.y +$DOT*16
+ex = sx
+ey = sy
+</D-Animation>
+
+<D-Animation>
+delay = 12
+id = 418
+sx = b.x +$DOT*16
+sy = b.y -$DOT*16
+ex = sx
+ey = sy
+</D-Animation>
+
+<D-Animation>
+delay = 24
+id = 418
+sx = b.x -$DOT*16
+sy = b.y +$DOT*16
+ex = sx
+ey = sy
+</D-Animation>
+
+<D-Animation>
+delay = 36
+id = 418
+ex = sx
+ey = sy
+</D-Animation>

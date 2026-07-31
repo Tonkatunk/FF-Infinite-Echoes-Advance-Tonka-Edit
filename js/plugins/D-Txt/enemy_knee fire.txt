@@ -1,0 +1,92 @@
+//同サイドが対象の場合、アニメーションを反転する
+<D-Setting:MirrorForFriend>
+
+//火炎放射
+<D-Animation:beam>
+target = BattleManager._targets[0];
+sx = a.x + 10
+sy = a.y - 25
+id = 525
+condition = a.isEnemy();
+</D-Animation>
+
+//火炎放射炎
+<D-Animation:pierce>
+delay = 30
+id = 526
+sx = a.x+10
+sy = a.y-25
+target = BattleManager._targets[0];
+interval = 2
+scale = 0.5
+repeat = 20
+condition = a.isEnemy();
+</D-Animation>
+
+//火炎放射
+<D-Animation:beam>
+delay = 20
+target = BattleManager._targets[1];
+sx = a.x - 30
+sy = a.y - 25
+id = 525
+condition = a.isEnemy();
+</D-Animation>
+
+//火炎放射炎
+<D-Animation:pierce>
+delay = 50
+id = 526
+sx = a.x-30
+sy = a.y-25
+target = BattleManager._targets[1];
+interval = 2
+scale = 0.5
+repeat = 20
+condition = a.isEnemy();
+</D-Animation>
+
+//火炎放射
+<D-Animation:beam>
+target = BattleManager._targets[0];
+sx = a.x
+sy = a.y - 4
+id = 525
+condition = a.isActor();
+</D-Animation>
+
+//火炎放射炎
+<D-Animation:pierce>
+delay = 30
+id = 526
+sx = a.x
+sy = a.y - 4
+target = BattleManager._targets[0];
+interval = 2
+scale = 0.5
+repeat = 20
+condition = a.isActor();
+</D-Animation>
+
+//火炎放射
+<D-Animation:beam>
+delay = 20
+target = BattleManager._targets[1];
+sx = a.x
+sy = a.y - 4
+id = 525
+condition = a.isActor();
+</D-Animation>
+
+//火炎放射炎
+<D-Animation:pierce>
+delay = 50
+id = 526
+sx = a.x
+sy = a.y - 4
+target = BattleManager._targets[1];
+interval = 2
+scale = 0.5
+repeat = 20
+condition = a.isActor();
+</D-Animation>

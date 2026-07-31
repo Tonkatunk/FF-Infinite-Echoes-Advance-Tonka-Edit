@@ -1,0 +1,151 @@
+<D-Animation:self>
+id = 2249
+z = 0
+</D-Animation>
+<D-Animation:self>
+id = 1
+delay = 60
+plugin = tintBB12 127 127 127 127 127 127
+</D-Animation>
+
+<D-Motion:svGuard&noWait>
+frame = 15
+arcY = 0
+</D-Motion>
+
+<D-Motion:svThrust&noWait&pattern1>
+delay = 15
+frame = 10
+arcY = 0
+playSe = {"name":"FF5 ryuken","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation:lookCourse>
+delay = 15
+id = 902
+sx = a.x
+sy = a.y-8
+ex = b.x
+ey = b.y
+</D-Animation>
+
+<D-Animation>
+delay = 19
+id = 903
+sx = a.x
+sy = a.y-8
+ex = b.x
+ey = b.y
+z = 3.14
+</D-Animation>
+
+<D-Animation>
+delay = 23
+id = 903
+sx = a.x
+sy = a.y-8
+ex = b.x
+ey = b.y
+scale = 0.75
+z = 3.13
+</D-Animation>
+
+<D-Animation>
+delay = 27
+id = 903
+sx = a.x
+sy = a.y-8
+ex = b.x
+ey = b.y
+scale = 0.5
+z = 3.12
+</D-Animation>
+
+<D-Animation>
+delay = 31
+id = 903
+sx = a.x
+sy = a.y-8
+ex = b.x
+ey = b.y
+scale = 0.25
+z = 3.11
+</D-Animation>
+
+<D-Animation:revolve&lookCourse>
+delay = 45
+id = 2359
+sy = b.y
+ey = 0
+radX *= 2 // 回転角度（Ｘ）
+radY *= 2 // 回転角度（Ｙ）
+radiusX = b.width/2 // 半径（Ｘ方向）
+radiusY = b.width/4 // 半径（Ｙ方向）
+</D-Animation>
+<D-Animation:revolve&lookCourse>
+delay = 49
+id = 2360
+sy = b.y
+ey = 0
+radX *= 2 // 回転角度（Ｘ）
+radY *= 2 // 回転角度（Ｙ）
+radiusX = b.width/2 // 半径（Ｘ方向）
+radiusY = b.width/4 // 半径（Ｙ方向）
+</D-Animation>
+<D-Animation:revolve&lookCourse>
+delay = 53
+id = 2360
+sy = b.y
+ey = 0
+radX *= 2 // 回転角度（Ｘ）
+radY *= 2 // 回転角度（Ｙ）
+radiusX = b.width/2 // 半径（Ｘ方向）
+radiusY = b.width/4 // 半径（Ｙ方向）
+scale = 0.75
+</D-Animation>
+<D-Animation:revolve&lookCourse>
+delay = 57
+id = 2360
+sy = b.y
+ey = 0
+radX *= 2 // 回転角度（Ｘ）
+radY *= 2 // 回転角度（Ｙ）
+radiusX = b.width/2 // 半径（Ｘ方向）
+radiusY = b.width/4 // 半径（Ｙ方向）
+scale = 0.5
+</D-Animation>
+<D-Animation:revolve&lookCourse>
+delay = 61
+id = 2360
+sy = b.y
+ey = 0
+radX *= 2 // 回転角度（Ｘ）
+radY *= 2 // 回転角度（Ｙ）
+radiusX = b.width/2 // 半径（Ｘ方向）
+radiusY = b.width/4 // 半径（Ｙ方向）
+scale = 0.25
+</D-Animation>
+
+<D-Animation>
+delay = 45
+id = 2361
+scaleX = t < 15 ? t/15 : 1
+playSe = {"name":"FF7 omni3","volume":80,"pitch":100,"pan":0}
+</D-Animation>
+
+<D-Animation>
+delay = 75
+id = 2361
+scaleX = t > 15 ? 1-(t-15)/(et-15) : 1
+</D-Animation>
+
+<D-Animation:self>
+delay = 120
+id = 1465
+</D-Animation>
+
+<D-Motion:return&delay>
+frame = 1
+arcY = 0
+    plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

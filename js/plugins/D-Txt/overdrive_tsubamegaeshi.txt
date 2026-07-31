@@ -1,0 +1,53 @@
+<D-Motion:svGuard>
+frame = 30
+playSe = MZ Sword3
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+delay = 30
+id = 2012
+</D-Animation>
+
+<D-Animation>
+delay = 30
+id = 2011
+</D-Animation>
+
+<D-Motion:svGuard>
+delay = 30
+frame = 26
+sx = b.x-b.width/2
+sy = b.y
+arcY = 0
+</D-Motion>
+
+<D-Motion:zantetsu>
+delay = 56
+frame = 60
+arcY = 0
+</D-Motion>
+
+<D-Motion:spinWFR>
+delay = 116
+frame = 20
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+delay = 136
+script = b.requestEffect("zantetsu")
+condition = b.addedStates.includes(64) && b.isEnemy();
+</D-Motion>
+<D-Motion:accommodate>
+delay = 136
+frame = 60
+playSe = MZ Slash9
+arcY = 0
+</D-Motion>
+
+<D-Motion:return>
+delay = 166
+frame = 10
+arcY = -16
+</D-Motion>

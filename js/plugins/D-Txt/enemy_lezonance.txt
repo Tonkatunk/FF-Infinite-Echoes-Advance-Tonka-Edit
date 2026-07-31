@@ -1,0 +1,56 @@
+//効果音
+<D-Motion>
+playSe = {"name":"FF6 elnino","volume":90,"pitch":150,"pan":0}
+</D-Motion>
+
+<D-Animation>
+id = 887
+sx = $gameTroop.members()[0].x + $gameTroop.members()[0].width/2
+target = $gameTroop.members()[0]
+filterType = shockwave
+filterParameters = [0,0,-1,6,80,1] // X,Y,半径,振幅,波長,明るさ
+</D-Animation>
+
+<D-Animation>
+id = 888
+sx = $gameTroop.members()[1].x + $gameTroop.members()[1].width/2
+target = $gameTroop.members()[1]
+filterType = shockwave
+filterParameters = [0,0,-1,6,80,1] // X,Y,半径,振幅,波長,明るさ
+</D-Animation>
+
+<D-Animation>
+delay = 30
+id = 887
+sx = $gameTroop.members()[0].x + $gameTroop.members()[0].width/2
+target = $gameTroop.members()[0]
+filterType = shockwave
+filterParameters = [0,0,-1,6,80,1] // X,Y,半径,振幅,波長,明るさ
+</D-Animation>
+
+<D-Animation>
+delay = 30
+id = 888
+sx = $gameTroop.members()[1].x + $gameTroop.members()[1].width/2
+target = $gameTroop.members()[1]
+filterType = shockwave
+filterParameters = [0,0,-1,6,80,1] // X,Y,半径,振幅,波長,明るさ
+</D-Animation>
+
+<D-Animation>
+delay = 60
+id = 887
+sx = $gameTroop.members()[0].x + $gameTroop.members()[0].width/2
+target = $gameTroop.members()[0]
+filterType = shockwave
+filterParameters = [0,0,-1,6,80,1] // X,Y,半径,振幅,波長,明るさ
+</D-Animation>
+
+<D-Animation>
+delay = 60
+id = 888
+sx = $gameTroop.members()[1].x + $gameTroop.members()[1].width/2
+target = $gameTroop.members()[1]
+filterType = shockwave
+filterParameters = [0,0,-1,6,80,1] // X,Y,半径,振幅,波長,明るさ
+</D-Animation>

@@ -1,0 +1,122 @@
+<D-Animation:self>
+id = 2249
+z = 0
+</D-Animation>
+<D-Animation:self>
+id = 1
+plugin = tintBB12 127 127 127 127 127 127
+</D-Animation>
+
+<D-Motion:svWalk&noWait>
+ex = BattleManager.indexTarget(0).x + BattleManager.indexTarget(0).width/2;
+ey = BattleManager.indexTarget(0).y;
+frame = 20
+playSe = {"name":"FF8 renzokuken dash","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Motion:swingGunblade&noWait>
+delay = 20
+ex = BattleManager.indexTarget(0).x - BattleManager.indexTarget(0).width/2;
+ey = BattleManager.indexTarget(0).y;
+arcY = -16
+frame = 10
+</D-Motion>
+<D-Animation>
+target =  BattleManager.indexTarget(0)
+delay = 20
+script = BattleManager.indexTarget(0).startDamageShake();
+</D-Animation>
+<D-Motion:swingGunblade&noWait>
+delay = 30
+arcY = 0
+frame = 20
+</D-Motion>
+
+<D-Motion:swingGunblade&noWait>
+delay = 50
+ex = BattleManager.indexTarget(1).x + BattleManager.indexTarget(1).width/2;
+ey = BattleManager.indexTarget(1).y;
+arcY = -16
+frame = 10
+scaleX = -1
+</D-Motion>
+<D-Animation>
+target =  BattleManager.indexTarget(1)
+delay = 50
+scaleX = -1
+script = BattleManager.indexTarget(1).startDamageShake();
+</D-Animation>
+<D-Motion:swingGunblade&noWait>
+delay = 60
+arcY = 0
+frame = 20
+scaleX = -1
+</D-Motion>
+
+<D-Motion:swingGunblade&noWait>
+delay = 80
+ex = BattleManager.indexTarget(2).x - BattleManager.indexTarget(2).width/2;
+ey = BattleManager.indexTarget(2).y;
+arcY = -16
+frame = 10
+</D-Motion>
+<D-Animation>
+target =  BattleManager.indexTarget(2)
+delay = 80
+script = BattleManager.indexTarget(2).startDamageShake();
+</D-Animation>
+<D-Motion:swingGunblade&noWait>
+delay = 90
+arcY = 0
+frame = 20
+scaleX = 1
+</D-Motion>
+
+<D-Motion:swingGunblade&noWait>
+delay = 110
+ex = BattleManager.indexTarget(3).x + BattleManager.indexTarget(3).width/2;
+ey = BattleManager.indexTarget(3).y;
+arcY = -16
+frame = 10
+scaleX = -1
+</D-Motion>
+<D-Animation>
+target =  BattleManager.indexTarget(3)
+delay = 110
+scaleX = -1
+script = BattleManager.indexTarget(3).startDamageShake();
+</D-Animation>
+<D-Motion:swingGunblade&noWait>
+delay = 120
+arcY = 0
+frame = 20
+scaleX = -1
+</D-Motion>
+
+<D-Motion:swingGunblade&noWait>
+delay = 140
+ex = BattleManager.indexTarget(4).x + BattleManager.indexTarget(4).width/2;
+ey = BattleManager.indexTarget(4).y;
+arcY = -32
+frame = 10
+scaleX = 1
+</D-Motion>
+<D-Animation>
+target =  BattleManager.indexTarget(4)
+id = 2363
+delay = 145
+script = BattleManager.indexTarget(4).startDamageShake();
+</D-Animation>
+<D-Motion:svDying&noWait>
+delay = 150
+arcY = 0
+frame = 30
+scaleX = 1
+</D-Motion>
+
+<D-Motion:return>
+delay = 180
+frame = 20
+arcY = -8
+    plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

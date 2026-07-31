@@ -1,0 +1,17 @@
+<D-Animation:screen>
+id = 1335
+sx = Graphics.boxWidth*1.5
+sy = Graphics.boxHeight/3
+ex = -64
+arcY = 48
+</D-Animation>
+<D-Animation>
+id = 1
+script = a.useMagicStone(979);
+</D-Animation>
+
+<D-Motion:soon>
+delay = 45
+sy = -100
+script = $gameParty.startQuetzalli();
+</D-Motion>

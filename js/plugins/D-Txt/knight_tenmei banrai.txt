@@ -1,0 +1,52 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+
+<D-Motion:raiseSword&noWait>
+arcY = 0
+frame = 20
+</D-Motion>
+<D-Animation:self>
+id = 310
+</D-Animation>
+
+<D-Motion:strongSlashReady&noWait>
+delay = 20
+arcY = 0
+frame = 40
+</D-Motion>
+
+<D-Animation>
+delay = 60
+sx = Graphics.boxWidth/3
+id = 482
+</D-Animation>
+<D-Motion:spinningEdge&noWait>
+delay = 60
+frame = 30
+arcY = 0
+</D-Motion>
+
+<D-Motion:spinningEdge&noWait>
+delay = 90
+frame = 10
+arcY = 0
+</D-Motion>
+
+<D-Motion:swingDownSword&noWait>
+delay = 100
+frame = 15
+arcY = 0
+</D-Motion>
+
+<D-Motion:svWalk&home&noWait>
+frame = 10
+delay = 115
+</D-Motion>
+
+<D-Motion:return&noWait>
+frame = 0
+delay = 125
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>
+

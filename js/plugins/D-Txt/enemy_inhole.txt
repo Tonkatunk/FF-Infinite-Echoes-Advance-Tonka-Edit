@@ -1,0 +1,37 @@
+<D-Animation:self>
+sx = a.x+a.headX();
+sy = a.y+a.headY();
+noMirror = true
+</D-Animation>
+
+<D-Motion:noWait&svDamage>
+frame = 25
+arcY = 0
+performer = BattleManager._targets[0]
+condition = b.result().addedStates.length > 0
+</D-Motion>
+
+<D-Motion:noWait&svDamage>
+delay = 25
+frame = 8
+performer = BattleManager._targets[0]
+arcY = 0
+ex = BattleManager.subject().x+BattleManager.subject().headX();
+ey = BattleManager.subject().y+BattleManager.subject().headY();
+condition = b.result().addedStates.length > 0
+</D-Motion>
+
+<D-Motion:noWait>
+performer = BattleManager._targets[0]
+delay = 33
+arcY = 0
+script = b.addStateInMotion();
+condition = b.result().addedStates.length > 0
+</D-Motion>
+
+<D-Motion:noWait>
+delay = 33
+arcY = 0
+script = BattleManager.pushActiveMessage("ムシャムシャ…　モグモグ…");
+condition = b.result().addedStates.length > 0
+</D-Motion>

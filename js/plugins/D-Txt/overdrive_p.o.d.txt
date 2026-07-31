@@ -1,0 +1,139 @@
+<D-Motion:svItem&noWait>
+playSe = FF6 steal
+arcY = -$TILE/2;
+ex = sx - $TILE
+frame = 12;
+</D-Motion>
+<D-Motion:svDying&noWait>
+delay = 12;
+arcY = 0
+frame = 10;
+</D-Motion>
+<D-Motion:upper&noWait>
+delay = 22
+script = a.afterimage().start();
+ey = sy-$TILE*10
+ex = sx-$TILE
+playSe = FF5 jump
+frame = 20;
+noShadow = true
+</D-Motion>
+
+//必殺技背景
+<D-Animation:noWait>
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/2
+delay = 42
+id = 2181
+z = 2.9
+playSe = FF5 whirlpoolR ex
+</D-Animation>
+
+<D-Motion:upper&noWait>
+sx = Graphics.boxWidth/2+32
+sy = Graphics.boxHeight+24
+ex = Graphics.boxWidth/2
+ey = Graphics.boxHeight/2+16
+delay = 42
+frame = 10
+script = a.afterimage().end(); BattleManager.performHideWithoutSubject();
+noShadow = true
+</D-Motion>
+<D-Motion:upper&noWait>
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/2+16
+delay = 52
+frame = 40
+noShadow = true
+</D-Motion>
+<D-Motion:upper&noWait>
+ex = Graphics.boxWidth/2-16
+ey = 0
+delay = 92
+frame = 10
+noShadow = true
+</D-Motion>
+
+<D-Animation>
+id = 2181
+delay = 42
+z = 2.9
+</D-Animation>
+
+<D-Motion:upper&noWait>
+sx = Graphics.boxWidth/2+32
+sy = Graphics.boxHeight+24
+ex = Graphics.boxWidth/2
+ey = Graphics.boxHeight/5*4
+delay = 142
+frame = 10
+playSe = ETC jump
+noShadow = true
+</D-Motion>
+<D-Motion:tackle&noWait&roll>
+rotation *= 0.125
+ex = Graphics.boxWidth/2-12
+ey = Graphics.boxHeight/5*4-12
+delay = 152
+frame = 40
+noShadow = true
+</D-Motion>
+<D-Motion:setupSpireDive&noWait>
+ex = Graphics.boxWidth/2-16
+ey = Graphics.boxHeight/5*4-16
+delay = 192
+frame = 70
+noShadow = true
+</D-Motion>
+<D-Animation:self>
+id = 2184
+delay = 192
+z = 3.1
+sx = a.x - 16
+sy = a.y + 16
+</D-Animation>
+
+<D-Animation>
+id = 2182
+delay = 102
+z = 2.9
+</D-Animation>
+<D-Animation>
+id = 2183
+delay = 102
+sy = Graphics.boxHeight/2
+sx = Graphics.boxWidth/2
+ex = Graphics.boxWidth/2+16
+z = 3.1
+</D-Animation>
+<D-Animation>
+id = 2183
+delay = 102
+sy = Graphics.boxHeight/2
+sx = Graphics.boxWidth/2
+ex = Graphics.boxWidth/2-32
+scaleX = -0.5
+scaleY = 0.5
+z = 2.92
+</D-Animation>
+<D-Animation>
+id = 2183
+delay = 102
+sy = Graphics.boxHeight/2
+sx = Graphics.boxWidth/2
+ex = Graphics.boxWidth/2+32
+scaleX = 0.45
+scaleY = 0.45
+z = 2.91
+</D-Animation>
+
+<D-Animation>
+id = 2185
+delay = 252
+</D-Animation>
+<D-Motion:return&roll>
+delay = 262
+rotation *= 0
+noShadow = false
+script = BattleManager.endPerformHideAll();
+</D-Motion>

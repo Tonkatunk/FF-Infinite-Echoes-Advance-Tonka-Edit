@@ -1,0 +1,28 @@
+//水
+<D-Animation:screen>
+sy = Graphics.boxHeight/4*3
+sx = Graphics.boxWidth/3
+ey = Graphics.boxHeight/4*3
+ex = Graphics.boxWidth/3
+id = 920
+</D-Animation>
+
+<D-Animation:wait&screen>
+id = 997
+</D-Animation>
+
+//雷
+<D-Animation:screen>
+sy = Graphics.boxHeight/4*3
+sx = Graphics.boxWidth/3
+ey = Graphics.boxHeight/4*3
+ex = Graphics.boxWidth/3
+id = 921
+</D-Animation>
+
+<D-Animation:wait&screen>
+id = 1000
+</D-Animation>
+<D-Animation:wait&screen>
+id = 980
+</D-Animation>

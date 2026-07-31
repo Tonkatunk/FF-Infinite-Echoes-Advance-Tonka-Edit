@@ -1,0 +1,135 @@
+<D-Motion:kick&noWait>
+ex = b.x
+ey = b.y-b.height/2
+frame = 15
+playSe = {"name":"FF6 steal","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Motion:kick&roll&noWait>
+delay = 15
+ex = b.x+b.width/2+8
+ey = b.y
+arcY = -32
+frame = 15
+rotation *= -1
+</D-Motion>
+<D-Animation>
+id = 2308
+delay = 15
+</D-Animation>
+
+
+//歩く動きをしながら近づく
+<D-Motion:svWalk&near&noWait>
+delay = 30
+frame = 10
+</D-Motion>
+
+<D-Motion:fastpunch&noWait>
+delay = 40
+</D-Motion>
+<D-Motion:missile&noWait>
+delay = 44
+</D-Motion>
+<D-Motion:fastpunch&noWait>
+delay = 48
+</D-Motion>
+<D-Motion:missile&noWait>
+delay = 52
+</D-Motion>
+<D-Motion:fastpunch&noWait>
+delay = 56
+</D-Motion>
+<D-Motion:missile&noWait>
+delay = 60
+</D-Motion>
+<D-Motion:fastpunch&noWait>
+delay = 64
+</D-Motion>
+<D-Motion:missile&noWait>
+delay = 68
+</D-Motion>
+<D-Motion:fastpunch&noWait>
+delay = 72
+</D-Motion>
+<D-Motion:missile&noWait>
+delay = 76
+</D-Motion>
+<D-Motion:fastpunch&noWait>
+delay = 80
+</D-Motion>
+<D-Motion:missile&noWait>
+delay = 84
+</D-Motion>
+<D-Motion:missile&noWait>
+delay = 88
+</D-Motion>
+<D-Motion:fastpunch&noWait>
+delay = 92
+</D-Motion>
+<D-Motion:missile&noWait>
+delay = 96
+</D-Motion>
+<D-Motion:fastpunch&noWait>
+delay = 100
+</D-Motion>
+
+<D-Animation>
+delay = 40
+sx = a.x - 48
+id = 1814
+</D-Animation>
+<D-Animation>
+delay = 45
+id = 1815
+repeat = 6 // 繰返回数
+interval = 8 // 間隔
+sxRandom = 16 // 始点Ｘ座標分散
+syRandom = 16 // 始点Ｙ座標分散
+</D-Animation>
+
+<D-Animation>
+delay = 75
+sx = a.x - 48
+id = 1814
+</D-Animation>
+<D-Animation>
+delay = 80
+id = 1815
+repeat = 6 // 繰返回数
+interval = 8 // 間隔
+sxRandom = 16 // 始点Ｘ座標分散
+syRandom = 16 // 始点Ｙ座標分散
+</D-Animation>
+
+<D-Motion:fastpunch&noWait>
+delay = 130
+ex = b.x-b.width/2-8
+ey = b.y
+arcY = 0
+frame = 10
+</D-Motion>
+<D-Motion:fastpunch&noWait>
+delay = 140
+arcY = 0
+frame = 120
+</D-Motion>
+<D-Animation:screen>
+    delay = 135
+    id = 2098
+    z = 0.1
+</D-Animation>
+<D-Animation:screen>
+    delay = 135
+    id = 2099
+    z = 0
+</D-Animation>
+<D-Animation>
+    delay = 135
+    id = 1848
+</D-Animation>
+
+<D-Motion:return>
+delay = 320
+arcY = -16
+</D-Motion>

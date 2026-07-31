@@ -1,0 +1,133 @@
+<D-Motion:svChant&noWait>
+arcY = 0
+frame = 160
+</D-Motion>
+
+<D-Animation:self>
+id = 1
+delay = 60
+plugin = tintBB12 64 64 64 64 64 64
+</D-Animation>
+
+<D-Animation:screen>
+id = 2264
+z = 0
+</D-Animation>
+
+<D-Motion:fastpunch>
+arcY = 0
+delay = 150
+frame = 60
+</D-Motion>
+
+<D-Animation>
+id = 2246
+delay = 240
+</D-Animation>
+<D-Animation>
+id = 2265
+delay = 190
+</D-Animation>
+
+<D-Animation>
+playSe = {"name":"FF7 omni","volume":50,"pitch":100,"pan":0}
+id = 2266
+delay = 180
+sx = a.x + 30
+sy = a.y - 20
+ex = b.x
+ey = b.y - b.height/2
+arcY = 24
+</D-Animation>
+
+<D-Animation>
+id = 2266
+delay = 180
+sx = a.x - 30
+sy = a.y - 20
+ex = b.x
+ey = b.y - b.height/2
+arcY = -24
+</D-Animation>
+
+<D-Animation>
+id = 2266
+delay = 180
+sx = a.x + 20
+sy = a.y - 30
+ex = b.x
+ey = b.y - b.height/2
+arcY = -8
+</D-Animation>
+
+<D-Animation>
+id = 2266
+delay = 180
+sx = a.x - 20
+sy = a.y - 30
+ex = b.x
+ey = b.y - b.height/2
+arcY = 8
+</D-Animation>
+
+<D-Animation>
+id = 2266
+delay = 180
+sx = a.x + 20
+sy = a.y - 10
+ex = b.x
+ey = b.y - b.height/2
+arcY = -16
+</D-Animation>
+
+<D-Animation>
+id = 2266
+delay = 180
+sx = a.x - 20
+sy = a.y - 10
+ex = b.x
+ey = b.y - b.height/2
+arcY = 16
+</D-Animation>
+
+<D-Animation>
+id = 2266
+delay = 180
+sx = a.x - 30
+sy = a.y - 20
+ex = b.x
+ey = b.y - b.height/2
+arcY = -24
+</D-Animation>
+
+//対象に集まるオーラ
+<D-Animation:revolve&wait&self>
+repeat = 6
+position = 2
+interval = 0 // 間隔
+id = 2262
+radiusX = (Graphics.boxWidth/2*((60-t)/60))+a.width/2+$TILE // 半径（Ｘ方向）
+radiusY = a.width/2 // 半径（Ｙ方向）
+radX += r*45;
+radY += r*45;
+</D-Animation>
+
+//対象に集まるオーラ
+<D-Animation:revolve&wait&self>
+repeat = 6
+position = 2
+interval = 0 // 間隔
+id = 2263
+radiusX = a.width/2+$TILE // 半径（Ｘ方向）
+radiusY = a.width/2 // 半径（Ｙ方向）
+radX += r*45;
+radY += r*45;
+ey = a.y - 24
+</D-Animation>
+
+// アニメーション終了を待って実行
+<D-Motion:return>
+arcY = 0
+delay = 270
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

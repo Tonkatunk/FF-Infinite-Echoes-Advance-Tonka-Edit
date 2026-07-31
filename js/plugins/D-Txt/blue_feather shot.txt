@@ -1,0 +1,174 @@
+// 本エフェクト1-----------------------------------------------------------------------------
+
+<D-Animation:shot>
+sx = a.x+$TILE*2
+target = BattleManager._targets[0]
+id = 520
+arrival = 12 // 到達フレーム
+script = BattleManager._targets[0].startMagicNockback(12,16,1,BattleManager.resultList()[0]);
+</D-Animation>
+
+// 回避エフェクト1-----------------------------------------------------------------------------
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+condition = BattleManager.resultList()[0].missed;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// 武器1ブロッキング
+<D-Motion:svBlockR>
+performer = BattleManager._targets[0]
+condition = b.isActor() && b.isWeapon1Block(BattleManager.resultList()[0].evaRand);
+playSe = {"name":"FF6 guard2","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// 武器2or盾ブロッキング
+<D-Motion:svBlockL>
+performer = BattleManager._targets[0]
+condition = b.isActor() && ( b.isWeapon2Block(BattleManager.resultList()[0].evaRand) || b.isSealdBlock(b._result.evaRand));
+playSe = {"name":"FF6 guard2","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// アクセサリーブロッキング
+<D-Motion:svMant>
+performer = BattleManager._targets[0]
+condition = b.isActor() && b.isAccessoryBlock(BattleManager.resultList()[0].evaRand);
+playSe = {"name":"MZ Equip3","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// マテリアブロッキング
+<D-Motion:svItem>
+performer = BattleManager._targets[0]
+condition = b.isActor() && b.isMateriaBlock(BattleManager.resultList()[0].evaRand);
+playSe = {"name":"FF6 guard2","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// 通常回避モーション
+<D-Motion:svMissile>
+performer = BattleManager._targets[0]
+condition = b.isActor() && b.isNormalEva(BattleManager.resultList()[0].isNormalEva);
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// ウェイト-----------------------------------------------------------------------------
+
+<D-Animation:wait>
+id = 987
+</D-Animation>
+
+// 本エフェクト2-----------------------------------------------------------------------------
+
+<D-Animation:shot>
+sx = a.x+$TILE*2
+target = BattleManager._targets[1]
+id = 520
+arrival = 12 // 到達フレーム
+script = BattleManager._targets[1].startMagicNockback(12,16,1,BattleManager.resultList()[1]);
+</D-Animation>
+
+// 回避エフェクト2-----------------------------------------------------------------------------
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+condition = BattleManager.resultList()[1].missed;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// 武器1ブロッキング
+<D-Motion:svBlockR>
+performer = BattleManager._targets[1]
+condition = b.isActor() && b.isWeapon1Block(BattleManager.resultList()[1].evaRand);
+playSe = {"name":"FF6 guard2","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// 武器2or盾ブロッキング
+<D-Motion:svBlockL>
+performer = BattleManager._targets[1]
+condition = b.isActor() && ( b.isWeapon2Block(BattleManager.resultList()[1].evaRand) || b.isSealdBlock(b._result.evaRand));
+playSe = {"name":"FF6 guard2","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// アクセサリーブロッキング
+<D-Motion:svMant>
+performer = BattleManager._targets[1]
+condition = b.isActor() && b.isAccessoryBlock(BattleManager.resultList()[1].evaRand);
+playSe = {"name":"MZ Equip3","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// マテリアブロッキング
+<D-Motion:svItem>
+performer = BattleManager._targets[1]
+condition = b.isActor() && b.isMateriaBlock(BattleManager.resultList()[1].evaRand);
+playSe = {"name":"FF6 guard2","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// 通常回避モーション
+<D-Motion:svMissile>
+performer = BattleManager._targets[1]
+condition = b.isActor() && b.isNormalEva(BattleManager.resultList()[1].isNormalEva);
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// ウェイト-----------------------------------------------------------------------------
+
+<D-Animation:wait>
+id = 987
+</D-Animation>
+
+// 本エフェクト3-----------------------------------------------------------------------------
+
+<D-Animation:shot>
+sx = a.x+$TILE*2
+target = BattleManager._targets[2]
+id = 520
+arrival = 12 // 到達フレーム
+script = BattleManager._targets[2].startMagicNockback(12,16,1,BattleManager.resultList()[2]);
+</D-Animation>
+
+// 回避エフェクト3-----------------------------------------------------------------------------
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+condition = BattleManager.resultList()[2].missed;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// 武器1ブロッキング
+<D-Motion:svBlockR>
+performer = BattleManager._targets[2]
+condition = b.isActor() && b.isWeapon1Block(BattleManager.resultList()[2].evaRand);
+playSe = {"name":"FF6 guard2","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// 武器2or盾ブロッキング
+<D-Motion:svBlockL>
+performer = BattleManager._targets[2]
+condition = b.isActor() && ( b.isWeapon2Block(BattleManager.resultList()[2].evaRand) || b.isSealdBlock(b._result.evaRand));
+playSe = {"name":"FF6 guard2","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// アクセサリーブロッキング
+<D-Motion:svMant>
+performer = BattleManager._targets[2]
+condition = b.isActor() && b.isAccessoryBlock(BattleManager.resultList()[2].evaRand);
+playSe = {"name":"MZ Equip3","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// マテリアブロッキング
+<D-Motion:svItem>
+performer = BattleManager._targets[2]
+condition = b.isActor() && b.isMateriaBlock(BattleManager.resultList()[2].evaRand);
+playSe = {"name":"FF6 guard2","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// 通常回避モーション
+<D-Motion:svMissile>
+performer = BattleManager._targets[2]
+condition = b.isActor() && b.isNormalEva(BattleManager.resultList()[2].isNormalEva);
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation>
+id = 1
+</D-Animation>

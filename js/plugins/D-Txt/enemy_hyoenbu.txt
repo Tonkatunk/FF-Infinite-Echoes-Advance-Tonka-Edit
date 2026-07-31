@@ -1,0 +1,7 @@
+<D-Animation/>
+
+<D-Motion:noWait&svDamage>
+    delay = 30
+    arcY = 0
+    condition = BattleManager.resultList()[0].hpDamage > 0
+</D-Motion>

@@ -1,0 +1,45 @@
+//同サイドが対象の場合、アニメーションを反転する
+<D-Setting:MirrorForFriend>
+
+//リフレク
+<D-Animation>
+condition = BattleManager._reflectCount > 0;
+target = BattleManager._firstTargets[0];
+id = 408
+</D-Animation>
+
+<D-Animation:screen>
+delay = BattleManager._reflectCount * 20
+playSe = {"name":"FF6 raspil2","volume":100,"pitch":100,"pan":0}
+id = 1;
+</D-Animation>
+
+//衝撃は
+<D-Animation>
+delay = BattleManager._reflectCount * 20
+target = BattleManager._targets[0]
+id = 382
+sx = a.x-(a.x-b.x)/10*r
+ex = a.x-(a.x-b.x)/10*r
+sy = a.y-(a.y-b.y)/10*r
+ey = a.y-(a.y-b.y)/10*r
+interval = 3
+repeat = 10
+</D-Animation>
+
+<D-Animation>
+delay = 30 + BattleManager._reflectCount * 20
+target = BattleManager._targets[0];
+</D-Animation>
+<D-Motion>
+delay = 30
+condition = !BattleManager.resultList()[0].missed && !BattleManager.resultList()[0].evaded;
+script = BattleManager.indexTarget(0).startDamageShake();
+</D-Motion>
+
+<D-Animation:screen>
+delay = 30 + BattleManager._reflectCount * 20
+target = BattleManager._targets[0];
+id = 384
+z = -1
+</D-Animation>

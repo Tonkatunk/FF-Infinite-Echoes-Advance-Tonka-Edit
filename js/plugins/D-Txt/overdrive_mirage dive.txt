@@ -1,0 +1,68 @@
+// 対象へ飛び込む
+<D-Motion:crash&tackle>
+script = a.afterimage().start();
+playSe = FF6 altima2
+position = 2 // 足元
+frame = 12
+arcY = -$TILE*2
+</D-Motion>
+
+// 非表示
+<D-Motion>
+delay = 12
+frame = 80
+sx = Graphics.boxWidth * 2
+</D-Motion>
+
+<D-Animation>
+delay = 12
+rotation = 0/360 * Math.PI
+id = 948
+</D-Animation>
+<D-Animation>
+delay = 22
+rotation = 225/360 * Math.PI
+id = 948
+</D-Animation>
+<D-Animation>
+delay = 32
+rotation = 45/360 * Math.PI
+id = 948
+</D-Animation>
+<D-Animation>
+delay = 42
+rotation = 315/360 * Math.PI
+id = 948
+</D-Animation>
+<D-Animation>
+delay = 52
+rotation = 180/360 * Math.PI
+id = 948
+</D-Animation>
+<D-Animation>
+delay = 62
+rotation = 135/360 * Math.PI
+id = 948
+</D-Animation>
+<D-Animation>
+delay = 72
+rotation = 270/360 * Math.PI
+id = 948
+</D-Animation>
+<D-Animation>
+delay = 82
+rotation = 90/360 * Math.PI
+id = 948
+</D-Animation>
+
+// 対象から戻る
+<D-Motion:return>
+delay = 82
+sx = b.x
+frame = 12
+arcY = -$TILE*2
+</D-Motion>
+
+<D-Motion:delay>
+script = a.afterimage().end();
+</D-Motion>

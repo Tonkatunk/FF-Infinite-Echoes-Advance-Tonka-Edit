@@ -1,0 +1,17 @@
+<D-Animation:self>
+id = 1818
+</D-Animation>
+<D-Animation:self>
+id = 1820
+</D-Animation>
+<D-Animation:self>
+id = 1821
+</D-Animation>
+<D-Animation:self>
+id = 1819
+z = 0
+</D-Animation>
+
+<D-Motion:svItem>
+frame = 100
+</D-Motion>

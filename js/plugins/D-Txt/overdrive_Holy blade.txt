@@ -1,0 +1,84 @@
+<D-Motion:svGuard&noWait>
+frame = 60
+arcY = 0
+</D-Motion>
+
+<D-Animation:self&follow>
+id = 2315
+</D-Animation>
+
+<D-Motion:upRightArm&noWait>
+delay = 60
+frame = 60
+arcY = 0
+</D-Motion>
+
+<D-Animation:self&follow>
+delay = 60
+id = 2314
+z = 2.9
+afterimage = 10 // 残像数
+afterimageInterval = 3 // 残像間隔
+</D-Animation>
+
+<D-Motion:upRightArm&noWait>
+delay = 120
+ex = b.x+b.width/2
+ey = b.y
+frame = 10
+arcY = -16
+script = a.afterimage().start();
+</D-Motion>
+
+<D-Motion:svDying&noWait>
+script = a.afterimage().end();
+delay = 130
+frame = 60
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+delay = 120
+id = 2312
+noMirror = true
+</D-Animation>
+
+<D-Animation>
+delay = 130
+id = 2313
+sx = b.x + 32
+sy = b.y - 32 - b.height/2
+</D-Animation>
+
+<D-Animation>
+delay = 140
+id = 2313
+sx = b.x + 16
+sy = b.y - 16 - b.height/2
+</D-Animation>
+
+<D-Animation>
+delay = 150
+id = 2313
+sx = b.x
+sy = b.y - b.height/2
+</D-Animation>
+
+<D-Animation>
+delay = 160
+id = 2313
+sx = b.x - 16
+sy = b.y + 16 - b.height/2
+</D-Animation>
+
+<D-Animation>
+delay = 170
+id = 2313
+sx = b.x - 32
+sy = b.y + 32 - b.height/2
+</D-Animation>
+
+<D-Motion:return>
+delay = 200
+arcY = -16
+</D-Motion>

@@ -1,0 +1,16 @@
+//同サイドが対象の場合、アニメーションを反転する
+<D-Setting:MirrorForFriend>
+
+<D-Animation>
+id = 843
+z = 0
+</D-Animation>
+<D-Animation>
+id = 816
+sx = defaultX - 60 * mirroring
+</D-Animation>
+<D-Animation>
+delay = 20
+id = 817
+</D-Animation>
+

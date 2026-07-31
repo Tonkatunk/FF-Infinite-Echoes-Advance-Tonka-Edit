@@ -1,0 +1,57 @@
+
+
+//同サイドが対象の場合、アニメーションを反転する
+<D-Setting:MirrorForFriend>
+
+<D-Animation:follow>
+condition = BattleManager._targetNum > 0;
+target = BattleManager._firstTargets[0];
+id = BattleManager._firstTargets[0].getMagicAnimationId(BattleManager._action.item().meta.DAnimeId);
+</D-Animation>
+
+<D-Motion:svWalk&target>
+condition = BattleManager._reflectCount == 0;
+script = a.afterimage().start();
+ex = sx - $TILE * 15 * mirroring;
+frame = 45;
+</D-Motion>
+<D-Motion:target&delay&soon>
+condition = BattleManager._reflectCount == 0;
+ex = b.x + $TILE * 30 * mirroring;
+</D-Motion>
+<D-Motion:target&svWalk&home&delay>
+condition = BattleManager._reflectCount == 0;
+frame = 45;
+</D-Motion>
+
+<D-Motion:svWalk>
+target = BattleManager._reflectTowards[0];
+condition = BattleManager._reflectCount > 0;
+script = b.afterimage().start();
+ex = sx - $TILE * 15 * mirroring;
+frame = 45 * BattleManager._reflectCount;
+</D-Motion>
+<D-Motion:delay&soon>
+target = BattleManager._reflectTowards[0];
+condition = BattleManager._reflectCount > 0;
+ex = b.x + $TILE * 30 * mirroring;
+</D-Motion>
+<D-Motion:svWalk&home&delay>
+target = BattleManager._reflectTowards[0];
+condition = BattleManager._reflectCount > 0;
+frame = 45 * BattleManager._reflectCount;
+</D-Motion>
+<D-Motion>
+condition = BattleManager._reflectCount > 0;
+script = b.afterimage().end();
+</D-Motion>
+
+<D-Animation:follow&delay>
+condition = BattleManager._reflectCount > 0;
+target = BattleManager._reflectTowards[0];
+id = BattleManager._action.item().meta.DAnimeId;
+</D-Animation>
+
+<D-Motion:svWalk&target>
+script = a.afterimage().end();
+</D-Motion>

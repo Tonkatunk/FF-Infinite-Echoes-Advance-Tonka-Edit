@@ -1,0 +1,18 @@
+<D-Animation:self>
+id = 1974
+afterimage = 8 // 残像数
+afterimageInterval = 8 // 残像間隔
+</D-Animation>
+
+<D-Animation:screen>
+id = 1978
+delay = 60
+sx = Graphics.boxWidth*3/4
+sy = Graphics.boxHeight*5/6
+</D-Animation>
+
+<D-Motion:delay&return>
+frame = 10
+arcY = 0
+script = $gameParty.applySixDragon()
+</D-Motion>

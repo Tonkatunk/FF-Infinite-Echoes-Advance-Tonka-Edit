@@ -1,0 +1,16 @@
+<D-Motion>
+frame = 10
+arcY = -16
+ex = sx+48
+playSe = FF6 steal
+</D-Motion>
+
+<D-Animation:delay>
+id = 1
+script = BattleManager.memberChange(a.index(),BattleManager._changeAcrtorIndex)
+</D-Animation>
+
+<D-Motion:return>
+frame = 5
+playSe = FF7 dash
+</D-Motion>

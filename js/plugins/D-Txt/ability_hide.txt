@@ -1,0 +1,5 @@
+<D-Motion:svEscape>
+playSe = FF7 dash
+frame = 20
+ex = sx+$TILE*3;
+</D-Motion>

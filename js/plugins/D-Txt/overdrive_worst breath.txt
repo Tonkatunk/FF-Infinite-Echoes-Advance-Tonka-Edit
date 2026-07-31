@@ -1,0 +1,43 @@
+
+<D-Animation:self>
+id = 2052
+</D-Animation>
+
+//効果音
+<D-Motion:svItem>
+delay = 30
+playSe = {"name":"FF8 badbreath","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation>
+delay = 30
+id = 2051
+z = 0
+</D-Animation>
+<D-Animation>
+delay = 220
+id = 2049
+z = 0
+</D-Animation>
+
+<D-Animation>
+delay = 30
+id = 552
+frame = 60
+repeat = 32
+interval = 5
+sx = a.x+a.headX()
+ex = a.x-Graphics.boxWidth*mirroring
+sy = a.y+a.headY()
+ey = Graphics.boxHeight/4+Math.sin(Math.PI / 8 * (r%8))*$TILE*6
+</D-Animation>
+
+//爆発ランダム
+<D-Animation:randomAll>
+delay = 30
+repeat = 40
+interval = 5
+sx = defaultX - $TILE*1*mirroring 
+sy = defaultY + $TILE
+id = 551
+</D-Animation>

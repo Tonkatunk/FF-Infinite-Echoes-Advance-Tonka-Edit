@@ -1,0 +1,47 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+
+// 対象へ飛び込む
+<D-Motion:foot&svItem&noWait&near>
+playSe = FF6 steal
+frame = 12
+arcY = -$TILE*2
+</D-Motion>
+
+<D-Motion:tackle&noWait>
+delay = 12
+frame = 360
+</D-Motion>
+
+<D-Animation:self>
+delay = 12
+id = 2055
+z = 0
+</D-Animation>
+
+<D-Animation:self>
+delay = 135
+id = 2056
+</D-Animation>
+
+<D-Motion:svThrust&noWait&pattern1>
+delay = 172
+frame = 10
+ex = b.x-b.width/2
+</D-Motion>
+
+<D-Animation>
+delay = 182
+id = 2057
+</D-Animation>
+
+<D-Animation>
+delay = 182
+id = 2058
+</D-Animation>
+
+<D-Motion:return>
+delay = 460
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

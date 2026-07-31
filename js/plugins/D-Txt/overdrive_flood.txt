@@ -1,0 +1,21 @@
+<D-Animation>
+sx = Graphics.boxWidth/2
+id = 2002
+</D-Animation>
+
+<D-Animation>
+sx = Graphics.width/2
+delay = 125
+id = 1491
+</D-Animation>
+
+<D-Animation:randomAll>
+id = 2003
+delay = 150
+repeat = 40
+interval = 4
+sx = defaultX - Graphics.boxWidth/5 * mirroring
+sy = defaultY + $TILE*2
+sxRandom = Graphics.boxWidth/4
+syRandom = Graphics.boxHeight/5
+</D-Animation>

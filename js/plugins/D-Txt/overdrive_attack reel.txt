@@ -1,0 +1,133 @@
+<D-Motion:spinslowmore&noWait>
+frame = 48
+arcY = 0
+</D-Motion>
+
+<D-Motion:spinslow&noWait>
+delay = 48
+frame = 48
+arcY = 0
+</D-Motion>
+
+<D-Motion:spinfast&noWait>
+delay = 96
+frame = 120
+arcY = 0
+playSe = {"name":"2000 Wind5","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation:shot>
+playSe = {"name":"2000 Wind4","volume":100,"pitch":100,"pan":0}
+delay = 132
+id = 1163
+target = BattleManager.indexTarget(0);
+</D-Animation>
+<D-Animation>
+delay = 142
+id = 1164
+target = BattleManager.indexTarget(0);
+script = BattleManager.indexTarget(0).startDamageShake();
+</D-Animation>
+
+<D-Animation:shot>
+playSe = {"name":"2000 Wind4","volume":100,"pitch":100,"pan":0}
+delay = 142
+id = 1163
+target = BattleManager.indexTarget(1);
+</D-Animation>
+<D-Animation>
+delay = 152
+id = 1164
+target = BattleManager.indexTarget(1);
+script = BattleManager.indexTarget(1).startDamageShake();
+</D-Animation>
+
+<D-Animation:shot>
+playSe = {"name":"2000 Wind4","volume":100,"pitch":100,"pan":0}
+delay = 152
+id = 1163
+target = BattleManager.indexTarget(2);
+</D-Animation>
+<D-Animation>
+delay = 162
+id = 1164
+target = BattleManager.indexTarget(2);
+script = BattleManager.indexTarget(2).startDamageShake();
+</D-Animation>
+
+<D-Animation:shot>
+playSe = {"name":"2000 Wind4","volume":100,"pitch":100,"pan":0}
+delay = 162
+id = 1163
+target = BattleManager.indexTarget(3);
+</D-Animation>
+<D-Animation>
+delay = 172
+id = 1164
+target = BattleManager.indexTarget(3);
+script = BattleManager.indexTarget(3).startDamageShake();
+</D-Animation>
+
+<D-Animation:shot>
+playSe = {"name":"2000 Wind4","volume":100,"pitch":100,"pan":0}
+delay = 172
+id = 1163
+target = BattleManager.indexTarget(4);
+</D-Animation>
+<D-Animation>
+delay = 182
+id = 1164
+target = BattleManager.indexTarget(4);
+script = BattleManager.indexTarget(4).startDamageShake();
+</D-Animation>
+
+<D-Animation:shot>
+playSe = {"name":"2000 Wind4","volume":100,"pitch":100,"pan":0}
+delay = 182
+id = 1163
+target = BattleManager.indexTarget(5);
+</D-Animation>
+<D-Animation>
+delay = 192
+id = 1164
+target = BattleManager.indexTarget(5);
+script = BattleManager.indexTarget(5).startDamageShake();
+</D-Animation>
+
+<D-Animation:shot>
+playSe = {"name":"2000 Wind4","volume":100,"pitch":100,"pan":0}
+delay = 192
+id = 1163
+target = BattleManager.indexTarget(6);
+</D-Animation>
+<D-Animation>
+delay = 202
+id = 1164
+target = BattleManager.indexTarget(6);
+script = BattleManager.indexTarget(6).startDamageShake();
+</D-Animation>
+
+<D-Animation:shot>
+playSe = {"name":"2000 Wind4","volume":100,"pitch":100,"pan":0}
+delay = 202
+id = 1163
+target = BattleManager.indexTarget(7);
+</D-Animation>
+<D-Animation>
+delay = 212
+id = 1164
+target = BattleManager.indexTarget(7);
+script = BattleManager.indexTarget(7).startDamageShake();
+</D-Animation>
+
+<D-Motion:spinslow&noWait>
+delay = 228
+frame = 24
+arcY = 0
+</D-Motion>
+
+<D-Motion:spinslowmore&noWait>
+delay = 252
+frame = 24
+arcY = 0
+</D-Motion>

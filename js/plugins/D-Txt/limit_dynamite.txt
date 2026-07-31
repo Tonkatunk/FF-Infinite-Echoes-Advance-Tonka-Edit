@@ -1,0 +1,33 @@
+<D-Motion:svSwing&pattern1&noWait>
+frame = 40
+</D-Motion>
+
+<D-Animation:self>
+id = 1414
+</D-Animation>
+
+<D-Motion:svSwing>
+delay = 40
+</D-Motion>
+
+<D-Animation:shot&screen>
+delay = 40
+id = 1415
+arcY = -16
+sx = a.x+8
+sy = a.y-8
+ex = Graphics.boxWidth/3
+ey = Graphics.boxHeight/3*2
+</D-Animation>
+
+<D-Animation:screen>
+delay = 70
+id = 1416
+sx = Graphics.boxWidth/3
+sy = Graphics.boxHeight/3*2
+</D-Animation>
+
+<D-Motion:return&delay>
+delay = 130
+arcY = 0
+</D-Motion>

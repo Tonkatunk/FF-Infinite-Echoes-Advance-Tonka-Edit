@@ -1,0 +1,5 @@
+<D-Animation>
+sx = Graphics.boxWidth/2+(Graphics.boxWidth/2+32)*mirroring
+ex = Graphics.boxWidth/2-(Graphics.boxWidth/2+32)*mirroring
+sy = Graphics.boxHeight/2
+</D-Animation>

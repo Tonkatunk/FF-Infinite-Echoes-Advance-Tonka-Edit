@@ -1,0 +1,21 @@
+<D-Motion:swingSword&noWait>
+arcY = 0
+frame = 10
+</D-Motion>
+
+<D-Animation>
+delay = 6
+id = 454
+</D-Animation>
+
+<D-Animation>
+delay = 15
+condition = !BattleManager.resultList()[0].missed && !BattleManager.resultList()[0].evaded;
+target = BattleManager.indexTarget(0)
+script = BattleManager.indexTarget(0).startDamageShake();
+</D-Animation>
+
+<D-Motion:takeSword&noWait>
+delay = 15
+frame = 40
+</D-Motion>

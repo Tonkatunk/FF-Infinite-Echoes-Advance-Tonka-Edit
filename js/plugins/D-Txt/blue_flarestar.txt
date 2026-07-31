@@ -1,0 +1,179 @@
+<D-Animation>
+id = 390
+z = 0
+</D-Animation>
+
+//囲うように玉
+<D-Animation:circle&screen>
+playSe = {"name":"FF8 merton1","volume":90,"pitch":130,"pan":0}
+id = 388
+interval = 0 // 間隔
+scale = 0.5
+sx = defaultX - $TILE * mirroring
+sy = defaultY + $TILE*2
+radiusX = Graphics.boxWidth/6 // 半径（Ｘ方向）
+radiusY = Graphics.boxWidth/6/2 // 半径（Ｙ方向）
+</D-Animation>
+
+<D-Animation:screen>
+playSe = {"name":"FF8 merton1","volume":90,"pitch":150,"pan":0}
+delay = 40
+id = 1
+</D-Animation>
+
+//玉かららせん状の光線
+<D-Animation:circle&screen&lookCourse>
+afterimage = 10 // 残像数
+afterimageInterval = 2 // 残像間隔
+frame = 15
+delay = 40
+id = 389
+interval = 0 // 間隔
+scale = 0.5
+sx = defaultX - $TILE * mirroring
+sy = defaultY + $TILE*2
+ey = 0
+radiusX = Graphics.boxWidth/6 // 半径（Ｘ方向）
+radiusY = Graphics.boxWidth/6/2 // 半径（Ｙ方向）
+radX *= r*22.5+t/20 // 回転角度（Ｘ）
+radY *= r*22.5+t/20 // 回転角度（Ｙ）
+</D-Animation>
+
+<D-Animation:screen>
+playSe = {"name":"FF5 whirlpool","volume":90,"pitch":100,"pan":0}
+delay = 65
+id = 1
+</D-Animation>
+
+//玉かららせん状の光線が集まる
+<D-Animation:circle&screen&lookCourse>
+afterimage = 10 // 残像数
+afterimageInterval = 2 // 残像間隔
+frame = 10
+delay = 65
+id = 389
+interval = 0 // 間隔
+scale = 0.5
+sx = defaultX - $TILE * mirroring
+sy = 0
+ey = defaultY + $TILE*2
+radiusX = Graphics.boxWidth/6*(et-t)/et // 半径（Ｘ方向）
+radiusY = Graphics.boxWidth/6/2 // 半径（Ｙ方向）
+</D-Animation>
+
+<D-Animation:screen>
+playSe = {"name":"FF5 whirlpoolR ex","volume":90,"pitch":100,"pan":0}
+delay = 180
+id = 1
+</D-Animation>
+<D-Animation:screen>
+playSe = {"name":"FF7 flash","volume":90,"pitch":100,"pan":0}
+delay = 240
+id = 1
+</D-Animation>
+
+//中心から光線
+<D-Animation:diffusionBeam&screen>
+arrival = 0
+delay = 90
+id = 391
+repeat = 60
+interval = 2 // 間隔
+sx = defaultX - $TILE * mirroring
+sy = defaultY + $TILE*2
+scale = 0.5
+// 「Math.PI * 2」→360°
+rotation = (Math.PI * 2) * da.random()
+</D-Animation>
+
+<D-Animation>
+delay = 90
+id = 390
+z = 0
+</D-Animation>
+
+//中心へ回転しながら玉
+<D-Animation:converge&screen>
+arrival = 40
+delay = 90
+id = 392
+repeat = 90
+interval = 1 // 間隔
+radiusX = $TILE*6 * (1-t/et) // 横幅
+radiusY = $TILE*6 * (1-t/et) // 縦幅
+radX = da.random() * Math.PI * 2 // 回転角度（Ｘ）
+radY = da.random() * Math.PI * 2 // 回転角度（ｙ）
+sx = defaultX - $TILE * mirroring
+sy = defaultY + $TILE*2
+scale = 0.5
+</D-Animation>
+
+//中心へ回転しながら玉
+<D-Animation:screen>
+delay = 90
+id = 393
+sx = defaultX - $TILE * mirroring
+sy = defaultY + $TILE*2
+z = 1
+</D-Animation>
+
+<D-Animation>
+delay = 210
+id = 390
+z = 0
+</D-Animation>
+
+<D-Animation:screen>
+delay = 210
+id = 395
+sx = defaultX - $TILE * mirroring
+sy = defaultY + $TILE*2
+</D-Animation>
+
+<D-Animation:screen>
+playSe = {"name":"FF7 exprode","volume":90,"pitch":100,"pan":0}
+delay = 340
+id = 1
+</D-Animation>
+
+<D-Animation:screen>
+delay = 360
+id = 396
+sx = defaultX - $TILE * mirroring
+sy = defaultY + $TILE*2
+</D-Animation>
+
+<D-Animation>
+delay = 260
+id = 390
+z = 0
+</D-Animation>
+
+<D-Animation>
+delay = 390
+id = 390
+z = 0
+</D-Animation>
+
+<D-Animation:screen>
+delay = 260
+id = 394
+sx = defaultX - $TILE * mirroring
+sy = defaultY + $TILE*2
+</D-Animation>
+
+//爆発ランダム
+<D-Animation:randomAll>
+delay = 360
+repeat = 30
+interval = 4
+sx = defaultX - $TILE * mirroring
+sy = defaultY + $TILE*2
+id = 397
+</D-Animation>
+
+<D-Animation:screen>
+playSe = {"name":"FF8 burrizara3","volume":90,"pitch":100,"pan":0}
+delay = 420
+id = 1
+</D-Animation>

@@ -1,0 +1,11 @@
+<D-Animation>
+id = 2531
+sx = a.x
+sy = a.y-a.height/2
+ex = b.x
+ey = b.y-b.height/2
+scaleX = 0.5 // 横幅
+scaleY = 0.5 // 縦幅
+arrival = 30
+</D-Animation>
+

@@ -1,0 +1,81 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+
+<D-Animation>
+playSe = {"name":"FF6 flare1","volume":100,"pitch":100,"pan":0}
+id = 354;
+target = BattleManager.indexTarget(0);
+</D-Animation>
+
+<D-Animation>
+playSe = {"name":"FF5 whirlpoolR","volume":100,"pitch":150,"pan":0}
+id = 1;
+</D-Animation>
+
+<D-Animation:converge>
+condition = BattleManager._targetNum > 0;
+target = BattleManager.indexTarget(0);
+id = 353
+arrival = 30 // 到達フレーム
+repeat = 20 // 繰返し回数
+interval = 2 // 間隔
+scaleX = 1 * (1-t/et) // 横幅
+scaleY = 1 * (1-t/et) // 縦幅
+radiusX = $TILE*6 * (1-t/et) // 横幅
+radiusY = $TILE*6 * (1-t/et) // 縦幅
+rotation = 0
+</D-Animation>
+
+<D-Motion:noWait>
+delay = 90
+condition = BattleManager.resultList().length > 0 && BattleManager.indexResult(0).hpDamage > 0
+performer = BattleManager.indexTarget(0)
+script = BattleManager.indexTarget(0).startDamageShake();
+</D-Motion>
+
+<D-Animation>
+condition = BattleManager._reflectCount > 0;
+noMirror = true
+scaleX = BattleManager.indexTarget(0).isEnemy() ? -1 : 1
+id = 408
+</D-Animation>
+
+<D-Animation>
+delay = 60;
+target = BattleManager.indexTarget(0);
+condition = BattleManager._targetNum > 0;
+id = 351;
+</D-Animation>
+
+<D-Animation>
+delay = 100;
+target = BattleManager.indexTarget(0);
+condition = BattleManager._targetNum > 0;
+id = 352;
+</D-Animation>
+
+<D-Animation>
+playSe = {"name":"FF6 beatBoss","volume":90,"pitch":100,"pan":0}
+delay = 180;
+id = 354;
+target = BattleManager.indexTarget(0);
+</D-Animation>
+
+<D-Animation:radiate>
+target = BattleManager.indexTarget(0);
+delay = 180
+repeat = 20 // 繰返し回数
+id = 353
+interval = 2 // 間隔
+scaleX = 1 * (t/et) // 横幅
+scaleY = 1 * (t/et) // 縦幅
+arrival = 30 // 到達フレーム
+radiusX = $TILE*6 * (t/et) // 横幅
+radiusY = $TILE*6 * (t/et) // 縦幅
+</D-Animation>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

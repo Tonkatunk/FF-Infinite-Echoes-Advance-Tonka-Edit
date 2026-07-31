@@ -1,0 +1,29 @@
+<D-Animation:self>
+id = 1828
+</D-Animation>
+
+<D-Motion:svItem&noWait>
+frame = 24
+</D-Motion>
+
+<D-Animation:lookCourse>
+delay = 24
+sx = a.x
+sy = a.y-8
+ex = b.x
+ey = b.y-b.height/2
+arrival = 20 
+id = 1829
+</D-Animation>
+
+<D-Motion:accommodate&noWait>
+delay = 24
+frame = 50
+</D-Motion>
+
+<D-Motion:return&delay>
+arcY = -8
+</D-Motion>
+
+
+

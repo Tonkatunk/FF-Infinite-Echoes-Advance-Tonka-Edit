@@ -1,0 +1,3 @@
+<D-Animation:screen>
+sx = Graphics.boxWidth/2+16-Graphics.boxWidth/3*mirroring
+</D-Animation>

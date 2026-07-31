@@ -1,0 +1,115 @@
+<D-Animation>
+id = 2519
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/3
+z = 1
+script = $gameSwitches.setValue(33,true)
+</D-Animation>
+
+<D-Animation>
+id = 1
+delay = 120
+playSe = {"name":"FF5 whirlpoolR","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+
+<D-Animation>
+id = 2519
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/3
+scaleX = -1
+delay = 70
+z = 1
+</D-Animation>
+
+<D-Animation>
+id = 2519
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/3
+delay = 139
+z = 1
+</D-Animation>
+
+<D-Animation>
+id = 2519
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/3
+delay = 208
+z = 1
+</D-Animation>
+
+<D-Animation>
+id = 2520
+delay = 260
+sx = -Graphics.boxWidth/2
+sy = Graphics.boxHeight/3
+</D-Animation>
+
+<D-Animation>
+id = 1
+delay = 360
+script = $gameSwitches.setValue(33,false);$gameSwitches.setValue(32,true)
+</D-Animation>
+
+<D-Animation>
+delay = 410
+id = 1
+script = BattleManager.indexTarget(0).startDamageShake();
+target = BattleManager.indexTarget(0)
+condition = BattleManager._targets.length > 0
+</D-Animation>
+<D-Animation>
+delay = 410
+id = 1
+script = BattleManager.indexTarget(1).startDamageShake();
+target = BattleManager.indexTarget(1)
+condition = BattleManager._targets.length > 1
+</D-Animation>
+<D-Animation>
+delay = 410
+id = 1
+script = BattleManager.indexTarget(2).startDamageShake();
+target = BattleManager.indexTarget(2)
+condition = BattleManager._targets.length > 2
+</D-Animation>
+<D-Animation>
+delay = 410
+id = 1
+script = BattleManager.indexTarget(3).startDamageShake();
+target = BattleManager.indexTarget(3)
+condition = BattleManager._targets.length > 3
+</D-Animation>
+<D-Animation>
+delay = 410
+id = 1
+script = BattleManager.indexTarget(4).startDamageShake();
+target = BattleManager.indexTarget(4)
+condition = BattleManager._targets.length > 4
+</D-Animation>
+<D-Animation>
+delay = 410
+id = 1
+script = BattleManager.indexTarget(5).startDamageShake();
+target = BattleManager.indexTarget(5)
+condition = BattleManager._targets.length > 5
+</D-Animation>
+<D-Animation>
+delay = 410
+id = 1
+script = BattleManager.indexTarget(6).startDamageShake();
+target = BattleManager.indexTarget(6)
+condition = BattleManager._targets.length > 6
+</D-Animation>
+<D-Animation>
+delay = 410
+id = 1
+script = BattleManager.indexTarget(7).startDamageShake();
+target = BattleManager.indexTarget(7)
+condition = BattleManager._targets.length > 7
+</D-Animation>
+<D-Animation>
+delay = 410
+id = 1
+script = BattleManager.indexTarget(8).startDamageShake();
+target = BattleManager.indexTarget(8)
+condition = BattleManager._targets.length > 8
+</D-Animation>

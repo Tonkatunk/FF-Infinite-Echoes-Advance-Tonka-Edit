@@ -1,0 +1,119 @@
+//フェード
+<D-Animation>
+z = 0
+id = 1453
+playSe = MZ Darkness8
+</D-Animation>
+
+<D-Animation>
+id = 1632
+delay = 30
+plugin = tintBB12 64 64 64 64 64 64
+sx = Graphics.boxWidth/2-Graphics.boxWidth/3*mirroring
+sy = Graphics.boxHeight/2
+z = 0.1
+</D-Animation>
+
+<D-Animation>
+id = 1632
+delay = 40
+sx = Graphics.boxWidth/2-Graphics.boxWidth/3*mirroring-30
+sy = Graphics.boxHeight/3+15
+scaleY = -0.5
+scaleX = 0.5
+z = 4
+</D-Animation>
+
+<D-Animation>
+id = 1632
+delay = 45
+sx = Graphics.boxWidth/2-Graphics.boxWidth/3*mirroring-60
+sy = Graphics.boxHeight/3
+scaleY = -0.5
+scaleX = 0.5
+z = 4
+</D-Animation>
+
+<D-Animation>
+id = 1632
+delay = 50
+sx = Graphics.boxWidth/2-Graphics.boxWidth/3*mirroring
+sy = Graphics.boxHeight/3-15
+scaleY = -0.5
+scaleX = 0.5
+z = 4
+</D-Animation>
+
+<D-Animation>
+id = 1632
+delay = 55
+sx = Graphics.boxWidth/2-Graphics.boxWidth/3*mirroring+60
+sy = Graphics.boxHeight/3
+scaleY = -0.5
+scaleX = 0.5
+z = 4
+</D-Animation>
+
+<D-Animation>
+id = 1632
+delay = 60
+sx = Graphics.boxWidth/2-Graphics.boxWidth/3*mirroring+30
+sy = Graphics.boxHeight/3+15
+scaleY = -0.5
+scaleX = 0.5
+z = 4
+</D-Animation>
+
+<D-Animation>
+id = 1632
+delay = 65
+sx = Graphics.boxWidth/2-Graphics.boxWidth/3*mirroring
+sy = Graphics.boxHeight/3
+scaleY = -1
+z = 4
+</D-Animation>
+
+<D-Animation>
+id = 1633
+delay = 100
+sx = Graphics.boxWidth/3-Graphics.boxWidth/2.25*mirroring
+sy = Graphics.boxHeight/3*2
+</D-Animation>
+
+<D-Motion:noWait&svDamage>
+performer = BattleManager.indexTarget(0)
+delay = 100
+arcY = 0
+condition = BattleManager.resultList().length > 0 && BattleManager.resultList()[0].hpDamage > 0;
+</D-Motion>
+<D-Motion:noWait&svDamage>
+performer = BattleManager.indexTarget(1)
+delay = 100
+arcY = 0
+condition = BattleManager.resultList().length > 1 && BattleManager.resultList()[1].hpDamage > 0;
+</D-Motion>
+<D-Motion:noWait&svDamage>
+performer = BattleManager.indexTarget(2)
+delay = 100
+arcY = 0
+condition = BattleManager.resultList().length > 2 && BattleManager.resultList()[2].hpDamage > 0;
+</D-Motion>
+<D-Motion:noWait&svDamage>
+performer = BattleManager.indexTarget(3)
+delay = 100
+arcY = 0
+condition = BattleManager.resultList().length > 3 && BattleManager.resultList()[3].hpDamage > 0;
+</D-Motion>
+<D-Motion:noWait&svDamage>
+performer = BattleManager.indexTarget(4)
+delay = 100
+arcY = 0
+condition = BattleManager.resultList().length > 4 && BattleManager.resultList()[4].hpDamage > 0;
+</D-Motion>
+
+<D-Animation>
+    id = 2250
+    delay = 150
+    plugin = tintBB12 255 255 255 255 255 255
+    z = 0
+</D-Animation>

@@ -1,0 +1,28 @@
+// アクターなら一歩前へ出る
+<D-Motion:delay&stepForward>
+playSe = FF7 dash
+condition = a.isActor();
+ex += $TILE*2;
+</D-Motion>
+
+// 対象へ飛び込む
+<D-Motion:crash&tackle>
+playSe = FF6 steal
+position = 2 // 足元
+frame = 12
+arcY = -$TILE*2
+</D-Motion>
+
+// しゃがみ
+<D-Motion:wait&svDying>
+script = a.afterimage().end();
+frame = 15
+noShadow = false
+arcY = 0
+</D-Motion>
+
+// 戻る
+<D-Motion:return>
+frame = 15
+arcY = -$TILE*2 // 少し高めにジャンプ
+</D-Motion>

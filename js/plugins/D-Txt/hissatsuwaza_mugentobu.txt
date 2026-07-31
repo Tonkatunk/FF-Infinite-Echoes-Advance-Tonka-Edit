@@ -1,0 +1,80 @@
+// 対象へ飛び込む
+<D-Motion:crash&tackle&noWait>
+script = a.afterimage().start();
+playSe = FF6 steal
+position = 2 // 足元
+frame = 12
+arcY = -$TILE*2
+ex = b.x+b.width/2
+</D-Motion>
+
+<D-Animation>
+delay = 12
+id = 1827
+z = 0
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+</D-Animation>
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+delay = 12
+id = 575
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+<D-Animation>
+delay = 42
+playSe = FF5 goblin punch
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+script = b.startDamageShake();
+id = 1
+</D-Animation>
+<D-Animation>
+delay = 72
+playSe = FF5 goblin punch
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+script = b.startDamageShake();
+id = 1
+</D-Animation>
+<D-Animation>
+delay = 42
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+id = 1815
+sx = b.x
+sy = b.y-b.height/2
+repeat = 9 // 繰返回数
+interval = 8 // 間隔
+sxRandom = 16 // 始点Ｘ座標分散
+syRandom = 16 // 始点Ｙ座標分散
+</D-Animation>
+
+// 対象を中心に円運動
+<D-Motion:mugentobu&revolve&noWait>
+delay = 12
+frame = 120
+sx = b.x
+radiusX = (15 + b.width/2) // Ｘ半径
+radiusY = (15 + b.width/2) / 2 // Ｙ半径
+radX *= 4 // Ｘ方向に４周
+radY *= 4 // Ｙ方向に４周
+z = a.y + (b.height - a.height)/2 > b.y ? b.z+1 : b.z-1
+scaleX = (a.y + (b.height - a.height)/2 > b.y ? 1 : -1) * mirroring
+</D-Motion>
+
+// 対象から戻る
+<D-Motion:home&noWait>
+delay = 132
+frame = 12
+arcY = -$TILE*2
+</D-Motion>
+
+<D-Motion:return>
+delay = 144
+frame = 1
+arcY = 0
+script = a.afterimage().end();
+</D-Motion>
+
+<D-Animation>
+id = 1
+</D-Animation>

@@ -1,0 +1,99 @@
+<D-Motion:svGuard&noWait>
+arcY = 0
+frame = 140
+</D-Motion>
+
+<D-Animation>
+id = 2257
+z = 0.1
+playSe = {"name":"FF5 whirlpoolR","volume":50,"pitch":100,"pan":0}
+</D-Animation>
+<D-Animation:screen>
+id = 2258
+z = 0
+delay = 60
+</D-Animation>
+
+<D-Animation:self>
+id = 2255
+sx = a.x - 6
+sy = a.y - 12
+scaleX = 0.25
+scaleY = 0.25
+z = 0.2
+</D-Animation>
+<D-Animation:self>
+id = 2255
+sx = a.x + 4
+sy = a.y - 8
+scaleX = 0.25
+scaleY = 0.25
+</D-Animation>
+
+<D-Motion:svMissile&pattern0&noWait>
+arcY = 0
+delay = 140
+frame = 30
+</D-Motion>
+
+<D-Motion:svThrust&pattern1&noWait>
+arcY = 0
+delay = 170
+frame = 30
+</D-Motion>
+
+<D-Animation>
+delay = 170
+id = 2260
+sx = Graphics.boxWidth/3
+sy = Graphics.boxHeight/3*2
+z = 3.1
+</D-Animation>
+
+<D-Animation:self>
+delay = 140
+id = 2259
+sx = a.x - 6
+sy = a.y - 12
+ex = Graphics.boxWidth/3
+ey = Graphics.boxHeight/3*2
+arcY = -16
+scaleX = 0.5
+scaleY = 0.5
+arrival = 45
+afterimage = 10 // 残像数
+afterimageInterval = 3 // 残像間隔
+</D-Animation>
+
+<D-Animation:self>
+delay = 170
+id = 2256
+sx = a.x + 4
+sy = a.y - 8
+ex = Graphics.boxWidth/3
+ey = Graphics.boxHeight/3*2
+arcY = 16
+scaleX = 0.5
+scaleY = 0.5
+afterimage = 10 // 残像数
+afterimageInterval = 3 // 残像間隔
+</D-Animation>
+
+<D-Animation:screen>
+delay = 250
+id = 2261
+sx = Graphics.boxWidth/3
+sy = Graphics.boxHeight/3*2
+z = 5
+</D-Animation>
+
+//炎ランダム
+<D-Animation:randomAll>
+delay = 250
+repeat = 20
+interval = 8
+sx = defaultX - $TILE*2
+sy = defaultY + $TILE
+id = 916
+z = 3
+</D-Animation>

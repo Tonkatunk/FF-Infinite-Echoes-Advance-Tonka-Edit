@@ -1,0 +1,91 @@
+
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+<D-Animation:wait>
+id = 990
+script = BattleManager.startSummonEffect();
+</D-Animation>
+
+
+// 打撃アニメーション
+<D-Animation>
+delay = 15
+id = 170
+</D-Animation>
+
+//画面外から登場
+<D-Animation:wait>
+id = 171
+sy = 0
+sx = Graphics.boxWidth
+ey = b.y-b.height/2
+ex = b.x
+</D-Animation>
+//蹴って反動でジャンプ
+<D-Animation:wait&arc>
+id = 172
+arcY = -$TILE
+sy = b.y-b.height/2
+sx = b.x
+ey = b.y-b.height/2
+ex = b.x+b.width+$TILE
+</D-Animation>
+//少し待つ
+<D-Animation:wait>
+id = 173
+sy = b.y-b.height/2
+sx = b.x+b.width+$TILE
+</D-Animation>
+<D-Animation:wait>
+id = 174
+sy = b.y-b.height/2
+sx = b.x+b.width+$TILE
+ex = b.x
+</D-Animation>
+<D-Animation:wait>
+id = 175
+sy = b.y-b.height/2
+sx = b.x
+ex = b.x+b.width+$TILE
+</D-Animation>
+<D-Animation:wait>
+id = 174
+sy = b.y-b.height/2
+sx = b.x+b.width+$TILE
+ex = b.x
+</D-Animation>
+<D-Animation:wait>
+id = 175
+sy = b.y-b.height/2
+sx = b.x
+ex = b.x+b.width+$TILE
+</D-Animation>
+<D-Animation:wait>
+id = 174
+sy = b.y-b.height/2
+sx = b.x+b.width+$TILE
+ex = b.x
+</D-Animation>
+<D-Animation:wait>
+id = 175
+sy = b.y-b.height/2
+sx = b.x
+ex = b.x+b.width+$TILE
+</D-Animation>
+<D-Animation:wait>
+id = 176
+sy = b.y-b.height/2
+sx = b.x+b.width
+ex = 0
+</D-Animation>
+
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>
+<D-Animation:wait>
+id = 1
+script = BattleManager.endSummonEffect();
+</D-Animation>

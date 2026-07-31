@@ -1,0 +1,22 @@
+<D-Animation>
+condition = BattleManager._reflectCount > 0;
+id = 408
+</D-Animation>
+
+<D-Animation:self>
+id = 539
+</D-Animation>
+<D-Animation:beam>
+target = BattleManager._targets[0]
+playSe = {"name":"FF6 blaster","volume":100,"pitch":100,"pan":0}
+id = 538
+</D-Animation>
+<D-Animation>
+target = BattleManager._targets[0]
+delay = 3 // 時間差
+id = 540
+</D-Animation>
+
+<D-Animation:self>
+id = 1
+</D-Animation>

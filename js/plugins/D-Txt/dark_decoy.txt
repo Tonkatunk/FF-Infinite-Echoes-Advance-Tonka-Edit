@@ -1,0 +1,42 @@
+<D-Motion:svItem&noWait>
+arcY = -16
+frame = 20
+ex = Graphics.boxWidth/3*2
+ey = Graphics.boxHeight/3*2
+playSe = {"name":"FF6 steal","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+<D-Motion:swingSword&noWait>
+delay = 20
+arcY = 0
+frame = 10
+playSe = {"name":"2000 wind7","volume":100,"pitch":60,"pan":0}
+</D-Motion>
+<D-Motion:swingSword&noWait>
+delay = 40
+arcY = 0
+frame = 10
+playSe = {"name":"2000 wind7","volume":100,"pitch":60,"pan":0}
+</D-Motion>
+<D-Motion:swingUpSword&noWait>
+delay = 60
+arcY = 0
+frame = 10
+playSe = {"name":"2000 wind7","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation>
+delay = 80
+id = 1896
+condition = b.result().addedStates.length > 0
+</D-Animation>
+
+<D-Motion:svItem&home&noWait>
+    delay = 95
+    arcY = -16
+    frame = 15
+</D-Motion>
+
+<D-Motion:return>
+    delay = 110
+    frame = 1
+</D-Motion>

@@ -1,0 +1,36 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+
+//効果音
+<D-Motion>
+playSe = {"name":"FF6 drain1","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+//吸収対象に集まるオーラ
+<D-Animation:moveVortex>
+target = a;
+sx = a.x+a.headX()+2
+sy = a.y+a.headY()-5
+repeat = 8
+interval = 0 // 間隔
+id = 346
+radiusX /= 3 // 半径（Ｘ方向）
+radiusY /= 3 // 半径（Ｙ方向）
+radX += r*22.5;
+radY += r*22.5;
+condition = a.index() == 2
+</D-Animation>
+
+<D-Animation>
+delay = 25
+id = 431
+sx = a.x+a.headX()+125
+sy = a.y+a.headY()-5
+z = 100
+</D-Animation>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

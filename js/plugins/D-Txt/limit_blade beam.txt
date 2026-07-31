@@ -1,0 +1,210 @@
+//同サイドが対象の場合、アニメーションを反転する
+<D-Setting:MirrorForFriend>
+
+<D-Motion:woundupbothW>
+frame = 30
+</D-Motion>
+
+<D-Animation:screen>
+delay = 30
+playSe = {"name":"FF6 altima2","volume":100,"pitch":70,"pan":0}
+id = 1;
+</D-Animation>
+
+<D-Motion:swingbothW>
+delay = 30
+</D-Motion>
+
+//衝撃は
+<D-Animation>
+delay = 30
+target = BattleManager._targets[0]
+id = 382
+sx = a.x-(a.x-b.x)/10*r
+ex = a.x-(a.x-b.x)/10*r
+sy = a.y-(a.y-b.y)/10*r
+ey = a.y-(a.y-b.y)/10*r
+interval = 3
+repeat = 10
+</D-Animation>
+
+<RangeEx:line>
+
+<D-Animation:lookCourse&pierce>
+delay = 30
+arrival = 120
+target = BattleManager._targets[0];
+id = 570
+</D-Animation>
+
+<D-Animation>
+delay = 60
+target = BattleManager._targets[0];
+script = BattleManager._targets[0].startDamageShake();
+id = 571
+</D-Animation>
+
+<D-Animation:lookCourse&pierce>
+delay = 80
+arrival = 30
+condition = BattleManager._targets.length >= 2;
+target = BattleManager.indexTarget(2);
+id = 573
+sx = BattleManager._targets[0].x;
+sy = BattleManager._targets[0].y-BattleManager._targets[0].height/2;
+ex = BattleManager.indexTarget(2).x;
+ey = BattleManager.indexTarget(2).y-BattleManager.indexTarget(2).height/2;
+</D-Animation>
+
+<D-Animation>
+delay = 110
+condition = BattleManager._targets.length >= 2;
+target = BattleManager.indexTarget(2);
+script = BattleManager.indexTarget(2).startDamageShake();
+id = 572
+</D-Animation>
+
+<D-Animation:lookCourse&pierce>
+delay = 80
+arrival = 30
+condition = BattleManager._targets.length >= 3;
+target = BattleManager.indexTarget(3);
+id = 573
+sx = BattleManager._targets[0].x;
+sy = BattleManager._targets[0].y-BattleManager._targets[0].height/2;
+ex = BattleManager.indexTarget(3).x;
+ey = BattleManager.indexTarget(3).y-BattleManager.indexTarget(3).height/2;
+</D-Animation>
+
+<D-Animation>
+delay = 110
+condition = BattleManager._targets.length >= 3;
+target = BattleManager.indexTarget(3);
+script = BattleManager.indexTarget(3).startDamageShake();
+id = 572
+</D-Animation>
+
+<D-Animation:lookCourse&pierce>
+delay = 80
+arrival = 30
+condition = BattleManager._targets.length >= 4;
+target = BattleManager.indexTarget(4);
+id = 573
+sx = BattleManager._targets[0].x;
+sy = BattleManager._targets[0].y-BattleManager._targets[0].height/2;
+ex = BattleManager.indexTarget(4).x;
+ey = BattleManager.indexTarget(4).y-BattleManager.indexTarget(4).height/2;
+</D-Animation>
+
+<D-Animation>
+delay = 110
+condition = BattleManager._targets.length >= 4;
+target = BattleManager.indexTarget(4);
+script = BattleManager.indexTarget(4).startDamageShake();
+id = 572
+</D-Animation>
+
+<D-Animation:lookCourse&pierce>
+delay = 80
+arrival = 30
+condition = BattleManager._targets.length >= 5;
+target = BattleManager.indexTarget(5);
+id = 573
+sx = BattleManager._targets[0].x;
+sy = BattleManager._targets[0].y-BattleManager._targets[0].height/2;
+ex = BattleManager.indexTarget(5).x;
+ey = BattleManager.indexTarget(5).y-BattleManager.indexTarget(5).height/2;
+</D-Animation>
+
+<D-Animation>
+delay = 110
+condition = BattleManager._targets.length >= 5;
+target = BattleManager.indexTarget(5);
+script = BattleManager.indexTarget(5).startDamageShake();
+id = 572
+</D-Animation>
+
+<D-Animation:lookCourse&pierce>
+delay = 80
+arrival = 30
+condition = BattleManager._targets.length >= 6;
+target = BattleManager.indexTarget(6);
+id = 573
+sx = BattleManager._targets[0].x;
+sy = BattleManager._targets[0].y-BattleManager._targets[0].height/2;
+ex = BattleManager.indexTarget(6).x;
+ey = BattleManager.indexTarget(6).y-BattleManager.indexTarget(6).height/2;
+</D-Animation>
+
+<D-Animation>
+delay = 110
+condition = BattleManager._targets.length >= 6;
+target = BattleManager.indexTarget(6);
+script = BattleManager.indexTarget(6).startDamageShake();
+id = 572
+</D-Animation>
+
+<D-Animation:lookCourse&pierce>
+delay = 80
+arrival = 30
+condition = BattleManager._targets.length >= 7;
+target = BattleManager.indexTarget(7);
+id = 573
+sx = BattleManager._targets[0].x;
+sy = BattleManager._targets[0].y-BattleManager._targets[0].height/2;
+ex = BattleManager.indexTarget(7).x;
+ey = BattleManager.indexTarget(7).y-BattleManager.indexTarget(7).height/2;
+</D-Animation>
+
+<D-Animation>
+delay = 110
+condition = BattleManager._targets.length >= 7;
+target = BattleManager.indexTarget(7);
+script = BattleManager.indexTarget(7).startDamageShake();
+id = 572
+</D-Animation>
+
+<D-Animation:lookCourse&pierce>
+delay = 80
+arrival = 30
+condition = BattleManager._targets.length >= 8;
+target = BattleManager.indexTarget(8);
+id = 573
+sx = BattleManager._targets[0].x;
+sy = BattleManager._targets[0].y-BattleManager._targets[0].height/2;
+ex = BattleManager.indexTarget(8).x;
+ey = BattleManager.indexTarget(8).y-BattleManager.indexTarget(8).height/2;
+</D-Animation>
+
+<D-Animation>
+delay = 110
+condition = BattleManager._targets.length >= 8;
+target = BattleManager.indexTarget(8);
+script = BattleManager.indexTarget(8).startDamageShake();
+id = 572
+</D-Animation>
+
+<D-Animation:lookCourse&pierce>
+delay = 80
+arrival = 30
+condition = BattleManager._targets.length >= 9;
+target = BattleManager.indexTarget(9);
+id = 573
+sx = BattleManager._targets[0].x;
+sy = BattleManager._targets[0].y-BattleManager._targets[0].height/2;
+ex = BattleManager.indexTarget(9).x;
+ey = BattleManager.indexTarget(9).y-BattleManager.indexTarget(9).height/2;
+</D-Animation>
+
+<D-Animation>
+delay = 110
+condition = BattleManager._targets.length >= 9;
+target = BattleManager.indexTarget(9);
+script = BattleManager.indexTarget(9).startDamageShake();
+id = 572
+</D-Animation>
+
+<D-Motion:return&delay>
+delay = 140
+arcY = -16
+</D-Motion>

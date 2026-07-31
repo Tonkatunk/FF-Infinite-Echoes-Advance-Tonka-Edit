@@ -1,0 +1,36 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+<D-Animation:wait>
+id = 990
+script = BattleManager.startSummonEffect();
+</D-Animation>
+
+<D-Animation:randomAll&screen>
+repeat = 60
+interval = 1
+sxRandom = Graphics.boxWidth / 2 * 2
+syRandom = Graphics.boxHeight / 2 * 2
+ex = sx + (r % 2 == 0 ? -Graphics.width : Graphics.width)
+scaleX = 0.5 + 2.5 * da.random(1) // 横幅を0.5~3倍
+scaleY = 0.5 +1.5 * da.random(1) // 縦幅を0.5~2倍
+opacity = 128 * Math.sin(Math.PI * t/et) // 不透明度を0 -> 128 -> 0に
+id = 1111
+</D-Animation>
+<D-Animation:screen>
+sx = Graphics.boxWidth
+sy = Graphics.boxHeight
+ex = 0
+ey = 0
+arcY = $TILE*2
+id = 1112
+</D-Animation>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>
+<D-Animation:delay&wait>
+id = 1
+script = BattleManager.endSummonEffect();
+</D-Animation>

@@ -1,0 +1,109 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+
+<D-Animation:screen>
+delay = 5
+repeat = 20
+interval = 3
+sx = Graphics.boxWidth*4/5+Math.sin(Math.PI*(r/20*2))*$TILE
+sy = Graphics.boxHeight/10*8-r*Graphics.boxHeight/10*6/20
+id = 1120
+</D-Animation>
+<D-Animation:screen>
+repeat = 20
+interval = 3
+delay = 65
+sx = Graphics.boxWidth*4/5-(Math.sin(Math.PI*(r/20*2))*$TILE)
+sy = Graphics.boxHeight/10*2+r*Graphics.boxHeight/10*6/20
+id = 1120
+addX = Math.sin(Math.PI*(t/et*2))*$TILE
+</D-Animation>
+<D-Animation:screen>
+delay = 125
+repeat = 20
+interval = 3
+sx = Graphics.boxWidth*4/5-(Graphics.boxWidth*4/5-b.x)/20*r
+sy = Graphics.boxHeight/10*8+(Graphics.boxHeight/10*8-(b.y-b.height/2))/20*r
+id = 1120
+</D-Animation>
+
+<D-Animation:screen>
+delay = 5
+repeat = 20
+interval = 3
+sx = Graphics.boxWidth*4/5-(Math.sin(Math.PI*(r/20*2))*$TILE)
+sy = Graphics.boxHeight/10*2+r*Graphics.boxHeight/10*6/20
+id = 1120
+</D-Animation>
+<D-Animation:screen>
+repeat = 20
+interval = 3
+delay = 65
+sx = Graphics.boxWidth*4/5+Math.sin(Math.PI*(r/20*2))*$TILE
+sy = Graphics.boxHeight/10*8-r*Graphics.boxHeight/10*6/20
+id = 1120
+addX = Math.sin(Math.PI*(t/et*2))*$TILE
+</D-Animation>
+<D-Animation:screen>
+delay = 125
+repeat = 20
+interval = 3
+sx = Graphics.boxWidth*4/5-(Graphics.boxWidth*4/5-b.x)/20*r
+sy = Graphics.boxHeight/10*2+((b.y-b.height/2)-(Graphics.boxHeight/10*2))/20*r
+id = 1120
+</D-Animation>
+
+<D-Animation:screen>
+playSe = {"name":"FF5 sylph","volume":90,"pitch":100,"pan":0}
+sx = Graphics.boxWidth*4/5
+ey = Graphics.boxHeight/10*2
+sy = Graphics.boxHeight/10*8
+addX = Math.sin(Math.PI*(t/et*2))*$TILE
+id = 1117
+</D-Animation>
+<D-Animation:screen>
+delay = 60
+sx = Graphics.boxWidth*4/5
+ey = Graphics.boxHeight/10*8
+sy = Graphics.boxHeight/10*2
+id = 1117
+addX = Math.sin(Math.PI*(t/et*2))*$TILE
+</D-Animation>
+<D-Animation:screen>
+delay = 120
+sx = Graphics.boxWidth*4/5
+ex = b.x
+sy = Graphics.boxHeight/10*2
+ey = b.y-b.height/2
+id = 1119
+</D-Animation>
+
+<D-Animation:screen>
+sx = Graphics.boxWidth*4/5
+ey = Graphics.boxHeight/10*8
+sy = Graphics.boxHeight/10*2
+id = 1118
+addX = -Math.sin(Math.PI*(t/et*2))*$TILE
+</D-Animation>
+<D-Animation:screen>
+delay = 60
+sx = Graphics.boxWidth*4/5
+ey = Graphics.boxHeight/10*2
+sy = Graphics.boxHeight/10*8
+id = 1118
+addX = -Math.sin(Math.PI*(t/et*2))*$TILE
+</D-Animation>
+<D-Animation:screen>
+delay = 120
+sx = Graphics.boxWidth*4/5
+ex = b.x
+sy = Graphics.boxHeight/10*8
+ey = b.y-b.height/2
+id = 1119
+</D-Animation>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

@@ -1,0 +1,50 @@
+<D-Motion:wait>
+script = a.setTempXY(a.x,a.y)
+</D-Motion>
+
+<D-Motion:svWalk&wait>
+playSe = FF7 dash
+ey = (a.y + BattleManager._targets[0].y)/2
+ex = a.x - BattleManager._targets[0].x/2
+frame = 20
+</D-Motion>
+<D-Motion:svItem&wait>
+playSe = FF6 steal
+arcY = -16
+ey = BattleManager._targets[0].y - BattleManager._targets[0].height/2
+ex = BattleManager._targets[0].x - BattleManager._targets[0].width
+frame = 10
+</D-Motion>
+<D-Motion:svEvade&pattern1&wait>
+playSe = 2000 blow2
+ey = Graphics.boxHeight/5*2
+ex = Graphics.boxWidth/5*4
+frame = 20
+noShadow = true
+</D-Motion>
+
+<D-Animation:delay&self>
+id = 932
+</D-Animation>
+<D-Motion:svItem&pattern0&wait>
+arcY = 0
+frame = 60
+</D-Motion>
+
+<D-Motion:attack2&delay>
+delay = 10
+arcY = 0
+</D-Motion>
+<D-Animation:delay&shotRandomAll>
+id = 933
+arrival = 10 // 到達フレーム
+scaleX = 0.5
+scaleY = 0.5
+ey = defaultY + 24
+ex = defaultX - 24
+</D-Animation>
+
+<D-Animation:delay>
+id = 934
+sx = sx + 12 * mirroring
+</D-Animation>

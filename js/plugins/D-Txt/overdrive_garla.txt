@@ -1,0 +1,59 @@
+<D-Motion:swingWhip&noWait>
+arcY = 0
+playSe = {"name":"FF5 whip","volume":50,"pitch":100,"pan":0}
+</D-Motion>
+<D-Motion:swingWhip&noWait>
+arcY = 0
+delay = 15
+frame = 15
+playSe = {"name":"FF5 whip","volume":50,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation>
+delay = 45
+id = 1
+playSe = {"name":"ETC elephant","volume":50,"pitch":100,"pan":0}
+</D-Animation>
+
+<D-Animation>
+delay = 60
+id = 1190
+</D-Animation>
+
+
+<D-Animation>
+delay = 75
+id = 1191
+sx = b.x+400
+sy = b.y-b.height/2
+ex = b.x
+</D-Animation>
+
+<D-Animation>
+delay = 135
+id = 1164
+condition = !BattleManager.resultList()[0].missed||!BattleManager.resultList()[0].evaded;
+</D-Animation>
+
+<D-Animation>
+delay = 135
+id = 1191
+sx = b.x
+sy = b.y-b.height/2
+ex = b.x-400
+</D-Animation>
+
+<D-Motion:noWait&target>
+delay = 135
+condition = BattleManager._targets[0]._result.addedStates.includes(34)
+ex = (sx - Graphics.boxWidth) * mirroring
+ey = sy - 64
+frame = 10
+</D-Motion>
+
+<D-Motion:return>
+delay = 200
+frame = 10
+arcY = -8
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

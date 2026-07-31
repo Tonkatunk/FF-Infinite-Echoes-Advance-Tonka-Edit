@@ -1,0 +1,12 @@
+<D-Animation>
+id = 1994
+</D-Animation>
+<D-Animation>
+delay = 30
+id = 1995
+</D-Animation>
+
+<D-Animation>
+delay = 30
+id = 1993
+</D-Animation>

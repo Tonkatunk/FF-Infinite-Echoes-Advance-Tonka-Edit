@@ -1,0 +1,7 @@
+<D-Animation:shot&wait>;
+sx = a.x+$TILE*2
+id = 854
+arrival = 16 // 到達フレーム
+
+script = target.startMagicNockback(10,16,BattleManager._firstTargets[0].getMagicAnimationId(BattleManager._action.item().meta.DAnimeId),BattleManager.resultList()[0]);
+</D-Animation>

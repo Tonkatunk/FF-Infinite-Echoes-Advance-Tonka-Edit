@@ -1,0 +1,29 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+
+<D-Animation:user>
+delay = 20
+sx = a.x+a.headX();
+sy = a.y+a.headY()+8;
+id = 1103
+z = 0
+</D-Animation>
+<D-Animation:user>
+delay = 80
+id = 1104
+sx = a.x+a.headX();
+sy = a.y+a.headY()+8;
+</D-Animation>
+
+//同サイドが対象の場合、アニメーションを反転する
+<D-Setting:MirrorForFriend>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>
+
+<D-Animation:delay>
+id = 408
+</D-Animation>

@@ -1,0 +1,49 @@
+<D-Motion:svEvade>
+</D-Motion>
+
+<D-Animation>
+id = 1167
+arcY = -24
+sx = a.x - 6
+ex = a.x - 6
+sy = a.y - 12
+ey = a.y - 18
+</D-Animation>
+
+<D-Motion:thrustkick>
+delay = 10
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+delay = 20
+id = 1171
+sx = a.x
+ex = b.x
+sy = a.y - 16
+ey = b.y - b.height/2
+</D-Animation>
+
+<D-Animation>
+delay = 50
+id = 1172
+sx = a.x
+ex = b.x
+sy = a.y - 16
+ey = b.y - b.height/2
+</D-Animation>
+
+<D-Animation>
+condition = !b.result().missed && !b.result().evaded
+delay = 70
+id = 1173
+</D-Animation>
+
+<D-Animation>
+delay = 70
+id = 1163
+sx = b.x
+ex = 0
+ey = Graphics.boxHeight/2
+sy = b.y - b.height/2
+</D-Animation>

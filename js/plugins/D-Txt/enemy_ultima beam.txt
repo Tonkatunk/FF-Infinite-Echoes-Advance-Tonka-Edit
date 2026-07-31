@@ -1,0 +1,125 @@
+<D-Animation>
+playSe = {"name":"FF5 flare","volume":100,"pitch":100,"pan":0}
+id = 2547;
+z = 1
+</D-Animation>
+
+<D-Animation:converge&self>
+id = 2537
+sx = Graphics.boxWidth/5*3
+sy = Graphics.boxHeight/3*2
+arrival = 30 // 到達フレーム
+repeat = 20 // 繰返し回数
+interval = 2 // 間隔
+scaleX = 1 * (1-t/et) // 横幅
+scaleY = 1 * (1-t/et) // 縦幅
+radiusX = $TILE*6 * (1-t/et) // 横幅
+radiusY = $TILE*6 * (1-t/et) // 縦幅
+rotation = 0
+</D-Animation>
+
+<D-Animation:self>
+delay = 65
+id = 2540
+z = 3.3
+</D-Animation>
+
+<D-Animation:self>
+id = 2545
+sx = Graphics.boxWidth/5*3
+sy = Graphics.boxHeight/3*2
+scaleX = 0.65
+scaleY = 0.65
+delay = 35
+z = 3.1
+</D-Animation>
+
+<D-Animation:screen>
+id = 2546
+sx = Graphics.boxWidth/7*3.85
+sy = Graphics.boxHeight/3*2
+scaleX = 0.75
+scaleY = 0.75
+delay = 65
+z = 3.2
+playSe = FF7 exprode
+</D-Animation>
+
+<D-Animation:random&screen>
+id = 360
+sx =  b.isEnemy() ? Graphics.boxWidth/3 : Graphics.boxWidth/5*4
+sy = Graphics.boxHeight/3*2
+repeat = 30 // 繰返し回数
+interval = 2 // 間隔
+limitSound = 0
+delay = 65
+sxRandom = 50 // 始点Ｘ座標分散
+syRandom = 50 // 始点Ｙ座標分散
+z = 3.05
+</D-Animation>
+
+<D-Animation:screen>
+id = 2546
+sx = Graphics.boxWidth/7*3.85
+sy = Graphics.boxHeight/3*2
+scaleX = 0.75
+scaleY = 0.75*(et-t)/et
+delay = 125
+z = 3.2
+playSe = FF6 beatBoss
+</D-Animation>
+
+<D-Motion>
+delay = 75
+condition = BattleManager.resultList().length > 0 && BattleManager.indexResult(0).hpDamage > 0
+target = BattleManager.indexTarget(0)
+script = BattleManager.indexTarget(0).startDamageShake();
+</D-Motion>
+<D-Motion>
+delay = 75
+condition = BattleManager.resultList().length > 1 && BattleManager.indexResult(1).hpDamage > 0
+target = BattleManager.indexTarget(1)
+script = BattleManager.indexTarget(1).startDamageShake();
+</D-Motion>
+<D-Motion>
+delay = 75
+condition = BattleManager.resultList().length > 2 && BattleManager.indexResult(2).hpDamage > 0
+target = BattleManager.indexTarget(2)
+script = BattleManager.indexTarget(2).startDamageShake();
+</D-Motion>
+<D-Motion>
+delay = 75
+condition = BattleManager.resultList().length > 3 && BattleManager.indexResult(3).hpDamage > 0
+target = BattleManager.indexTarget(3)
+script = BattleManager.indexTarget(3).startDamageShake();
+</D-Motion>
+<D-Motion>
+delay = 75
+condition = BattleManager.resultList().length > 4 && BattleManager.indexResult(4).hpDamage > 0
+target = BattleManager.indexTarget(4)
+script = BattleManager.indexTarget(4).startDamageShake();
+</D-Motion>
+<D-Motion>
+delay = 75
+condition = BattleManager.resultList().length > 5 && BattleManager.indexResult(5).hpDamage > 0
+target = BattleManager.indexTarget(5)
+script = BattleManager.indexTarget(5).startDamageShake();
+</D-Motion>
+<D-Motion>
+delay = 75
+condition = BattleManager.resultList().length > 6 && BattleManager.indexResult(6).hpDamage > 0
+target = BattleManager.indexTarget(6)
+script = BattleManager.indexTarget(6).startDamageShake();
+</D-Motion>
+<D-Motion>
+delay = 75
+condition = BattleManager.resultList().length > 7 && BattleManager.indexResult(7).hpDamage > 0
+target = BattleManager.indexTarget(7)
+script = BattleManager.indexTarget(7).startDamageShake();
+</D-Motion>
+<D-Motion>
+delay = 75
+condition = BattleManager.resultList().length > 8 && BattleManager.indexResult(8).hpDamage > 0
+target = BattleManager.indexTarget(8)
+script = BattleManager.indexTarget(8).startDamageShake();
+</D-Motion>

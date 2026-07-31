@@ -1,0 +1,45 @@
+//同サイドが対象の場合、アニメーションを反転する
+<D-Setting:MirrorForFriend>
+
+//リフレク
+<D-Animation>
+condition = BattleManager._targetNum > 0;
+target = BattleManager._firstTargets[0];
+id = BattleManager._firstTargets[0].getMagicAnimationId(BattleManager._action.item().meta.DAnimeId);
+</D-Animation>
+
+//効果音
+<D-Motion>
+playSe = {"name":"FF6 drain1","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+//対象に集まるオーラ
+<D-Animation:moveVortex&wait>
+target = BattleManager._targets[0];
+repeat = 8
+interval = 0 // 間隔
+id = 344
+radiusX /= 3 // 半径（Ｘ方向）
+radiusY /= 3 // 半径（Ｙ方向）
+radX += r*22.5;
+radY += r*22.5;
+</D-Animation>
+
+//吸い取る
+<D-Animation:shot&wait>
+target = BattleManager._targets[0];
+repeat = 5 // 繰返回数
+sx = b.x
+ex = a.x
+sy = b.y-b.height/2
+ey = a.y-a.height/2
+scaleX = (5-r)*0.2
+scaleY = (5-r)*0.2
+id = 344
+script = target.startMagicNockback(0,16,1,BattleManager.resultList()[0]);
+</D-Animation>
+
+//回復
+<D-Animation:self&wait>
+id = 345
+</D-Animation>

@@ -1,0 +1,64 @@
+<D-Motion:portolan&noWait>
+arcY = 0
+frame = 140
+</D-Motion>
+
+<D-Animation:self>
+id = 2268
+afterimage = 15 // 残像数
+afterimageInterval = 3 // 残像間隔
+sx = a.x-8
+sy = a.y-14
+scaleX = 0.2
+scaleY = 0.2
+z = 2.0
+</D-Animation>
+
+<D-Animation:self>
+id = 1
+delay = 60
+plugin = tintBB12 64 64 64 64 64 64
+</D-Animation>
+
+<D-Animation:screen>
+id = 2269
+z = 0
+</D-Animation>
+
+<D-Motion:svItem&noWait>
+arcY = 0
+delay = 140
+frame = 60
+playSe = {"name":"FF6 bushido tora","volume":100,"pitch":70,"pan":0}
+script = BattleManager.startSummonEffect();
+</D-Motion>
+<D-Animation>
+id = 1317
+delay = 200
+sx = Graphics.boxWidth+32
+ex = -32
+sy = Graphics.boxHeight/2
+</D-Animation>
+<D-Animation:screen>
+id = 2270
+delay = 200
+</D-Animation>
+<D-Animation:screen>
+id = 2267
+delay = 260
+sx = Graphics.boxWidth/2
+playSe = {"name":"FF9 water","volume":100,"pitch":70,"pan":0}
+</D-Animation>
+<D-Animation:screen>
+id = 2271
+delay = 305
+sx = Graphics.boxWidth/2
+</D-Animation>
+
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>
+<D-Animation:delay&wait>
+id = 1
+script = BattleManager.endSummonEffect();
+</D-Animation>

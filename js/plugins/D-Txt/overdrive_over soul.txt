@@ -1,0 +1,117 @@
+<D-Motion:setupW&noWait>
+arcY = 0
+frame = 60
+</D-Motion>
+
+<D-Animation>
+z = 0
+id = 2087
+</D-Animation>
+
+<D-Animation>
+id = 1
+delay = 30
+plugin = tintBB12 127 127 127 127 127 127
+</D-Animation>
+
+<D-Animation:self>
+id = 2375
+delay = 60
+</D-Animation>
+<D-Motion>
+arcY = 0
+sx = Graphics.boxWidth*2
+sy = Graphics.boxHeight*2
+delay = 60
+frame = 1
+</D-Motion>
+
+<D-Animation>
+delay = 70
+id = 2372
+target = BattleManager.indexTarget(0);
+</D-Animation>
+<D-Animation>
+delay = 80
+id = 2374
+target = BattleManager.indexTarget(0);
+</D-Animation>
+<D-Animation>
+delay = 90
+id = 2372
+scaleY = -1
+target = BattleManager.indexTarget(0);
+</D-Animation>
+<D-Animation>
+delay = 100
+id = 2373
+scaleY = -1
+target = BattleManager.indexTarget(0);
+</D-Animation>
+<D-Animation>
+delay = 110
+id = 2372
+scaleX = -1
+target = BattleManager.indexTarget(0);
+</D-Animation>
+<D-Animation>
+delay = 120
+id = 2373
+scaleX = -1
+scaley = -1
+target = BattleManager.indexTarget(0);
+</D-Animation>
+<D-Animation>
+delay = 130
+id = 2374
+target = BattleManager.indexTarget(0);
+</D-Animation>
+
+<D-Motion:swingW&noWait>
+delay = 130
+arcY = 0
+frame = 10
+sx = b.x+b.width/2
+sy = b.y
+ex = b.x-b.width/2
+script = a.afterimage().start();
+target = BattleManager.indexTarget(0);
+</D-Motion>
+
+<D-Motion:takeSword&noWait>
+delay = 140
+arcY = 0
+frame = 30
+script = a.afterimage().end();
+</D-Motion>
+
+<D-Animation>
+delay = 170
+id = 2376
+</D-Animation>
+<D-Motion:takeSword&noWait>
+delay = 170
+arcY = 0
+frame = 60
+</D-Motion>
+
+<D-Animation>
+z = 0
+delay = 170
+plugin = tintBB12 255 255 255 255 255 255
+id = 2093
+</D-Animation>
+
+<D-Motion:svItem&noWait>
+delay = 230
+arcY = -16
+frame = 20
+ex = a._homeX
+ey = a._homeY
+</D-Motion>
+
+<D-Motion:retrun>
+delay = 250
+arcY = 0
+frame = 1
+</D-Motion>

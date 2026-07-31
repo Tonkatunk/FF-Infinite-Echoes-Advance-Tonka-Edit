@@ -1,0 +1,75 @@
+<D-Animation>
+id = 2087
+z = 0
+</D-Animation>
+<D-Animation>
+id = 1
+delay = 30
+plugin = tintBB12 64 64 64 64 64 64
+</D-Animation>
+
+
+<D-Motion:noWait&seisatsu>
+arcY = 0
+</D-Motion>
+
+<D-Animation:shot>
+id = 2327
+delay = 18
+scaleX = 1
+scaleY = 1
+</D-Animation>
+
+<D-Animation:shot>
+playSe = {"name":"FF6 Guard","volume":100,"pitch":150,"pan":0}
+id = 2327
+delay = 21
+scaleX = 0.8
+scaleY = 0.8
+</D-Animation>
+
+<D-Animation:shot>
+id = 2327
+delay = 24
+scaleX = 0.6
+scaleY = 0.6
+</D-Animation>
+
+<D-Animation:shot>
+id = 2327
+delay = 27
+scaleX = 0.4
+scaleY = 0.4
+</D-Animation>
+
+<D-Animation>
+id = 2325
+delay = 18
+</D-Animation>
+
+<D-Animation:converge>
+id = 2326
+delay = 45
+ex = b.x
+ey = b.y - 24 - b.height/2 - r
+repeat = 20 // 繰返し回数
+interval = 2 // 間隔
+scaleX = 1 * (1-t/et) // 横幅
+scaleY = 1 * (1-t/et) // 縦幅
+radiusX = $TILE*3 * (1-t/et) // 横幅
+radiusY = $TILE*3 * (1-t/et) // 縦幅
+rotation = 0
+</D-Animation>
+
+<D-Animation>
+id = 2328
+delay = 115
+sy = b.y - 48 - b.height/2
+</D-Animation>
+
+<D-Animation>
+id = 2329
+delay = 175
+plugin = tintBB12 255 255 255 255 255 255
+</D-Animation>
+

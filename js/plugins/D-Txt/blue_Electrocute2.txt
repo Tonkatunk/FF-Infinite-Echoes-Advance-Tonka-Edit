@@ -1,0 +1,17 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+
+<D-Animation>
+id = 1132
+</D-Animation>
+<D-Animation:self>
+id = 1131
+//sx = defaultX - 25 * mirroring
+sx = a.x + 115 - 125 * mirroring
+</D-Animation>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

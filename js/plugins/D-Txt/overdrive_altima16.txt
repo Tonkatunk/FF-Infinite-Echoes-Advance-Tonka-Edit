@@ -1,0 +1,79 @@
+<D-Animation>
+    id = 2067
+    z = 0
+</D-Animation>
+
+<D-Motion>
+    delay = 30
+    plugin = tintBB12 127 127 127 127 127 127
+</D-Motion>
+
+<D-Animation>
+id = 2061
+delay = 30
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/4*3
+</D-Animation>
+
+<D-Animation>
+id = 2062
+delay = 30
+repeat = 10
+interval = 12
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/4*3
+addX = 24*Math.sin(Math.PI/24*t)
+</D-Animation>
+<D-Animation>
+id = 2062
+repeat = 10
+delay = 30
+interval = 12
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/4*3
+addX = -24*Math.sin(Math.PI/24*t)
+</D-Animation>
+<D-Animation>
+id = 2063
+delay = 150
+sx = Graphics.boxWidth/2
+</D-Animation>
+<D-Animation>
+id = 2064
+delay = 250
+sx = Graphics.boxWidth/2
+</D-Animation>
+<D-Animation>
+id = 2065
+delay = 350
+sx = Graphics.boxWidth/2
+</D-Animation>
+<D-Animation>
+id = 2066
+delay = 250
+z = 0
+sx = Graphics.boxWidth/2
+</D-Animation>
+<D-Animation>
+id = 2068
+delay = 350
+sx = Graphics.boxWidth/2
+</D-Animation>
+
+//炎ランダム
+<D-Animation:randomAll>
+repeat = 40
+delay = 250
+interval = 4
+sx = defaultX - $TILE*2
+sy = defaultY + $TILE
+id = 2069
+</D-Animation>
+
+
+<D-Motion:delay>
+arcY = -16
+frame = 1
+delay = 420
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

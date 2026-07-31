@@ -1,0 +1,44 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+<D-Animation:wait>
+id = 990
+script = BattleManager.startSummonEffect();
+</D-Animation>
+
+<D-Animation:screen>
+delay = 20
+sx = Graphics.boxWidth*4/5
+sy = Graphics.boxHeight/2
+id = 1103
+z = 99
+</D-Animation>
+<D-Animation:screen>
+sx = Graphics.boxWidth*4/5
+sy = Graphics.boxHeight/2
+id = 1102
+z = 100
+</D-Animation>
+<D-Animation:screen>
+delay = 80
+sx = Graphics.boxWidth*4/5
+sy = Graphics.boxHeight/2
+id = 1104
+z = 101
+</D-Animation>
+
+//同サイドが対象の場合、アニメーションを反転する
+<D-Setting:MirrorForFriend>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>
+<D-Animation:delay&wait>
+id = 1
+script = BattleManager.endSummonEffect();
+</D-Animation>
+
+<D-Animation:delay>
+id = 408
+</D-Animation>

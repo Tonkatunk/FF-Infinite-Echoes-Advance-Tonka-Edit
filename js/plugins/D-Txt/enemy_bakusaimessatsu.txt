@@ -1,0 +1,75 @@
+<D-Motion>
+performer = $gameTroop.members()[0];
+frame = 20
+arcY = -16
+scaleY = 1
+playSe = {"name":"FF6 steal","volume":90,"pitch":100,"pan":0}
+ex = 56
+ey = 147
+</D-Motion>
+<D-Motion>
+frame = 20
+arcY = -16
+ex = 56
+ey = 120
+</D-Motion>
+
+<D-Animation>
+delay = 20
+target = $gameTroop.members()[0];
+id = 877
+</D-Animation>
+
+<D-Animation:self>
+delay = 20
+id = 877
+</D-Animation>
+
+<D-Animation:screen>
+delay = 80
+sx = Graphics.boxWidth/4*3
+sy = Graphics.boxHeight/4*3
+id = 383
+</D-Animation>
+
+<D-Animation:screen>
+delay = 80
+sx = Graphics.boxWidth/4*3
+sy = Graphics.boxHeight/4*3
+id = 384
+z = -1
+</D-Animation>
+
+//衝撃は
+<D-Animation>
+delay = 50
+id = 382
+sx = a.x+a.width/2-(a.x+a.width/2-Graphics.boxWidth/4*3)/10*r
+sy = a.y+(a.y-Graphics.boxHeight/4*3)/10*r
+interval = 3
+repeat = 10
+</D-Animation>
+<D-Animation>
+delay = 50
+id = 382
+sx = $gameTroop.members()[0].x+$gameTroop.members()[0].width/2-($gameTroop.members()[0].x+$gameTroop.members()[0].width/2-Graphics.boxWidth/4*3)/10*r
+sy = $gameTroop.members()[0].y+($gameTroop.members()[0].y-Graphics.boxHeight/4*3)/10*r
+interval = 3
+repeat = 10
+</D-Animation>
+
+<D-Motion:home>
+performer = $gameTroop.members()[0];
+delay = 60
+frame = 20
+arcY = -16
+playSe = {"name":"FF6 steal","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Motion:home>
+performer = $gameTroop.members()[1];
+delay = 60
+frame = 20
+arcY = -16
+playSe = {"name":"FF6 steal","volume":90,"pitch":100,"pan":0}
+</D-Motion>

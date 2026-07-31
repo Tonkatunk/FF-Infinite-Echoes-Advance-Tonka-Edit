@@ -1,0 +1,51 @@
+<D-Motion:svItem&noWait>
+ex = a.x - 16
+ey = Graphics.boxHeight/3*2+16
+arcY = -16
+frame = 25
+playSe = FF6 steal
+</D-Motion>
+
+<D-Motion:svDying&noWait>
+delay = 25
+arcY = 0
+frame = 5
+</D-Motion>
+
+<D-Motion:svItem&noWait>
+delay = 30
+arcY = 0
+frame = 60
+</D-Motion>
+
+<D-Animation:self>
+id = 1425
+delay = 30
+sx = a.x - 24
+sy = Graphics.boxHeight/3*2
+</D-Animation>
+
+<D-Motion:accommodate&noWait>
+delay = 150
+arcY = 0
+frame = 60
+</D-Motion>
+
+<D-Animation>
+id = 1426
+delay = 150
+sx = a.x - 32
+sy = Graphics.boxHeight/3*2
+</D-Animation>
+
+<D-Animation>
+    id = 2093
+    delay = 350
+    z = 0
+    </D-Animation>
+    
+    <D-Motion>
+    delay = 380
+    plugin = tintBB12 255 255 255 255 255 255
+    arcY = 0
+    </D-Motion>

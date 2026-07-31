@@ -1,0 +1,32 @@
+<D-Motion:chargeOrder&noWait>
+frame = 60
+</D-Motion>
+
+<D-Animation:self>
+id = 2081
+delay = 8
+</D-Animation>
+
+<D-Motion:swingbothWquick&noWait>
+delay = 48
+ex = a.x - 16
+arcY = -8
+</D-Motion>
+
+<D-Animation>
+delay = 48
+id = 2082
+</D-Animation>
+
+<D-Motion:home&noWait>
+delay = 108
+frame = 10
+arcY = 0
+</D-Motion>
+
+<D-Motion:return>
+delay = 118
+frame = 1
+arcY = 0
+script = $gameParty.setChargeOrder();
+</D-Motion>

@@ -1,0 +1,41 @@
+<D-Animation>
+delay = 3
+condition = BattleManager._reflectCount > 0;
+target = BattleManager._firstTargets[0]
+id = 408
+</D-Animation>
+
+<D-Animation:beam>
+sx = BattleManager._firstTargets[0].x
+sy = BattleManager._firstTargets[0].y
+target = BattleManager._targets[0]
+delay = 3
+condition = BattleManager._reflectCount > 0;
+id = 538
+</D-Animation>
+
+<D-Animation:self>
+id = 539
+playSe = ff6 blaster
+</D-Animation>
+<D-Animation:beam>
+target = BattleManager._firstTargets[0]
+id = 538
+</D-Animation>
+
+<D-Animation>
+target = BattleManager._targets[0]
+delay = 3 // 時間差
+id = 540
+condition = BattleManager._reflectCount == 0;
+</D-Animation>
+<D-Animation>
+target = BattleManager._targets[0]
+delay = 6 // 時間差
+id = 540
+condition = BattleManager._reflectCount > 0;
+</D-Animation>
+
+<D-Animation:self>
+id = 1
+</D-Animation>

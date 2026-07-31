@@ -1,0 +1,11 @@
+<D-Animation:self>
+</D-Animation>
+
+<D-Animation>
+delay = 90
+id = 1
+sx = Graphics.boxWidth + Graphics.boxWidth/3*mirroring
+sy = Graphics.boxHeight/2
+filterType = shockwave
+filterParameters = [0,0,-1,6,80,1] // X,Y,半径,振幅,波長,明るさ
+</D-Animation>

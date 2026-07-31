@@ -1,0 +1,113 @@
+<D-Motion:gunshotR&noWait>
+frame = 20
+arcY = 0
+plugin = tintBB12 127 127 127 127 127 127
+</D-Motion>
+
+<D-Animation:beam>
+sy = a.y-a.height/2
+sx = a.x
+target = BattleManager.indexTarget(0);
+delay = 15
+id = 538
+</D-Animation>
+<D-Animation:beam>
+sy = a.y-a.height/2
+sx = a.x
+target = BattleManager.indexTarget(0);
+delay = 15
+id = 2221
+</D-Animation>
+<D-Animation>
+delay = 35
+script = BattleManager.indexTarget(0).startDamageShake();
+id = 2222
+target = BattleManager.indexTarget(0);
+</D-Animation>
+
+<D-Motion:gunshotR&noWait>
+delay = 50
+frame = 20
+arcY = 0
+</D-Motion>
+<D-Animation:beam>
+sy = a.y-a.height/2
+sx = a.x
+target = BattleManager.indexTarget(1);
+delay = 65
+id = 538
+</D-Animation>
+<D-Animation:beam>
+sy = a.y-a.height/2
+sx = a.x
+target = BattleManager.indexTarget(1);
+delay = 65
+id = 2221
+</D-Animation>
+<D-Animation>
+delay = 85
+script = BattleManager.indexTarget(1).startDamageShake();
+id = 2222
+target = BattleManager.indexTarget(1);
+</D-Animation>
+
+
+<D-Motion:gunshotR&noWait>
+delay = 100
+frame = 20
+arcY = 0
+</D-Motion>
+<D-Animation:beam>
+sy = a.y-a.height/2
+sx = a.x
+target = BattleManager.indexTarget(2);
+delay = 115
+id = 538
+</D-Animation>
+<D-Animation:beam>
+sy = a.y-a.height/2
+sx = a.x
+target = BattleManager.indexTarget(2);
+delay = 115
+id = 2221
+</D-Animation>
+<D-Animation>
+delay = 135
+script = BattleManager.indexTarget(2).startDamageShake();
+id = 2222
+target = BattleManager.indexTarget(2);
+</D-Animation>
+
+<D-Motion:gunshotR&noWait>
+delay = 150
+frame = 20
+arcY = 0
+</D-Motion>
+<D-Animation:beam>
+sy = a.y-a.height/2
+sx = a.x
+target = BattleManager.indexTarget(3);
+delay = 165
+id = 538
+</D-Animation>
+<D-Animation:beam>
+sy = a.y-a.height/2
+sx = a.x
+target = BattleManager.indexTarget(3);
+delay = 165
+id = 2221
+</D-Animation>
+<D-Animation>
+delay = 185
+script = BattleManager.indexTarget(3).startDamageShake();
+id = 2222
+target = BattleManager.indexTarget(3);
+</D-Animation>
+
+<D-Animation:self>
+id = 1
+</D-Animation>
+<D-Motion>
+delay = 240
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

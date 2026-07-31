@@ -1,0 +1,177 @@
+<D-Animation>
+id = 1
+plugin = tintBB12 127 127 127 127 127 127
+</D-Animation>
+
+<D-Animation:self>
+id = 2375
+</D-Animation>
+<D-Motion>
+arcY = 0
+sx = Graphics.boxWidth*2
+sy = Graphics.boxHeight*2
+frame = 1
+</D-Motion>
+
+<D-Animation>
+id = 1681
+target = BattleManager.indexTarget(0);
+</D-Animation>
+<D-Animation:screen>
+delay = 24
+id = 1680
+z = 2.9
+</D-Animation>
+<D-Motion:noWait&chargeOrderGunblade>
+delay = 24
+arcY = 0
+sx = BattleManager.indexTarget(0).x
+ex = BattleManager.indexTarget(0).x-BattleManager.indexTarget(0).width/2
+sy = BattleManager.indexTarget(0).y
+frame = 30
+script = a.afterimage().start();
+</D-Motion>
+
+<D-Motion:noWait>
+arcY = 0
+sx = Graphics.boxWidth*2
+sy = Graphics.boxHeight*2
+frame = 1
+delay = 54
+</D-Motion>
+<D-Animation>
+id = 1681
+target = BattleManager.indexTarget(1);
+delay = 54
+scaleX = -1
+</D-Animation>
+<D-Animation:screen>
+delay = 78
+id = 1680
+z = 2.9
+</D-Animation>
+<D-Motion:noWait&chargeOrderGunblade>
+delay = 78
+arcY = 0
+scaleX = -1
+sx = BattleManager.indexTarget(1).x
+ex = BattleManager.indexTarget(1).x+BattleManager.indexTarget(1).width/2
+sy = BattleManager.indexTarget(1).y
+frame = 30
+</D-Motion>
+
+<D-Motion:noWait>
+arcY = 0
+sx = Graphics.boxWidth*2
+sy = Graphics.boxHeight*2
+frame = 1
+delay = 108
+</D-Motion>
+<D-Animation>
+id = 1681
+target = BattleManager.indexTarget(2);
+delay = 108
+</D-Animation>
+<D-Animation>
+id = 1682
+target = BattleManager.indexTarget(2);
+delay = 158
+</D-Animation>
+<D-Animation:screen>
+delay = 143
+id = 1680
+z = 2.9
+</D-Animation>
+<D-Motion:svEvade&roll&noWait>
+delay = 143
+arcY = -32
+frame = 30
+scaleX = 1
+noShadow = true
+rotation = -((Math.PI * 2 / 360)*(270+(t/et)*90)) // 回転率
+sx = BattleManager.indexTarget(2).x+BattleManager.indexTarget(2).width/2
+sy = BattleManager.indexTarget(2).y
+</D-Motion>
+
+<D-Motion:noWait>
+arcY = 0
+sx = Graphics.boxWidth*2
+sy = Graphics.boxHeight*2
+frame = 1
+delay = 173
+</D-Motion>
+<D-Animation>
+id = 1681
+target = BattleManager.indexTarget(3);
+delay = 173
+</D-Animation>
+<D-Animation:screen>
+delay = 197
+id = 1680
+z = 2.9
+</D-Animation>
+<D-Motion:noWait&gunshotL>
+delay = 197
+arcY = 0
+scaleX = -1
+sx = BattleManager.indexTarget(3).x-BattleManager.indexTarget(3).width/2-16
+sy = BattleManager.indexTarget(3).y
+frame = 30
+</D-Motion>
+<D-Animation>
+delay = 207
+id = 152
+target = BattleManager.indexTarget(3);
+script = BattleManager.indexTarget(3).startDamageShake();
+</D-Animation>
+
+<D-Motion:noWait>
+arcY = 0
+sx = Graphics.boxWidth*2
+sy = Graphics.boxHeight*2
+frame = 1
+delay = 228
+</D-Motion>
+<D-Animation>
+id = 1681
+target = BattleManager.indexTarget(4);
+delay = 228
+scaleX = -1
+</D-Animation>
+<D-Animation:screen>
+id = 945
+delay = 258
+</D-Animation>
+<D-Animation>
+id = 2059
+target = BattleManager.indexTarget(4);
+script = BattleManager.indexTarget(4).startDamageShake();
+delay = 258
+scaleX = -1
+</D-Animation>
+<D-Motion:noWait&swingGunblade>
+delay = 258
+arcY = 0
+scaleX = -1
+sx = BattleManager.indexTarget(4).x
+sx = BattleManager.indexTarget(4).x+BattleManager.indexTarget(4).width/2+16
+sy = BattleManager.indexTarget(4).y
+frame = 30
+</D-Motion>
+
+<D-Motion:svItem&noWait&home>
+delay = 288
+arcY = -16
+frame = 20
+scaleX = 1
+ex = a._homeX
+ey = a._homeY
+plugin = tintBB12 255 255 255 255 255 255
+script = a.afterimage().end();
+noShadow = false
+</D-Motion>
+
+<D-Motion:retrun&delay>
+arcY = 0
+frame = 1
+</D-Motion>

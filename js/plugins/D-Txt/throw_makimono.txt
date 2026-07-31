@@ -1,0 +1,17 @@
+//隠れていた場合行動者の座標を画面外へセット
+<D-Motion:soon&wait>
+condition = a.isStateAffected(21);
+ex = sx+$TILE*6;
+</D-Motion>
+
+<D-Motion:thrust/>
+
+<D-Animation:wait>
+sx = Graphics.boxWidth/2
+</D-Animation>
+
+//隠れていた場合ランダムで現れる
+<D-Motion:home>
+condition = a.isStateAffected(21)&&Math.random()<0.5
+script = a.removeState(21)
+</D-Motion>

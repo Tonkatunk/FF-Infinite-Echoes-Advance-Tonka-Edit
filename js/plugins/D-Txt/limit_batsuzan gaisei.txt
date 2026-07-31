@@ -1,0 +1,87 @@
+<D-Motion:svSwing&pattern0>
+frame = 40
+arcY = 0
+</D-Motion>
+
+<D-Animation:self>
+delay = 34
+id = 1409
+</D-Animation>
+
+<D-Motion:svSwing&pattern1&noWait>
+delay = 30
+frame = 60
+playSe = {"name":"MZ Blow9","volume":100,"pitch":100,"pan":0}
+arcY = 0
+</D-Motion>
+
+<D-Motion>
+delay = 48
+playSe = {"name":"FF7 smoke2","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+//衝撃は
+<D-Animation>
+delay = 48
+target = BattleManager._targets[0]
+id = 382
+sx = a.x-32-(a.x-Graphics.boxWidth/3)/10*r
+ex = a.x-(a.x-Graphics.boxWidth/3)/10*r
+sy = a.y-(a.y-Graphics.boxHeight/3*2)/10*r
+ey = a.y-(a.y-Graphics.boxHeight/3*2)/10*r
+interval = 3
+repeat = 10
+frame = 30
+</D-Animation>
+
+<D-Animation:screen>
+delay = 70
+id = 541
+sx = defaultX - $TILE*2*mirroring 
+z = 0
+</D-Animation>
+
+//岩ランダム
+<D-Animation:randomAll>
+delay = 70
+repeat = 15
+interval = 10
+sx = defaultX - $TILE*1.5*mirroring 
+sy = defaultY + $TILE*1.5
+sxRandom = $TILE*4 // 始点Ｘ座標分散
+id = 542
+</D-Animation>
+
+//岩ランダム
+<D-Animation:randomAll>
+delay = 70
+repeat = 15
+interval = 10
+sx = defaultX - $TILE*1.5*mirroring 
+sy = defaultY + $TILE*1.5
+sxRandom = $TILE*4 // 始点Ｘ座標分散
+id = 543
+</D-Animation>
+
+//岩ランダム
+<D-Animation:randomAll>
+delay = 70
+repeat = 15
+interval = 10
+sx = defaultX - $TILE*1.5*mirroring 
+sy = defaultY + $TILE*1.5
+sxRandom = $TILE*4 // 始点Ｘ座標分散
+id = 544
+</D-Animation>
+
+<D-Motion:target&shake> // 対象を振動
+delay = 70
+condition = !b.isStateAffected(38)
+frame = 180
+addX /= 6
+</D-Motion>
+
+<D-Motion:return&delay>
+delay = 130
+arcY = -16
+</D-Motion>

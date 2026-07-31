@@ -1,0 +1,145 @@
+<D-Motion:svEvade>
+</D-Motion>
+
+<D-Animation>
+id = 1167
+arcY = -24
+sx = a.x - 6
+ex = a.x - 6
+sy = a.y - 12
+ey = a.y - 18
+</D-Animation>
+
+<D-Motion:thrustkick>
+delay = 10
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+delay = 20
+id = 1177
+sx = a.x
+ex = b.x
+sy = a.y - 16
+ey = b.y - b.height/2
+</D-Animation>
+
+<D-Animation>
+delay = 35
+arcY = -16
+id = 1178
+sx = b.x
+ex = a.x
+sy = b.y - b.height/2
+ey = a.y - 16
+</D-Animation>
+<D-Animation>
+condition = !b.result().missed && !b.result().evaded
+delay = 35
+id = 1164
+</D-Animation>
+
+<D-Motion:thrust>
+delay = 45
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+delay = 55
+id = 1177
+sx = a.x
+ex = b.x
+sy = a.y - 16
+ey = b.y - b.height/2
+</D-Animation>
+
+<D-Animation>
+delay = 70
+arcY = -16
+id = 1178
+sx = b.x
+ex = Graphics.boxWidth/2
+sy = b.y - b.height/2
+ey = -32
+</D-Animation>
+<D-Animation>
+condition = !b.result().missed && !b.result().evaded
+delay = 70
+id = 1164
+</D-Animation>
+
+<D-Motion:svItem>
+delay = 65
+frame = 10
+arcY = 0
+ex = sx-16
+ey = sy-32
+</D-Motion>
+
+<D-Motion:invisible&svWait>
+delay = 74
+frame = 1
+</D-Motion>
+
+<D-Animation>
+delay = 75
+id = 1180
+sx = a.x
+sy = a.y
+</D-Animation>
+
+<D-Animation>
+delay = 115
+arcY = -16
+id = 1178
+sx = Graphics.boxWidth/2
+ex = a.x
+sy = -32
+ey = a.y
+</D-Animation>
+
+<D-Motion:svWait&visible>
+delay = 134
+frame = 1
+arcY = 0
+</D-Motion>
+<D-Motion:thrustkick>
+delay = 135
+arcY = 0
+</D-Motion>
+
+<D-Animation:pierce>
+delay = 135
+afterimage = 10 // 残像数
+afterimageInterval = 2 // 残像間隔
+id = 1181
+</D-Animation>
+
+<D-Animation>
+delay = 145
+id = 1182
+condition = !b.result().missed && !b.result().evaded
+</D-Animation>
+<D-Motion:svEvade>
+delay = 145
+arcY = 0
+</D-Motion>
+
+<D-Motion:noWait>
+ex = sx+16
+ey = sy+32
+delay = 165
+arcY = 4
+</D-Motion>
+
+//爆発ランダム
+<D-Animation:random&wait>
+condition = !b.result().missed && !b.result().evaded
+delay = 145
+repeat = 10
+interval = 10
+sx = b.x
+sy = b.y - b.height/2
+id = 360
+</D-Animation>
+

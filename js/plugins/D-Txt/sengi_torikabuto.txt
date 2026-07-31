@@ -1,0 +1,35 @@
+<D-Animation:noWait>
+id = 1783
+z = -1
+</D-Animation>
+
+<D-Motion:swingSword&noWait>
+frame = 20
+</D-Motion>
+
+<D-Motion:noWait&svGuard>
+delay = 40
+frame = 40
+</D-Motion>
+
+<D-Animation>
+delay = 20
+id = 1784
+condition = !b.result().missed && !b.result().evaded
+</D-Animation>
+
+<D-Animation>
+delay = 20
+id = 113
+condition = b.result().missed || b.result().evaded
+</D-Animation>
+
+<D-Animation>
+delay = 32
+id = 1785
+condition = b.result().addedStates.length > 0
+</D-Animation>
+
+<D-Motion:retrun&delay>
+delay = 50
+</D-Motion>

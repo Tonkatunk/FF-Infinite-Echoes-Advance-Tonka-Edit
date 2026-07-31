@@ -1,0 +1,15 @@
+//効果音
+<D-Motion>
+playSe = {"name":"FF7 smoke","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation>
+id = 852
+frame = 60
+repeat = 16
+interval = 5
+sx = a.x+a.headX()
+ex = b.x
+sy = a.y+a.headY()
+ey = b.y-b.height/2
+</D-Animation>

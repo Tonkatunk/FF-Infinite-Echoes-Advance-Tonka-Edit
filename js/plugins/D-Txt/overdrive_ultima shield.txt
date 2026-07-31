@@ -1,0 +1,47 @@
+//バンザイ・残像開始
+<D-Motion:svItem&pattern0>
+script = a.afterimage().start();
+</D-Motion>
+
+<D-Motion:wait>
+ex = Graphics.boxWidth/3*2;
+ey = Graphics.boxHeight/10*9;
+</D-Motion>
+
+//バンザイ
+<D-Motion:svItem&pattern0>
+</D-Motion>
+
+<D-Animation:self&wait>
+id = 912
+</D-Animation>
+
+<D-Animation:roll&self&wait>
+id = 914
+rotation *= -0.25
+ex = a.x-$TILE/2
+</D-Animation>
+
+//振り下ろす・残像終了
+<D-Motion:svMissile&pattern0>
+script = a.afterimage().end();
+</D-Motion>
+
+//爆発ランダム
+<D-Animation:randomAll>
+repeat = 20
+interval = 4
+scaleX = 0.5
+scaleY = 0.5
+sx = defaultX - $TILE*2
+sy = defaultY + $TILE
+id = a.ultimaSealdAnimationId()
+</D-Animation>
+
+//倒した盾
+<D-Animation:self&wait>
+id = 915
+</D-Animation>
+
+//ホームポジションへ
+<D-Motion:svItem&return/>

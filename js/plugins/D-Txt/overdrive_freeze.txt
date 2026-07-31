@@ -1,0 +1,33 @@
+<D-Animation:self>
+sy = a.y - a.height
+id = 1479
+</D-Animation>
+
+<D-Animation>
+z = 0
+id = 1497
+</D-Animation>
+
+<D-Motion:svItem>
+frame = 75
+</D-Motion>
+
+<D-Animation:self>
+sy = a.y - a.height
+sx = a.x
+ex = Graphics.boxWidth/2
+ey = Graphics.boxHeight/4*3
+id = 1496
+delay = 75
+</D-Animation>
+
+<D-Motion:throw>
+delay = 75
+frame = 60
+</D-Motion>
+
+<D-Animation>
+sx = Graphics.boxWidth/2
+id = 1495
+delay = 90
+</D-Animation>

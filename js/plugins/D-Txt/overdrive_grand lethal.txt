@@ -1,0 +1,49 @@
+<D-Animation>
+id = 2079
+z = 0
+</D-Animation>
+
+<D-Motion:svHandsup>
+frame = 120
+delay = 30
+plugin = tintBB12 0 0 0 0 0 0
+</D-Motion>
+
+<D-Animation:self>
+delay = 30
+id = 2076
+z = 0
+</D-Animation>
+
+<D-Animation>
+delay = 150
+id = 2078
+z = -1
+</D-Animation>
+
+<D-Animation:screen>
+delay = 180
+id = 2077
+repeat = 4
+interval = 15
+sx = Graphics.boxWidth/3
+sy = Graphics.boxHeight/2
+sxRandom = Graphics.boxWidth/3
+syRandom = Graphics.boxHeight/4
+</D-Animation>
+
+
+<D-Motion>
+delay = 210
+playSe = {"name":"FF6 beatBoss","volume":80,"pitch":100,"pan":0}
+</D-Motion>
+<D-Motion>
+delay = 250
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>
+
+<D-Animation>
+delay = 250
+id = 2080
+z = 0
+</D-Animation>

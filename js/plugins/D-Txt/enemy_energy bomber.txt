@@ -1,0 +1,35 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+
+<D-Animation:self>
+id = 2453
+sx = a.x
+sy = a.y - a.height/2
+scaleX = 0.25
+scaleY = 0.25
+</D-Animation>
+<D-Motion:handsup&noWait>
+frame = 160
+</D-Motion>
+
+<D-Animation>
+id = 2452
+delay = 160
+sx = a.x
+sy = a.y - a.height/2
+ex = b.x
+ey = b.y - b.height/2
+</D-Animation>
+
+<D-Animation>
+id = 2451
+delay = 170
+condition = BattleManager.resultList()[0].hpDamage > 0
+script = BattleManager.indexTarget(0).startDamageShake();
+</D-Animation>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

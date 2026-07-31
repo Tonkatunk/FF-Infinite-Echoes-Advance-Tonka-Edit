@@ -1,0 +1,21 @@
+<D-Animation:shot>
+arcY = -16
+target = BattleManager._targets[0]
+id = 826
+playSe = MZ Frog once
+</D-Animation>
+
+<D-Animation>
+arcY = -16
+delay = 20
+sx = b.x
+ex = b.x - 100*mirroring
+target = BattleManager._targets[0]
+id = 826
+</D-Animation>
+
+<D-Animation>
+delay = 20
+target = BattleManager._targets[0]
+id = 825
+</D-Animation>

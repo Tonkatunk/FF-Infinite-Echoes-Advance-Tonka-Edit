@@ -1,0 +1,157 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+
+<D-Animation>
+condition = BattleManager._reflectCount > 0;
+noMirror = true
+scaleX = BattleManager.indexTarget(0).isEnemy() ? -1 : 1
+id = 408
+</D-Animation>
+
+//対象に集まるオーラ
+<D-Animation:revolve&wait>
+playSe = {"name":"FF10 holy","volume":110,"pitch":100,"pan":0}
+condition = BattleManager._targetNum > 0;
+target = BattleManager._targets[0];
+repeat = 8
+position = 2
+interval = 0 // 間隔
+id = 362
+radiusX = (Graphics.boxWidth/2*((60-t)/60))+b.width/2+$TILE // 半径（Ｘ方向）
+radiusY = b.width/2 // 半径（Ｙ方向）
+radX += r*45;
+radY += r*45;
+z = this.y < b.y ? b.z - 1 : this.z // Ｚ座標
+</D-Animation>
+
+//対象に集まるオーラ
+<D-Animation:revolve&wait>
+condition = BattleManager._targetNum > 0;
+target = BattleManager._targets[0];
+repeat = 8
+position = 2
+interval = 0 // 間隔
+id = 363
+radiusX = b.width/2+$TILE // 半径（Ｘ方向）
+radiusY = b.width/2 // 半径（Ｙ方向）
+radX += r*45;
+radY += r*45;
+z = this.y < b.y ? b.z - 1 : this.z // Ｚ座標
+</D-Animation>
+
+<D-Animation>
+id = 366
+z = 0
+</D-Animation>
+
+<D-Motion>
+delay = 20
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>
+<D-Animation>
+delay = 20
+id = 367
+z = -1
+</D-Animation>
+<D-Animation>
+delay = 120
+id = 368
+z = 0
+</D-Animation>
+
+//対象に集まるオーラ
+<D-Animation:revolve&wait>
+condition = BattleManager._targetNum > 0;
+afterimage = 10 // 残像数
+afterimageInterval = 2 // 残像間隔
+target = BattleManager._targets[0];
+ey = defaultY - Graphics.boxHeight*3 // 始点Ｙ座標
+repeat = 8
+position = 2
+interval = 0 // 間隔
+id = 362
+radiusX = b.width/2+$TILE // 半径（Ｘ方向）
+radiusY = b.width/2 // 半径（Ｙ方向）
+radX += r*45;
+radY += r*45;
+z = this.y < b.y ? b.z - 1 : this.z // Ｚ座標
+eyRandom = $TILE*2 // 終点Ｙ座標分散
+</D-Animation>
+
+//小爆発
+<D-Animation>
+interval = 8 // 間隔
+delay = 14
+repeat = 6
+condition = BattleManager._targetNum > 0;
+target = BattleManager._targets[0];
+id = 209
+</D-Animation>
+<D-Animation>
+delay = 14
+condition = BattleManager._targetNum > 0;
+target = BattleManager._targets[0];
+id = 364
+</D-Animation>
+<D-Motion>
+delay = 14
+condition = BattleManager.resultList().length > 0 && BattleManager.indexResult(0).hpDamage > 0
+performer = BattleManager.indexTarget(0)
+script = BattleManager.indexTarget(0).startDamageShake();
+</D-Motion>
+
+//ビーム
+<D-Animation>
+delay = 10
+condition = BattleManager._targetNum > 0;
+target = BattleManager._targets[0];
+rotation = 30/360 * Math.PI
+id = 361
+</D-Animation>
+
+//ビーム
+<D-Animation>
+delay = 18
+condition = BattleManager._targetNum > 0;
+target = BattleManager._targets[0];
+rotation = -5/360 * Math.PI
+id = 361
+</D-Animation>
+
+//ビーム
+<D-Animation>
+delay = 26
+condition = BattleManager._targetNum > 0;
+target = BattleManager._targets[0];
+rotation = -15/360 * Math.PI
+id = 361
+</D-Animation>
+
+//ビーム
+<D-Animation>
+delay = 34
+condition = BattleManager._targetNum > 0;
+target = BattleManager._targets[0];
+rotation = 5/360 * Math.PI
+id = 361
+</D-Animation>
+
+//ビーム
+<D-Animation>
+delay = 42
+condition = BattleManager._targetNum > 0;
+target = BattleManager._targets[0];
+rotation = -30/360 * Math.PI
+id = 361
+</D-Animation>
+
+//ビーム
+<D-Animation>
+delay = 50
+condition = BattleManager._targetNum > 0;
+target = BattleManager._targets[0];
+rotation = 15/360 * Math.PI
+id = 361
+</D-Animation>
+

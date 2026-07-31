@@ -1,0 +1,15 @@
+<D-Animation>
+id = 553
+script = if(a.isActor()){$gameParty.gainItem($dataItem[21],-BattleManager._targets.length)}
+</D-Animation>
+
+//爆発ランダム
+<D-Animation:randomAll>
+repeat = 20
+interval = 5
+sx = defaultX + $TILE*3*mirroring 
+sy = defaultY + $TILE
+sxrandom = $TILE*2
+syrandom = $TILE*2
+id = 554
+</D-Animation>

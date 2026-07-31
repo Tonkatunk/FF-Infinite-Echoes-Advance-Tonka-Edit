@@ -1,0 +1,62 @@
+//歩く動きをしながら近づく
+<D-Motion:svWalk&near&noWait>
+script = a.afterimage().start();
+playSe = FF7 dash
+frame = 20;
+</D-Motion>
+
+<D-Motion:swingWquick>
+script = a.afterimage().end();
+delay = 20
+arcY = 0
+</D-Motion>
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+delay = 20
+id = 113
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation>
+delay = 20
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+id = 1407
+</D-Animation>
+
+<D-Motion:svWait>
+delay = 35
+</D-Motion>
+<D-Motion:swingW>
+delay = 35
+arcY = 0
+</D-Motion>
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+delay = 35
+id = 113
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Motion:swingWquick>
+delay = 35
+ex = b.x - b.width/2
+arcY = 0
+</D-Motion>
+<D-Animation>
+delay = 35
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+id = 1408
+</D-Animation>
+
+<D-Animation>
+id = 1
+</D-Animatipn>
+
+<D-Motion:return>
+delay = 60
+arcY = -16
+</D-Motion>

@@ -1,0 +1,69 @@
+//歩く動きをしながら近づく
+<D-Motion:svWalk&near&noWait>
+playSe = FF7 dash
+frame = 20;
+</D-Motion>
+
+<D-Motion:fastpunch&noWait>
+delay = 20
+</D-Motion>
+<D-Motion:missile&noWait>
+delay = 24
+</D-Motion>
+<D-Motion:fastpunch&noWait>
+delay = 28
+</D-Motion>
+<D-Motion:missile&noWait>
+delay = 32
+</D-Motion>
+<D-Motion:fastpunch&noWait>
+delay = 36
+</D-Motion>
+<D-Motion:missile&noWait>
+delay = 40
+</D-Motion>
+<D-Motion:fastpunch&noWait>
+delay = 44
+</D-Motion>
+<D-Motion:missile&noWait>
+delay = 48
+</D-Motion>
+<D-Motion:fastpunch&noWait>
+delay = 52
+</D-Motion>
+<D-Motion:missile&noWait>
+delay = 56
+</D-Motion>
+
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+delay = 20
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation>
+delay = 20
+sx = a.x - 48
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+id = 1814
+</D-Animation>
+<D-Animation>
+delay = 20
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+id = 1815
+repeat = 6 // 繰返回数
+interval = 8 // 間隔
+sxRandom = 16 // 始点Ｘ座標分散
+syRandom = 16 // 始点Ｙ座標分散
+</D-Animation>
+
+<D-Animation>
+id = 1
+</D-Animatipn>
+
+<D-Motion:return&delay>
+delay = 100
+arcY = -16
+</D-Motion>

@@ -1,0 +1,11 @@
+<D-Motion:svChant&noWait>
+frame = 90
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+id = 1422
+</D-Animation>
+<D-Animation>
+id = 1423
+</D-Animation>

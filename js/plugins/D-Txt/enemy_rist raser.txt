@@ -1,0 +1,75 @@
+<D-Motion:noWait&fastpunch>
+arcY = 0
+frame = 20
+condition = a.isActor();
+</D-Motion>
+
+<D-Animation:lookCourse>
+id = 1656
+sx = a.x+60
+sy = a.y-40
+ex = b.x
+ey = b.y-b.height/2
+scaleY = r > 10 ? 1-(r-10)*0.1: 1
+interval = 2
+repeat = 20
+condition = a.isEnemy();
+</D-Animation>
+
+<D-Animation>
+id = 1655
+sx = a.x+60
+sy = a.y-40
+ex = b.x
+ey = b.y-b.height/2
+plugin = tintBB12 64 64 64 64 64 64
+z = 3.1
+condition = a.isEnemy();
+</D-Animation>
+
+<D-Animation:lookCourse>
+id = 1656
+sx = a.x-16
+sy = a.y-12
+ex = b.x
+ey = b.y-b.height/2
+scaleY = r > 10 ? 1-(r-10)*0.1: 1
+interval = 2
+repeat = 20
+condition = a.isActor();
+</D-Animation>
+
+<D-Animation>
+id = 1655
+sx = a.x-16
+sy = a.y-12
+ex = b.x
+ey = b.y-b.height/2
+plugin = tintBB12 64 64 64 64 64 64
+z = 3.1
+condition = a.isActor();
+</D-Animation>
+
+<D-Animation>
+delay = 40
+id = 1
+script = b.startDamageShake();
+condition = BattleManager.resultList()[0].hpDamage > 0
+</D-Animation>
+
+<D-Animation>
+delay = 20
+id = 1657
+</D-Animation>
+
+<D-Animation>
+delay = 10
+id = 1658
+z =2.9
+</D-Animation>
+
+<D-Animation>
+    delay = 80
+id = 1
+plugin = tintBB12 255 255 255 255 255 255
+</D-Animation>

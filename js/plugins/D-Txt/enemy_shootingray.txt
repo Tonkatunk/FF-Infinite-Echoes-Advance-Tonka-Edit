@@ -1,0 +1,21 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+
+<D-Animation>
+id = 430
+sx = a.x+14
+sy = a.y+76
+</D-Animation>
+<D-Animation>
+delay = 30
+id = 431
+sx = a.x+$TILE*9-8
+sy = a.y-$TILE*2+14
+z = 100
+</D-Animation>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

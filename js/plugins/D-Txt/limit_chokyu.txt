@@ -1,0 +1,463 @@
+<D-Animation:screen>
+id = 1453
+z = 0.1
+</D-Animation>
+
+<D-Motion:noWait>
+    delay = 30
+    plugin = tintBB12 127 127 127 127 127 127
+</D-Motion>
+
+<D-Motion:pointUpClaymore&noWait>
+arcY = 0
+frame = 120
+</D-Motion>
+
+<D-Animation:self>
+id = 1440
+</D-Animation>
+
+<D-Animation:self>
+id = 1441
+sx = a.x-8
+sy = a.y-48
+delay = 120
+</D-Animation>
+
+<D-Motion:near&foot&noWait>
+    delay = 180
+    playSe = FF7 dash
+    frame = 20
+    arcY = 0
+</D-Motion>
+<D-Motion:swingClaymore&noWait>
+    delay = 200
+    frame = 15
+    arcY = 0
+</D-Motion>
+<D-Animation>
+    delay = 200
+    id = 1443
+    target = BattleManager._targets[0]
+    script = BattleManager._targets[0].startDamageShake();
+</D-Animation>
+<D-Animation:screen>
+    delay = 200
+    id = 1454
+</D-Animation>
+
+<D-Motion:svItem&noWait>
+    delay = 215
+    frame = 15
+    ex = BattleManager._targets[1].x+BattleManager._targets[1].width/2
+    ey = BattleManager._targets[1].y
+    arcY = -16
+</D-Motion>
+<D-Motion:stubClaymore&noWait>
+    delay = 230
+    frame = 15
+    arcY = 0
+</D-Motion>
+<D-Animation>
+    delay = 230
+    id = 1444
+    target = BattleManager._targets[1]
+    script = BattleManager._targets[1].startDamageShake();
+</D-Animation>
+<D-Animation:screen>
+    delay = 230
+    id = 1455
+</D-Animation>
+
+<D-Motion:svItem&noWait>
+    delay = 245
+    frame = 15
+    ex = BattleManager._targets[2].x+BattleManager._targets[2].width/2
+    ey = BattleManager._targets[2].y+16
+    arcY = -16
+</D-Motion>
+<D-Motion:upperSlashClaymore&noWait>
+    delay = 260
+    frame = 8
+    ey = a.y-32
+</D-Motion>
+<D-Motion:upperSlashClaymore&noWait>
+    delay = 268
+    frame = 7
+    arcY = 0
+</D-Motion>
+<D-Animation>
+    delay = 260
+    id = 1445
+    target = BattleManager._targets[2]
+    script = BattleManager._targets[2].startDamageShake();
+</D-Animation>
+<D-Animation:screen>
+    delay = 260
+    id = 1456
+</D-Animation>
+
+<D-Motion:svItem&noWait>
+    delay = 275
+    frame = 15
+    ex = BattleManager._targets[3].x+BattleManager._targets[3].width/2
+    ey = BattleManager._targets[3].y-32
+    arcY = -16
+</D-Motion>
+<D-Motion:stubClaymore&noWait>
+    delay = 290
+    frame = 5
+    ey = BattleManager._targets[3].y
+</D-Motion>
+<D-Motion:stubClaymore&noWait>
+    delay = 300
+    frame = 10
+    arcY = 0
+</D-Motion>
+<D-Animation>
+    delay = 290
+    id = 1442
+    target = BattleManager._targets[3]
+    script = BattleManager._targets[3].startDamageShake();
+</D-Animation>
+<D-Animation:screen>
+    delay = 290
+    id = 1457
+</D-Animation>
+
+<D-Motion:svItem&noWait>
+    delay = 305
+    frame = 15
+    ex = BattleManager._targets[4].x+BattleManager._targets[4].width/2
+    ey = BattleManager._targets[4].y
+    arcY = -16
+</D-Motion>
+<D-Motion:swingClaymore&noWait>
+    delay = 320
+    frame = 15
+    arcY = 0
+</D-Motion>
+<D-Animation>
+    delay = 320
+    id = 1443
+    target = BattleManager._targets[4]
+    script = BattleManager._targets[4].startDamageShake();
+</D-Animation>
+<D-Animation:screen>
+    delay = 320
+    id = 1454
+</D-Animation>
+
+<D-Motion:svItem&noWait>
+    delay = 335
+    frame = 15
+    ex = BattleManager._targets[5].x+BattleManager._targets[5].width/2
+    ey = BattleManager._targets[5].y
+    arcY = -16
+</D-Motion>
+<D-Motion:stubClaymore&noWait>
+    delay = 350
+    frame = 15
+    arcY = 0
+</D-Motion>
+<D-Animation>
+    delay = 350
+    id = 1444
+    target = BattleManager._targets[5]
+    script = BattleManager._targets[5].startDamageShake();
+</D-Animation>
+<D-Animation:screen>
+    delay = 350
+    id = 1455
+</D-Animation>
+
+<D-Motion:svItem&noWait>
+    delay = 365
+    frame = 15
+    ex = BattleManager._targets[6].x+BattleManager._targets[6].width/2
+    ey = BattleManager._targets[6].y
+    arcY = -16
+</D-Motion>
+<D-Motion:upperSlashClaymore&noWait>
+    delay = 380
+    frame = 10
+    ey = a.y-32
+    arcY = 0
+</D-Motion>
+<D-Motion:upperSlashClaymore&noWait>
+    delay = 390
+    frame = 5
+    arcY = 0
+</D-Motion>
+<D-Animation>
+    delay = 380
+    id = 1445
+    target = BattleManager._targets[6]
+    script = BattleManager._targets[6].startDamageShake();
+</D-Animation>
+<D-Animation:screen>
+    delay = 380
+    id = 1456
+</D-Animation>
+
+<D-Motion:svItem&noWait>
+    delay = 395
+    frame = 15
+    ex = BattleManager._targets[7].x+BattleManager._targets[7].width/2
+    ey = BattleManager._targets[7].y-32
+    arcY = -16
+</D-Motion>
+<D-Motion:stubClaymore&noWait>
+    delay = 410
+    frame = 8
+    ey = BattleManager._targets[7].y
+</D-Motion>
+<D-Motion:stubClaymore&noWait>
+    delay = 418
+    frame = 7
+    arcY = 0
+</D-Motion>
+<D-Animation>
+    delay = 410
+    id = 1442
+    target = BattleManager._targets[7]
+    script = BattleManager._targets[7].startDamageShake();
+</D-Animation>
+<D-Animation:screen>
+    delay = 410
+    id = 1457
+</D-Animation>
+
+
+<D-Motion:svItem&noWait>
+    delay = 425
+    frame = 15
+    ex = BattleManager._targets[8].x+BattleManager._targets[8].width/2
+    ey = BattleManager._targets[8].y
+    arcY = -16
+</D-Motion>
+<D-Motion:swingClaymore&noWait>
+    delay = 440
+    frame = 15
+    arcY = 0
+</D-Motion>
+<D-Animation>
+    delay = 440
+    id = 1443
+    target = BattleManager._targets[8]
+    script = BattleManager._targets[8].startDamageShake();
+</D-Animation>
+<D-Animation:screen>
+    delay = 440
+    id = 1454
+</D-Animation>
+
+<D-Motion:svItem&noWait>
+    delay = 455
+    frame = 15
+    ex = BattleManager._targets[9].x+BattleManager._targets[9].width/2
+    ey = BattleManager._targets[9].y
+    arcY = -16
+</D-Motion>
+<D-Motion:stubClaymore&noWait>
+    delay = 470
+    frame = 15
+    arcY = 0
+</D-Motion>
+<D-Animation>
+    delay = 470
+    id = 1444
+    target = BattleManager._targets[9]
+    script = BattleManager._targets[9].startDamageShake();
+</D-Animation>
+<D-Animation:screen>
+    delay = 470
+    id = 1455
+</D-Animation>
+
+<D-Motion:svItem&noWait>
+    delay = 485
+    frame = 15
+    ex = BattleManager._targets[10].x+BattleManager._targets[10].width/2
+    ey = BattleManager._targets[10].y
+    arcY = -16
+</D-Motion>
+<D-Motion:upperSlashClaymore&noWait>
+    delay = 500
+    frame = 10
+    ey = a.y-32
+</D-Motion>
+<D-Motion:upperSlashClaymore&noWait>
+    delay = 510
+    frame = 5
+    arcY = 0
+</D-Motion>
+<D-Animation>
+    delay = 500
+    id = 1445
+    target = BattleManager._targets[10]
+    script = BattleManager._targets[10].startDamageShake();
+</D-Animation>
+<D-Animation:screen>
+    delay = 500
+    id = 1456
+</D-Animation>
+
+<D-Motion:svItem&noWait>
+    delay = 515
+    frame = 15
+    ex = BattleManager._targets[11].x+BattleManager._targets[11].width/2
+    ey = BattleManager._targets[11].y-32
+    arcY = -16
+</D-Motion>
+<D-Motion:stubClaymore&noWait>
+    delay = 530
+    frame = 8
+    ey = BattleManager._targets[11].y
+</D-Motion>
+<D-Motion:stubClaymore&noWait>
+    delay = 538
+    frame = 7
+    arcY = 0
+</D-Motion>
+<D-Animation>
+    delay = 530
+    id = 1442
+    target = BattleManager._targets[11]
+    script = BattleManager._targets[11].startDamageShake();
+</D-Animation>
+<D-Animation:screen>
+    delay = 530
+    id = 1457
+</D-Animation>
+
+<D-Motion:svItem&noWait>
+    delay = 545
+    frame = 15
+    ex = BattleManager._targets[12].x+BattleManager._targets[12].width/2
+    ey = BattleManager._targets[12].y
+    arcY = -16
+</D-Motion>
+<D-Motion:swingClaymore&noWait>
+    delay = 560
+    frame = 15
+    arcY = 0
+</D-Motion>
+<D-Animation>
+    delay = 560
+    id = 1443
+    target = BattleManager._targets[12]
+    script = BattleManager._targets[12].startDamageShake();
+</D-Animation>
+<D-Animation:screen>
+    delay = 560
+    id = 1454
+</D-Animation>
+
+<D-Motion:svItem&noWait>
+    delay = 575
+    frame = 15
+    ex = BattleManager._targets[13].x+BattleManager._targets[13].width/2
+    ey = BattleManager._targets[13].y
+    arcY = -16
+</D-Motion>
+<D-Motion:stubClaymore&noWait>
+    delay = 590
+    frame = 15
+    arcY = 0
+</D-Motion>
+<D-Animation>
+    delay = 590
+    id = 1444
+    target = BattleManager._targets[13]
+    script = BattleManager._targets[13].startDamageShake();
+</D-Animation>
+<D-Animation:screen>
+    delay = 590
+    id = 1455
+</D-Animation>
+
+<D-Motion:svItem&noWait>
+    delay = 605
+    frame = 15
+    ex = BattleManager._targets[14].x+BattleManager._targets[14].width/2
+    ey = BattleManager._targets[14].y
+    arcY = -16
+</D-Motion>
+<D-Motion:upperSlashClaymore&noWait>
+    delay = 620
+    frame = 10
+    ey = a.y-32
+</D-Motion>
+<D-Motion:upperSlashClaymore&noWait>
+    delay = 630
+    frame = 5
+    arcY = 0
+</D-Motion>
+<D-Animation>
+    delay = 620
+    id = 1445
+    target = BattleManager._targets[14]
+    script = BattleManager._targets[14].startDamageShake();
+</D-Animation>
+<D-Animation:screen>
+    delay = 620
+    id = 1456
+</D-Animation>
+
+<D-Motion:svItem&noWait>
+    delay = 635
+    frame = 15
+    ex = BattleManager._targets[15].x+BattleManager._targets[15].width/2
+    ey = BattleManager._targets[15].y-32
+    arcY = -16
+</D-Motion>
+<D-Motion:woundUpClaymore&noWait>
+    delay = 650
+    frame = 120
+    arcY = 0
+</D-Motion>
+<D-Animation:screen>
+    delay = 650
+    id = 1446
+    z = 0.1
+</D-Animation>
+<D-Motion:stubClaymore&noWait>
+    delay = 770
+    frame = 8
+    arrival = 8
+    ey = BattleManager._targets[15].y+16
+</D-Motion>
+<D-Motion:stubClaymore&noWait>
+    delay = 778
+    frame = 112
+    arcY = 0
+</D-Motion>
+<D-Animation>
+    delay = 780
+    id = 1442
+    target = BattleManager._targets[15]
+    script = BattleManager._targets[15].startDamageShake();
+</D-Animation>
+<D-Animation>
+    delay = 750
+    target = BattleManager._targets[15]
+    id = 1447
+</D-Animation>
+
+<D-Animation:screen>
+    delay = 860
+    id = 1458
+    z = 0
+</D-Animation>
+<D-Motion:home&noWait>
+    delay = 890
+    frame = 20
+    arcY = -16
+    plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>
+<D-Motion:return&noWait>
+    delay = 910
+    frame = 1
+    arcY = -16
+</D-Motion>

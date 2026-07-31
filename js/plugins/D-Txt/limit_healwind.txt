@@ -1,0 +1,16 @@
+<D-Motion:svChant&nowait>
+flame = 180
+</D-Motion>
+
+<D-Animation>
+id = 1401
+</D-Animation>
+
+<D-Animation>
+delay = 120
+id = 1402
+</D-Animation>
+
+<D-Motion:return&delay>
+arcY = 0
+</D-Motion>

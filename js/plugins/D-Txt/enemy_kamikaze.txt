@@ -1,0 +1,55 @@
+// 対象へ飛び込む
+<D-Motion:crash&svItem&noWait>
+script = a.afterimage().start();
+playSe = FF6 drain1
+frame = 12
+</D-Motion>
+
+<D-Animation>
+delay = 12
+id = 1552
+</D-Animation>
+<D-Motion>
+delay = 12
+condition = !BattleManager.resultList()[0].missed && !BattleManager.resultList()[0].evaded && BattleManager.resultList()[0].hpDamage > 0;
+target = BattleManager.indexTarget(0)
+script = BattleManager.indexTarget(0).startDamageShake();
+</D-Motion>
+
+<D-Motion:noWait>
+delay = 12
+sx = -100;
+frame = 1;
+script = a.afterimage().end()
+</D-Motion>
+
+<D-Motion:home&noWait>
+delay = 120
+frame = 1
+condition = a.isStateAffected(49);
+</D-Motion>
+
+<D-Animation:self>
+delay = 70
+id = 236
+sx = 40
+sy = 135
+condition = a.isStateAffected(49);
+</D-Animation>
+<D-Animation:self>
+delay = 120
+id = 1553
+condition = a.isStateAffected(49);
+</D-Animation>
+
+<D-Motion>
+delay = 70
+condition = !a.isStateAffected(49);
+script = a.addState(1);
+</D-Motion>
+
+<D-Motion>
+delay = 142
+condition = a.isStateAffected(49);
+script = a.removeState(34); a.removeState(49); a.removeState(1); a.setHp(100);
+</D-Motion>

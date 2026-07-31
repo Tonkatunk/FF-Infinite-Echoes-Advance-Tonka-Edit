@@ -1,0 +1,701 @@
+[null,
+
+{"id":1,"atypeId":1,"description":"Evade 5","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0.05}],"iconIndex":32,"name":"Copper Shield","note":"<rating:10>","params":[0,0,0,0,0,0,0,0],"price":200},
+
+{"id":2,"atypeId":1,"description":"Evade 11","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0.11}],"iconIndex":32,"name":"Buckler","note":"<rating:22>","params":[0,0,0,0,0,0,0,0],"price":4500},
+
+{"id":3,"atypeId":1,"description":"Evade 17","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0.17}],"iconIndex":32,"name":"Diamond Vase","note":"<rating:34>","params":[0,0,0,0,0,0,0,0],"price":17500},
+
+{"id":4,"atypeId":1,"description":"Evade 20 ◎Death/Petrify/Zombie","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0.2},{"code":13,"dataId":1,"value":0},{"code":13,"dataId":36,"value":0},{"code":13,"dataId":11,"value":0}],"iconIndex":32,"name":"Aegis Shield","note":"<rating:40>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":5,"atypeId":16,"description":"Evade 21 ◎Fire/Ice/Thunder/Water 80%","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0.21},{"code":11,"dataId":2,"value":0.8},{"code":11,"dataId":3,"value":0.8},{"code":11,"dataId":4,"value":0.8},{"code":11,"dataId":5,"value":0.8}],"iconIndex":32,"name":"Onion Shield","note":"<rating:42>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":6,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":7,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":8,"atypeId":2,"description":"Evade 8","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0.08}],"iconIndex":33,"name":"Large Shield","note":"<rating:15>","params":[0,0,0,0,0,0,0,0],"price":800},
+
+{"id":9,"atypeId":2,"description":"Evade 11","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0.11}],"iconIndex":33,"name":"Iron Shield","note":"<rating:21>","params":[0,0,0,0,0,0,0,0],"price":2000},
+
+{"id":10,"atypeId":2,"description":"Evade 11 ◎Fire 50%","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0.11},{"code":11,"dataId":2,"value":0.5}],"iconIndex":33,"name":"Flame Shield","note":"<rating:22>","params":[0,0,0,0,0,0,0,0],"price":7500},
+
+{"id":11,"atypeId":2,"description":"Evade 11 ◎Ice 50%","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0.11},{"code":11,"dataId":3,"value":0.5}],"iconIndex":33,"name":"Ice Shield","note":"<rating:22>","params":[0,0,0,0,0,0,0,0],"price":7500},
+
+{"id":12,"atypeId":2,"description":"Evade 11 ◎Water 50%","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0.11},{"code":11,"dataId":5,"value":0.5}],"iconIndex":33,"name":"Aqua Shield","note":"<rating:22>","params":[0,0,0,0,0,0,0,0],"price":7500},
+
+{"id":13,"atypeId":2,"description":"Evade 11 ◎Thunder 50%","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0.11},{"code":11,"dataId":4,"value":0.5}],"iconIndex":33,"name":"Thunder Shield","note":"<rating:22>","params":[0,0,0,0,0,0,0,0],"price":7500},
+
+{"id":14,"atypeId":2,"description":"Evade 11 ◎Wind 50%","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0.11},{"code":11,"dataId":7,"value":0.5}],"iconIndex":33,"name":"Gust Shield","note":"<rating:22>","params":[0,0,0,0,0,0,0,0],"price":7500},
+
+{"id":15,"atypeId":2,"description":"Evade 11 ◎Dark 50%","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0.11},{"code":11,"dataId":9,"value":0.5}],"iconIndex":33,"name":"Dark Shield","note":"<rating:22>","params":[0,0,0,0,0,0,0,0],"price":3800},
+
+{"id":16,"atypeId":2,"description":"Evade 13","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0.13}],"iconIndex":33,"name":"Mythril Shield","note":"<rating:25>","params":[0,0,0,0,0,0,0,0],"price":6800},
+
+{"id":17,"atypeId":2,"description":"Evade 15 ◎Poison element 75%","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0.15},{"code":11,"dataId":10,"value":0.75},{"code":13,"dataId":4,"value":0.5}],"iconIndex":33,"name":"Gold Shield","note":"<rating:29>","params":[0,0,0,0,0,0,0,0],"price":8800},
+
+{"id":18,"atypeId":2,"description":"Evade 18 ◎Holy 50%","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0.18},{"code":11,"dataId":8,"value":0.5}],"iconIndex":33,"name":"shaft of light","note":"<rating:35>","params":[0,0,0,0,0,0,0,0],"price":13500},
+
+{"id":19,"atypeId":2,"description":"Evade 18 ◎Fire/Ice 75%","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0.18},{"code":11,"dataId":2,"value":0.75},{"code":11,"dataId":3,"value":0.75}],"iconIndex":33,"name":"Dragon Shield","note":"<rating:35>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":20,"atypeId":2,"description":"Evade 20 ◆Shell","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0.2},{"code":43,"dataId":213,"value":1}],"iconIndex":33,"name":"force shield","note":"<rating:40>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":21,"atypeId":2,"description":"Evade 21","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0.21}],"iconIndex":33,"name":"Crystal Vault","note":"<rating:39>","params":[0,0,0,0,0,0,0,0],"price":28000},
+
+{"id":22,"atypeId":2,"description":"Evade 22 ◎Poison element 50% ◎Poison/Sleep/Petrify","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0.22},{"code":11,"dataId":10,"value":0.5},{"code":13,"dataId":4,"value":0.5},{"code":13,"dataId":10,"value":0},{"code":13,"dataId":11,"value":0.5}],"iconIndex":33,"name":"Genji Shield","note":"<rating:43>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":23,"atypeId":2,"description":"Evade 23 Agility 3 Strength 3 Magic 3 Agility 3","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0.23}],"iconIndex":33,"name":"Heroic Figure","note":"<rating:46>","params":[0,0,3,0,3,0,3,0],"price":0},
+
+{"id":24,"atypeId":2,"description":"Evade 24 HP +20% MP +20%","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0.24},{"code":21,"dataId":0,"value":1.2},{"code":21,"dataId":1,"value":1.2}],"iconIndex":33,"name":"Endless Road","note":"<rating:50>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":25,"atypeId":2,"description":"Evade 26 Defense 6 Magic Defense 15","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0.26}],"iconIndex":33,"name":"Adamant Shield","note":"<rating:55>","params":[0,0,0,6,0,15,0,0],"price":0},
+
+{"id":26,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":27,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":28,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":29,"atypeId":3,"description":"Defense 3 Magic Defense 3","etypeId":4,"traits":[],"iconIndex":34,"name":"Leather Armor","note":"","params":[0,0,0,3,0,3,0,0],"price":300},
+
+{"id":30,"atypeId":3,"description":"Defense 5 Magic Defense 3","etypeId":4,"traits":[],"iconIndex":34,"name":"Iron Armor","note":"","params":[0,0,0,5,0,3,0,0],"price":1000},
+
+{"id":31,"atypeId":3,"description":"Defense 6 Magic Defense 3 ◎Darkness 50%","etypeId":4,"traits":[{"code":11,"dataId":9,"value":0.5}],"iconIndex":34,"name":"Black Armor","note":"","params":[0,0,0,6,0,3,0,0],"price":1200},
+
+{"id":32,"atypeId":3,"description":"Defense 10 Magic Defense 2","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":34,"name":"Mythril Plate","note":"","params":[0,0,0,10,0,4,0,0],"price":7800},
+
+{"id":33,"atypeId":3,"description":"Defense 13 Magic Defense 5 ◎Poison status","etypeId":4,"traits":[{"code":13,"dataId":4,"value":0.5}],"iconIndex":34,"name":"Gold Armor","note":"","params":[0,0,0,13,0,5,0,0],"price":10500},
+
+{"id":34,"atypeId":3,"description":"Defense 16 Magic Defense 5 ◎Thunder 50%","etypeId":4,"traits":[{"code":11,"dataId":4,"value":0.5}],"iconIndex":34,"name":"Diamond Armor","note":"","params":[0,0,0,18,0,5,0,0],"price":17000},
+
+{"id":35,"atypeId":3,"description":"Defense 15 Magic Defense 5 ◎Dark 50%","etypeId":4,"traits":[{"code":11,"dataId":9,"value":0.5}],"iconIndex":34,"name":"Hades Armor","note":"","params":[0,0,0,15,0,5,0,0],"price":16000},
+
+{"id":36,"atypeId":3,"description":"Defense 15 Magic Defense 11 ◎Ice 75%","etypeId":4,"traits":[{"code":11,"dataId":2,"value":0.75},{"code":11,"dataId":3,"value":0.75}],"iconIndex":34,"name":"Yeti Mail","note":"","params":[0,0,0,15,0,11,0,0],"price":0},
+
+{"id":37,"atypeId":3,"description":"Defense 18 Magic Defense 9 Agility -3 ◎Flinch","etypeId":4,"traits":[{"code":13,"dataId":13,"value":0}],"iconIndex":34,"name":"Adamant Plate","note":"","params":[0,0,0,18,0,9,-3,0],"price":9800},
+
+{"id":38,"atypeId":3,"description":"Defense 21 Magic Defense 7","etypeId":4,"traits":[],"iconIndex":34,"name":"Crystal Mail","note":"","params":[0,0,0,21,0,7,0,0],"price":30000},
+
+{"id":39,"atypeId":3,"description":"Defense 22 Magic Defense 5 Strength 3 ◎Frog/Mini/Zombie","etypeId":4,"traits":[{"code":13,"dataId":36,"value":0.5},{"code":13,"dataId":35,"value":0.5},{"code":13,"dataId":14,"value":0.5}],"iconIndex":34,"name":"Genji Armor","note":"","params":[0,0,3,22,0,5,0,0],"price":0},
+
+{"id":40,"atypeId":3,"description":"Defense 24 Magic Defense 15 ◎Confuse/Paralysis/Petrification","etypeId":4,"traits":[{"code":13,"dataId":12,"value":0},{"code":13,"dataId":8,"value":0.5},{"code":13,"dataId":11,"value":0.5}],"iconIndex":34,"name":"Adamant Armor","note":"","params":[0,0,0,24,0,15,0,0],"price":0},
+
+{"id":41,"atypeId":16,"description":"Defense 24 Magic Defense 12 Agility 4 ◎Death ◎Petrification ◎Mini ◎Zombie","etypeId":4,"traits":[{"code":14,"dataId":11,"value":1},{"code":14,"dataId":1,"value":1},{"code":14,"dataId":35,"value":1},{"code":14,"dataId":36,"value":1}],"iconIndex":34,"name":"Onion Armor","note":"","params":[0,0,0,24,0,12,4,0],"price":0},
+
+{"id":42,"atypeId":3,"description":"Defense 24 Magic Defense 8 Strength 3","etypeId":4,"traits":[],"iconIndex":34,"name":"Maximilian","note":"","params":[0,0,3,24,0,8,0,0],"price":0},
+
+{"id":43,"atypeId":3,"description":"Defense 27 Magic Defense 7 ◆Zombie","etypeId":4,"traits":[{"code":11,"dataId":22,"value":2},{"code":11,"dataId":9,"value":0},{"code":11,"dataId":9,"value":0},{"code":11,"dataId":10,"value":0},{"code":11,"dataId":10,"value":0},{"code":11,"dataId":8,"value":2}],"iconIndex":34,"name":"Zombie Mail","note":"<noOptimize> //最強装備対象外","params":[0,0,0,27,0,7,0,0],"price":0},
+
+{"id":44,"atypeId":3,"description":"Defense 18 Magic Defense 3 Strength 2","etypeId":4,"traits":[],"iconIndex":34,"name":"Soldier Uniform","note":"<sort:35.1>","params":[0,0,2,18,0,3,0,0],"price":23000},
+
+{"id":45,"atypeId":4,"description":"Defense 2","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":35,"name":"Leather Tunic","note":"","params":[0,0,0,2,0,3,0,0],"price":100},
+
+{"id":46,"atypeId":4,"description":"Defense 4 Magic Defense 3","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":35,"name":"Chainmail","note":"","params":[0,0,0,4,0,3,0,0],"price":860},
+
+{"id":47,"atypeId":4,"description":"Defense 3 Magic Defense 2 Strength 2 Agility 1","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":35,"name":"Mythril Chain","note":"","params":[0,0,2,3,0,2,1,0],"price":1320},
+
+{"id":48,"atypeId":4,"description":"Defense 3 Magic Defense 5","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":35,"name":"Comfy Clothes","note":"","params":[0,0,0,3,0,5,0,0],"price":1800},
+
+{"id":49,"atypeId":4,"description":"Defense 6 Magic Defense 5","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":35,"name":"Mythril Mail","note":"","params":[0,0,0,6,0,5,0,0],"price":7000},
+
+{"id":50,"atypeId":4,"description":"Defense 6 Magic Attack 1 Magic Defense 4 ◎Earth 50%","etypeId":4,"traits":[{"code":11,"dataId":6,"value":0.5}],"iconIndex":35,"name":"Gaia Clothes","note":"","params":[0,0,0,6,1,4,0,0],"price":8500},
+
+{"id":51,"atypeId":4,"description":"Defense 7 Magic Defense 5 Agility 2","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":35,"name":"Survival Vest","note":"","params":[0,0,0,7,0,5,2,0],"price":8700},
+
+{"id":52,"atypeId":4,"description":"Defense 8 Magic Defense 3 Agility 1","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":35,"name":"Mythril Vest","note":"","params":[0,0,0,8,0,3,1,0],"price":9100},
+
+{"id":53,"atypeId":4,"description":"Defense 7 Magic Defense 3 Strength 3","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":35,"name":"Pluckiness","note":"","params":[0,0,3,7,0,3,0,0],"price":9500},
+
+{"id":54,"atypeId":4,"description":"Defense 11 Magic Defense 7","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":35,"name":"Diamond Biceps","note":"","params":[0,0,0,11,0,7,0,0],"price":15000},
+
+{"id":55,"atypeId":4,"description":"Defense 9 Magic Defense 2 Strength 3 Agility 2","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":35,"name":"Black Belt","note":"","params":[0,0,3,9,0,2,2,0],"price":12000},
+
+{"id":56,"atypeId":4,"description":"Defense 10 Magic Defense 8 Magic 4","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":35,"name":"White Gown","note":"","params":[0,0,0,10,4,8,0,0],"price":27500},
+
+{"id":57,"atypeId":4,"description":"Defense 10 Magic Defense 7 Strength 4 ◎Sleep/Paralysis","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0},{"code":13,"dataId":12,"value":0},{"code":13,"dataId":10,"value":0}],"iconIndex":35,"name":"Duelist Suit","note":"","params":[0,0,4,10,0,7,0,0],"price":30000},
+
+{"id":58,"atypeId":4,"description":"Defense 10 Magic Defense 7 Agility 4","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":35,"name":"Monk Vest","note":"","params":[0,0,1,10,0,7,4,0],"price":23000},
+
+{"id":59,"atypeId":4,"description":"Defense 10 Magic Defense 8 Strength 2 Agility 2 Evade 10","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0.1}],"iconIndex":35,"name":"Black Clothes","note":"","params":[0,0,2,10,0,8,2,0],"price":30000},
+
+{"id":60,"atypeId":4,"description":"Defense 10 Magic Defense 15","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":35,"name":"Vishnu Vest","note":"","params":[0,0,0,10,0,15,0,0],"price":32500},
+
+{"id":61,"atypeId":4,"description":"Defense 11 Magic Defense 8 ◆Blink","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0},{"code":43,"dataId":217,"value":1}],"iconIndex":35,"name":"Mirage Vest","note":"","params":[0,0,0,11,0,8,0,0],"price":40000},
+
+{"id":62,"atypeId":4,"description":"Defense 13 Magic Defense 8 0 ◎Fire 50%","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0},{"code":11,"dataId":2,"value":0.5}],"iconIndex":35,"name":"Red Jacket","note":"","params":[0,0,0,13,0,8,0,0],"price":40000},
+
+{"id":63,"atypeId":4,"description":"Defense 13 Magic Defense 8 Strength 3","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":35,"name":"Brave Suit","note":"","params":[0,0,3,13,0,8,0,0],"price":42000},
+
+{"id":64,"atypeId":4,"description":"Defense 15 Magic Defense 13 ◎Fire/Ice 50%","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0},{"code":11,"dataId":2,"value":0.5},{"code":11,"dataId":3,"value":0.5}],"iconIndex":35,"name":"Snow Muffler","note":"","params":[0,0,0,15,0,13,0,0],"price":50000},
+
+{"id":65,"atypeId":4,"description":"Defense 15 Magic Defense 11 ◎Fire/Ice/Thunder/Water 75%","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0},{"code":11,"dataId":5,"value":0.25},{"code":11,"dataId":4,"value":0.25},{"code":11,"dataId":3,"value":0.25},{"code":11,"dataId":2,"value":0.25}],"iconIndex":35,"name":"Adamant Vest","note":"","params":[0,0,0,15,0,11,0,0],"price":60000},
+
+{"id":66,"atypeId":3,"description":"Defense 20 Magic Defense 7","etypeId":4,"traits":[{"code":11,"dataId":22,"value":2},{"code":11,"dataId":9,"value":0},{"code":11,"dataId":9,"value":0},{"code":11,"dataId":10,"value":0},{"code":11,"dataId":10,"value":0},{"code":11,"dataId":8,"value":2}],"iconIndex":35,"name":"Fallen Tunic","note":"\n<noOptimize //Exclude from Best Equip","params":[0,0,0,20,0,7,0,0],"price":0},
+
+{"id":67,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":68,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":69,"atypeId":5,"description":"Defense 3 Magic Defense 5","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":36,"name":"White Dress","note":"","params":[0,0,0,3,0,5,0,0],"price":2000},
+
+{"id":70,"atypeId":5,"description":"Defense 10 Magic Defense 10 Strength 3","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":36,"name":"Red Dress","note":"","params":[0,0,3,10,0,10,0,0],"price":16000},
+
+{"id":71,"atypeId":5,"description":"Defense 12, Magic Defense 5 Ignores the target's evasion rate when confused","etypeId":4,"traits":[{"code":13,"dataId":8,"value":0}],"iconIndex":36,"name":"Rainbow Dress","note":"","params":[0,0,0,12,0,5,0,0],"price":31000},
+
+{"id":72,"atypeId":5,"description":"Defense 8 Magic Defense 15 Strength 1 Magic 5 Agility 2","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":36,"name":"Princess Dress","note":"","params":[0,0,1,8,5,15,2,0],"price":60000},
+
+{"id":73,"atypeId":5,"description":"Defense 12 Magic Defense 7 Strength 4 Agility 4 ◎Paralysis/Stop","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0},{"code":13,"dataId":12,"value":0},{"code":13,"dataId":37,"value":0}],"iconIndex":36,"name":"Minerva Bustier","note":"","params":[0,0,4,12,0,7,4,0],"price":65000},
+
+{"id":74,"atypeId":5,"description":"Defense 10 Magic Defense 10 Magic 4 MP Consumption -30%","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0},{"code":23,"dataId":4,"value":0.7}],"iconIndex":36,"name":"Magical Dress","note":"","params":[0,0,0,10,4,10,0,0],"price":65000},
+
+{"id":75,"atypeId":5,"description":"Defense 10 Magic Defense 12 ◎Poison/Berserk/Confusion/Flinch/Frog","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0},{"code":13,"dataId":4,"value":0},{"code":13,"dataId":7,"value":0},{"code":13,"dataId":8,"value":0},{"code":13,"dataId":13,"value":0},{"code":13,"dataId":14,"value":0}],"iconIndex":36,"name":"Lady's Dress","note":"","params":[0,0,0,10,0,12,0,0],"price":65000},
+
+{"id":76,"atypeId":5,"description":"Defense+14 Magic Defense 9 Evade 25 ◎Silence/Zombie","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0.25},{"code":13,"dataId":6,"value":0},{"code":13,"dataId":36,"value":0}],"iconIndex":36,"name":"Pink Armor","note":"","params":[0,0,0,14,0,9,0,0],"price":80000},
+
+{"id":77,"atypeId":6,"description":"Defense 1 Magic 1 Magic Defense 4","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":37,"name":"Cotton Robe","note":"","params":[0,0,0,1,1,4,0,0],"price":100},
+
+{"id":78,"atypeId":6,"description":"Defense 2 Magic 1 Magic Defense 6","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":37,"name":"Silk Robe","note":"","params":[0,0,0,2,1,6,0,0],"price":850},
+
+{"id":79,"atypeId":6,"description":"Defense 3 Magic 2 Magic Defense 6","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":37,"name":"Sorceror Robe","note":"","params":[0,0,0,3,2,6,0,0],"price":1350},
+
+{"id":80,"atypeId":6,"description":"Defense 5 Magic 2 Magic Defense 6 ◎Confuse","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0},{"code":13,"dataId":8,"value":0}],"iconIndex":37,"name":"Golden Robe","note":"","params":[0,0,0,5,2,6,0,0],"price":10000},
+
+{"id":81,"atypeId":6,"description":"Defense 5 Magic 3 Magic Defense 8","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":37,"name":"Priest Robe","note":"","params":[0,0,0,5,3,8,0,0],"price":10750},
+
+{"id":82,"atypeId":6,"description":"Defense 7 Magic Defense 8 Magic 2 ◎Silence/Paralysis","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0},{"code":13,"dataId":6,"value":0},{"code":13,"dataId":12,"value":0}],"iconIndex":37,"name":"Fairy Robe","note":"","params":[0,0,0,7,2,8,0,0],"price":16000},
+
+{"id":83,"atypeId":6,"description":"Defense 7 Magic Defense 9 Magic 5","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":37,"name":"Black Robe","note":"","params":[0,0,0,7,5,9,0,0],"price":16000},
+
+{"id":84,"atypeId":6,"description":"Defense 7 Magic Defense 12 Magic 4","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":37,"name":"White Robe","note":"","params":[0,0,0,7,4,12,0,0],"price":16000},
+
+{"id":85,"atypeId":6,"description":"Defense 7 Magic Defense 10 Magic 4 Evade 10","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0.1}],"iconIndex":37,"name":"Robe of Light","note":"","params":[0,0,0,7,4,10,0,0],"price":22500},
+
+{"id":86,"atypeId":6,"description":"Defense 10 Magic Defense 11 Magic 7","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":37,"name":"Devil's Robe","note":"","params":[0,0,0,10,7,11,0,0],"price":45000},
+
+{"id":87,"atypeId":6,"description":"Defense 9 Magic Defense 15 Magic 6","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":37,"name":"Companion's Robe","note":"","params":[0,0,0,9,6,15,0,0],"price":45000},
+
+{"id":88,"atypeId":6,"description":"Defense 10 Magic Defense 16 Magic 5 Evade 10","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0.1}],"iconIndex":37,"name":"Rainbow Robe","note":"","params":[0,0,0,10,5,16,0,0],"price":0},
+
+{"id":89,"atypeId":6,"description":"Defense 10 Magic Defense 18 Magic 6","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":37,"name":"Mage's Robe","note":"","params":[0,0,0,10,6,18,0,0],"price":65000},
+
+{"id":90,"atypeId":6,"description":"Defense 12 Magic 7 Magic Defense 17","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":37,"name":"Robe of Rod","note":"","params":[0,0,0,12,7,17,0,0],"price":0},
+
+{"id":91,"atypeId":6,"description":"Defense 15, Magic Defense 20, Magic 4","etypeId":4,"traits":[{"code":11,"dataId":22,"value":2},{"code":11,"dataId":9,"value":0},{"code":11,"dataId":9,"value":0},{"code":11,"dataId":10,"value":0},{"code":11,"dataId":10,"value":0},{"code":11,"dataId":8,"value":2}],"iconIndex":37,"name":"Fallen Robe","note":"\n<noOptimize //Exclude from Best Equip","params":[0,0,0,15,4,20,0,0],"price":20000},
+
+{"id":92,"atypeId":6,"description":"Defense 16 Magic Defense 20 Magic 6","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":37,"name":"Adamant Robe","note":"","params":[0,0,0,16,6,20,0,0],"price":0},
+
+{"id":93,"atypeId":6,"description":"Defense 12 Magic Defense 14 Magic Attack 5 ◎Fire/Ice 25%","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0},{"code":11,"dataId":2,"value":0.25},{"code":11,"dataId":3,"value":0.25}],"iconIndex":37,"name":"Dragon Robe","note":"<sort:89.1>","params":[0,0,0,12,5,14,0,0],"price":0},
+
+{"id":94,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":95,"atypeId":7,"description":"Defense 1","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":38,"name":"Leather Hat","note":"","params":[0,0,0,1,0,0,0,0],"price":50},
+
+{"id":96,"atypeId":7,"description":"Defense 2","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":38,"name":"Flapjack","note":"","params":[0,0,0,2,0,0,0,0],"price":340},
+
+{"id":97,"atypeId":7,"description":"Defense 3","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":38,"name":"Straw Hat","note":"","params":[0,0,0,3,0,0,0,0],"price":560},
+
+{"id":98,"atypeId":7,"description":"Defense 3 Strength 1 Magic -1 ◎Confuse","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0},{"code":13,"dataId":8,"value":0}],"iconIndex":38,"name":"Headband","note":"","params":[0,0,1,3,-1,0,0,0],"price":700},
+
+{"id":99,"atypeId":7,"description":"Defense 3 Agility 1","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":38,"name":"Bandanna","note":"","params":[0,0,0,3,0,0,1,0],"price":1250},
+
+{"id":100,"atypeId":7,"description":"Defense 4 Magic 1 Magic Defense 3 ◎Berserk","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0},{"code":13,"dataId":7,"value":0}],"iconIndex":38,"name":"Beret","note":"","params":[0,0,0,4,1,3,0,0],"price":1500},
+
+{"id":101,"atypeId":7,"description":"Defense 5 Strength 1 Agility 1 ◎Sleep","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0},{"code":13,"dataId":10,"value":0}],"iconIndex":38,"name":"Green Beret","note":"","params":[0,0,1,5,0,0,1,0],"price":2400},
+
+{"id":102,"atypeId":7,"description":"Defense 5 Agility -1","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":38,"name":"Headgear","note":"","params":[0,0,0,5,0,0,-1,0],"price":2400},
+
+{"id":103,"atypeId":7,"description":"Defense 8 Strength 3 Magic -3","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":38,"name":"Tiger Mask","note":"","params":[0,0,3,11,-3,0,0,0],"price":11000},
+
+{"id":104,"atypeId":7,"description":"Defense 7 ◎Confuse/Sleep","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0},{"code":13,"dataId":10,"value":0},{"code":13,"dataId":8,"value":0}],"iconIndex":38,"name":"Hypno Crown","note":"<blacksmith:83>","params":[0,0,0,7,0,0,0,0],"price":8500},
+
+{"id":105,"atypeId":7,"description":"Defense 12 Vitality 10","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":38,"name":"Redcap","note":"","params":[0,0,0,12,0,0,0,10],"price":27000},
+
+{"id":106,"atypeId":7,"description":"Defense 13 Evade 5","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0.05}],"iconIndex":38,"name":"Royal Crown","note":"","params":[0,0,0,13,0,0,0,0],"price":0},
+
+{"id":107,"atypeId":7,"description":"Defense 13 Strength 3","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":38,"name":"Duel Mask","note":"","params":[0,0,3,13,0,0,0,0],"price":0},
+
+{"id":108,"atypeId":7,"description":"Defense 11 Agility 4","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":38,"name":"Bauta","note":"","params":[0,0,0,11,0,0,4,0],"price":0},
+
+{"id":109,"atypeId":7,"description":"Defense 20","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":38,"name":"Glass Mask","note":"","params":[0,0,0,20,0,0,0,0],"price":0},
+
+{"id":110,"atypeId":7,"description":"Defense 17 Magic Defense 8 Strength 4","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":38,"name":"Adamant Hat","note":"","params":[0,0,4,17,0,8,0,0],"price":0},
+
+{"id":111,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":112,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":113,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":114,"atypeId":8,"description":"Defense 1 Magic Defense 1","etypeId":3,"traits":[],"iconIndex":39,"name":"Cotton Hat","note":"","params":[0,0,0,1,0,1,0,0],"price":90},
+
+{"id":115,"atypeId":8,"description":"Defense 2 Magic Defense 2","etypeId":3,"traits":[],"iconIndex":39,"name":"Pointy Hat","note":"","params":[0,0,0,2,0,2,0,0],"price":560},
+
+{"id":116,"atypeId":8,"description":"Defense 3 Magic 1 Magic Defense 3","etypeId":3,"traits":[],"iconIndex":39,"name":"Tricorne","note":"","params":[0,0,0,3,1,3,0,0],"price":950},
+
+{"id":117,"atypeId":8,"description":"Defense 4 Magic 3 Magic Defense 5","etypeId":3,"traits":[],"iconIndex":39,"name":"Circlet","note":"","params":[0,0,0,4,3,5,0,0],"price":9580},
+
+{"id":118,"atypeId":8,"description":"Defense 3 Magic 3 Magic Defense 1","etypeId":3,"traits":[],"iconIndex":39,"name":"Sorcerer Cap","note":"","params":[0,0,0,3,3,1,0,0],"price":2000},
+
+{"id":119,"atypeId":8,"description":"Defense 5 Magic Attack 2 Magic Defense 3 Earth 75%","etypeId":3,"traits":[{"code":11,"dataId":6,"value":0.75}],"iconIndex":39,"name":"Priestess Hat","note":"","params":[0,0,0,5,2,3,0,0],"price":3970},
+
+{"id":120,"atypeId":8,"description":"Defense 6 Magic 4 Magic Defense 8","etypeId":3,"traits":[],"iconIndex":39,"name":"Lambent Hat","note":"","params":[0,0,0,6,4,8,0,0],"price":12500},
+
+{"id":121,"atypeId":8,"description":"Defense 7 Magic Defense 7 Magic 4 ◎Paralysis","etypeId":3,"traits":[{"code":13,"dataId":12,"value":0}],"iconIndex":39,"name":"Celebrant's Miter","note":"","params":[0,0,0,7,4,7,0,0],"price":10000},
+
+{"id":122,"atypeId":8,"description":"Defense 8 Magic Defense 8 Magic 5","etypeId":3,"traits":[],"iconIndex":39,"name":"Scholar Cap","note":"","params":[0,0,0,8,5,8,0,0],"price":15000},
+
+{"id":123,"atypeId":8,"description":"Defense 9 Magic Defense 10 Magic 4","etypeId":3,"traits":[],"iconIndex":39,"name":"Eerie Hat","note":"","params":[0,0,0,9,4,10,0,0],"price":18000},
+
+{"id":124,"atypeId":8,"description":"Defense 7 Magic Defense 8 Magic 6 ◎Confusion/Silence/Berserk","etypeId":3,"traits":[{"code":13,"dataId":7,"value":0.5},{"code":13,"dataId":6,"value":0.5},{"code":13,"dataId":8,"value":0.5}],"iconIndex":39,"name":"Devil Hat","note":"","params":[0,50,0,7,6,8,0,0],"price":50000},
+
+{"id":125,"atypeId":8,"description":"Defense 9 Magic Defense 10 Magic 5 MP +100","etypeId":3,"traits":[],"iconIndex":39,"name":"Imp Cap","note":"","params":[0,100,0,9,5,10,0,0],"price":50000},
+
+{"id":126,"atypeId":8,"description":"Defense 6 Magic Defense 3 ◆Gil x2","etypeId":3,"traits":[{"code":64,"dataId":4,"value":1},{"code":43,"dataId":326,"value":1}],"iconIndex":39,"name":"Pom Pom","note":"","params":[0,0,0,6,0,3,0,0],"price":100000},
+
+{"id":127,"atypeId":8,"description":"Defense 5 Magic Defense 14 Magic 4","etypeId":3,"traits":[],"iconIndex":39,"name":"Sage Cowl","note":"","params":[0,0,0,5,5,14,0,0],"price":0},
+
+{"id":128,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":129,"atypeId":9,"description":"Defense 1 Magic Defense 10 Magic 8 Agility 4","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":40,"name":"Thief Cap","note":"<sort:137.1>","params":[0,0,0,1,8,10,4,0],"price":0},
+
+{"id":130,"atypeId":9,"description":"Magic Defense 1","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":40,"name":"Hair Band","note":"","params":[0,0,0,0,0,1,0,0],"price":80},
+
+{"id":131,"atypeId":9,"description":"Defense 4 Magic 2 Magic Defense 5 ◎Confuse","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0},{"code":13,"dataId":8,"value":0}],"iconIndex":40,"name":"Lamia Tiara","note":"","params":[0,0,0,4,2,5,0,0],"price":6800},
+
+{"id":132,"atypeId":9,"description":"Defense 2 Magic Defense 3 ◆MP Efficiency +20%","etypeId":3,"traits":[{"code":23,"dataId":4,"value":0.8}],"iconIndex":40,"name":"Gold Tiara","note":"","params":[0,0,0,2,0,3,0,0],"price":16000},
+
+{"id":133,"atypeId":9,"description":"Defense 4 Agility 4","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":40,"name":"Hayate's Hair Pins","note":"","params":[0,0,0,4,0,0,4,0],"price":20000},
+
+{"id":134,"atypeId":9,"description":"Defense 10 Magic Defense 10 Magic 3 Agility 3","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":40,"name":"Black Mask","note":"","params":[0,0,0,10,3,10,3,0],"price":20000},
+
+{"id":135,"atypeId":9,"description":"Defense 9 Magic Defense 15 Magic 3","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":40,"name":"White Mask","note":"","params":[0,0,0,9,3,15,0,0],"price":0},
+
+{"id":136,"atypeId":9,"description":"Defense 6 Magic Defense 9 Agility 1","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":40,"name":"Diamond Ornament","note":"","params":[0,0,0,6,0,9,1,0],"price":20000},
+
+{"id":137,"atypeId":9,"description":"Defense 9 Magic Defense 8 Magic 2 Agility 2","etypeId":3,"traits":[],"iconIndex":40,"name":"Crystal Kanzashi","note":"","params":[0,0,0,9,2,8,2,0],"price":24000},
+
+{"id":138,"atypeId":9,"description":"Defense 15 Magic Defense 10 Magic 4 Agility 4","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":40,"name":"Adamant Headdress","note":"","params":[0,0,0,15,4,10,4,0],"price":0},
+
+{"id":139,"atypeId":10,"description":"Defense 2 Magic Defense 1","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":41,"name":"Bronze Helm","note":"","params":[0,0,0,2,0,1,0,0],"price":320},
+
+{"id":140,"atypeId":10,"description":"Defense 4 Magic Defense 3","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":41,"name":"Iron Helm","note":"<blacksmith:82>","params":[0,0,0,4,0,3,0,0],"price":930},
+
+{"id":141,"atypeId":10,"description":"Defense 5 Magic Defense 1","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":41,"name":"Valpter Helm","note":"","params":[0,0,0,5,0,1,0,0],"price":1150},
+
+{"id":142,"atypeId":10,"description":"Defense 6 Dark 25%","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0},{"code":11,"dataId":9,"value":0.25}],"iconIndex":41,"name":"Black Helm","note":"","params":[0,0,0,6,0,0,0,0],"price":1500},
+
+{"id":143,"atypeId":10,"description":"Defense 8 Magic Defense 2","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":41,"name":"Mythril Helm","note":"","params":[0,0,0,8,0,2,0,0],"price":3800},
+
+{"id":144,"atypeId":10,"description":"Defense 12 Magic Defense 3","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":41,"name":"Gold Helm","note":"<blacksmith:83>","params":[0,0,0,12,0,3,0,0],"price":11500},
+
+{"id":145,"atypeId":10,"description":"Defense 10 力+1 Magic Defense 2\nDark Resistance 25%","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":41,"name":"Hades Helmet","note":"","params":[0,0,1,10,0,2,0,0],"price":10500},
+
+{"id":146,"atypeId":10,"description":"Defense 14 Magic Defense 4","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":41,"name":"diamond helmet","note":"","params":[0,0,0,14,0,4,0,0],"price":16000},
+
+{"id":147,"atypeId":10,"description":"Defense 15 Magic Defense 2 ◎Sleep","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0},{"code":13,"dataId":10,"value":0}],"iconIndex":41,"name":"Grand Helm","note":"","params":[0,0,0,15,0,2,0,0],"price":19000},
+
+{"id":148,"atypeId":10,"description":"Defense 18 Magic Defense 3 Magic 2","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":41,"name":"Dragon Helm","note":"","params":[0,0,0,18,2,4,0,0],"price":0},
+
+{"id":149,"atypeId":10,"description":"Defense 16 Magic Defense 4","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":41,"name":"Crystal Helm","note":"","params":[0,0,0,16,0,4,0,0],"price":24000},
+
+{"id":150,"atypeId":10,"description":"Defense 18 Magic Defense 4 ◎Sleep/Slow/Confusion/Berserk","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0},{"code":13,"dataId":10,"value":0.5},{"code":13,"dataId":40,"value":0.5},{"code":13,"dataId":8,"value":0.5},{"code":13,"dataId":7,"value":0.5}],"iconIndex":41,"name":"Genji Helm","note":"","params":[0,0,0,18,0,4,0,0],"price":0},
+
+{"id":151,"atypeId":10,"description":"Defense 25 Magic Defense 5 Strength 2 Magic 2","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":41,"name":"Adamant Helm","note":"","params":[0,0,2,25,2,5,0,0],"price":0},
+
+{"id":152,"atypeId":16,"description":"Defense 20 Magic Defense 5 ◎Sleep/Silence/Darkness/Berserk","etypeId":3,"traits":[{"code":13,"dataId":10,"value":0},{"code":13,"dataId":6,"value":0},{"code":13,"dataId":5,"value":0},{"code":13,"dataId":7,"value":0}],"iconIndex":41,"name":"Onion Helm","note":"","params":[0,0,0,20,0,5,0,0],"price":0},
+
+{"id":153,"atypeId":10,"description":"Defense 18 Magic Defense 4 Strength 3 Magic 3","etypeId":3,"traits":[],"iconIndex":41,"name":"Caesar Helm","note":"<sort:149.1>","params":[0,0,3,18,3,4,0,0],"price":0},
+
+{"id":154,"atypeId":11,"description":"Defense 2 Agility 2 ◆Steal+","etypeId":5,"traits":[{"code":43,"dataId":182,"value":1}],"iconIndex":42,"name":"Thief Gauntlet","note":"","params":[0,0,0,2,0,0,2,0],"price":8500},
+
+{"id":155,"atypeId":11,"description":"Defense 2","etypeId":5,"traits":[],"iconIndex":42,"name":"Iron Brace","note":"<blacksmith:82>","params":[0,0,0,2,0,0,0,0],"price":500},
+
+{"id":156,"atypeId":11,"description":"Defense 2 Magic 2","etypeId":5,"traits":[],"iconIndex":42,"name":"Dark Bracer","note":"","params":[0,0,0,2,2,0,0,0],"price":2000},
+
+{"id":157,"atypeId":11,"description":"Defense 4 Strength 5","etypeId":5,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":42,"name":"Titan's Glove","note":"","params":[0,0,5,4,0,0,0,0],"price":5500},
+
+{"id":158,"atypeId":11,"description":"Defense 1","etypeId":5,"traits":[{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1},{"code":43,"dataId":313,"value":1}],"iconIndex":42,"name":"Gauntlet","note":"<noOptimize> //最強装備対象外","params":[0,0,0,1,0,0,0,0],"price":0},
+
+{"id":159,"atypeId":11,"description":"Defense 5 Agility 5","etypeId":5,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":42,"name":"Notebook","note":"","params":[0,0,0,5,0,0,5,0],"price":16000},
+
+{"id":160,"atypeId":11,"description":"Defense 8","etypeId":5,"traits":[],"iconIndex":42,"name":"Mythril Bracelet","note":"","params":[0,0,0,8,0,0,0,0],"price":7500},
+
+{"id":161,"atypeId":11,"description":"Defense 9 Strength 4","etypeId":5,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":42,"name":"Dragon's Bracelet","note":"","params":[0,0,4,9,0,0,0,0],"price":0},
+
+{"id":162,"atypeId":11,"description":"Defense 11 Magic Defense 3","etypeId":5,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":42,"name":"Diamond Bracelet","note":"","params":[0,0,0,11,0,3,0,0],"price":18000},
+
+{"id":163,"atypeId":11,"description":"Defense 12 Magic Defense 2 Strength 2","etypeId":5,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":42,"name":"Crystal Bracelet","note":"","params":[0,0,2,12,0,2,0,0],"price":22000},
+
+{"id":164,"atypeId":11,"description":"Defense 5 Can equip two weapons","etypeId":5,"traits":[{"code":22,"dataId":1,"value":0},{"code":43,"dataId":316,"value":1},{"code":55,"dataId":1,"value":1}],"iconIndex":42,"name":"Ninja Scroll","note":"<noOptimize> //最強装備対象外","params":[0,0,0,5,0,0,0,0],"price":0},
+
+{"id":165,"atypeId":11,"description":"Defense 14 Magic Defense 3 Strength 3 Magic 3 Speed 3","etypeId":5,"traits":[],"iconIndex":42,"name":"Adamant Bracelet","note":"","params":[0,0,3,14,3,3,3,0],"price":0},
+
+{"id":166,"atypeId":16,"description":"Defense 14 Strength 1 Magic 1 Agility 1 Evade 12 ◎Paralysis/Stop","etypeId":5,"traits":[{"code":13,"dataId":37,"value":0},{"code":13,"dataId":12,"value":0},{"code":22,"dataId":1,"value":0.12}],"iconIndex":42,"name":"Onion Ring","note":"","params":[0,0,1,14,1,0,1,0],"price":0},
+
+{"id":167,"atypeId":12,"description":"Defense 9, Evade 6 ◎Poison Fighting Attack is increased","etypeId":5,"traits":[{"code":13,"dataId":4,"value":0},{"code":22,"dataId":1,"value":0.06},{"code":43,"dataId":206,"value":1}],"iconIndex":43,"name":"Bracer","note":"","params":[0,0,0,9,0,0,0,0],"price":0},
+
+{"id":168,"atypeId":12,"description":"◎Poison","etypeId":5,"traits":[{"code":13,"dataId":4,"value":0}],"iconIndex":43,"name":"Anti-toxin","note":"//Best Gear Rating\n<rating:10>","params":[0,0,0,0,0,0,0,0],"price":1000},
+
+{"id":169,"atypeId":12,"description":"'◎Darkness","etypeId":5,"traits":[{"code":13,"dataId":5,"value":0}],"iconIndex":43,"name":"Silver Glasses","note":"//Best Gear Rating\n<rating:10>","params":[0,0,0,0,0,0,0,0],"price":1000},
+
+{"id":170,"atypeId":12,"description":"◎Paralysis","etypeId":5,"traits":[{"code":13,"dataId":12,"value":0}],"iconIndex":43,"name":"Jellyfish","note":"//Best Gear Rating\n<rating:10>","params":[0,0,0,0,0,0,0,0],"price":1250},
+
+{"id":171,"atypeId":12,"description":"◎Petrification","etypeId":5,"traits":[{"code":13,"dataId":11,"value":0}],"iconIndex":43,"name":"Jeweled Ring","note":"//Best Gear Rating\n<rating:15>","params":[0,0,0,0,0,0,0,0],"price":3200},
+
+{"id":172,"atypeId":12,"description":"'◎Confuse","etypeId":5,"traits":[{"code":13,"dataId":8,"value":0}],"iconIndex":43,"name":"Fairy Ring","note":"//Best Gear Rating\n<rating:10>","params":[0,0,0,0,0,0,0,0],"price":6400},
+
+{"id":173,"atypeId":12,"description":"◎Confuse/Berserk","etypeId":5,"traits":[{"code":13,"dataId":8,"value":0},{"code":13,"dataId":7,"value":0}],"iconIndex":43,"name":"Peace Ring","note":"//Best Gear Rating\n<rating:15>","params":[0,0,0,0,0,0,0,0],"price":5000},
+
+{"id":174,"atypeId":12,"description":"◎Frog ◎Mini","etypeId":5,"traits":[{"code":13,"dataId":14,"value":0},{"code":13,"dataId":35,"value":0}],"iconIndex":43,"name":"White Ring","note":"//Best Gear Rating\n<rating:15>","params":[0,0,0,0,0,0,0,0],"price":7200},
+
+{"id":175,"atypeId":12,"description":"◎Zombie","etypeId":5,"traits":[{"code":13,"dataId":36,"value":0}],"iconIndex":43,"name":"Amulet","note":"//Best Gear Rating\n<rating:15>","params":[0,0,0,0,0,0,0,0],"price":7200},
+
+{"id":176,"atypeId":12,"description":"◎Death","etypeId":5,"traits":[{"code":13,"dataId":1,"value":0}],"iconIndex":43,"name":"Safety Bit","note":"//Best Gear Rating\n<rating:20>","params":[0,0,0,0,0,0,0,0],"price":20000},
+
+{"id":177,"atypeId":12,"description":"◎Confuse/Sleep/Paralysis/Stop","etypeId":5,"traits":[{"code":13,"dataId":8,"value":0},{"code":13,"dataId":10,"value":0},{"code":13,"dataId":12,"value":0},{"code":13,"dataId":37,"value":0}],"iconIndex":43,"name":"Scrunchie","note":"//Best Gear Rating\n<rating:30>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":178,"atypeId":12,"description":"Disables all types of abnormalities.","etypeId":5,"traits":[{"code":14,"dataId":4,"value":1},{"code":14,"dataId":5,"value":1},{"code":14,"dataId":6,"value":1},{"code":14,"dataId":7,"value":1},{"code":14,"dataId":8,"value":1},{"code":14,"dataId":10,"value":1},{"code":14,"dataId":11,"value":1},{"code":14,"dataId":12,"value":1},{"code":14,"dataId":13,"value":1},{"code":14,"dataId":14,"value":1},{"code":14,"dataId":35,"value":1},{"code":14,"dataId":36,"value":1},{"code":14,"dataId":37,"value":1},{"code":14,"dataId":56,"value":1}],"iconIndex":43,"name":"Ribbon","note":"//Best Gear Rating\n<rating:80>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":179,"atypeId":12,"description":"Defense 6 Magic Defense 6","etypeId":5,"traits":[],"iconIndex":43,"name":"Protecter","note":"","params":[0,0,0,6,0,6,0,0],"price":6500},
+
+{"id":180,"atypeId":12,"description":"Strength 8","etypeId":5,"traits":[],"iconIndex":43,"name":"Hyper Wrist","note":"","params":[0,0,8,0,0,0,0,0],"price":12500},
+
+{"id":181,"atypeId":12,"description":"Magic 7","etypeId":5,"traits":[],"iconIndex":43,"name":"Earring","note":"","params":[0,0,0,0,7,0,0,0],"price":12500},
+
+{"id":182,"atypeId":12,"description":"Attack 5 Magic 4","etypeId":5,"traits":[],"iconIndex":43,"name":"Genji Gloves","note":"","params":[0,0,5,0,4,0,0,0],"price":12500},
+
+{"id":183,"atypeId":12,"description":"Evade 15","etypeId":5,"traits":[{"code":22,"dataId":1,"value":0.15}],"iconIndex":43,"name":"Kaze Cloak","note":"//Best Gear Rating\n<rating:15>","params":[0,0,0,0,0,0,0,0],"price":2500},
+
+{"id":184,"atypeId":12,"description":"Evade 10 Magic 3","etypeId":5,"traits":[{"code":22,"dataId":1,"value":0.1}],"iconIndex":43,"name":"Elf Cloak","note":"//Best Gear Rating\n<rating:15>","params":[0,0,0,0,3,0,0,0],"price":10000},
+
+{"id":185,"atypeId":12,"description":"◆Protect","etypeId":5,"traits":[{"code":43,"dataId":212,"value":1}],"iconIndex":43,"name":"Protect Ring","note":"//Best Gear Rating\n<rating:25>","params":[0,0,0,0,0,0,0,0],"price":15000},
+
+{"id":186,"atypeId":12,"description":"◆Shell","etypeId":5,"traits":[{"code":43,"dataId":213,"value":1}],"iconIndex":43,"name":"Shell Ring","note":"//Best Gear Rating\n<rating:25>","params":[0,0,0,0,0,0,0,0],"price":15000},
+
+{"id":187,"atypeId":12,"description":"◆Reflect","etypeId":5,"traits":[{"code":43,"dataId":214,"value":1}],"iconIndex":43,"name":"Reflect Ring","note":"","params":[0,0,0,0,0,0,0,0],"price":15000},
+
+{"id":188,"atypeId":12,"description":"◆Haste","etypeId":5,"traits":[{"code":43,"dataId":210,"value":1}],"iconIndex":43,"name":"Hermes Sandals","note":"//Best Gear Rating\n<rating:40>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":189,"atypeId":12,"description":"◆Haste/Regen/Protect/Shell","etypeId":5,"traits":[{"code":43,"dataId":210,"value":1},{"code":43,"dataId":212,"value":1},{"code":43,"dataId":213,"value":1},{"code":43,"dataId":211,"value":1}],"iconIndex":43,"name":"Miracle Shoes","note":"//Best Gear Rating\n<rating:100>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":190,"atypeId":12,"description":"◆Protect/Shell","etypeId":5,"traits":[{"code":43,"dataId":212,"value":1},{"code":43,"dataId":213,"value":1}],"iconIndex":43,"name":"Turtle Ring","note":"//Best Gear Rating\n<rating:50>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":191,"atypeId":12,"description":"◆Float","etypeId":5,"traits":[{"code":43,"dataId":215,"value":1}],"iconIndex":43,"name":"Garuda Jewel","note":"//Best Gear Rating\n<rating:15>","params":[0,0,0,0,0,0,0,0],"price":4000},
+
+{"id":192,"atypeId":12,"description":"◆Raise","etypeId":5,"traits":[{"code":43,"dataId":219,"value":1}],"iconIndex":43,"name":"Angel Ring","note":"//Best Gear Rating\n<rating:35>","params":[0,0,0,0,0,0,0,0],"price":15000},
+
+{"id":193,"atypeId":0,"description":"◆Zombie","etypeId":2,"traits":[{"code":11,"dataId":22,"value":2},{"code":11,"dataId":9,"value":0},{"code":11,"dataId":9,"value":0},{"code":11,"dataId":10,"value":0},{"code":11,"dataId":10,"value":0},{"code":11,"dataId":8,"value":2}],"iconIndex":0,"name":"Taoist Seal","note":"\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":194,"atypeId":12,"description":"Defense 10 Magic Defense 10","etypeId":5,"traits":[],"iconIndex":43,"name":"Diamond Ring","note":"","params":[0,0,0,10,0,10,0,0],"price":30000},
+
+{"id":195,"atypeId":12,"description":"◆Cover","etypeId":5,"traits":[{"code":43,"dataId":281,"value":1}],"iconIndex":43,"name":"Knight's Vow","note":"\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":12000},
+
+{"id":196,"atypeId":12,"description":"◆Counter","etypeId":5,"traits":[{"code":43,"dataId":290,"value":1}],"iconIndex":43,"name":"Black Belt","note":"","params":[0,0,0,0,0,0,0,0],"price":12000},
+
+{"id":197,"atypeId":12,"description":"◆Concentrate","etypeId":5,"traits":[{"code":43,"dataId":322,"value":1}],"iconIndex":43,"name":"Sniper Eye","note":"","params":[0,0,0,0,0,0,0,0],"price":6000},
+
+{"id":198,"atypeId":12,"description":"♣All Weapons","etypeId":5,"traits":[{"code":51,"dataId":1,"value":1},{"code":51,"dataId":2,"value":1},{"code":51,"dataId":3,"value":1},{"code":51,"dataId":4,"value":1},{"code":51,"dataId":5,"value":1},{"code":51,"dataId":6,"value":1},{"code":51,"dataId":7,"value":1},{"code":51,"dataId":8,"value":1},{"code":51,"dataId":9,"value":1},{"code":51,"dataId":10,"value":1},{"code":51,"dataId":11,"value":1},{"code":51,"dataId":12,"value":1},{"code":51,"dataId":13,"value":1},{"code":51,"dataId":14,"value":1},{"code":51,"dataId":15,"value":1},{"code":51,"dataId":16,"value":1},{"code":51,"dataId":17,"value":1},{"code":43,"dataId":321,"value":1}],"iconIndex":43,"name":"Hero Ambition","note":"\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":199,"atypeId":12,"description":"MP Consumption -75%","etypeId":5,"traits":[{"code":23,"dataId":4,"value":0.25}],"iconIndex":43,"name":"Three Stars.","note":"//Best Gear Rating\n<rating:50>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":200,"atypeId":12,"description":"Double EXP","etypeId":5,"traits":[{"code":23,"dataId":9,"value":2}],"iconIndex":43,"name":"Glowing Egg","note":"\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":201,"atypeId":12,"description":"","etypeId":5,"traits":[],"iconIndex":43,"name":"The proof of the pudding is in the eating","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":202,"atypeId":12,"description":"◆Range","etypeId":5,"traits":[{"code":43,"dataId":315,"value":1}],"iconIndex":46,"name":"Hunter's Cap","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":203,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":204,"atypeId":12,"description":"Magic 1","etypeId":5,"traits":[],"iconIndex":43,"name":"Gold Ring","note":"","params":[0,0,0,0,1,0,0,0],"price":12000},
+
+{"id":205,"atypeId":12,"description":"◎Fire/Ice/Thunder/Water 75","etypeId":5,"traits":[{"code":11,"dataId":2,"value":0.75},{"code":11,"dataId":3,"value":0.75},{"code":11,"dataId":4,"value":0.75},{"code":11,"dataId":5,"value":0.75}],"iconIndex":43,"name":"Tetra Elemental","note":"//Best Gear Rating\n<rating:50>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":206,"atypeId":12,"description":"◎Fire 50","etypeId":5,"traits":[{"code":11,"dataId":2,"value":0.5}],"iconIndex":43,"name":"Ruby Ring","note":"//Best Gear Rating\n<rating:10>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":207,"atypeId":12,"description":"◎Ice 50","etypeId":5,"traits":[{"code":11,"dataId":3,"value":0.5}],"iconIndex":43,"name":"Sapphire Ring","note":"//Best Gear Rating\n<rating:10>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":208,"atypeId":12,"description":"◎Thunder 50","etypeId":5,"traits":[{"code":11,"dataId":4,"value":0.5}],"iconIndex":43,"name":"Amber Ring","note":"//Best Gear Rating\n<rating:10>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":209,"atypeId":12,"description":"◎Water 50","etypeId":5,"traits":[{"code":11,"dataId":5,"value":0.5}],"iconIndex":43,"name":"Aquamarine  Ring","note":"//Best Gear Rating\n<rating:10>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":210,"atypeId":12,"description":"◎Wind 50","etypeId":5,"traits":[{"code":11,"dataId":7,"value":0.5}],"iconIndex":43,"name":"Jade Ring","note":"//Best Gear Rating\n<rating:10>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":211,"atypeId":12,"description":"◎Holy/Dark 75","etypeId":5,"traits":[{"code":11,"dataId":9,"value":0.75},{"code":11,"dataId":8,"value":0.75}],"iconIndex":43,"name":"Yin Yang Ring","note":"//Best Gear Rating\n<rating:15>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":212,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":213,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":214,"atypeId":12,"description":"◆Libra","etypeId":5,"traits":[{"code":43,"dataId":302,"value":1}],"iconIndex":43,"name":"Encylopedia","note":"","params":[0,0,0,0,0,0,0,0],"price":3600},
+
+{"id":215,"atypeId":12,"description":"◆Quick Cast","etypeId":5,"traits":[{"code":43,"dataId":318,"value":1}],"iconIndex":43,"name":"Samasa Soul","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":216,"atypeId":12,"description":"Enemies stop approaching.","etypeId":5,"traits":[{"code":43,"dataId":224,"value":1}],"iconIndex":43,"name":"Scary Face","note":"","params":[0,0,0,0,0,0,0,0],"price":20000},
+
+{"id":217,"atypeId":12,"description":"Only rare items can be stolen.","etypeId":5,"traits":[{"code":43,"dataId":324,"value":1}],"iconIndex":46,"name":"Greedy Glove","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":218,"atypeId":12,"description":"Increases the probability that enemies will drop items.","etypeId":5,"traits":[{"code":43,"dataId":325,"value":1},{"code":64,"dataId":5,"value":1}],"iconIndex":46,"name":"Treasure Band","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":219,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":220,"atypeId":13,"description":"☼White Magic","etypeId":6,"traits":[{"code":41,"dataId":5,"value":1}],"iconIndex":44,"name":"White Magic","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":221,"atypeId":13,"description":"☼Black Magic","etypeId":6,"traits":[{"code":41,"dataId":6,"value":1}],"iconIndex":44,"name":"Black Magic","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":222,"atypeId":13,"description":"☼Time Magic","etypeId":6,"traits":[{"code":41,"dataId":7,"value":1}],"iconIndex":44,"name":"Time Magic","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":223,"atypeId":13,"description":"☼White and Black partial","etypeId":6,"traits":[{"code":41,"dataId":23,"value":1}],"iconIndex":44,"name":"Red Magic","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":224,"atypeId":13,"description":"☼White and Black 1.5x MP consumption","etypeId":6,"traits":[{"code":23,"dataId":4,"value":2},{"code":41,"dataId":24,"value":1}],"iconIndex":44,"name":"Mixed Magic","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":225,"atypeId":13,"description":"☼Learn Blue Magic, can not cast","etypeId":6,"traits":[{"code":41,"dataId":8,"value":1}],"iconIndex":44,"name":"Learn","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":226,"atypeId":13,"description":"☼Steal","etypeId":6,"traits":[{"code":43,"dataId":250,"value":1}],"iconIndex":44,"name":"Steal","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":227,"atypeId":13,"description":"☼Draw Junction ability, draw magic from enemy","etypeId":6,"traits":[{"code":43,"dataId":260,"value":1}],"iconIndex":44,"name":"Draw","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":228,"atypeId":13,"description":"☼Death Blow Guaranteed crit if it hits","etypeId":6,"traits":[{"code":43,"dataId":262,"value":1}],"iconIndex":44,"name":"D.Blow","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":229,"atypeId":13,"description":"☼Assault Four random attacks","etypeId":6,"traits":[{"code":43,"dataId":271,"value":1}],"iconIndex":44,"name":"Assault","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":230,"atypeId":13,"description":"☼Study","etypeId":6,"traits":[{"code":43,"dataId":257,"value":1}],"iconIndex":44,"name":"Study","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":231,"atypeId":13,"description":"☼Bide Absorb half the damage for three turns before retaliating","etypeId":6,"traits":[{"code":43,"dataId":261,"value":1}],"iconIndex":44,"name":"Bide","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":232,"atypeId":13,"description":"☼Mix","etypeId":6,"traits":[{"code":43,"dataId":265,"value":1}],"iconIndex":44,"name":"Mix","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":233,"atypeId":13,"description":"☼Throw","etypeId":6,"traits":[{"code":43,"dataId":249,"value":1}],"iconIndex":44,"name":"Throw","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":234,"atypeId":13,"description":"☼Blink Ninja's Blink command","etypeId":6,"traits":[{"code":43,"dataId":273,"value":1}],"iconIndex":44,"name":"Blink","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":235,"atypeId":13,"description":"☼Pray","etypeId":6,"traits":[{"code":43,"dataId":248,"value":1}],"iconIndex":44,"name":"Pray","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":236,"atypeId":13,"description":"☼Intimidate Stops target in fear","etypeId":6,"traits":[{"code":43,"dataId":268,"value":1}],"iconIndex":44,"name":"Intimidate","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":237,"atypeId":13,"description":"☼Psychic Waves Recovers MP for all allies","etypeId":6,"traits":[{"code":43,"dataId":270,"value":1}],"iconIndex":44,"name":"Psychic Waves","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":238,"atypeId":13,"description":"☼Revive All","etypeId":6,"traits":[{"code":43,"dataId":274,"value":1}],"iconIndex":44,"name":"Revive All","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":239,"atypeId":13,"description":"☼Medical Treatment Recovers all status abnormalities of the target","etypeId":6,"traits":[{"code":43,"dataId":275,"value":1}],"iconIndex":44,"name":"Medical Treatment","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":240,"atypeId":13,"description":"☼Jump","etypeId":6,"traits":[{"code":43,"dataId":247,"value":1}],"iconIndex":44,"name":"Jump","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":241,"atypeId":13,"description":"☼Wish Give part of your Limit Break to an ally.","etypeId":6,"traits":[{"code":43,"dataId":269,"value":1}],"iconIndex":44,"name":"Wish","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":242,"atypeId":13,"description":"☼Manipulate Freely control one enemy","etypeId":6,"traits":[{"code":43,"dataId":276,"value":1}],"iconIndex":44,"name":"Manipulate","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":243,"atypeId":13,"description":"☼Runic Sword Magic command","etypeId":6,"traits":[{"code":41,"dataId":19,"value":1}],"iconIndex":44,"name":"Runic","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":244,"atypeId":13,"description":"☼Slash-All","etypeId":6,"traits":[{"code":43,"dataId":272,"value":1}],"iconIndex":44,"name":"Slash-All","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":245,"atypeId":13,"description":"☼Dark Dark Knight command","etypeId":6,"traits":[{"code":41,"dataId":10,"value":1},{"code":43,"dataId":677,"value":1},{"code":43,"dataId":678,"value":1},{"code":43,"dataId":679,"value":1},{"code":43,"dataId":680,"value":1}],"iconIndex":44,"name":"Dark","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":246,"atypeId":13,"description":"☼Step Up Move up further than the Vanguard, taking and dealing more damage","etypeId":6,"traits":[{"code":43,"dataId":246,"value":1}],"iconIndex":44,"name":"Step Up","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":247,"atypeId":13,"description":"☼Battle Use the Warrior's commands","etypeId":6,"traits":[{"code":43,"dataId":623,"value":1},{"code":43,"dataId":626,"value":1},{"code":43,"dataId":624,"value":1},{"code":43,"dataId":625,"value":1},{"code":41,"dataId":16,"value":1}],"iconIndex":44,"name":"Battle","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":248,"atypeId":13,"description":"☼Berserk Self cast skill","etypeId":6,"traits":[{"code":43,"dataId":278,"value":1}],"iconIndex":44,"name":"Berserk","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":249,"atypeId":13,"description":"☼Hide Excludes you from all other actions.","etypeId":6,"traits":[{"code":43,"dataId":277,"value":1}],"iconIndex":44,"name":"Hide","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":250,"atypeId":14,"description":"◆Cover Block the attack for a critical health ally.","etypeId":6,"traits":[],"iconIndex":45,"name":"Cover","note":"\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":251,"atypeId":14,"description":"◆Counter","etypeId":6,"traits":[{"code":43,"dataId":290,"value":1}],"iconIndex":45,"name":"Counter","note":"\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":252,"atypeId":14,"description":"◆Auto-Potion Use the potion immediately when you take damage from an enemy action.","etypeId":6,"traits":[{"code":43,"dataId":292,"value":1}],"iconIndex":45,"name":"autopotion","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":253,"atypeId":14,"description":"◆Learning You can learn the blue magic you received.","etypeId":6,"traits":[{"code":43,"dataId":293,"value":1}],"iconIndex":45,"name":"Learning","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":254,"atypeId":14,"description":"◆Magic Counter When hit by a spell, cast the same spell back","etypeId":6,"traits":[{"code":43,"dataId":291,"value":1}],"iconIndex":45,"name":"Magic Counter","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":255,"atypeId":14,"description":"☼Capture When dealing lethal damage, instead capture the monster.","etypeId":6,"traits":[{"code":43,"dataId":294,"value":1}],"iconIndex":45,"name":"Capture","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":256,"atypeId":15,"description":"◎HP +30%","etypeId":6,"traits":[{"code":21,"dataId":0,"value":1.3}],"iconIndex":46,"name":"Strong Body","note":"//Best Gear Rating\n<rating:35>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":257,"atypeId":15,"description":"◎MP +20%","etypeId":6,"traits":[{"code":21,"dataId":1,"value":1.2}],"iconIndex":46,"name":"Strong Mind","note":"//Best Gear Rating\n<rating:35>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":258,"atypeId":15,"description":"Base Strength becomes 50","etypeId":6,"traits":[],"iconIndex":46,"name":"Giant Strength","note":"<guarantPow:50>\n\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":259,"atypeId":15,"description":"Increased damage inflicted by \"Grapple\" and \"Martial\".","etypeId":6,"traits":[{"code":43,"dataId":320,"value":1},{"code":51,"dataId":13,"value":1},{"code":55,"dataId":1,"value":1}],"iconIndex":46,"name":"Grappler","note":"<guarantPow:50>\n\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":260,"atypeId":15,"description":"Base Intelligence becomes 50","etypeId":6,"traits":[],"iconIndex":46,"name":"Genius","note":"<guarantMat:50>\n\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":261,"atypeId":15,"description":"Base Agility becomes 40","etypeId":6,"traits":[],"iconIndex":46,"name":"chirp","note":"<guarantAgi:40>\n\n<rating:30>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":262,"atypeId":15,"description":"Base Vitality becomes 50","etypeId":6,"traits":[],"iconIndex":46,"name":"Lord's Heart","note":"<guarantVit:50>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":263,"atypeId":15,"description":"Evade 15","etypeId":6,"traits":[{"code":22,"dataId":1,"value":0.15}],"iconIndex":46,"name":"Blade Grasp","note":"//Best Gear Rating\n<rating:25>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":264,"atypeId":15,"description":"Agility 5","etypeId":6,"traits":[],"iconIndex":46,"name":"Dash","note":"","params":[0,0,0,0,0,0,5,0],"price":0},
+
+{"id":265,"atypeId":15,"description":"","etypeId":6,"traits":[],"iconIndex":46,"name":"Fix Me","note":"\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":266,"atypeId":15,"description":"You can't equip shields, but you get 1.5 times the Attack.","etypeId":6,"traits":[{"code":55,"dataId":0,"value":1},{"code":54,"dataId":2,"value":1},{"code":43,"dataId":313,"value":1}],"iconIndex":46,"name":"Soldier","note":"\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":267,"atypeId":15,"description":"◆Rapid","etypeId":6,"traits":[{"code":43,"dataId":216,"value":1}],"iconIndex":46,"name":"Pre-emptive","note":"//Best Gear Rating\n<rating:35>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":268,"atypeId":15,"description":"♣Shields","etypeId":6,"traits":[{"code":52,"dataId":1,"value":1},{"code":52,"dataId":2,"value":1}],"iconIndex":46,"name":"Frontline","note":"\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":269,"atypeId":15,"description":"♣Robes","etypeId":6,"traits":[{"code":52,"dataId":6,"value":1}],"iconIndex":46,"name":"Clothier","note":"\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":270,"atypeId":15,"description":"♣Armor","etypeId":6,"traits":[{"code":52,"dataId":3,"value":1}],"iconIndex":46,"name":"Cavalry","note":"\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":271,"atypeId":15,"description":"♣Magic Hats","etypeId":6,"traits":[{"code":52,"dataId":8,"value":1}],"iconIndex":46,"name":"Apprentice","note":"\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":272,"atypeId":15,"description":"♣Helmets","etypeId":6,"traits":[{"code":52,"dataId":10,"value":1}],"iconIndex":46,"name":"Vagrant","note":"\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":273,"atypeId":15,"description":"♣Gloves","etypeId":6,"traits":[{"code":52,"dataId":11,"value":1}],"iconIndex":46,"name":"Squire","note":"\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":274,"atypeId":15,"description":"♣Onion Gear","etypeId":6,"traits":[{"code":51,"dataId":17,"value":1},{"code":52,"dataId":16,"value":1}],"iconIndex":46,"name":"Leek","note":"<guarantPow:50>\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":275,"atypeId":15,"description":"♣All Weapons","etypeId":6,"traits":[{"code":51,"dataId":1,"value":1},{"code":51,"dataId":2,"value":1},{"code":51,"dataId":3,"value":1},{"code":51,"dataId":4,"value":1},{"code":51,"dataId":5,"value":1},{"code":51,"dataId":6,"value":1},{"code":51,"dataId":7,"value":1},{"code":51,"dataId":8,"value":1},{"code":51,"dataId":9,"value":1},{"code":51,"dataId":10,"value":1},{"code":51,"dataId":11,"value":1},{"code":51,"dataId":12,"value":1},{"code":51,"dataId":13,"value":1},{"code":51,"dataId":14,"value":1},{"code":51,"dataId":15,"value":1},{"code":51,"dataId":16,"value":1},{"code":51,"dataId":17,"value":1},{"code":43,"dataId":321,"value":1}],"iconIndex":46,"name":"Hero Crystal","note":"<guarantPow:50>\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":276,"atypeId":15,"description":"♣Swords No Katanas","etypeId":6,"traits":[{"code":51,"dataId":1,"value":1},{"code":51,"dataId":2,"value":1},{"code":51,"dataId":3,"value":1},{"code":51,"dataId":4,"value":1},{"code":51,"dataId":7,"value":1}],"iconIndex":46,"name":"Captain","note":"<guarantPow:47>\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":277,"atypeId":15,"description":"♣Katanas","etypeId":6,"traits":[{"code":51,"dataId":6,"value":1}],"iconIndex":46,"name":"Samurai","note":"<guarantPow:43>\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":278,"atypeId":15,"description":"♣Gunblades","etypeId":6,"traits":[{"code":51,"dataId":5,"value":1}],"iconIndex":46,"name":"Rough Divide","note":"<guarantPow:42>\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":279,"atypeId":15,"description":"♣Boomerangs","etypeId":6,"traits":[{"code":51,"dataId":8,"value":1}],"iconIndex":46,"name":"Greased Lightning","note":"<guarantPow:40>\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":280,"atypeId":15,"description":"♣Bows","etypeId":6,"traits":[{"code":51,"dataId":9,"value":1}],"iconIndex":46,"name":"Quiver","note":"<guarantPow:40>\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":281,"atypeId":15,"description":"♣Whips","etypeId":6,"traits":[{"code":51,"dataId":10,"value":1}],"iconIndex":46,"name":"Choco Pin","note":"<guarantPow:37>\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":282,"atypeId":15,"description":"♣Lances ♣Spears","etypeId":6,"traits":[{"code":51,"dataId":11,"value":1},{"code":51,"dataId":12,"value":1}],"iconIndex":46,"name":"Trident","note":"<guarantPow:42>\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":283,"atypeId":15,"description":"♣Staves","etypeId":6,"traits":[{"code":51,"dataId":14,"value":1}],"iconIndex":46,"name":"Stick","note":"\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":284,"atypeId":15,"description":"♣Wands","etypeId":6,"traits":[{"code":51,"dataId":15,"value":1}],"iconIndex":46,"name":"Twig","note":"\n<noOptimize //Exclude from Best Equip","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":285,"atypeId":15,"description":"♣Axes","etypeId":6,"traits":[{"code":51,"dataId":16,"value":1}],"iconIndex":46,"name":"Snook Snook","note":"<guarantPow:45>\n<noOptimize //Exclude from Best Equip\n\"Reference to FF2\"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":286,"atypeId":15,"description":"◆Raise","etypeId":6,"traits":[{"code":43,"dataId":219,"value":1}],"iconIndex":46,"name":"Rabbit Foot","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":287,"atypeId":15,"description":"◆Haste.","etypeId":6,"traits":[{"code":43,"dataId":210,"value":1}],"iconIndex":46,"name":"Hourglass","note":"//Best Gear Rating\n<rating:40>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":288,"atypeId":15,"description":"◆Regen","etypeId":6,"traits":[{"code":43,"dataId":211,"value":1}],"iconIndex":46,"name":"Auto Regen","note":"//Best Gear Rating\n<rating:25>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":289,"atypeId":15,"description":"◆Protect.","etypeId":6,"traits":[{"code":43,"dataId":212,"value":1}],"iconIndex":46,"name":"Auto Protect","note":"//Best Gear Rating\n<rating:25>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":290,"atypeId":15,"description":"◆Shell","etypeId":6,"traits":[{"code":43,"dataId":213,"value":1}],"iconIndex":46,"name":"Auto Shell","note":"//Best Gear Rating\n<rating:25>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":291,"atypeId":15,"description":"◆Reflect","etypeId":6,"traits":[{"code":43,"dataId":214,"value":1}],"iconIndex":46,"name":"Auto Reflect","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":292,"atypeId":15,"description":"◆Berserk","etypeId":6,"traits":[],"iconIndex":46,"name":"Auto Berserk","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":293,"atypeId":15,"description":"◆Float","etypeId":6,"traits":[{"code":43,"dataId":215,"value":1}],"iconIndex":46,"name":"Auto Float","note":"//Best Gear Rating\n<rating:15>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":294,"atypeId":15,"description":"◆Blink","etypeId":6,"traits":[{"code":43,"dataId":217,"value":1}],"iconIndex":46,"name":"Mirage","note":"//Best Gear Rating\n<rating:20>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":295,"atypeId":15,"description":"Double the effectiveness of healing items","etypeId":6,"traits":[{"code":43,"dataId":184,"value":1}],"iconIndex":46,"name":"Doctor's Encyclopedia","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":296,"atypeId":15,"description":"◆Quick Cast","etypeId":6,"traits":[{"code":43,"dataId":318,"value":1}],"iconIndex":46,"name":"Auto Haste","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":297,"atypeId":15,"description":"◎Paralysis/Stop","etypeId":6,"traits":[{"code":13,"dataId":12,"value":0},{"code":13,"dataId":37,"value":0}],"iconIndex":46,"name":"Crystal Ring","note":"//Best Gear Rating\n<rating:20>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":298,"atypeId":15,"description":"◎Poison element ◎Poison status","etypeId":6,"traits":[{"code":13,"dataId":4,"value":0},{"code":11,"dataId":10,"value":0.75}],"iconIndex":46,"name":"Star Pendant","note":"//Best Gear Rating\n<rating:10>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":299,"atypeId":15,"description":"◎Sleep","etypeId":6,"traits":[{"code":13,"dataId":10,"value":0}],"iconIndex":46,"name":"Nishijin Belt","note":"//Best Gear Rating\n<rating:10>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":300,"atypeId":15,"description":"◎Blind","etypeId":6,"traits":[{"code":13,"dataId":5,"value":0}],"iconIndex":46,"name":"Argyle Armlet","note":"//Best Gear Rating\n<rating:10>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":301,"atypeId":15,"description":"◎Berserk","etypeId":6,"traits":[{"code":13,"dataId":7,"value":0},{"code":13,"dataId":8,"value":0}],"iconIndex":46,"name":"Bamboo Sword","note":"//Best Gear Rating\n<rating:15>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":302,"atypeId":15,"description":"◎Silence","etypeId":6,"traits":[{"code":13,"dataId":6,"value":0}],"iconIndex":46,"name":"Rose Corsage","note":"//Best Gear Rating\n<rating:10>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":303,"atypeId":15,"description":"◎Petrification","etypeId":6,"traits":[{"code":13,"dataId":11,"value":0}],"iconIndex":46,"name":"Earth Pendant","note":"//Best Gear Rating\n<rating:15>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":304,"atypeId":15,"description":"◎Mini/Frog","etypeId":6,"traits":[{"code":13,"dataId":35,"value":0},{"code":13,"dataId":14,"value":0}],"iconIndex":46,"name":"White Cape","note":"//Best Gear Rating\n<rating:15>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":305,"atypeId":15,"description":"◎Flinch","etypeId":6,"traits":[{"code":13,"dataId":13,"value":0}],"iconIndex":46,"name":"Zen","note":"//Best Gear Rating\n<rating:10>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":306,"atypeId":15,"description":"◎Death/Zombie","etypeId":6,"traits":[{"code":13,"dataId":1,"value":0},{"code":13,"dataId":36,"value":0}],"iconIndex":46,"name":"Angel Bracelet","note":"//Best Gear Rating\n<rating:15>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":307,"atypeId":15,"description":"","etypeId":6,"traits":[],"iconIndex":46,"name":"W Item (forfeited)","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":308,"atypeId":15,"description":"◆Range","etypeId":6,"traits":[{"code":43,"dataId":315,"value":1}],"iconIndex":46,"name":"Long Range","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":309,"atypeId":15,"description":"Limit fills faster","etypeId":6,"traits":[{"code":23,"dataId":5,"value":2}],"iconIndex":46,"name":"Fury","note":"//Best Gear Rating\n<rating:30>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":310,"atypeId":15,"description":"◆Invisible","etypeId":6,"traits":[{"code":43,"dataId":218,"value":1}],"iconIndex":46,"name":"Sunken State","note":"//Best Gear Rating\n<rating:15>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":311,"atypeId":15,"description":"MP consumption -75%","etypeId":6,"traits":[{"code":23,"dataId":4,"value":0.25}],"iconIndex":46,"name":"Sage's Ring","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":312,"atypeId":15,"description":"Able to hold a weapon with both hands.","etypeId":6,"traits":[{"code":55,"dataId":1,"value":1}],"iconIndex":46,"name":"Samurai","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":313,"atypeId":15,"description":"","etypeId":6,"traits":[],"iconIndex":46,"name":"Currently under construction","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":314,"atypeId":15,"description":"◆Concentrate","etypeId":6,"traits":[{"code":43,"dataId":322,"value":1}],"iconIndex":46,"name":"Sharpshooter","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":315,"atypeId":15,"description":"After you take damage, cut it by 75%.","etypeId":6,"traits":[{"code":43,"dataId":323,"value":1}],"iconIndex":46,"name":"Jurisdiction","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":316,"atypeId":15,"description":"◆Zombie","etypeId":6,"traits":[{"code":11,"dataId":22,"value":2},{"code":11,"dataId":9,"value":0},{"code":11,"dataId":9,"value":0},{"code":11,"dataId":10,"value":0},{"code":11,"dataId":10,"value":0},{"code":11,"dataId":8,"value":2}],"iconIndex":46,"name":"Undead","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":317,"atypeId":15,"description":"Only rare items can be stolen.","etypeId":6,"traits":[{"code":43,"dataId":324,"value":1}],"iconIndex":46,"name":"Rare Hunt","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":318,"atypeId":15,"description":"Increases the probability that an enemy will drop an item.","etypeId":6,"traits":[{"code":43,"dataId":325,"value":1},{"code":64,"dataId":5,"value":1}],"iconIndex":46,"name":"Treasure Hunter","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":319,"atypeId":15,"description":"◎Petrification ◎Zombie ◎Death Sentence ◎Death","etypeId":6,"traits":[{"code":14,"dataId":11,"value":1},{"code":14,"dataId":36,"value":1},{"code":14,"dataId":1,"value":1},{"code":14,"dataId":39,"value":1}],"iconIndex":46,"name":"Safety Zone","note":"//Best Gear Rating\n<rating:25>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":320,"atypeId":15,"description":"Blocks all sorts of abnormalities","etypeId":6,"traits":[{"code":14,"dataId":4,"value":1},{"code":14,"dataId":5,"value":1},{"code":14,"dataId":6,"value":1},{"code":14,"dataId":7,"value":1},{"code":14,"dataId":8,"value":1},{"code":14,"dataId":10,"value":1},{"code":14,"dataId":11,"value":1},{"code":14,"dataId":12,"value":1},{"code":14,"dataId":13,"value":1},{"code":14,"dataId":14,"value":1},{"code":14,"dataId":35,"value":1},{"code":14,"dataId":36,"value":1},{"code":14,"dataId":37,"value":1}],"iconIndex":46,"name":"Ribbon Blue","note":"//Best Gear Rating\n<rating:80>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":321,"atypeId":15,"description":"It will give you information about the enemy you cursor over.","etypeId":6,"traits":[{"code":43,"dataId":302,"value":1}],"iconIndex":46,"name":"Librarian","note":"//Best Gear Rating\n<rating:10>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":322,"atypeId":15,"description":"♣Harps","etypeId":6,"traits":[{"code":51,"dataId":18,"value":1}],"iconIndex":46,"name":"Harps","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":323,"atypeId":15,"description":"All attacks now have piercing attribute","etypeId":6,"traits":[{"code":43,"dataId":307,"value":1}],"iconIndex":46,"name":"Pierce","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":324,"atypeId":15,"description":"Enemies are less likely to be attracted to you in the dungeon.","etypeId":6,"traits":[{"code":43,"dataId":224,"value":1}],"iconIndex":46,"name":"Scary Face","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":325,"atypeId":15,"description":"◆Steal+","etypeId":6,"traits":[{"code":43,"dataId":182,"value":1}],"iconIndex":46,"name":"Brigand","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":326,"atypeId":15,"description":"Double the effectiveness of items","etypeId":6,"traits":[{"code":43,"dataId":308,"value":1}],"iconIndex":46,"name":"Herbalism","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":327,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":328,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":329,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":330,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":331,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":332,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":333,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":334,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":335,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":336,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":337,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":338,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":339,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":340,"atypeId":13,"description":"Imitate the actions of an ally who acted immediately before you.","etypeId":6,"traits":[{"code":43,"dataId":258,"value":1}],"iconIndex":44,"name":"Mimic","note":"<sort:250>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":341,"atypeId":13,"description":"Calling animals at random","etypeId":6,"traits":[{"code":43,"dataId":226,"value":1}],"iconIndex":44,"name":"Taoism and Buddhism","note":"<sort:250>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":342,"atypeId":13,"description":"Consumes 8 MP and inflicts heavy damage.","etypeId":6,"traits":[{"code":43,"dataId":227,"value":1}],"iconIndex":44,"name":"Smash","note":"<sort:250>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":343,"atypeId":13,"description":"Increases own overdrive gauge","etypeId":6,"traits":[{"code":43,"dataId":279,"value":1}],"iconIndex":44,"name":"Limit Charge","note":"<sort:250>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":344,"atypeId":13,"description":"Turn enemies into items","etypeId":6,"traits":[{"code":43,"dataId":225,"value":1}],"iconIndex":44,"name":"Change","note":"<sort:250>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":345,"atypeId":13,"description":"Randomly evoke the power of the terrain","etypeId":6,"traits":[{"code":43,"dataId":267,"value":1}],"iconIndex":44,"name":"Geomancy","note":"<sort:250>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":346,"atypeId":13,"description":"Recovers HP of one person","etypeId":6,"traits":[{"code":43,"dataId":228,"value":1}],"iconIndex":44,"name":"Recovery","note":"<sort:250>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":347,"atypeId":13,"description":"When dealing lethal damage, instead capture the enemy.","etypeId":6,"traits":[{"code":43,"dataId":252,"value":1},{"code":43,"dataId":294,"value":1}],"iconIndex":44,"name":"Capture","note":"<sort:250>","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":348,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":349,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+
+{"id":350,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0}]

@@ -1,0 +1,64 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+<D-Animation:wait>
+id = 990
+script = BattleManager.startSummonEffect();
+</D-Animation>
+
+<D-Animation:wait&screen>
+sx = Graphics.boxWidth*3/4
+ex = Graphics.boxWidth*3/4
+sy = Graphics.boxHeight*3/5
+ey = Graphics.boxHeight*3/5
+id = 186
+</D-Animation>
+
+<D-Animation:wait&screen>
+sx = Graphics.boxWidth*3/4
+ex = Graphics.boxWidth*3/4
+sy = Graphics.boxHeight*3/5
+ey = Graphics.boxHeight*3/5
+id = 187
+</D-Animation>
+
+<D-Animation:wait&screen>
+sx = Graphics.boxWidth*3/4
+ex = Graphics.boxWidth*3/4
+sy = Graphics.boxHeight*3/5
+ey = Graphics.boxHeight*3/5
+id = 188
+</D-Animation>
+
+<D-Animation>
+id = 189
+</D-Animation>
+
+<D-Animation:wait&screen>
+id = 190
+sx = Graphics.boxWidth*3/4
+ex = Graphics.boxWidth*3/4
+sy = Graphics.boxHeight*3/5
+ey = Graphics.boxHeight*3/5
+</D-Animation>
+
+<D-Animation>
+id = 191
+</D-Animation>
+
+<D-Animation:wait&screen>
+id = 192
+sx = Graphics.boxWidth*3/4
+ex = Graphics.boxWidth*3/4
+sy = Graphics.boxHeight*3/5
+ey = Graphics.boxHeight*3/5
+</D-Animation>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>
+<D-Animation:wait>
+id = 1
+script = BattleManager.endSummonEffect();
+</D-Animation>

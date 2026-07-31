@@ -1,0 +1,117 @@
+<D-Motion>
+plugin = tintBB12 0 0 0 0 0 0
+</D-Motion>
+
+<D-Motion:wait>
+script = a.setTempXY(a.x,a.y)
+</D-Motion>
+
+<D-Motion:svWalk&wait>
+delay = 10
+playSe = FF7 dash
+ey = BattleManager._targets[0].y
+ex = BattleManager._targets[0].x + BattleManager._targets[0].width/2
+frame = 20
+</D-Motion>
+<D-Motion:swingW&noWait>
+ey = BattleManager._targets[0].y
+ex = BattleManager._targets[0].x - BattleManager._targets[0].width/2
+frame = 10
+</D-Motion>
+<D-Animation>
+target = BattleManager._targets[0]
+script = BattleManager._targets[0].startDamageShake();
+</D-Animation>
+<D-Motion:svWalk>
+delay = 10
+ey = BattleManager._targets[0].y
+ex = BattleManager._targets[0].x - BattleManager._targets[0].width/2 -24
+frame = 10
+</D-Motion>
+
+<D-Motion:delay&svWalk&wait&mirror>
+playSe = FF7 dash
+ey = BattleManager._targets[1].y
+ex = BattleManager._targets[1].x - BattleManager._targets[1].width/2
+frame = 10
+</D-Motion>
+<D-Motion:delay&swingW&noWait&mirror>
+ey = BattleManager._targets[1].y
+ex = BattleManager._targets[1].x + BattleManager._targets[1].width/2
+frame = 10
+</D-Motion>
+<D-Animation>
+scaleX = -1
+target = BattleManager._targets[1]
+script = BattleManager._targets[1].startDamageShake();
+</D-Animation>
+<D-Motion:svWalk&mirror>
+delay = 10
+ey = BattleManager._targets[1].y
+ex = BattleManager._targets[1].x + BattleManager._targets[1].width/2 + 24
+frame = 10
+</D-Motion>
+
+<D-Motion:delay&svWalk&wait&mirrorOff>
+playSe = FF7 dash
+ey = BattleManager._targets[2].y
+ex = BattleManager._targets[2].x + BattleManager._targets[2].width/2
+frame = 10
+</D-Motion>
+<D-Motion:swingW&noWait>
+ey = BattleManager._targets[2].y
+ex = BattleManager._targets[2].x - BattleManager._targets[2].width/2
+frame = 10
+</D-Motion>
+<D-Animation>
+target = BattleManager._targets[2]
+script = BattleManager._targets[2].startDamageShake();
+</D-Animation>
+<D-Motion:svWalk>
+delay = 10
+ey = BattleManager._targets[2].y
+ex = BattleManager._targets[2].x - BattleManager._targets[2].width/2 -24
+frame = 10
+</D-Motion>
+
+<D-Motion:delay&svWalk&wait&mirror>
+playSe = FF7 dash
+ey = BattleManager._targets[3].y
+ex = BattleManager._targets[3].x - BattleManager._targets[3].width/2
+frame = 10
+</D-Motion>
+<D-Motion:delay&swingW&noWait&mirror>
+ey = BattleManager._targets[3].y
+ex = BattleManager._targets[3].x + BattleManager._targets[3].width/2
+frame = 10
+</D-Motion>
+<D-Animation>
+scaleX = -1
+target = BattleManager._targets[3]
+script = BattleManager._targets[3].startDamageShake();
+</D-Animation>
+<D-Motion:svWalk&mirror>
+delay = 10
+ey = BattleManager._targets[3].y
+ex = BattleManager._targets[3].x + BattleManager._targets[3].width/2 + 24
+frame = 10
+</D-Motion>
+
+<D-Motion:delay&svWalk>
+ey = a.tempY()
+ex = a.tempX()
+frame = 20
+</D-Motion>
+<D-Motion:delay&mirrorOff>
+frame = 1
+</D-Motion>
+
+
+<D-Motion:delay&return>
+arcY = -16
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>
+<D-Animation:screen&delay>
+id = 1411
+z = 0
+</D-Animation>

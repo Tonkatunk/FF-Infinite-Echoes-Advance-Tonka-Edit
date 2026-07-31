@@ -1,0 +1,13 @@
+<D-Animation:wait>
+sy = b.y-24;
+ey = b.y-24;
+id = BattleManager.getRunicCastId();
+</D-Animation>
+
+<D-Motion:target&svItem>
+script = b.gainMp(Math.floor(BattleManager.runicedMagic().mpCost/2));
+</D-Motion>
+
+<D-Animation:wait>
+id = 112
+</D-Animation>

@@ -1,0 +1,17 @@
+<D-Animation:screen>
+playSe = {"name":"MZ Sword3","volume":100,"pitch":100,"pan":0}
+id = 1
+</D-Animation>
+<D-Motion>
+delay = 30
+script = a.afterimage().start();
+playSe = {"name":"FF5 zantetsu echor","volume":100,"pitch":100,"pan":0}
+frame = 30
+ex = Graphics.boxWidth*1.5
+</D-Motion>
+<D-Motion:home>
+delay = 90
+script = a.afterimage().end();
+id = 1148
+sx = -Graphics.boxWidth/2
+</D-Motion>

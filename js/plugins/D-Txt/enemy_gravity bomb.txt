@@ -1,0 +1,43 @@
+<D-Animation>
+sx = a.x
+sy = a.y-a.height/2
+ex = b.x
+ey = b.y
+id = 1711
+playSe = 2000 blow2
+arcY = -16
+</D-Animation>
+
+<D-Animation>
+delay = 3
+sx = a.x
+sy = a.y-a.height/2
+ex = b.x
+ey = b.y
+scaleX = 0.75
+scaleY = 0.75
+id = 1711
+arcY = -16
+</D-Animation>
+
+<D-Animation>
+delay = 6
+sx = a.x
+sy = a.y-a.height/2
+ex = b.x
+ey = b.y
+scaleX = 0.5
+scaleY = 0.5
+id = 1711
+arcY = -16
+</D-Animation>
+
+<D-Animation>
+delay = 10
+</D-Animation>
+
+<D-Motion:target>
+delay = 10
+script = b.startDamageShake();
+condition = BattleManager.resultList()[0].hpDamage > 0
+</D-Motion>

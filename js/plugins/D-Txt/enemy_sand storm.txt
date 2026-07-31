@@ -1,0 +1,43 @@
+<D-Animation:screen>
+id = 876
+sx = Graphics.boxWidth*-40/240
+ex = Graphics.boxWidth*280/240
+sy = Graphics.boxHeight*55/160
+ey = sy
+arrival = 60 // 到達フレーム
+</D-Animation>
+
+<D-Animation>
+condition = BattleManager._targetNum > 0;
+target = BattleManager._firstTargets[0];
+id = 1
+script = BattleManager._targets[0].startMagicNockback(40,16,1,BattleManager.resultList()[0]);
+</D-Animation>
+
+<D-Animation>
+condition = BattleManager._targetNum > 1;
+target = BattleManager._firstTargets[1];
+id = 1
+script = BattleManager._targets[1].startMagicNockback(40,16,1,BattleManager.resultList()[1]);
+</D-Animation>
+
+<D-Animation>
+condition = BattleManager._targetNum > 2;
+target = BattleManager._firstTargets[2];
+id = 1
+script = BattleManager._targets[2].startMagicNockback(40,16,1,BattleManager.resultList()[2]);
+</D-Animation>
+
+<D-Animation>
+condition = BattleManager._targetNum > 3;
+target = BattleManager._firstTargets[3];
+id = 1
+script = BattleManager._targets[3].startMagicNockback(40,16,1,BattleManager.resultList()[3]);
+</D-Animation>
+
+<D-Animation>
+condition = BattleManager._targetNum > 4;
+target = BattleManager._firstTargets[4];
+id = 1
+script = BattleManager._targets[4].startMagicNockback(40,16,1,BattleManager.resultList()[4]);
+</D-Animation>

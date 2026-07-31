@@ -1,0 +1,22 @@
+// しゃがみ
+<D-Motion:svDying>
+script = a.afterimage().end();
+frame = 30
+noShadow = false
+arcY = 0
+</D-Motion>
+
+<D-Animation:self&wait>
+id = 1183
+</D-Animation>
+
+<D-Animation:wait>
+id = 1184
+</D-Animation>
+
+// バンザイ
+<D-Motion:svItem>
+frame = 30
+arcY = 0
+script = a.addState(45);
+</D-Motion>

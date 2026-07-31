@@ -1,0 +1,109 @@
+
+<D-Motion:svItem>
+arcY = -8
+frame = 15
+ex = Graphics.boxWidth-48
+ey = Graphics.boxHeight-18
+script = BattleManager.performHideAllActorsWithoutSubject();
+plugin = tintBB12 127 127 127 127 127 127
+</D-Motion>
+
+<D-Motion:swingWhip&noWait>
+delay = 15
+arcY = 0
+playSe = {"name":"FF5 whip","volume":50,"pitch":100,"pan":0}
+</D-Motion>
+<D-Motion:swingWhip&noWait>
+arcY = 0
+delay = 30
+frame = 15
+playSe = {"name":"FF5 whip","volume":50,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation>
+delay = 45
+id = 2194
+arcY = -8
+sx = Graphics.boxWidth + 64
+sy = Graphics.boxHeight/2+8
+ex = Graphics.boxWidth - 56
+z= 2.9
+</D-Animation>
+
+<D-Animation>
+delay = 65
+frame = 20
+id = 2195
+sy = Graphics.boxHeight/2+8
+sx = Graphics.boxWidth - 56
+z= 2.9
+</D-Animation>
+
+<D-Animation>
+delay = 265
+frame = 20
+id = 2195
+sy = Graphics.boxHeight/2+8
+sx = Graphics.boxWidth - 56
+z= 2.9
+</D-Animation>
+
+<D-Animation:converge>
+delay = 65
+id = 2193
+ey = Graphics.boxHeight/2
+ex = Graphics.boxWidth - 88
+radiusX /= 3 // 半径（Ｘ方向）
+radiusY /= 3 // 半径（Ｙ方向）
+repeat = 30
+interval = 3
+z = 3.05
+</D-Animation>
+
+<D-Animation>
+delay = 65
+id = 2192
+sy = Graphics.boxHeight/2
+sx = Graphics.boxWidth - 90
+z= 3.1
+</D-Animation>
+
+<D-Animation>
+delay = 245
+id = 2196
+scaleX = 0.8
+scaleY = 0.8
+sy = Graphics.boxHeight/2
+sx = Graphics.boxWidth - 106
+z = 2.92
+</D-Animation>
+
+<D-Animation>
+delay = 245
+id = 2200
+sy = Graphics.boxHeight/2
+sx = Graphics.boxWidth
+z = 2.91
+</D-Animation>
+
+<D-Animation>
+delay = 245
+id = 2197
+sy = Graphics.boxHeight/4*3
+sx = Graphics.boxWidth/4
+scaleX = 0.8
+scaleY = 0.8
+sxRandom = 64
+syRandom = 64
+repeat = 75
+interval = 3
+z = 2.90
+</D-Animation>
+
+<D-Motion:return>
+arcY = -16
+delay = 450
+frame = 20
+plugin = tintBB12 255 255 255 255 255 255
+script = BattleManager.endPerformHideAll();
+</D-Motion>

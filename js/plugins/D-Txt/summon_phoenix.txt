@@ -1,0 +1,40 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+<D-Animation:wait>
+id = 990
+script = BattleManager.startSummonEffect();
+</D-Animation>
+<D-Animation>
+id = 1
+script = a.useMagicStone(982);
+</D-Animation>
+
+
+<D-Animation>
+id = 1124
+</D-Animation>
+<D-Animation>
+sx = Graphics.boxWidth
+ex = 0
+sy = Graphics.boxHeight/2
+id = 1123
+</D-Animation>
+//燃えるランダム
+<D-Animation:randomAll>
+delay = 60
+repeat = 20
+interval = 6
+sx = defaultX - $TILE*2
+sy = defaultY + $TILE
+id = 1125
+</D-Animation>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>
+<D-Animation:wait>
+id = 1
+script = BattleManager.endSummonEffect();
+</D-Animation>

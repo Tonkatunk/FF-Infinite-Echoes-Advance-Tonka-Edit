@@ -1,0 +1,29 @@
+<D-Motion:svItem&wait>
+playSe = FF6 steal
+arcY = -$TILE/2;
+ex = sx + $TILE
+frame = 12;
+</D-Motion>
+<D-Motion:tackle&crash&foot>
+arcY = 0
+frame = 10
+opponentSideZ = 1
+</D-Motion>
+<D-Motion:tackle&noWait>
+arcY = 0
+frame = 30
+</D-Motion>
+<D-Animation>
+condition = !(BattleManager._targets[0].result().missed || BattleManager._targets[0].result().evaded)
+target = BattleManager._targets[0]
+script = BattleManager._targets[0].startDamageShake();
+</D-Animation>
+<D-Animation>
+condition = BattleManager._targets[0].result().missed || BattleManager._targets[0].result().evaded
+id = 113
+target = BattleManager._targets[0]
+</D-Animation>
+<D-Motion:return>
+arcY = -$TILE/2;
+frame = 20
+</D-Motion>

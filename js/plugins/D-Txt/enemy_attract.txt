@@ -1,0 +1,79 @@
+<D-Motion:noWait>
+performer = $gameParty.members()[0]
+condition = $gameParty.members()[0].isStateAffected(1)&&!$gameParty.members()[0].isStateAffected(34)
+ex = $gameParty.members()[0].x - 25
+frame = 15
+</D-Motion>
+
+<D-Motion:noWait>
+performer = $gameParty.members().length>1 ? $gameParty.members()[1] : a
+condition = $gameParty.members().length>1&&$gameParty.members()[1].isStateAffected(1)&&!$gameParty.members()[1].isStateAffected(34)
+ex = $gameParty.members().length>1 ? $gameParty.members()[1].x-25 : a.x
+frame = 15
+</D-Motion>
+
+<D-Motion:noWait>
+performer = $gameParty.members().length>2 ? $gameParty.members()[2] : a
+condition = $gameParty.members().length>2&&$gameParty.members()[2].isStateAffected(1)&&!$gameParty.members()[2].isStateAffected(34)
+ex = $gameParty.members().length>2 ? $gameParty.members()[2].x-25 : a.x
+frame = 15
+</D-Motion>
+
+<D-Motion:noWait>
+performer = $gameParty.members().length>3 ? $gameParty.members()[3] : a
+condition = $gameParty.members().length>3&&$gameParty.members()[3].isStateAffected(1)&&!$gameParty.members()[3].isStateAffected(34)
+ex = $gameParty.members().length>3 ? $gameParty.members()[3].x-25 : a.x
+frame = 15
+</D-Motion>
+
+<D-Motion:noWait>
+performer = $gameParty.members().length>4 ? $gameParty.members()[4] : a
+condition = $gameParty.members().length>4&&$gameParty.members()[4].isStateAffected(1)&&!$gameParty.members()[4].isStateAffected(34)
+ex = $gameParty.members().length>4 ? $gameParty.members()[4].x-25 : a.x
+frame = 15
+</D-Motion>
+
+<D-Motion:noWait&soon>
+frame = 1
+delay = 15
+performer = $gameParty.members()[0]
+ex = $gameParty.members()[0].homeX()
+condition = $gameParty.members()[0].isStateAffected(1)&&!$gameParty.members()[0].isStateAffected(34)
+script = $gameParty.members()[0].attractByAtomos();
+</D-Motion>
+
+<D-Motion:noWait&soon>
+frame = 1
+delay = 15
+performer = $gameParty.members().length>1 ? $gameParty.members()[1] : a
+ex = $gameParty.members().length>1 ? $gameParty.members()[1].homeX() : a.x
+condition = $gameParty.members().length>1&&$gameParty.members()[1].isStateAffected(1)&&!$gameParty.members()[1].isStateAffected(34)
+script = $gameParty.members()[1].attractByAtomos();
+</D-Motion>
+
+<D-Motion:noWait&soon>
+frame = 1
+delay = 15
+performer = $gameParty.members().length>2 ? $gameParty.members()[2] : a
+ex = $gameParty.members().length>2 ? $gameParty.members()[2].homeX() : a.x
+condition = $gameParty.members().length>2&&$gameParty.members()[2].isStateAffected(1)&&!$gameParty.members()[2].isStateAffected(34)
+script = $gameParty.members()[2].attractByAtomos();
+</D-Motion>
+
+<D-Motion:noWait&soon>
+frame = 1
+delay = 15
+performer = $gameParty.members().length>3 ? $gameParty.members()[3] : a
+ex = $gameParty.members().length>3 ? $gameParty.members()[3].homeX() : a.x
+condition = $gameParty.members().length>3&&$gameParty.members()[3].isStateAffected(1)&&!$gameParty.members()[3].isStateAffected(34)
+script = $gameParty.members()[3].attractByAtomos();
+</D-Motion>
+
+<D-Motion:noWait&soon>
+frame = 1
+delay = 15
+performer = $gameParty.members().length>4 ? $gameParty.members()[4] : a
+ex = $gameParty.members().length>4 ? $gameParty.members()[4].homeX() : a.x
+condition = $gameParty.members().length>4&&$gameParty.members()[4].isStateAffected(1)&&!$gameParty.members()[4].isStateAffected(34)
+script = $gameParty.members()[4].attractByAtomos();
+</D-Motion>

@@ -1,0 +1,75 @@
+//両手剣で突き刺す
+<D-Motion:stubClaymore&near&foot&noWait>
+script = a.afterimage().start();
+playSe = FF6 steal
+frame = 20;
+</D-Motion>
+//突き刺して待つ
+<D-Motion:stubClaymore&noWait>
+delay = 20
+frame = 40
+</D-Motion>
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+delay = 20
+id = 113
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// 突き刺しアニメ
+<D-Animation>
+delay = 20
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+id = 1434
+</D-Animation>
+
+<D-Motion:upperSlashClaymore&noWait>
+    delay = 60
+    frame = 10
+    noShadow = true
+    ey = a.y-32
+</D-Motion>
+<D-Motion:upperSlashClaymore&noWait>
+    delay = 70
+    frame = 50
+    noShadow = true
+    ey = a.y-8
+</D-Motion>
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+delay = 60
+id = 113
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+// 突き刺しアニメ
+<D-Animation>
+delay = 60
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+id = 1435
+</D-Animation>
+
+<D-Motion:svWait&noWait>
+    delay = 120
+    frame = 10
+    noShadow = true
+    ey = a.y+40
+    script = a.afterimage().end()
+</D-Motion>
+<D-Motion:home&noWait>
+    delay = 130
+    frame = 20
+    noShadow = false
+</D-Motion>
+<D-Motion:return&noWait>
+    delay = 150
+    frame = 1
+</D-Motion>
+
+<D-Animation>
+id = 1
+</D-Animation>

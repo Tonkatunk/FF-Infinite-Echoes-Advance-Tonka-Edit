@@ -1,0 +1,37 @@
+//歩く動きをしながら近づく
+<D-Motion:svWalk&near&noWait>
+playSe = FF7 dash
+frame = 20;
+</D-Motion>
+
+//大ジャンプ
+<D-Motion:svItem&near&foot&noWait>
+delay = 20
+arcY = -$TILE*2
+frame = 30
+</D-Motion>
+
+<D-Motion:swingbothW&noWait>
+delay = 35
+</D-Motion> // 武器振り
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+delay = 35
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation>
+delay = 35
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+</D-Animation>
+
+<D-Animation>
+id = 1
+</D-Animation>
+
+<D-Motion:return>
+delay = 80
+arcY = 0
+</D-Motion>

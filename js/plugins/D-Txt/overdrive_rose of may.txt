@@ -1,0 +1,189 @@
+<D-Motion:svItem>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+
+<D-Animation:self>
+id = 946
+z = 0
+</D-Animation>
+
+<D-Motion:setupSword>
+frame = 50
+</D-Motion>
+
+<D-Animation:self>
+delay = 50
+id = 945
+</D-Animation>
+
+//---1撃目--------------------------------------------------------
+<D-Motion:svGuard&noWait>
+script = a.afterimage().start();
+delay = 50
+frame = 10
+arcY = -16
+playSe = FF6 steal
+ex = BattleManager._targets[0].x - BattleManager._targets[0].width/2
+ey = BattleManager._targets[0].y
+</D-Motion>
+
+<D-Motion:swingSword&noWait>
+delay = 60
+frame = 20
+arcY = 0
+</D-Motion>
+
+<D-Motion:svGuard&noWait>
+delay = 80
+frame = 30
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+target = BattleManager._targets[0]
+delay = 60
+id = 2059
+script = BattleManager._targets[0].startDamageShake();
+</D-Animation>
+
+//---2撃目--------------------------------------------------------
+<D-Motion:svGuard&noWait>
+delay = 90
+frame = 10
+arcY = -16
+playSe = FF6 steal
+scaleX = -1
+ex = BattleManager._targets[1].x + BattleManager._targets[1].width/2
+ey = BattleManager._targets[1].y
+</D-Motion>
+
+<D-Motion:swingSword&noWait>
+delay = 100
+frame = 20
+arcY = 0
+</D-Motion>
+
+<D-Motion:svGuard&noWait>
+delay = 120
+frame = 30
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+target = BattleManager._targets[1]
+delay = 100
+id = 2059
+scaleX = -1
+script = BattleManager._targets[1].startDamageShake();
+</D-Animation>
+
+//---3撃目--------------------------------------------------------
+<D-Motion:svGuard&noWait>
+script = a.afterimage().start();
+delay = 130
+frame = 10
+arcY = -16
+playSe = FF6 steal
+scaleX = 1
+ex = BattleManager._targets[2].x - BattleManager._targets[2].width/2
+ey = BattleManager._targets[2].y
+</D-Motion>
+
+<D-Motion:swingSword&noWait>
+delay = 140
+frame = 20
+arcY = 0
+</D-Motion>
+
+<D-Motion:svGuard&noWait>
+delay = 160
+frame = 30
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+target = BattleManager._targets[2]
+delay = 140
+id = 2059
+script = BattleManager._targets[2].startDamageShake();
+</D-Animation>
+
+//---4撃目--------------------------------------------------------
+<D-Motion:svGuard&noWait>
+delay = 170
+frame = 10
+arcY = -16
+playSe = FF6 steal
+scaleX = -1
+ex = BattleManager._targets[3].x + BattleManager._targets[3].width/2
+ey = BattleManager._targets[3].y
+</D-Motion>
+
+<D-Motion:swingSword&noWait>
+delay = 180
+frame = 20
+arcY = 0
+scaleX = -1
+</D-Motion>
+
+<D-Motion:svGuard&noWait>
+delay = 200
+frame = 30
+arcY = 0
+scaleX = -1
+</D-Motion>
+
+<D-Animation>
+target = BattleManager._targets[3]
+delay = 180
+id = 2059
+scaleX = -1
+script = BattleManager._targets[3].startDamageShake();
+</D-Animation>
+
+//---5撃目--------------------------------------------------------
+<D-Motion:svGuard&noWait>
+delay = 210
+frame = 10
+arcY = -16
+playSe = FF6 steal
+scaleX = 1
+ex = BattleManager._targets[4].x + BattleManager._targets[4].width/2
+ey = BattleManager._targets[4].y
+</D-Motion>
+
+<D-Motion:swingSword&noWait>
+delay = 220
+frame = 20
+scaleX = 1
+arcY = 0
+</D-Motion>
+
+<D-Motion:svGuard&noWait>
+delay = 240
+frame = 30
+scaleX = 1
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+target = BattleManager._targets[4]
+delay = 220
+id = 2060
+scaleX = 1
+script = BattleManager._targets[4].startDamageShake();
+</D-Animation>
+
+<D-Motion:svItem&home&noWait>
+script = a.afterimage().end();
+delay = 280
+frame = 10
+arcY = -16
+scaleX = 1
+</D-Motion>
+
+<D-Motion:return&noWait>
+delay = 290
+arcY = 0
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

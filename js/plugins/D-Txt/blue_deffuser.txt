@@ -1,0 +1,20 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+
+<D-Animation>
+id = 379
+</D-Animation>
+
+<D-Animation:self>
+id = 380
+</D-Animation>
+
+<D-Animation>
+id = 381
+</D-Animation>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

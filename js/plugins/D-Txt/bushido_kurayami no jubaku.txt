@@ -1,0 +1,21 @@
+<D-Motion:svItem>
+frame = 30
+</D-Motion>
+<D-Animation:self>
+id = 1614
+z = 0
+</D-Animation>
+<D-Animation:self>
+id = 1923
+</D-Animation>
+<D-Animation:shot>
+delay = 15
+arcY = -16
+arrival = 30
+id = 1924
+</D-Animation>
+<D-Animation>
+delay = 105
+id = 1925
+z = 0
+</D-Animation>

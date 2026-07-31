@@ -1,0 +1,10 @@
+<D-Animation>
+id = 2532
+</D-Animation>
+
+
+<D-Animation>
+id = 1
+delay = 20
+script = BattleManager.allMemberChange()
+</D-Animation>

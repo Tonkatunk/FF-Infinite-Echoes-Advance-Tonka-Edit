@@ -1,0 +1,34 @@
+// 対象へ飛び込む
+<D-Motion:crash&tackle&noWait>
+script = a.afterimage().start();
+playSe = FF6 steal
+position = 2 // 足元
+frame = 12
+arcY = -$TILE*2
+</D-Motion>
+
+// 対象へ飛び込む
+<D-Motion:spinningEdge&noWait>
+delay = 12
+script = a.afterimage().end();
+frame = 60
+arcY = 0
+</D-Motion>
+
+<D-Animation:foot>
+delay = 12
+id = 2053
+</D-Animation>
+
+// 戻る
+<D-Motion:home&noWait>
+delay = 72
+frame = 12
+arcY = -$TILE*2
+</D-Motion>
+
+// 戻る
+<D-Motion:return>
+delay = 84
+frame = 1
+</D-Motion>

@@ -1,0 +1,34 @@
+<D-Animation:noWait>
+id = 1783
+z = -1
+</D-Animation>
+
+<D-Motion:svChant&pattern1>
+frame = 60
+playSe = {"name":"FF6 reflec","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Motion:delay&swingW&noWait>
+frame = 20
+</D-Motion>
+
+<D-Animation>
+delay = 60
+id = 1782
+condition = !b.result().missed && !b.result().evaded
+</D-Animation>
+
+<D-Animation>
+delay = 60
+id = 113
+condition = b.result().missed || b.result().evaded
+</D-Animation>
+
+<D-Animation>
+delay = 72
+id = 1789
+condition = b.result().addedStates.length > 0
+</D-Animation>
+
+<D-Motion:retrun&delay>
+</D-Motion>

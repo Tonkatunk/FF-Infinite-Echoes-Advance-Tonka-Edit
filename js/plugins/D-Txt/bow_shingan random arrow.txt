@@ -1,0 +1,50 @@
+<D-Animation:self>
+id = a.readyBowAnimationId()
+sy = a.y - 10
+sx = a.x - 1
+z = 0
+playSe = {"name":"FF6 guard","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+
+<D-Animation:self>
+id = 1884
+z = 0
+</D-Animation>
+
+<D-Animation:self>
+id = 1869
+sy = a.y - 9
+sx = a.x - 10
+</D-Animation>
+
+<D-Motion:readyBow>
+frame = 60
+</D-Motion>
+
+<D-Animation:shot&lookCourse>
+delay = 60
+arrival = 13
+ey = b.y - b.height/2
+id = a.hitArrowAnimationId();
+</D-Animation>
+
+<D-Animation:shot&lookCourse>
+delay = 65
+arrival = 13
+ey = b.y - b.height/2
+id = a.hitArrowAnimationId();
+</D-Animation>
+
+<D-Animation:shot&lookCourse>
+delay = 70
+arrival = 13
+ey = b.y - b.height/2
+id = a.hitArrowAnimationId();
+</D-Animation>
+
+<D-Animation:shot&lookCourse>
+delay = 75
+arrival = 13
+ey = b.y - b.height/2
+id = a.hitArrowAnimationId();
+</D-Animation>

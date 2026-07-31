@@ -1,0 +1,41 @@
+<D-Animation>
+id = 1968
+scaleY = 0.5
+z = 1.9
+</D-Animation>
+
+<D-Animation>
+delay = 60
+id = 1969
+sx = b.x
+sy = b.y // 対象の足元座標
+ey = sy - (64 / 2) // 終点
+cellEndY = t/et // 終了部位（時間経過で0->1に変化）
+scaleX = 0.5
+scaleY = 0.5
+</D-Animation>
+
+<D-Animation>
+delay = 120
+id = 1971
+sy = b.y
+</D-Animation>
+
+<D-Animation>
+delay = 120
+id = 1970
+repeat = 20
+interval = 8
+sx = b.x
+sy = b.y
+scaleX = 0.2
+scaleY = 0.2
+exRandom = 48 // Ｘ座標のバラツキ
+eyRandom = 48 // Ｙ座標のバラツキ
+</D-Animation>
+
+<D-Animation>
+delay = 120
+id = 1972
+z = 0
+</D-Animation>

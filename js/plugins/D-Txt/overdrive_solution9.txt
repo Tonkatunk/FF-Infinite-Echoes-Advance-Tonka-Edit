@@ -1,0 +1,58 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+playSe = {"name":"FF7 flare","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation:converge>
+id = 2071
+repeat = 32
+interval = 4
+ex = Graphics.boxWidth/3
+ey = Graphics.boxHeight/3*2
+radiusX /= 6 // 半径（Ｘ方向）
+radiusY /= 6 // 半径（Ｙ方向）
+</D-Animation>
+
+<D-Animation:converge>
+id = 2072
+delay = 1
+repeat = 32
+interval = 4
+ex = Graphics.boxWidth/3
+ey = Graphics.boxHeight/3*2
+radiusX /= 6 // 半径（Ｘ方向）
+radiusY /= 6 // 半径（Ｙ方向）
+</D-Animation>
+
+<D-Animation:converge>
+id = 2073
+delay = 2
+repeat = 32
+interval = 4
+ex = Graphics.boxWidth/3
+ey = Graphics.boxHeight/3*2
+radiusX /= 6 // 半径（Ｘ方向）
+radiusY /= 6 // 半径（Ｙ方向）
+</D-Animation>
+
+<D-Animation:converge>
+id = 2074
+delay = 3
+repeat = 32
+interval = 4
+ex = Graphics.boxWidth/3
+ey = Graphics.boxHeight/3*2
+radiusX /= 6 // 半径（Ｘ方向）
+radiusY /= 6 // 半径（Ｙ方向）
+</D-Animation>
+
+<D-Animation>
+delay = 108
+id = 2075
+</D-Animation>
+
+// アニメーション終了を待って実行
+<D-Motion>
+delay = 170
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

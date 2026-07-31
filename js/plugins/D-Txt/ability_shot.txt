@@ -1,0 +1,35 @@
+// 一歩前へ出る
+<D-Motion:stepForward>
+frame = 10
+ex = sx-$TILE
+</D-Motion>
+
+<D-Motion:gunshotR&noWait>
+delay = 10
+frame = 20
+arcY = 0
+condition = !b.result().missed && !b.result().evaded
+</D-Motion>
+
+<D-Motion:gunshotRmiss&noWait>
+delay = 10
+frame = 20
+arcY = 0
+condition = b.result().missed || b.result().evaded
+</D-Motion>
+
+<D-Animation>
+delay = 25
+script = BattleManager._targets[0].startDamageShake();
+condition = !b.result().missed && !b.result().evaded
+</D-Animation>
+
+<D-Animation>
+delay = 25
+id = 26
+condition = !b.result().missed && !b.result().evaded
+</D-Animation>
+
+<D-Animation>
+id = 1
+</D-Animation>

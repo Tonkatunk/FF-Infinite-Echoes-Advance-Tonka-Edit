@@ -1,0 +1,47 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+frame = 1
+</D-Motion>
+
+<D-Motion:tackle&near&foot>
+arcY = -$TILE
+playSe = {"name":"FF6 steal","volume":100,"pitch":100,"pan":0}
+frame = 10
+</D-Motion>
+
+<D-Motion:swingSword&noWait>
+frame = 10
+acrY = 0
+</D-Motion>
+
+<D-Animation>
+id = 448
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+</D-Animation>
+
+<D-Animation>
+id = 449
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+</D-Animation>
+
+<D-Motion:noWait&svDamage>
+performer = BattleManager._targets[0]
+condition = BattleManager.resultList()[0].hpDamage > 0;
+script = BattleManager._targets[0].startDamageShake();
+</D-Motion>
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+acrY = 0
+</D-Motion>
+
+<D-Motion:takeSword&noWait>
+delay = 10
+frame = 60
+acrY = 0
+</D-Motion>
+
+<D-Motion:delay&return>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

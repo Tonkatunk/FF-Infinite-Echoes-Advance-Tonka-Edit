@@ -1,0 +1,5 @@
+<D-Animation>
+sx = Graphics.boxWidth/4*3
+sy = Graphics.boxHeight
+ey = 0
+</D-Animation>

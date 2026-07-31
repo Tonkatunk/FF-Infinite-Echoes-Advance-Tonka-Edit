@@ -1,0 +1,38 @@
+// 前進禁止
+<D-Setting:NoStep>
+
+// 上空へ瞬間移動
+<D-Motion:crash&soon>
+ex = Graphics.boxWidth/2
+ey = -$TILE*5
+</D-Motion>
+<D-Motion:delay>
+script = a.afterimage().start();
+</D-Motion>
+
+// 降下
+<D-Motion:svItem&delay>
+playSe = FF5 landing
+ey = Graphics.boxHeight/3*2
+frame = 10
+</D-Motion>
+
+// しゃがみ
+<D-Motion:wait&svDying&noWait>
+script = a.removeState(23);
+frame = 191
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/3*2
+noShadow = false
+</D-Motion>
+<D-Animation>
+id = 1417
+</D-Animation>
+
+// 戻る
+<D-Motion:return>
+delay = 191
+script = a.afterimage().end();
+frame = 10
+arcY = -$TILE*2 // 少し高めにジャンプ
+</D-Motion>

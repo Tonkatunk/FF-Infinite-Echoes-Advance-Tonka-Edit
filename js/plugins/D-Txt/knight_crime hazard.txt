@@ -1,0 +1,26 @@
+<D-Motion:svThrust&pattern0&noWait&near&foot>
+arcY = -$TILE
+frame = 15
+</D-Motion>
+
+<D-Motion:swingSword&noWait>
+delay = 15
+arcY = 0
+frame = 10
+</D-Motion>
+
+<D-Animation>
+delay = 21
+id = 452
+</D-Animation>
+
+<D-Animation:screen>
+delay = 21
+z = 0
+id = 453
+</D-Animation>
+
+<D-Motion:takeSword&noWait>
+delay = 21
+frame = 40
+</D-Motion>

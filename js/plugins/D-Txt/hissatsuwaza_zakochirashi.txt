@@ -1,0 +1,112 @@
+<D-Animation:pierce>
+sx = a.x - a.width/2 * mirroring
+arrival = 20
+id = 1811
+afterimage = 10 // 残像数
+afterimageInterval = 1 // 残像間隔
+condition = BattleManager._targetNum > 0;
+target = target = BattleManager.indexTarget(0);
+</D-Animation>
+<D-Animation>
+delay = 10
+id = 1812
+condition = BattleManager._targetNum > 0;
+target = BattleManager.indexTarget(0);
+script = BattleManager.indexTarget(0).startDamageShake();
+</D-Animation>
+<D-Animation:self>
+sx = a.x - a.width/2 * mirroring
+id = 1813
+</D-Animation>
+
+<D-Animation:pierce>
+sx = a.x - a.width/2 * mirroring
+arrival = 20
+delay = 10
+id = 1811
+afterimage = 10 // 残像数
+afterimageInterval = 1 // 残像間隔
+condition = BattleManager._targetNum > 1;
+target = BattleManager.indexTarget(1);
+script = BattleManager.indexTarget(1).startDamageShake();
+</D-Animation>
+<D-Animation>
+delay = 20
+id = 1812
+condition = BattleManager._targetNum > 1;
+target = BattleManager.indexTarget(1);;
+</D-Animation>
+<D-Animation:self>
+sx = a.x - a.width/2 * mirroring
+delay = 10
+id = 1813
+</D-Animation>
+
+<D-Animation:pierce>
+sx = a.x - a.width/2 * mirroring
+arrival = 20
+delay = 20
+id = 1811
+afterimage = 10 // 残像数
+afterimageInterval = 1 // 残像間隔
+condition = BattleManager._targetNum > 2;
+target = BattleManager.indexTarget(2);
+</D-Animation>
+<D-Animation>
+delay = 30
+id = 1812
+condition = BattleManager._targetNum > 2;
+target = BattleManager.indexTarget(2);
+script = BattleManager.indexTarget(2).startDamageShake();
+</D-Animation>
+<D-Animation:self>
+sx = a.x - a.width/2 * mirroring
+delay = 20
+id = 1813
+</D-Animation>
+
+<D-Animation:pierce>
+sx = a.x - a.width/2 * mirroring
+arrival = 20
+delay = 30
+id = 1811
+afterimage = 10 // 残像数
+afterimageInterval = 1 // 残像間隔
+condition = BattleManager._targetNum > 3;
+target = BattleManager.indexTarget(3);
+</D-Animation>
+<D-Animation>
+delay = 40
+id = 1812
+condition = BattleManager._targetNum > 3;
+target = BattleManager.indexTarget(3);
+script = BattleManager.indexTarget(3).startDamageShake();
+</D-Animation>
+<D-Animation:self>
+sx = a.x - a.width/2 * mirroring
+delay = 30
+id = 1813
+</D-Animation>
+
+<D-Animation:pierce>
+sx = a.x - a.width/2 * mirroring
+arrival = 20
+delay = 40
+id = 1811
+afterimage = 10 // 残像数
+afterimageInterval = 1 // 残像間隔
+condition = BattleManager._targetNum > 4;
+target = BattleManager.indexTarget(4);
+</D-Animation>
+<D-Animation>
+delay = 50
+id = 1812
+condition = BattleManager._targetNum > 4;
+target = BattleManager.indexTarget(4);
+script = BattleManager.indexTarget(4).startDamageShake();
+</D-Animation>
+<D-Animation:self>
+sx = a.x - a.width/2 * mirroring
+delay = 40
+id = 1813
+</D-Animation>

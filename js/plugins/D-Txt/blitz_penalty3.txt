@@ -1,0 +1,103 @@
+//蹴る
+<D-Motion:svEvade&pattern2&noWait>
+frame = 40
+playSe = {"name":"2000 wind7","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+//ボールが弾む
+<D-Animation:self>
+id = 1161
+arcY = -24
+sx = a.x - 6
+ex = a.x - 6
+sy = a.y - 8
+ey = a.y - 18
+</D-Animation>
+
+-------------------------------------------------------------------------
+
+//ボールにペナルティエフェクト
+<D-Animation:self>
+delay = 20
+id = 1384
+sx = a.x - 6
+sy = a.y - 12
+</D-Animation>
+
+//ボール
+<D-Animation:self>
+delay = 20
+id = 1161
+sx = a.x - 6
+sy = a.y - 12
+</D-Animation>
+<D-Animation:self>
+delay = 40
+id = 1161
+sx = a.x - 6
+sy = a.y - 12
+</D-Animation>
+<D-Animation:self>
+delay = 60
+id = 1161
+sx = a.x - 6
+sy = a.y - 12
+</D-Animation>
+
+--------------------------------------------------------------------------
+
+//再度ボール弾む
+<D-Animation:self>
+id = 1161
+delay = 80
+arcY = -24
+sx = a.x - 6
+ex = a.x - 6
+sy = a.y - 8
+ey = a.y - 18
+</D-Animation>
+
+<D-Motion:thrustkick&noWait>
+delay = 90
+arcY = 0
+</D-Motion>
+
+--------------------------------------------------------------------------
+
+//ボール飛んでいく
+<D-Animation>
+delay = 100
+id = 1163
+sx = a.x -6
+ex = b.x
+sy = a.y - 18
+ey = b.y - b.height/2
+</D-Animation>
+
+//ヒットエフェクト
+<D-Animation>
+condition = !b.result().missed && !b.result().evaded
+delay = 110
+id = 1169
+</D-Animation>
+
+//ステート付加に成功したらエフェクト
+<D-Animation>
+condition = b.result().addedStates.length > 0
+delay = 110
+id = 1383
+</D-Animation>
+
+//反射して飛んでいくボール
+<D-Animation>
+delay = 110
+id = 1163
+sx = b.x
+ex = 0
+ey = Graphics.boxHeight/2
+sy = b.y - b.height/2
+</D-Animation>
+
+<D-Motion:return&delay>
+arcY = 0
+</D-Motion>

@@ -1,0 +1,34 @@
+<D-Motion:svSwing&noWait>
+frame = 60
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+id = 2087
+z = 0
+</D-Animation>
+
+<D-Motion>
+delay = 30
+plugin = tintBB12 64 64 64 64 64 64
+arcY = 0
+</D-Motion>
+
+<D-Animation:screen>
+id = 1424
+delay = 30
+sx = Graphics.boxWidth/3
+sy = Graphics.boxHeight/3*2
+</D-Animation>
+
+<D-Animation>
+id = 2093
+delay = 230
+z = 0
+</D-Animation>
+
+<D-Motion>
+delay = 260
+plugin = tintBB12 255 255 255 255 255 255
+arcY = 0
+</D-Motion>

@@ -1,0 +1,39 @@
+// 対象へ飛び込む
+<D-Motion:crash&svItem&wait>
+playSe = FF6 steal
+position = 2 // 足元
+frame = 15
+ex = b.x + b.width/2
+arcY = -$TILE*2
+</D-Motion>
+
+<D-Motion:thrustkick>
+arcY = 0
+</D-Motion>
+
+//10フレームウェイト
+<D-Animation:wait>
+id = 983
+</D-Animation>
+
+//リザルトに除外が含まれていたら吹っ飛ばす
+<D-Motion:target>
+condition = BattleManager._targets[0]._result.addedStates.includes(34)
+ex = (sx - Graphics.boxWidth) * mirroring
+frame = 10
+</D-Motion>
+
+<D-Animation:wait>
+id = 928
+</D-Animation>
+
+<D-Animation:delay>
+id = 1
+script = BattleManager._targets[0].addStateInMotion()
+</D-Animation>
+
+// 戻る
+<D-Motion:return>
+frame = 15
+arcY = -$TILE*2 // 少し高めにジャンプ
+</D-Motion>

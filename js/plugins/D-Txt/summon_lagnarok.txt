@@ -1,0 +1,40 @@
+<D-Motion>
+plugin = tintBB12 96 64 64 96 64 64
+</D-Motion>
+<D-Animation:wait>
+id = 990
+script = BattleManager.startSummonEffect();
+</D-Animation>
+
+<D-Animation:self>
+id = 1336
+sx = Graphics.boxWidth/4*3
+sy = Graphics.boxHeight/4*3
+z = 3.0
+</D-Animation>
+
+<D-Animation>
+id = 1337
+delay = 60
+sx = Graphics.boxWidth/4*3
+sy = Graphics.boxHeight/4*3-20
+condition = b.result().addedStates.length > 0
+script = a.useMagicStone(981);
+z = 3.1
+</D-Animation>
+
+<D-Animation>
+id = 1
+delay = 120
+script = BattleManager.gainMetamol(b)
+condition = b.result().addedStates.length > 0
+</D-Animation>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>
+<D-Animation:delay&wait>
+id = 1
+script = BattleManager.endSummonEffect();
+</D-Animation>

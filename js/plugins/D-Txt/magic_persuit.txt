@@ -1,0 +1,103 @@
+//同サイドが対象の場合、アニメーションを反転する
+<D-Setting:MirrorForFriend>
+
+<D-Animation>
+condition = BattleManager._targetNum > 0;
+target = BattleManager._firstTargets[0];
+id = BattleManager._firstTargets[0].getMagicAnimationId(BattleManager._action.item().meta.DAnimeId);
+</D-Animation>
+<D-Animation>
+condition = BattleManager._targetNum > 1;
+target = BattleManager._firstTargets[1];
+id = BattleManager._firstTargets[1].getMagicAnimationId(BattleManager._action.item().meta.DAnimeId);
+delay = Math.min(10,BattleManager._targetNum*10);
+</D-Animation>
+<D-Animation>
+condition = BattleManager._targetNum > 2;
+target = BattleManager._firstTargets[2];
+id = BattleManager._firstTargets[2].getMagicAnimationId(BattleManager._action.item().meta.DAnimeId);
+delay = Math.min(20,BattleManager._targetNum*10);
+</D-Animation>
+<D-Animation>
+condition = BattleManager._targetNum > 3;
+target = BattleManager._firstTargets[3];
+id = BattleManager._firstTargets[3].getMagicAnimationId(BattleManager._action.item().meta.DAnimeId);
+delay = Math.min(30,BattleManager._targetNum*10);
+</D-Animation>
+<D-Animation>
+condition = BattleManager._targetNum > 4;
+target = BattleManager._firstTargets[4];
+id = BattleManager._firstTargets[4].getMagicAnimationId(BattleManager._action.item().meta.DAnimeId);
+delay = Math.min(40,BattleManager._targetNum*10);
+</D-Animation>
+<D-Animation>
+condition = BattleManager._targetNum > 5;
+target = BattleManager._firstTargets[5];
+id = BattleManager._firstTargets[5].getMagicAnimationId(BattleManager._action.item().meta.DAnimeId);
+delay = Math.min(50,BattleManager._targetNum*10);
+</D-Animation>
+<D-Animation>
+condition = BattleManager._targetNum > 6;
+target = BattleManager._firstTargets[6];
+id = BattleManager._firstTargets[6].getMagicAnimationId(BattleManager._action.item().meta.DAnimeId);
+delay = Math.min(60,BattleManager._targetNum*10);
+</D-Animation>
+<D-Animation>
+condition = BattleManager._targetNum > 7;
+target = BattleManager._firstTargets[7];
+id = BattleManager._firstTargets[7].getMagicAnimationId(BattleManager._action.item().meta.DAnimeId);
+delay = Math.min(70,BattleManager._targetNum*10);
+</D-Animation>
+<D-Animation>
+condition = BattleManager._targetNum > 8;
+target = BattleManager._firstTargets[8];
+id = BattleManager._firstTargets[8].getMagicAnimationId(BattleManager._action.item().meta.DAnimeId);
+delay = Math.min(80,BattleManager._targetNum*10);
+</D-Animation>
+
+<D-Animation:delay>
+condition = BattleManager._reflectCount > 0;
+target = BattleManager._reflectTowards[0];
+id = BattleManager._action.item().meta.DAnimeId;
+</D-Animation>
+<D-Animation>
+condition = BattleManager._reflectCount > 1;
+target = BattleManager._reflectTowards[1];
+id = BattleManager._action.item().meta.DAnimeId;
+</D-Animation>
+<D-Animation>
+condition = BattleManager._reflectCount > 2;
+target = BattleManager._reflectTowards[2];
+id = BattleManager._action.item().meta.DAnimeId;
+</D-Animation>
+<D-Animation>
+condition = BattleManager._reflectCount > 3;
+target = BattleManager._reflectTowards[3];
+id = BattleManager._action.item().meta.DAnimeId;
+</D-Animation>
+<D-Animation>
+condition = BattleManager._reflectCount > 4;
+target = BattleManager._reflectTowards[4];
+id = BattleManager._action.item().meta.DAnimeId;
+</D-Animation>
+<D-Animation>
+condition = BattleManager._reflectCount > 5;
+target = BattleManager._reflectTowards[5];
+id = BattleManager._action.item().meta.DAnimeId;
+</D-Animation>
+<D-Animation>
+condition = BattleManager._reflectCount > 6;
+target = BattleManager._reflectTowards[6];
+id = BattleManager._action.item().meta.DAnimeId;
+</D-Animation>
+<D-Animation>
+condition = BattleManager._reflectCount > 7;
+target = BattleManager._reflectTowards[7];
+id = BattleManager._action.item().meta.DAnimeId;
+</D-Animation>
+<D-Animation>
+condition = BattleManager._reflectCount > 8;
+target = BattleManager._reflectTowards[8];
+id = BattleManager._action.item().meta.DAnimeId;
+</D-Animation>
+

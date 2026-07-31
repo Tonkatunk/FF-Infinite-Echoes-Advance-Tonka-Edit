@@ -1,0 +1,57 @@
+<D-Animation:screen>
+id = 560
+</D-Animation>
+
+<D-Animation:screen>
+delay = 20
+id = 557
+z = 0
+</D-Animation>
+<D-Animation:screen>
+delay = 86
+id = 557
+z = -1
+</D-Animation>
+
+<D-Animation:screen>
+delay = 40
+sx = 0
+ex = Graphics.boxWidth
+sy = Graphics.boxHeight/4
+ey = Graphics.boxHeight/4*3
+id = 558
+</D-Animation>
+
+<D-Animation:screen>
+delay = 100
+sx = Graphics.boxWidth
+ex = 0
+sy = Graphics.boxHeight/4
+ey = Graphics.boxHeight/4*3
+id = 558
+</D-Animation>
+
+<D-Animation:screen>
+delay = 160
+sx = Graphics.boxWidth/2
+ex = Graphics.boxWidth/2
+sy = Graphics.boxHeight/6
+ey = Graphics.boxHeight/2
+id = 559
+</D-Animation>
+
+<D-Animation:screen>
+delay = 220
+id = 561
+</D-Animation>
+
+<D-Animation>
+delay = 280
+id = 562
+</D-Animation>
+
+<D-Animation:screen>
+delay = 280
+id = 563
+z = 0
+</D-Animation>

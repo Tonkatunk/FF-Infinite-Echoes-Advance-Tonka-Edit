@@ -1,0 +1,182 @@
+<D-Animation:screen>
+id = 2249
+z = 0
+</D-Animation>
+<D-Animation:self>
+id = 1
+delay = 60
+plugin = tintBB12 64 64 64 64 64 64
+</D-Animation>
+
+<D-Motion:svItem&noWait>
+frame = 10
+arcY = -16
+ey = BattleManager.indexTarget(0).y
+ex = BattleManager.indexTarget(0).x+BattleManager.indexTarget(0).width/2 + 32
+</D-Motion>
+
+<D-Motion:tackle&noWait>
+delay = 10
+frame = 10
+arcY = 0
+ex = BattleManager.indexTarget(0).x-BattleManager.indexTarget(0).width/2 - 32
+</D-Motion>
+
+<D-Animation>
+delay = 15
+id = 2316
+target = BattleManager.indexTarget(0)
+</D-Animation>
+
+<D-Motion:svGuard&noWait&mirror>
+delay = 20
+frame = 30
+arcY = 0
+</D-Motion>
+
+<D-Motion:svItem&noWait&mirror>
+delay = 50
+frame = 20
+script = a.addState(66);
+</D-Motion>
+
+<D-Animation:self>
+delay = 50
+id = 2319
+</D-Animation>
+
+<D-Motion:swingSword&noWait&mirror>
+delay = 70
+frame = 20
+ex = BattleManager.indexTarget(0).x+BattleManager.indexTarget(0).width/2 + 16
+arcY = -16
+</D-Motion>
+
+<D-Animation>
+delay = 80
+id = 499
+scaleX = -1
+target = BattleManager.indexTarget(0)
+</D-Animation>
+
+<D-Motion:svGuard&noWait&mirrorOff>
+delay = 90
+frame = 59
+arcY = 0
+</D-Motion>
+
+<D-Animation:self>
+delay = 90
+id = 2320
+</D-Animation>
+
+<D-Motion:swingClaymore&noWait>
+delay = 150
+frame = 30
+arcY = 0
+playSe = FF7 encount
+</D-Motion>
+
+<D-Animation:shot>
+delay = 150
+arcY = -24
+id = 2321
+afterimage = 10 // 残像数
+afterimageInterval = 3 // 残像間隔
+target = BattleManager.indexTarget(1)
+</D-Animation>
+
+<D-Animation:shot>
+delay = 153
+arcY = 24
+id = 2321
+afterimage = 10 // 残像数
+afterimageInterval = 3 // 残像間隔
+target = BattleManager.indexTarget(1)
+</D-Animation>
+
+<D-Animation:shot>
+delay = 156
+id = 2321
+afterimage = 10 // 残像数
+afterimageInterval = 3 // 残像間隔
+target = BattleManager.indexTarget(1)
+</D-Animation>
+
+<D-Animation>
+delay = 166
+id = 2322
+target = BattleManager.indexTarget(1)
+</D-Animation>
+
+<D-Motion:svItem&noWait>
+delay = 190
+frame = 20
+script = a.removeState(66);
+</D-Motion>
+
+<D-Animation:self>
+delay = 190
+id = 2323
+</D-Animation>
+
+<D-Motion:swingSword&noWait>
+delay = 220
+frame = 30
+ex = -16
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+delay = 230
+id = 2317
+sx = Graphics.boxWidth/3
+sy = Graphics.boxHeight/2
+</D-Animation>
+
+<D-Animation>
+delay = 240
+id = 2317
+sx = Graphics.boxWidth/3
+sy = Graphics.boxHeight/2
+rotation = Math.PI * 2 * 0.75
+</D-Animation>
+
+<D-Animation>
+delay = 260
+id = 2318
+sx = Graphics.boxWidth/3
+sy = Graphics.boxHeight/2
+</D-Animation>
+
+<D-Animation>
+delay = 270
+id = 2318
+sx = Graphics.boxWidth/3
+sy = Graphics.boxHeight/2
+rotation = Math.PI * 2 * 0.75
+</D-Animation>
+
+<D-Animation>
+delay = 260
+id = 2324
+</D-Animation>
+
+<D-Animation:screen>
+delay = 360
+id = 2250
+z = 0
+plugin = tintBB12 255 255 255 255 255 255
+</D-Animation>
+
+
+<D-Motion:home&noWait>
+delay = 360
+frame = 20
+arcY = -16
+</D-Motion>
+<D-Motion:return>
+delay = 380
+frame = 1
+arcY = -0
+</D-Motion>

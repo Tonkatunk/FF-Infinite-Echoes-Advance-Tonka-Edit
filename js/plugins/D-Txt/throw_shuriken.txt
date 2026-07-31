@@ -1,0 +1,30 @@
+//隠れていた場合行動者の座標を画面外へセット
+<D-Motion:soon&wait>
+condition = a.isStateAffected(21);
+ex = sx+$TILE*6;
+</D-Motion>
+
+// アクターなら一歩前へ出る
+<D-Motion:stepForward>
+condition = a.isActor();
+ex = sx-$TILE;
+</D-Motion>
+
+<D-Motion:thrust/>
+
+<D-Animation:shot>
+arrival = 10;
+sy = a.y - $DOT*6;
+</D-Animation>
+<D-Motion>
+    delay = 10
+    condition = !BattleManager.resultList()[0].missed && !BattleManager.resultList()[0].evaded;
+    target = BattleManager.indexTarget(0)
+    script = BattleManager.indexTarget(0).startDamageShake();
+</D-Motion>
+
+//隠れていた場合ランダムで現れる
+<D-Motion:home>
+condition = a.isStateAffected(21)&&Math.random()<0.5
+script = a.removeState(21)
+</D-Motion>

@@ -1,0 +1,58 @@
+<D-Motion:jump&wait&svGuard>
+playSe = FF6 dance hop
+arcY = -$DOT*10
+frame = 10
+</D-Motion>
+
+<D-Motion:jump&wait&svGuard>
+playSe = FF6 dance hop
+arcY = -$DOT*10
+frame = 10
+</D-Motion>
+
+<D-Motion:wait&dancespin>
+playSe = FF6 dance spin
+frame = 30
+</D-Motion>
+
+<D-Animation>
+delay = 20
+id = 2298
+sy = Graphics.boxHeight/2+48
+z = 0
+</D-Animation>
+<D-Animation>
+delay = 220
+id = 2299
+sy = Graphics.boxHeight/2+48
+z = 0
+</D-Animation>
+
+<D-Animation>
+playSe = {"name":"MZ wind10","volume":90,"pitch":70,"pan":0}
+delay = 80
+id = 2304
+sx = Graphics.boxWidth/2
+</D-Animation>
+<D-Animation>
+playSe = {"name":"MZ wind11","volume":90,"pitch":70,"pan":0}
+delay = 140
+id = 2304
+sx = Graphics.boxWidth/2
+</D-Animation>
+<D-Animation>
+playSe = {"name":"MZ wind11","volume":90,"pitch":70,"pan":0}
+delay = 200
+id = 2304
+sx = Graphics.boxWidth/2
+</D-Animation>
+
+<D-Animation:rain>
+delay = 180
+repeat = 40
+id = 2305
+arrival = 10 // 到達フレーム
+sx += 100 * mirroring // 始点Ｘ座標
+ex -= 150 * mirroring // 終点Ｘ座標
+ey += 16
+</D-Animation>

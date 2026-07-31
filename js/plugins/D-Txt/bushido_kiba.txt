@@ -1,0 +1,36 @@
+<D-Motion:takeSword&near&noWait>
+script = a.afterimage().start();
+frame = 10
+arcY = -16
+playSe = FF6 steal
+</D-Motion>
+
+<D-Motion:takeSword&noWait>
+delay = 10
+frame = 40
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+delay = 10
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+id = 1942
+</D-Animation>// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion:target&noWait&svDamage>
+delay = 10
+condition = BattleManager.resultList()[0].hpDamage > 0;
+script = BattleManager._targets[0].startDamageShake();
+</D-Motion>
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+delay = 10
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Motion:svItem&return>
+script = a.afterimage().end();
+delay = 50
+arcY = -16
+</D-Motion>

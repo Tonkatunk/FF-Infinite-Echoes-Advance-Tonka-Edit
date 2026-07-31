@@ -1,0 +1,31 @@
+<D-Animation>
+condition = BattleManager._reflectCount > 0;
+id = 408
+</D-Animation>
+
+<D-Animation>
+condition = BattleManager._targetNum > 0;
+id = 416;
+</D-Animation>
+
+<D-Motion>
+delay = 56
+performer = BattleManager._targets[0]
+condition = BattleManager._targetNum > 0;
+scale = 1 + 0.2*(t+56)/(et+56)
+frame = 20
+</D-Motion>
+<D-Motion>
+delay = 76
+performer = BattleManager._targets[0]
+condition = BattleManager._targetNum > 0;
+scale = 1.2 - (0.6*(t+76)/(et+76))
+frame = 20
+</D-Motion
+<D-Motion>
+delay = 96
+performer = BattleManager._targets[0]
+condition = BattleManager._targetNum > 0;
+scale = 0.5 + 0.5*(t+96)/(et+96)
+frame = 20
+</D-Motion>

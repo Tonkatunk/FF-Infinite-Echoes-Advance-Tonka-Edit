@@ -1,0 +1,105 @@
+<D-Animation>
+id = 1431
+z = 2
+playSe = FF6 phantom
+script = a.setUshinokoku();
+</D-Animation>
+
+<D-Animation:self>
+id = 1354
+sxRandom = a.width
+syRandom = a.height
+exRandom = a.width
+eyRandom = a.height
+</D-Animation>
+
+<D-Animation:self>
+id = 1354
+sxRandom = a.width
+syRandom = a.height
+exRandom = a.width
+eyRandom = a.height
+delay = 10
+</D-Animation>
+
+<D-Animation:self>
+id = 1354
+sxRandom = a.width
+syRandom = a.height
+exRandom = a.width
+eyRandom = a.height
+delay = 20
+</D-Animation>
+
+<D-Animation:self>
+id = 1354
+sxRandom = a.width
+syRandom = a.height
+exRandom = a.width
+eyRandom = a.height
+delay = 30
+plugin = tintBB12 0 0 0 0 0 0
+</D-Animation>
+
+<D-Animation>
+id = 1706
+delay = 45
+condition = BattleManager.resultList().length > 0;
+target = BattleManager.indexTarget(0)
+</D-Animation>
+<D-Animation>
+id = 1706
+delay = 45
+condition = BattleManager.resultList().length > 1;
+target = BattleManager.indexTarget(1)
+</D-Animation>
+<D-Animation>
+id = 1706
+delay = 45
+condition = BattleManager.resultList().length > 2;
+target = BattleManager.indexTarget(2)
+</D-Animation>
+<D-Animation>
+id = 1706
+delay = 45
+condition = BattleManager.resultList().length > 3;
+target = BattleManager.indexTarget(3)
+</D-Animation>
+<D-Animation>
+id = 1706
+delay = 45
+condition = BattleManager.resultList().length > 4;
+target = BattleManager.indexTarget(4)
+</D-Animation>
+
+<D-Motion:noWait>
+delay = 45
+condition = BattleManager.resultList().length > 0 && BattleManager.indexTarget(0).isAlive();
+script = BattleManager.indexTarget(0).startDamageShake();
+</D-Motion>
+<D-Motion:noWait>
+delay = 45
+condition = BattleManager.resultList().length > 1 && BattleManager.indexTarget(1).isAlive();
+script = BattleManager.indexTarget(1).startDamageShake();
+</D-Motion>
+<D-Motion:noWait>
+delay = 45
+condition = BattleManager.resultList().length > 2 && BattleManager.indexTarget(2).isAlive();
+script = BattleManager.indexTarget(2).startDamageShake();
+</D-Motion>
+<D-Motion:noWait>
+delay = 45
+condition = BattleManager.resultList().length > 3 && BattleManager.indexTarget(3).isAlive();
+script = BattleManager.indexTarget(3).startDamageShake();
+</D-Motion>
+<D-Motion:noWait>
+delay = 45
+condition = BattleManager.resultList().length > 4 && BattleManager.indexTarget(4).isAlive();
+script = BattleManager.indexTarget(4).startDamageShake();
+</D-Motion>
+<D-Animation>
+delay = 60
+id = 1432
+z = 2
+plugin = tintBB12 255 255 255 255 255 255
+</D-Animation>

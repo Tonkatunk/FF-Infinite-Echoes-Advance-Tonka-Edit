@@ -1,0 +1,24 @@
+//効果音
+<D-Motion>
+playSe = {"name":"MZ sand","volume":90,"pitch":50,"pan":0}
+</D-Motion>
+
+<D-Animation>
+id = 941
+frame = 60
+repeat = 16
+interval = 5
+sx = a.x
+ex = a.x-Graphics.boxWidth*mirroring
+sy = a.y-a.width*2/3
+ey = Graphics.boxHeight/4+Math.sin(Math.PI / 8 * (r%8))*$TILE*6
+</D-Animation>
+
+//爆発ランダム
+<D-Animation:randomAll>
+repeat = 20
+interval = 5
+sx = defaultX - $TILE*1*mirroring 
+sy = defaultY + $TILE
+id = 942
+</D-Animation>

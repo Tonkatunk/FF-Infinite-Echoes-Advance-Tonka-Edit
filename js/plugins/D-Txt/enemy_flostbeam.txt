@@ -1,0 +1,15 @@
+//同サイドが対象の場合、アニメーションを反転する
+<D-Setting:MirrorForFriend>
+
+//リフレク
+<D-Animation>
+condition = BattleManager._targetNum > 0;
+target = BattleManager._firstTargets[0];
+id = BattleManager._firstTargets[0].getMagicAnimationId(BattleManager._action.item().meta.DAnimeId);
+</D-Animation>
+
+//放射
+<D-Animation:beam>
+target = BattleManager._targets[0];
+id = 1601
+</D-Animation>

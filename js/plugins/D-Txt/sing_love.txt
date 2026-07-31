@@ -1,0 +1,20 @@
+<D-Motion:svChant>
+frame = 140
+</D-Motion>
+
+<D-Animation:screen>
+id = 590
+z = 0
+</D-Animation>
+<D-Animation:self>
+id = 588
+</D-Animation>
+<D-Animation>
+delay = 60
+id = 589
+</D-Animation>
+
+<D-Motion:delay&return>
+arcY = 0
+script = a.addState(59)
+</D-Motion>

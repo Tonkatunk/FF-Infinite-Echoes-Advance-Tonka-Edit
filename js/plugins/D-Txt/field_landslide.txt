@@ -1,0 +1,29 @@
+<D-Animation>
+delay = 0
+id = 1
+script = BattleManager.startSummonEffect();
+</D-Animation>
+
+<D-Animation:screen>
+delay = 60
+id = 1357
+sy = Graphics.boxHeight/2+48
+</D-Animation>
+
+<D-Animation:screen>
+delay = 105
+id = 1357
+sy = Graphics.boxHeight/2+48
+</D-Animation>
+
+<D-Animation:screen>
+delay = 150
+id = 1357
+sy = Graphics.boxHeight/2+48
+</D-Animation>
+
+<D-Animation>
+id = 1
+delay = 270
+script = BattleManager.endSummonEffect();
+</D-Animation>

@@ -1,0 +1,18 @@
+<D-Motion:swingW&nowait>
+</D-Motion>
+
+<D-Animation:shot&wait>
+repeat = 3
+interval = 8
+delay = 20
+afterimage = 5 // 残像数
+afterimageInterval = 2 // 残像間隔
+sx = a.x
+id = 578
+arrival = 16 // 到達フレーム
+script = target.startMagicNockback(10,16,BattleManager._firstTargets[0].getMagicAnimationId(BattleManager._action.item().meta.DAnimeId),BattleManager.resultList()[0]);
+</D-Animation>
+
+<D-Motion:return&delay>
+arcY = 0
+</D-Motion>

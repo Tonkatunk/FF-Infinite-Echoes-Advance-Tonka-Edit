@@ -1,0 +1,47 @@
+<D-Motion:jump&wait&svGuard>
+playSe = FF6 dance hop
+arcY = -$DOT*10
+frame = 10
+</D-Motion>
+
+<D-Motion:jump&wait&svGuard>
+playSe = FF6 dance hop
+arcY = -$DOT*10
+frame = 10
+</D-Motion>
+
+<D-Motion:wait&dancespin>
+playSe = FF6 dance spin
+frame = 30
+</D-Motion>
+
+<D-Animation>
+delay = 20
+id = 2296
+sy = Graphics.boxHeight/2+48
+z = 0
+</D-Animation>
+<D-Animation>
+delay = 220
+id = 2297
+sy = Graphics.boxHeight/2+48
+z = 0
+</D-Animation>
+
+<D-Animation:screen>
+playSe = {"name":"FF7 gospel1","volume":90,"pitch":100,"pan":0}
+delay = 90
+id = 1159
+sy = 48
+sx = Graphics.boxWidth/2
+</D-Animation>
+
+<D-Animation>
+delay = 190
+id = 2306
+</D-Animation>
+<D-Animation>
+playSe = {"name":"FF7 gospel3","volume":90,"pitch":100,"pan":0}
+delay = 210
+id = 1
+</D-Animation>

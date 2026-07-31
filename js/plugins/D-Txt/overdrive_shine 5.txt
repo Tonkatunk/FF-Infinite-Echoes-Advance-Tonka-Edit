@@ -1,0 +1,195 @@
+<D-Animation>
+    id = 2087
+    z = 0
+</D-Animation>
+
+<D-Motion:noWait>
+    delay = 30
+    plugin = tintBB12 127 127 127 127 127 127
+</D-Motion>
+
+<D-Animation>
+id = 2173
+z = 2.9
+sx = Graphics.boxWidth*3/4
+sy = -Graphics.boxHeight
+ey = Graphics.boxHeight/2
+arrival = 22
+</D-Animation>
+
+<D-Motion:tackle&noWait>
+delay = 17
+frame = 20
+ex = Graphics.boxWidth*29/40
+ey = Graphics.boxHeight*9/10
+arcY = -8
+playSe = FF6 steal
+</D-Motion>
+<D-Motion:thrustkick&noWait>
+delay = 37
+arcY = 0
+</D-Motion>
+<D-Animation>
+target = BattleManager._targets[0]
+delay = 45
+id = 2171
+arrival = 10
+sx = a.x - 16
+sy = a.y - 16
+ex = b.x
+ey = b.y - b.height/2
+</D-Animation>
+
+<D-Motion:tackle&noWait>
+delay = 47
+frame = 20
+ex = a.x - 8
+ey = a.y - 40
+arcY = 0
+</D-Motion>
+<D-Motion:thrustkick&noWait>
+delay = 67
+arcY = 0
+</D-Motion>
+<D-Animation>
+target = BattleManager._targets[1]
+delay = 75
+id = 2171
+arrival = 10
+sx = a.x - 16
+sy = a.y - 16
+ex = b.x
+ey = b.y - b.height/2
+</D-Animation>
+
+<D-Motion:roll&svItem&noWait>
+delay = 85
+frame = 12
+ex = a.x + 12
+ey = a.y - 46
+arcY = -16
+rotation *= -1
+</D-Motion>
+<D-Motion:kick&noWait>
+delay = 97
+arcY = 0
+</D-Motion>
+<D-Animation>
+target = BattleManager._targets[2]
+delay = 105
+id = 2171
+arrival = 10
+sx = a.x - 16
+sy = a.y - 16
+ex = b.x
+ey = b.y - b.height/2
+</D-Animation>
+
+<D-Motion:tackle&noWait>
+delay = 107
+frame = 20
+ex = a.x + 16
+ey = a.y + 28
+arcY = 0
+</D-Motion>
+<D-Motion:thrustkick&noWait>
+delay = 127
+arcY = 0
+</D-Motion>
+<D-Animation>
+delay = 135
+target = BattleManager._targets[3]
+id = 2171
+arrival = 10
+sx = a.x - 16
+sy = a.y - 16
+ex = b.x
+ey = b.y - b.height/2
+</D-Animation>
+
+<D-Motion:tackle&noWait>
+delay = 137
+frame = 20
+ey = a.y + 44
+arcY = 0
+</D-Motion>
+<D-Motion:thrustkick&noWait>
+delay = 157
+arcY = 0
+</D-Motion>
+<D-Animation>
+delay = 165
+target = BattleManager._targets[4]
+id = 2171
+arrival = 10
+sx = a.x - 16
+sy = a.y - 16
+ex = b.x
+ey = b.y - b.height/2
+</D-Animation>
+
+<D-Motion:svItem&noWait>
+delay = 167
+ey = a.y - 48
+arcY = 0
+frame = 10
+playSe = FF6 steal
+</D-Motion>
+<D-Motion:svItem&noWait&pattern0>
+delay = 177
+arcY = 0
+frame = 25
+</D-Motion>
+<D-Animation:follow&self>
+delay = 172
+id = 2172
+</D-Animation>
+<D-Motion:fastpunch&noWait>
+delay = 202
+arcY = 0
+frame = 10
+</D-Motion>
+<D-Animation>
+delay = 202
+target = BattleManager._targets[5]
+id = 2174
+sx = a.x
+sy = a.y
+ex = b.x
+ey = b.y - b.height/2
+arrival = 10
+</D-Animation>
+<D-Animation>
+delay = 272
+target = BattleManager._targets[5]
+id = 2175
+</D-Animation>
+
+<D-Motion:home&noWait>
+delay = 212
+arcY = -16
+frame = 20
+</D-Motion>
+
+<D-Motion:svItem&noWait&pattern0>
+delay = 260
+arcY = 0
+frame = 90
+</D-Motion>
+
+<D-Animation>
+    delay = 272
+    id = 2093
+    z = 0
+</D-Animation>
+
+<D-Motion:noWait>
+    delay = 272
+    plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>
+
+<D-Motion:return&noWait>
+delay = 350
+frame = 20
+arcY = 0
+</D-Motion>

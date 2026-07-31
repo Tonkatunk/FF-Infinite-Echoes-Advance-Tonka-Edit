@@ -1,0 +1,59 @@
+<D-Motion:svItem&wait>
+playSe = FF6 steal
+arcY = -$TILE/2;
+ex = sx + $TILE
+frame = 12;
+</D-Motion>
+
+// 対象へタックル
+<D-Motion:crash&tackle>
+position = 2 // 足元
+frame = 10
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+id = 1198
+condition = !(BattleManager._targets[0].result().missed || BattleManager._targets[0].result().evaded)
+target = BattleManager._targets[0]
+script = BattleManager._targets[0].startDamageShake();
+</D-Animation>
+<D-Animation:noWait>
+condition = BattleManager._targets[0].result().missed || BattleManager._targets[0].result().evaded
+id = 113
+target = BattleManager._targets[0]
+</D-Animation>
+<D-Motion:tackle>
+sx = b.x
+ex = b.x - 32
+frame = 20
+arcY = 0
+</D-Motion>
+<D-Motion:tackle&noWait>
+sx = b.x - 32
+frame = 20
+arcY = 0
+</D-Motion>
+<D-Motion:svGuard&noWait>
+delay = 20
+frame = 40
+arcY = 0
+</D-Motion>
+
+<D-Animation:self&follow>
+delay = 20
+condition = !(BattleManager._targets[0].result().missed || BattleManager._targets[0].result().evaded)
+</D-Animation>
+
+<D-Motion:home&noWait>
+delay = 50
+arcY = -$TILE/2;
+frame = 20
+</D-Motion>
+
+//returnするとダメージ表示
+<D-Motion:return>
+delay = 70
+frame = 1
+arcY = -$TILE/2;
+</D-Motion>

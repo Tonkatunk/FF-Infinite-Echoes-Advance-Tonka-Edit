@@ -1,0 +1,12 @@
+<D-Motion:svItem&noWait>
+arcY = 0
+</D-Motion>
+
+<D-Animation:screen>
+sx = a.x
+sy = a.y
+ex = Graphics.boxWidth/4
+ey = Graphics.boxHeight
+arrival = 240
+id = 1983
+</D-Animation>

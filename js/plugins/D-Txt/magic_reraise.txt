@@ -1,0 +1,21 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+
+<D-Animation>
+condition = BattleManager._reflectCount > 0;
+id = 408
+</D-Animation>
+
+<D-Animation>
+id = 227;
+</D-Animation>
+
+<D-Animation:wait>
+id = 239;
+</D-Animation>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

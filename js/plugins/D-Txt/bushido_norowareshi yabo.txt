@@ -1,0 +1,14 @@
+<D-Motion:svItem>
+frame = 30
+</D-Motion>
+<D-Animation:self>
+id = 1614
+z = 0
+</D-Animation>
+<D-Animation:self>
+id = 1934
+</D-Animation>
+<D-Animation>
+id = 1935
+delay = 20
+</D-Animation>

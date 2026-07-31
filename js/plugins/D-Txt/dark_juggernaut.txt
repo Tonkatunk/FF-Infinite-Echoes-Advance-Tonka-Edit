@@ -1,0 +1,21 @@
+<D-Motion:attack0/>
+
+<D-Animation:self&wait>
+id = 496
+</D-Animation>
+
+<D-Motion:swing&attack2/>
+
+<D-Animation:self>
+id = 495
+</D-Animation>
+
+<D-Animation>
+frame = 60
+repeat = 16
+interval = 5
+sx = a.x-a.width/2*mirroring
+ex = a.x-Graphics.boxWidth*mirroring
+sy = a.y-a.width*2/3
+ey = Graphics.boxHeight/4+Math.sin(Math.PI / 8 * (r%8))*$TILE*6
+</D-Animation>

@@ -1,0 +1,83 @@
+<D-Motion:svWalk&noWait>
+ex = BattleManager.indexTarget(0).x + BattleManager.indexTarget(0).width/2 +32;
+ey = BattleManager.indexTarget(0).y;
+frame = 20
+playSe = {"name":"FF7 dash","volume":100,"pitch":100,"pan":0}
+plugin = tintBB12 127 127 127 127 127 127
+</D-Motion>
+
+<D-Motion:raiseGunblade&noWait>
+delay = 20
+frame = 120
+arcY = 0
+</D-Motion>
+
+<D-Animation:self>
+delay = 20
+sx = a.x
+sy = a.y - 48
+id = 1690
+playSe = {"name":"FF8 merton1","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+
+<D-Animation:self>
+delay = 80
+id = 1691
+sy = a.y - 16
+playSe = {"name":"FF5 warp","volume":100,"pitch":100,"pan":0}
+scaleX = 0.25
+</D-Animation>
+<D-Animation:screen>
+delay = 80
+id = 1692
+</D-Animation>
+<D-Animation:self>
+delay = 80
+id = 1693
+sy = a.y - 48 - r*15
+repeat = 8
+nextDelay = 0
+</D-Animation>
+
+<D-Animation>
+delay = 140
+id = 1691
+sx = a.x
+sy = a.y - 16
+scaleX = 0.25
+rotation = t < 20 ? (360-((t/20)*90))/360 * Math.PI * 2 : 270/360 * Math.PI * 2
+</D-Animation>
+<D-Motion:stubGunblade&noWait>
+delay = 150
+frame = 60
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+delay = 160
+id = 1694
+sy = b.y
+sx = b.x - 32 * (r-1)
+scaleX = 0.75
+scaleY = 0.75
+repeat = 6
+nextDelay = 8
+</D-Animation>
+<D-Motion:target>
+delay = 160
+playSe = {"name":"FF8 suicide short2","volume":100,"pitch":100,"pan":0}
+script = b.startDamageShake();
+</D-Motion>
+
+<D-Motion:home&svItem>
+delay = 220
+arcY = -16
+frame = 20
+ex = a._homeX
+ey = a._homeY
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>
+<D-Motion:return&delau>
+arcY = 0
+frame = 1
+</D-Motion>

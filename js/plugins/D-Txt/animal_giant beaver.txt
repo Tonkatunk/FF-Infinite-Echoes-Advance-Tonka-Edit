@@ -1,0 +1,11 @@
+<D-Animation>
+sx = Graphics.boxWidth+32
+ex = -32
+sy = Graphics.boxHeight/2
+</D-Animation>
+<D-Animation>
+sx = Graphics.boxWidth+32
+ex = -32
+sy = Graphics.boxHeight/2
+id = 1318
+</D-Animation>

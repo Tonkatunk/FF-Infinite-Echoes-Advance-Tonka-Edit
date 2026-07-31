@@ -1,0 +1,24 @@
+//効果音
+<D-Motion>
+playSe = {"name":"MZ Fire9","volume":90,"pitch":50,"pan":0}
+</D-Motion>
+
+//マグマ放射
+<D-Animation>
+id = 886
+sx = a.x-a.width/2*mirroring-(a.x-a.width/2*mirroring-b.x)/10*r
+ex = a.x-a.width/2*mirroring-(a.x-a.width/2*mirroring-b.x)/10*r
+sy = a.y-(a.y-b.y)/10*r-a.height/3
+ey = a.y-(a.y-b.y)/10*r-a.height/3
+interval = 2
+scale = 0.5
+repeat = 20
+</D-Animation>
+
+//燃える
+<D-Animation>
+delay = 20
+repeat = 4
+interval = 10
+id = 916
+</D-Animation>

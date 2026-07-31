@@ -1,0 +1,81 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+playSe = {"name":"FF5 whirlpoolR","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation:converge&screen>
+id = 2005
+repeat = 30
+interval = 4
+ex = Graphics.boxWidth/3
+ey = Graphics.boxHeight/3*2
+radiusX /= 6 // 半径（Ｘ方向）
+radiusY /= 6 // 半径（Ｙ方向）
+</D-Animation>
+
+<D-Animation:screen>
+delay = 150
+id = 2010
+z = 0
+</D-Animation>
+
+<D-Animation>
+delay = 170
+sx = Graphics.boxWidth/3
+sy = Graphics.boxHeight/3*2
+id = 2006
+</D-Animation>
+
+<D-Animation>
+delay = 212
+sx = Graphics.boxWidth/3
+sy = Graphics.boxHeight/3*2
+id = 2008
+</D-Animation>
+
+<D-Animation:randomCircle>
+delay = 240
+id = 2007
+repeat = 50
+interval = 3
+scaleX = 0.25
+scaleY = 0.25
+sx = Graphics.boxWidth/3
+sy = Graphics.boxHeight/3*2
+sxRandom = 120-(50-r)*2 // 始点Ｘ座標分散
+</D-Animation>
+
+<D-Animation:randomCircle>
+delay = 241
+id = 2007
+repeat = 50
+scaleX = 0.125
+scaleY = 0.125
+interval = 3
+sx = Graphics.boxWidth/3
+sy = Graphics.boxHeight/3*2
+sxRandom = 120-(50-r)*2 // 始点Ｘ座標分散
+</D-Animation>
+
+<D-Animation:randomCircle>
+delay = 242
+id = 2007
+repeat = 50
+scaleX = 0.375
+scaleY = 0.375
+interval = 3
+sx = Graphics.boxWidth/3
+sy = Graphics.boxHeight/3*2
+sxRandom = 120-(50-r)*2 // 始点Ｘ座標分散
+</D-Animation>
+
+<D-Motion>
+delay = 240
+playSe = {"name":"FF6 beatBoss","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+delay = 440
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

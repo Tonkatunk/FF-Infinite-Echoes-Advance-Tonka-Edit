@@ -1,0 +1,20 @@
+<D-Animation>
+id = 417
+z = 0
+</D-Animation>
+
+<D-Motion:target>
+condition = b.result().addedStates.length > 0
+ex = Graphics.boxWidth/2
+ey = Graphics.boxHeight/2
+frame = 40
+scale = 1 - (t/et)
+</D-Motion>
+
+<D-Motion:target&delay>
+condition = b.result().addedStates.length > 0
+ex = -Graphics.boxWidth/2
+ey = -Graphics.boxHeight/2
+scale = 0
+frame = 0
+</D-Motion>

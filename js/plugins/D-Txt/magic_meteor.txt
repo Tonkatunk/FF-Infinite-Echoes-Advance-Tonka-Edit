@@ -1,0 +1,362 @@
+//同サイドが対象の場合、アニメーションを反転する
+<D-Setting:MirrorForFriend>
+
+<D-Animation:screen>
+id = 423
+sx = defaultX + 12 * mirroring
+</D-Animation>
+
+<D-Animation:screen>
+id = 422
+</D-Animation>
+
+<D-Animation:screen>
+delay = 80
+id = 368
+</D-Animation>
+
+<D-Animation:screen>
+playSe = {"name":"FF8 meteor2","volume":90,"pitch":100,"pan":0}
+delay = 100
+id = 424
+z = 0
+</D-Animation>
+
+<D-Animation:screen>
+delay = 292
+id = 425
+z = 0
+</D-Animation>
+
+<D-Animation:screen>
+delay = 484
+id = 426
+z = 0
+</D-Animation>
+
+<D-Animation:screen>
+delay = 676
+id = 427
+z = 0
+</D-Animation>
+
+<D-Animation:screen>
+playSe = {"name":"FF8 meteor2","volume":90,"pitch":100,"pan":0}
+id = 428
+delay = 200
+arrival = 10
+sy = -Graphics.boxHeight/2 - $TILE*3
+ey = Graphics.boxHeight - $TILE*3
+sx = Graphics.boxWidth+$TILE*4
+ex = Graphics.boxWidth/2-$TILE*2
+scale = 2
+</D-Animation>
+
+<D-Animation:screen>
+playSe = {"name":"FF8 meteor3","volume":90,"pitch":100,"pan":0}
+id = 428
+delay = 230
+arrival = 10
+sy = -Graphics.boxHeight/2 - $TILE*3 - $TILE*2
+ey = Graphics.boxHeight - $TILE*3 - $TILE*2
+sx = Graphics.boxWidth+$TILE*4 + $TILE*mirroring*2
+ex = Graphics.boxWidth/2-$TILE*2 + $TILE*mirroring*2
+scale = 2
+</D-Animation>
+
+<D-Animation:screen>
+id = 428
+delay = 260
+arrival = 10
+sy = -Graphics.boxHeight/2 - $TILE*3 + $TILE*2
+ey = Graphics.boxHeight - $TILE*3 + $TILE*2
+sx = Graphics.boxWidth+$TILE*4 - $TILE*mirroring*2
+ex = Graphics.boxWidth/2-$TILE*2 - $TILE*mirroring*2
+scale = 2
+</D-Animation>
+
+<D-Animation:screen>
+id = 428
+delay = 320
+arrival = 10
+sy = -Graphics.boxHeight/2 - $TILE*3 - $TILE*2
+ey = Graphics.boxHeight - $TILE*3 - $TILE*2
+sx = Graphics.boxWidth+$TILE*4 - $TILE*mirroring*2
+ex = Graphics.boxWidth/2-$TILE*2 - $TILE*mirroring*2
+scale = 2
+</D-Animation>
+
+<D-Animation:screen>
+id = 428
+delay = 340
+arrival = 10
+sy = -Graphics.boxHeight/2 - $TILE*3 + $TILE*2
+ey = Graphics.boxHeight - $TILE*3 + $TILE*2
+sx = Graphics.boxWidth+$TILE*4 + $TILE*mirroring*2
+ex = Graphics.boxWidth/2-$TILE*2 + $TILE*mirroring*2
+scale = 2
+</D-Animation>
+
+<D-Animation:screen>
+id = 428
+delay = 360
+arrival = 10
+sy = -Graphics.boxHeight/2 - $TILE*3 - $TILE*1
+ey = Graphics.boxHeight - $TILE*3 - $TILE*1
+sx = Graphics.boxWidth+$TILE*4 + $TILE*mirroring*1
+ex = Graphics.boxWidth/2-$TILE*2 + $TILE*mirroring*1
+scale = 2
+</D-Animation>
+
+<D-Animation:screen>
+id = 428
+delay = 380
+arrival = 10
+sy = -Graphics.boxHeight/2 - $TILE*3 + $TILE*1
+ey = Graphics.boxHeight - $TILE*3 + $TILE*1
+sx = Graphics.boxWidth+$TILE*4 - $TILE*mirroring*1
+ex = Graphics.boxWidth/2-$TILE*2 - $TILE*mirroring*1
+scale = 2
+</D-Animation>
+
+<D-Animation:screen>
+id = 428
+delay = 440
+arrival = 10
+sy = -Graphics.boxHeight/2 - $TILE*3 - $TILE*1
+ey = Graphics.boxHeight - $TILE*3 - $TILE*1
+sx = Graphics.boxWidth+$TILE*4 - $TILE*mirroring*2
+ex = Graphics.boxWidth/2-$TILE*2 - $TILE*mirroring*2
+scale = 2
+</D-Animation>
+
+<D-Animation:screen>
+id = 428
+delay = 455
+arrival = 10
+sy = -Graphics.boxHeight/2 - $TILE*3 - $TILE*1
+ey = Graphics.boxHeight - $TILE*3 - $TILE*1
+sx = Graphics.boxWidth+$TILE*4 + $TILE*mirroring*1.5
+ex = Graphics.boxWidth/2-$TILE*2 + $TILE*mirroring*1.5
+scale = 2
+</D-Animation>
+
+<D-Animation:screen>
+id = 428
+delay = 470
+arrival = 10
+sy = -Graphics.boxHeight/2 - $TILE*3 - $TILE*0
+ey = Graphics.boxHeight - $TILE*3 - $TILE*0
+sx = Graphics.boxWidth+$TILE*4 + $TILE*mirroring*0
+ex = Graphics.boxWidth/2-$TILE*2 + $TILE*mirroring*0
+scale = 2
+</D-Animation>
+
+<D-Animation:screen>
+id = 428
+delay = 485
+arrival = 10
+sy = -Graphics.boxHeight/2 - $TILE*3 + $TILE*1
+ey = Graphics.boxHeight - $TILE*3 + $TILE*1
+sx = Graphics.boxWidth+$TILE*4 + $TILE*mirroring*2
+ex = Graphics.boxWidth/2-$TILE*2 + $TILE*mirroring*2
+scale = 2
+</D-Animation>
+
+<D-Animation:screen>
+id = 428
+delay = 500
+arrival = 10
+sy = -Graphics.boxHeight/2 - $TILE*3 + $TILE*0
+ey = Graphics.boxHeight - $TILE*3 + $TILE*0
+sx = Graphics.boxWidth+$TILE*4 - $TILE*mirroring*1
+ex = Graphics.boxWidth/2-$TILE*2 - $TILE*mirroring*1
+scale = 2
+</D-Animation>
+
+<D-Animation:screen>
+id = 428
+delay = 515
+arrival = 10
+sy = -Graphics.boxHeight/2 - $TILE*3 + $TILE*1
+ey = Graphics.boxHeight - $TILE*3 + $TILE*1
+sx = Graphics.boxWidth+$TILE*4 - $TILE*mirroring*2
+ex = Graphics.boxWidth/2-$TILE*2 - $TILE*mirroring*2
+scale = 2
+</D-Animation>
+
+<D-Animation:screen>
+id = 428
+delay = 530
+arrival = 10
+sy = -Graphics.boxHeight/2 - $TILE*3 + $TILE*0.5
+ey = Graphics.boxHeight - $TILE*3 + $TILE*0.5
+sx = Graphics.boxWidth+$TILE*4 + $TILE*mirroring*3
+ex = Graphics.boxWidth/2-$TILE*2 + $TILE*mirroring*3
+scale = 2
+</D-Animation>
+
+<D-Animation:screen>
+id = 428
+delay = 545
+arrival = 10
+sy = -Graphics.boxHeight/2 - $TILE*3 + $TILE*2
+ey = Graphics.boxHeight - $TILE*3 + $TILE*2
+sx = Graphics.boxWidth+$TILE*4 + $TILE*mirroring*-3
+ex = Graphics.boxWidth/2-$TILE*2 + $TILE*mirroring*-3
+scale = 2
+</D-Animation>
+
+<D-Animation:screen>
+id = 428
+delay = 560
+arrival = 10
+sy = -Graphics.boxHeight/2 - $TILE*3 + $TILE*-1
+ey = Graphics.boxHeight - $TILE*3 + $TILE*-1
+sx = Graphics.boxWidth+$TILE*4 + $TILE*mirroring*1
+ex = Graphics.boxWidth/2-$TILE*2 + $TILE*mirroring*1
+scale = 2
+</D-Animation>
+
+<D-Animation:screen>
+id = 428
+delay = 575
+arrival = 10
+sy = -Graphics.boxHeight/2 - $TILE*3 + $TILE*-2
+ey = Graphics.boxHeight - $TILE*3 + $TILE*-2
+sx = Graphics.boxWidth+$TILE*4 + $TILE*mirroring*3
+ex = Graphics.boxWidth/2-$TILE*2 + $TILE*mirroring*3
+scale = 2
+</D-Animation>
+
+<D-Animation:screen>
+id = 428
+delay = 590
+arrival = 10
+sy = -Graphics.boxHeight/2 - $TILE*3 + $TILE*-2
+ey = Graphics.boxHeight - $TILE*3 + $TILE*-2
+sx = Graphics.boxWidth+$TILE*4 + $TILE*mirroring*-3
+ex = Graphics.boxWidth/2-$TILE*2 + $TILE*mirroring-3
+scale = 2
+</D-Animation>
+
+<D-Animation:screen>
+id = 428
+delay = 605
+arrival = 10
+sy = -Graphics.boxHeight/2 - $TILE*3 + $TILE*2
+ey = Graphics.boxHeight - $TILE*3 + $TILE*2
+sx = Graphics.boxWidth+$TILE*4 + $TILE*mirroring*-1.5
+ex = Graphics.boxWidth/2-$TILE*2 + $TILE*mirroring-1.5
+scale = 2
+</D-Animation>
+
+<D-Animation:screen>
+id = 428
+delay = 620
+arrival = 10
+sy = -Graphics.boxHeight/2 - $TILE*3 + $TILE*-2
+ey = Graphics.boxHeight - $TILE*3 + $TILE*-2
+sx = Graphics.boxWidth+$TILE*4 + $TILE*mirroring*0
+ex = Graphics.boxWidth/2-$TILE*2 + $TILE*mirroring*0
+scale = 2
+</D-Animation>
+
+<D-Animation:screen>
+id = 428
+delay = 635
+arrival = 10
+sy = -Graphics.boxHeight/2 - $TILE*3 + $TILE*-1
+ey = Graphics.boxHeight - $TILE*3 + $TILE*-1
+sx = Graphics.boxWidth+$TILE*4 + $TILE*mirroring*1
+ex = Graphics.boxWidth/2-$TILE*2 + $TILE*mirroring*1
+scale = 2
+</D-Animation>
+
+<D-Animation:screen>
+id = 428
+delay = 650
+arrival = 10
+sy = -Graphics.boxHeight/2 - $TILE*3 + $TILE*-1.5
+ey = Graphics.boxHeight - $TILE*3 + $TILE*-1.5
+sx = Graphics.boxWidth+$TILE*4 + $TILE*mirroring*1.5
+ex = Graphics.boxWidth/2-$TILE*2 + $TILE*mirroring*1.5
+scale = 2
+</D-Animation>>
+
+<D-Animation:screen>
+id = 428
+delay = 665
+arrival = 10
+sy = -Graphics.boxHeight/2 - $TILE*3 + $TILE*0
+ey = Graphics.boxHeight - $TILE*3 + $TILE*0
+sx = Graphics.boxWidth+$TILE*4 + $TILE*mirroring*1
+ex = Graphics.boxWidth/2-$TILE*2 + $TILE*mirroring*1
+scale = 2
+</D-Animation>
+
+<D-Animation:screen>
+id = 428
+delay = 680
+arrival = 10
+sy = -Graphics.boxHeight/2 - $TILE*3 + $TILE*-2
+ey = Graphics.boxHeight - $TILE*3 + $TILE*-2
+sx = Graphics.boxWidth+$TILE*4 + $TILE*mirroring*-3
+ex = Graphics.boxWidth/2-$TILE*2 + $TILE*mirroring*-3
+scale = 2
+</D-Animation>
+
+<D-Animation:screen>
+id = 428
+delay = 695
+arrival = 10
+sy = -Graphics.boxHeight/2 - $TILE*3 + $TILE*2
+ey = Graphics.boxHeight - $TILE*3 + $TILE*2
+sx = Graphics.boxWidth+$TILE*4 + $TILE*mirroring*3
+ex = Graphics.boxWidth/2-$TILE*2 + $TILE*mirroring*3
+scale = 2
+</D-Animation>
+
+<D-Animation:screen>
+id = 428
+delay = 710
+arrival = 10
+sy = -Graphics.boxHeight/2 - $TILE*3 + $TILE*2
+ey = Graphics.boxHeight - $TILE*3 + $TILE*2
+sx = Graphics.boxWidth+$TILE*4 + $TILE*mirroring*-3
+ex = Graphics.boxWidth/2-$TILE*2 + $TILE*mirroring*-3
+scale = 2
+</D-Animation>
+
+<D-Animation:screen>
+id = 428
+delay = 735
+arrival = 10
+sy = -Graphics.boxHeight/2 - $TILE*3 + $TILE*-2
+ey = Graphics.boxHeight - $TILE*3 + $TILE*-2
+sx = Graphics.boxWidth+$TILE*4 + $TILE*mirroring*3
+ex = Graphics.boxWidth/2-$TILE*2 + $TILE*mirroring*3
+scale = 2
+</D-Animation>
+
+<D-Animation:screen>
+id = 428
+delay = 735
+arrival = 10
+scale = 3
+sy = -Graphics.boxHeight/2 - $TILE*3 + $TILE*2
+ey = Graphics.boxHeight - $TILE*3 + $TILE*2
+sx = Graphics.boxWidth+$TILE*4
+ex = Graphics.boxWidth/2-$TILE*2
+</D-Animation>
+
+<D-Animation:screen>
+id = 1
+delay = 745
+playSe = {"name":"MZ Explosion3","volume":90,"pitch":60,"pan":0}
+</D-Animation>
+
+<D-Animation:screen>
+delay = 780
+id = 368
+</D-Animation>

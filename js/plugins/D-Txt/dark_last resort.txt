@@ -1,0 +1,32 @@
+<D-Motion:svGuard&noWait>
+arcY = 0
+frame = 120
+</D-Motion><D-Animation>
+id = 2257
+z = 0
+</D-Animation>
+
+<D-Animation:self>
+id = 488
+</D-Animation>
+
+<D-Animation:self>
+delay = 30
+id = 489
+</D-Animation>
+
+<D-Motion:svItem&noWait>
+delay = 120
+arcY = 0
+frame = 60
+</D-Motion>
+<D-Animation:self>
+delay = 120
+id = 490
+</D-Animation>
+
+<D-Motion:return>
+delay = 180
+frame = 10
+arcY = 0
+</D-Motion>

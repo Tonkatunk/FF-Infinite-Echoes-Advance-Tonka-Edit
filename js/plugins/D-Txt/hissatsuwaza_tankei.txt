@@ -1,0 +1,56 @@
+<D-Motion:svMissile&noWait>
+frame = 60
+arcY = 0
+</D-Motion>
+
+<D-Animation:self>
+id = 1834
+z = 0
+</D-Animation>
+
+<D-Motion:fastpunch&noWait>
+delay = 60
+ex = b.x+b.width/2
+ey = b.y
+frame = 15
+arcY = 0
+</D-Motion>
+
+<D-Animation:self&follow>
+delay = 40
+id = 1831
+</D-Animation>
+
+<D-Motion:fastpunch&noWait>
+delay = 75
+frame = 60
+arcY = 0
+</D-Motion>
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion:noWait>
+delay = 75
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation>
+delay = 75
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+id = 1835
+</D-Animation>
+
+<D-Motion:svItem&noWait&home>
+delay = 145
+frame = 20
+arcY = -16
+</D-Motion>
+
+<D-Motion:return&delay>
+frame = 1
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+id = 1
+</D-Animatipn>

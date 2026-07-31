@@ -1,0 +1,10 @@
+<D-Motion:swingW&noWait>
+</D-Motion>
+
+<D-Animation:shot>
+delay = 16
+sx = a.x - 16
+sy = a.y - 8
+    id = 1979
+    arrival = 28
+</D-Animation>

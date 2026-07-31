@@ -1,0 +1,5 @@
+<D-Animation:screen>
+z = 0
+sy = defaultY + $TILE*2
+sx = defaultX - $TILE*3*mirroring 
+</D-Animation>

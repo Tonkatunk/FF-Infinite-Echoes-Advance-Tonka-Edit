@@ -1,0 +1,60 @@
+<D-Animation:screen>
+id = 1973
+sx = a.x
+sy = a.y-a.height/2
+ex = 0
+ey = Graphics.boxHeight/2
+afterimage = 8 // 残像数
+afterimageInterval = 4 // 残像間隔
+</D-Animation>
+
+<D-Animation:screen>
+delay = 15
+sx = Graphics.boxWidth/3
+sy = Graphics.boxHeight/2
+id = 1975
+</D-Animation>
+
+<D-Animation:random&screen>
+delay = 30
+id = 1976
+repeat = 8 // 繰返回数
+interval = 10 // 間隔
+scaleX = 0.75
+scaleY = 0.75
+sx = Graphics.boxWidth/3 // 始点Ｘ座標
+sy = Graphics.boxHeight*2/3
+sxRandom = Graphics.boxWidth/3 // 始点Ｘ座標分散
+syRandom = 48 // 始点Ｙ座標分散
+</D-Animation>
+
+<D-Animation:random&screen>
+delay = 35
+id = 1977
+repeat = 8 // 繰返回数
+interval = 10 // 間隔
+scaleX = 0.75
+scaleY = 0.75
+sx = Graphics.boxWidth/3 // 始点Ｘ座標
+sy = Graphics.boxHeight*2/3
+sxRandom = Graphics.boxWidth/3 // 始点Ｘ座標分散
+syRandom = 48 // 始点Ｙ座標分散
+</D-Animation>
+
+<D-Animation>
+delay = 30
+id = 1972
+z = 0
+</D-Animation>
+
+<D-Motion>
+delay = 70
+playSe = FF8 aero2
+</D-Motion>
+
+<D-Animation:screen>
+delay = 90
+sx = Graphics.boxWidth/3
+sy = Graphics.boxHeight/2
+id = 1975
+</D-Animation>

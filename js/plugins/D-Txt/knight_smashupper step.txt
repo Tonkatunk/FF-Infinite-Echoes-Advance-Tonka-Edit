@@ -1,0 +1,35 @@
+//移動---------------------------------------------------------------
+
+//後衛の場合
+<D-Motion:stepForward&noWait>
+condition = a.isStateAffected(33);
+ex = a.x-$TILE*2;
+frame = 12
+arcY = 0
+</D-Motion>
+
+//前衛・踏み込み無しの場合
+<D-Motion:stepForward&noWait>
+condition = a.isStateAffected(32)&&!a.isStateAffected(31);
+ex = a.x-$TILE;
+frame = 12
+arcY = 0
+</D-Motion>
+
+//ステートの反映---------------------------------------------------------------
+
+<D-Motion:noWait>
+delay = 12
+script = BattleManager.applyStepAttack(a);
+arcY = 0
+frame = 1
+</D-Motion>
+<D-Motion:home>
+delay = 13
+frame = 1
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+id = 1
+</D-Animation>

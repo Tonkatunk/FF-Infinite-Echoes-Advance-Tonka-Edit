@@ -1,0 +1,169 @@
+//リフレク
+<D-Animation>
+condition = BattleManager._targetNum > 0;
+target = BattleManager._firstTargets[0];
+id = BattleManager._firstTargets[0].getMagicAnimationId(BattleManager._action.item().meta.DAnimeId);
+</D-Animation>
+
+//落ちる岩
+<D-Animation:wait>
+target = BattleManager._targets[0]
+id = 229
+</D-Animation>
+
+//効果音
+<D-Motion>
+playSe = {"name":"FF8 confuse3","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+//ピヨピヨ
+<D-Animation>
+target = BattleManager._targets[0];
+id = 230
+sx = target.x
+sy = target.y + $TILE - target.height
+ex = target.x - $TILE
+ey = target.y - target.height + $TILE/2
+arcY = -$TILE;
+</D-Animation>
+<D-Animation>
+target = BattleManager._targets[0];
+id = 231
+sx = target.x - $TILE
+sy = target.y  - target.height + $TILE/2
+ex = target.x 
+ey = target.y - target.height
+arcY = -$TILE;
+</D-Animation>
+<D-Animation>
+target = BattleManager._targets[0];
+id = 231
+sx = target.x 
+sy = target.y - target.height
+ex = target.x + $TILE
+ey = target.y - target.height + $TILE/2
+arcY = -$TILE;
+</D-Animation>
+<D-Animation:wait>
+target = BattleManager._targets[0];
+id = 230
+sx = target.x + $TILE
+sy = target.y - target.height + $TILE/2
+ex = target.x
+ey = target.y + $TILE - target.height
+arcY = -$TILE;
+</D-Animation>
+
+
+<D-Animation>
+target = BattleManager._targets[0];
+id = 230
+sx = target.x
+sy = target.y + $TILE - target.height
+ex = target.x - $TILE
+ey = target.y - target.height + $TILE/2
+arcY = -$TILE;
+</D-Animation>
+<D-Animation>
+target = BattleManager._targets[0];
+id = 231
+sx = target.x - $TILE
+sy = target.y  - target.height + $TILE/2
+ex = target.x 
+ey = target.y - target.height
+arcY = -$TILE;
+</D-Animation>
+<D-Animation>
+target = BattleManager._targets[0];
+id = 231
+sx = target.x 
+sy = target.y - target.height
+ex = target.x + $TILE
+ey = target.y - target.height + $TILE/2
+arcY = -$TILE;
+</D-Animation>
+<D-Animation:wait>
+target = BattleManager._targets[0];
+id = 230
+sx = target.x + $TILE
+sy = target.y - target.height + $TILE/2
+ex = target.x
+ey = target.y + $TILE - target.height
+arcY = -$TILE;
+</D-Animation>
+
+
+<D-Animation>
+target = BattleManager._targets[0];
+id = 230
+sx = target.x
+sy = target.y + $TILE - target.height
+ex = target.x - $TILE
+ey = target.y - target.height + $TILE/2
+arcY = -$TILE;
+</D-Animation>
+<D-Animation>
+target = BattleManager._targets[0];
+id = 231
+sx = target.x - $TILE
+sy = target.y  - target.height + $TILE/2
+ex = target.x 
+ey = target.y - target.height
+arcY = -$TILE;
+</D-Animation>
+<D-Animation>
+target = BattleManager._targets[0];
+id = 231
+sx = target.x 
+sy = target.y - target.height
+ex = target.x + $TILE
+ey = target.y - target.height + $TILE/2
+arcY = -$TILE;
+</D-Animation>
+<D-Animation:wait>
+target = BattleManager._targets[0];
+id = 230
+sx = target.x + $TILE
+sy = target.y - target.height + $TILE/2
+ex = target.x
+ey = target.y + $TILE - target.height
+arcY = -$TILE;
+</D-Animation>
+
+
+<D-Animation>
+target = BattleManager._targets[0];
+id = 230
+sx = target.x
+sy = target.y + $TILE - target.height
+ex = target.x - $TILE
+ey = target.y - target.height + $TILE/2
+arcY = -$TILE;
+</D-Animation>
+<D-Animation>
+target = BattleManager._targets[0];
+id = 231
+sx = target.x - $TILE
+sy = target.y  - target.height + $TILE/2
+ex = target.x 
+ey = target.y - target.height
+arcY = -$TILE;
+</D-Animation>
+<D-Animation>
+target = BattleManager._targets[0];
+id = 231
+sx = target.x 
+sy = target.y - target.height
+ex = target.x + $TILE
+ey = target.y - target.height + $TILE/2
+arcY = -$TILE;
+</D-Animation>
+<D-Animation:wait>
+target = BattleManager._targets[0];
+id = 230
+sx = target.x + $TILE
+sy = target.y - target.height + $TILE/2
+ex = target.x
+ey = target.y + $TILE - target.height
+arcY = -$TILE;
+</D-Animation>

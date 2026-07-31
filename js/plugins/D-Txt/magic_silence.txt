@@ -1,0 +1,14 @@
+<D-Animation>
+condition = BattleManager._reflectCount > 0;
+id = 408
+</D-Animation>
+
+<D-Animation:wait>
+id = 232;
+</D-Animation>
+
+<D-Animation:delay>
+condition = b.result().addedStates.length > 0
+noMirror = true
+id = 218;
+</D-Animation>

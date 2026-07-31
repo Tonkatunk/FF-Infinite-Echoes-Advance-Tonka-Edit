@@ -1,0 +1,13 @@
+// アクターなら一歩前へ出る
+<D-Motion:delay&stepForward>
+condition = a.isActor();
+ex += $TILE*2;
+</D-Motion>
+
+//バンザイ
+<D-Motion:svItem/>
+
+//白魔法発動アニメーション
+<D-Animation:self&wait>
+id = 200;
+</D-Animation>

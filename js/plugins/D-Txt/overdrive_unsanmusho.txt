@@ -1,0 +1,70 @@
+<D-Motion:svItem&noWait>
+arcY = 0
+frame = 60
+</D-Motion>
+
+<D-Animation:self>
+id = 2330
+</D-Animation>
+
+<D-Animation>
+id = 2087
+z = 0
+</D-Animation>
+<D-Animation>
+id = 1
+delay = 30
+plugin = tintBB12 64 64 64 64 64 64
+</D-Animation>
+
+
+<D-Motion:spinfast&noWait>
+delay = 60
+arcY = 0
+frame = 120
+</D-Motion>
+
+<D-Animation:self&lookCourse>
+delay = 60
+repeat = 15
+sx = a.x
+sy = a.y
+exRandom = 32
+ey = -16
+afterimage = 10 // 残像数
+afterimageInterval = 3 // 残像間隔
+arcX = Math.randomInt(64)-32
+id = 2332
+</D-Animation>
+
+<D-Motion:upper&noWait>
+playSe = {"name":"FF5 flare","volume":100,"pitch":150,"pan":0}
+delay = 120
+arcY = 0
+frame = 60
+</D-Motion>
+
+<D-Animation:converge&lookCourse>
+delay = 120
+id = 2333
+ex = Graphics.boxWidth/2
+ey = Graphics.boxHeight/2
+arrival = 30 // 到達フレーム
+repeat = 20 // 繰返し回数
+interval = 4 // 間隔
+radiusX = $TILE*12 * (1-t/et) // 横幅
+radiusY = $TILE*12 * (1-t/et) // 縦幅
+</D-Animation>
+
+<D-Animation>
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/2
+delay = 180
+id = 2331
+</D-Animation>
+
+<D-Animation>
+id = 1
+delay = 280
+plugin = tintBB12 255 255 255 255 255 255
+</D-Animation>

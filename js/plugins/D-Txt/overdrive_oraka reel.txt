@@ -1,0 +1,192 @@
+<D-Animation:self>
+id = 2249
+z = 0
+</D-Animation>
+<D-Animation:self>
+id = 1
+delay = 60
+
+    plugin = tintBB12 127 127 127 127 127 127
+</D-Animation>
+
+
+<D-Motion:upper&noWait>
+frame = 75
+arcY = 0
+</D-Motion>
+
+<D-Animation:self>
+id = 2356
+sx = a.x - 4
+sy = a.y - 25
+</D-Animation>
+
+<D-Motion:svThrust&noWait&pattern0>
+delay = 75
+frame = 10
+arcY = 0
+</D-Motion>
+
+<D-Animation:self>
+delay = 80
+id = 1163
+z = 2.9
+sx = a.x + 5
+sy = a.y - 6
+</D-Animation>
+
+<D-Motion:upper&noWait>
+delay = 85
+frame = 20
+arcY = 0
+</D-Motion>
+
+<D-Animation:self&lookCourse>
+delay = 85
+id = 2357
+z = 2.9
+sx = a.x + 5
+sy = a.y - 6
+ex = a.x + 5 -32
+ey = a.y - 128
+playSe = {"name":"FF5 warp","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+
+<D-Animation:self&lookCourse>
+delay = 135
+id = 2357
+sx = Graphics.boxWidth*5/6
+sy = -64
+ey = Graphics.boxHeight/2 -16
+</D-Animation>
+
+<D-Motion:svItem&noWait>
+delay = 135
+frame = 10
+arcY = 0
+ex = Graphics.boxWidth*5/6
+ey = Graphics.boxHeight/2
+playSe = {"name":"FF6 steal","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Motion:svThrust&noWait&pattern0>
+delay = 145
+frame = 30
+arcY = 0
+ex = Graphics.boxWidth*5/6
+ey = Graphics.boxHeight/2
+playSe = {"name":"MZ Blow8","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation:lookCourse>
+delay = 145
+target = BattleManager.indexTarget(0)
+id = 2357
+sx = Graphics.boxWidth*5/6
+sy = Graphics.boxHeight/2 -16
+ex = b.x
+ey = b.y
+condition = BattleManager._targets.length > 0
+playSe = {"name":"FF6 beatBoss","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+<D-Animation:lookCourse>
+delay = 145
+target = BattleManager.indexTarget(1)
+condition = BattleManager._targets.length > 1
+id = 2357
+sx = Graphics.boxWidth*5/6
+sy = Graphics.boxHeight/2 -16
+ex = b.x
+ey = b.y
+playSe = {"name":"FF6 beatBoss","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+<D-Animation:lookCourse>
+delay = 145
+target = BattleManager.indexTarget(2)
+condition = BattleManager._targets.length > 2
+id = 2357
+sx = Graphics.boxWidth*5/6
+sy = Graphics.boxHeight/2 -16
+ex = b.x
+ey = b.y
+playSe = {"name":"FF6 beatBoss","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+<D-Animation:lookCourse>
+delay = 145
+target = BattleManager.indexTarget(3)
+condition = BattleManager._targets.length > 3
+id = 2357
+sx = Graphics.boxWidth*5/6
+sy = Graphics.boxHeight/2 -16
+ex = b.x
+ey = b.y
+playSe = {"name":"FF6 beatBoss","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+<D-Animation:lookCourse>
+delay = 145
+target = BattleManager.indexTarget(4)
+condition = BattleManager._targets.length > 4
+id = 2357
+sx = Graphics.boxWidth*5/6
+sy = Graphics.boxHeight/2 -16
+ex = b.x
+ey = b.y
+playSe = {"name":"FF6 beatBoss","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+<D-Animation:lookCourse>
+delay = 145
+target = BattleManager.indexTarget(5)
+condition = BattleManager._targets.length > 5
+id = 2357
+sx = Graphics.boxWidth*5/6
+sy = Graphics.boxHeight/2 -16
+ex = b.x
+ey = b.y
+playSe = {"name":"FF6 beatBoss","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+<D-Animation:lookCourse>
+delay = 145
+target = BattleManager.indexTarget(6)
+condition = BattleManager._targets.length > 6
+id = 2357
+sx = Graphics.boxWidth*5/6
+sy = Graphics.boxHeight/2 -16
+ex = b.x
+ey = b.y
+playSe = {"name":"FF6 beatBoss","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+<D-Animation:lookCourse>
+delay = 145
+target = BattleManager.indexTarget(7)
+condition = BattleManager._targets.length > 7
+id = 2357
+sx = Graphics.boxWidth*5/6
+sy = Graphics.boxHeight/2 -16
+ex = b.x
+ey = b.y
+playSe = {"name":"FF6 beatBoss","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+
+<D-Animation:self>
+delay = 145
+id = 2249
+z = 0
+</D-Animation>
+
+<D-Animation>
+delay = 155
+id = 2358
+nextDelay = 0
+</D-Animation>
+
+<D-Motion:svItem&noWait&home>
+delay = 185
+frame = 20
+arcY = -16
+</D-Motion>
+
+<D-Motion:return&delay>
+frame = 1
+arcY = 0
+    plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

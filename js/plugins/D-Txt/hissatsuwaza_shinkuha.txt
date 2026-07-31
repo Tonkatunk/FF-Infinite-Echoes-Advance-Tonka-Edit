@@ -1,0 +1,21 @@
+<D-Motion:spin&noWait>
+frame = 40
+</D-Motion>
+<D-Motion:svSwing&noWait>
+delay = 40
+frame = 10
+</D-Motion>
+<D-Animation:self>
+id = 1824
+</D-Animation>
+<D-Animation:screen>
+delay = 50
+id = 1822
+z = 0
+</D-Animation>
+<D-Animation:shot&lookCourse>
+delay = 60
+arrival = 20
+interval = 10
+id = 1823
+</D-Animation>

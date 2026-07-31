@@ -1,0 +1,45 @@
+<D-Animation:self&follow>
+id = 546
+</D-Animation>
+
+// アクターなら一歩前へ出る
+<D-Motion:stepForward>
+playSe = FF7 dash
+condition = a.isActor();
+ex += $TILE*2;
+</D-Motion>
+
+// 対象へ飛び込む
+<D-Motion:crash&svItem>
+script = a.afterimage().start();
+playSe = FF6 steal
+frame = 12
+ex = b.x+b.width/2*mirroring
+arcY = -$TILE*2
+</D-Motion>
+
+<D-Animation:self>
+id = 547
+</D-Animation>
+
+<D-Animation:self>
+delay = 60
+id = 548
+</D-Animation>
+<D-Animation>
+delay = 60
+id = 549
+</D-Animation>
+
+// バンザイ
+<D-Motion:svItem>
+script = a.afterimage().end();
+frame = 48
+noShadow = false
+arcY = 0
+</D-Motion>
+
+<D-Motion>
+delay = 90
+script = a.addState(34)
+</D-Motion>

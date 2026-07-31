@@ -1,0 +1,99 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+<D-Animation:wait>
+id = 990
+script = BattleManager.startSummonEffect();
+</D-Animation>
+
+<D-Animation>
+arrival = 10
+afterimage = 10 // 残像数
+afterimageInterval = 2 // 残像間隔
+sx = Graphics.boxWidth/2
+ex = Graphics.boxWidth*4/5
+sy = Graphics.boxHeight
+ey = Graphics.boxHeight/2
+id = 1138
+</D-Animation>
+<D-Animation>
+delay = 10
+sx = Graphics.boxWidth*4/5
+sy = Graphics.boxHeight/5*3
+id = 1139
+z = 100
+</D-Animation>
+<D-Animation>
+delay = 190
+sx = Graphics.boxWidth*4/5
+ex = sx+72
+sy = Graphics.boxHeight/2
+id = 1143
+</D-Animation>
+<D-Animation>
+delay = 190
+sx = Graphics.boxWidth*4/5
+ex = sx+$DOT*72
+sy = Graphics.boxHeight/5*3
+id = 1141
+z = 100
+</D-Animation>
+<D-Animation>
+delay = 190
+sx = Graphics.boxWidth*4/5
+ex = sx+$DOT*72
+sy = Graphics.boxHeight/5*3
+id = 1142
+z = 101
+</D-Animation>
+<D-Animation>
+delay = 190
+sx = 16
+ex = sx+$DOT*72
+sy = Graphics.boxHeight/5*3
+id = 1137
+z = 100
+</D-Animation>
+<D-Animation>
+delay = 290
+sx = 16+72
+ex = sx+$DOT*144
+sy = Graphics.boxHeight/5*3
+id = 1140
+z = 100
+</D-Animation>
+<D-Animation>
+delay = 300
+z = 102
+id = 1145
+</D-Animation>
+<D-Animation>
+delay = 350
+id = 1146
+z = 0
+</D-Animation>
+<D-Animation:randomAll>
+delay = 300
+repeat = 40
+interval = 6
+sx = defaultX - $TILE
+sy = defaultY + $TILE
+id = 1144
+</D-Animation>
+
+<D-Animation>
+delay = 520
+id = 1147
+z = 0
+</D-Animation>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+delay = 640
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>
+<D-Animation:delay&wait>
+delay = 640
+id = 1
+script = BattleManager.endSummonEffect();
+</D-Animation>

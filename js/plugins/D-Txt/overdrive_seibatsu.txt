@@ -1,0 +1,78 @@
+<D-Animation:self>
+delay = 8
+id = 2380
+</D-Animation>
+
+<D-Motion:svThrust&pattern1&noWait>
+frame = 30
+arcY = 0
+plugin = tintBB12 127 127 127 127 127 127
+</D-Motion>
+
+<D-Motion:setupW&noWait>
+delay = 50
+arcY = 0
+frame = 30
+</D-Motion>
+<D-Animation:self>
+delay = 50
+id = 2381
+</D-Animation>
+<D-Motion:setupW&noWait>
+delay = 70
+arcY = 0
+frame = 61
+</D-Motion>
+<D-Animation:self>
+delay = 80
+id = 2382
+</D-Animation>
+<D-Motion:swingbothW&noWait>
+delay = 141
+arcY = 0
+frame = 30
+</D-Motion>
+<D-Animation:self>
+delay = 141
+z = 2.9
+id = 2384
+</D-Animation>
+<D-Animation>
+delay = 151
+sx = a.x - 16
+sy = a.y
+ex = b.x
+ey = b.y-b.height/2
+arcY = 24
+id = 2383
+</D-Animation>
+<D-Animation>
+delay = 161
+sx = a.x - 16
+sy = a.y
+ex = b.x
+ey = b.y-b.height/2
+arcY = -24
+id = 2383
+</D-Animation>
+<D-Animation>
+delay = 171
+sx = a.x - 16
+sy = a.y
+ex = b.x
+ey = b.y-b.height/2
+arcY = 8
+id = 2383
+</D-Animation>
+<D-Animation>
+delay = 181
+id = 2385
+script = BattleManager.indexTarget(0).startDamageShake();
+</D-Animation>
+
+
+<D-Motion:delay&return>
+frame = 20
+arcY = -8
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

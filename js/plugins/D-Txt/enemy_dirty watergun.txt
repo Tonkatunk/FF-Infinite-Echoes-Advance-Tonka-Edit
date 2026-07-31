@@ -1,0 +1,16 @@
+<D-Animation>
+id = 1
+playSe = {"name":"MZ water2","volume":90,"pitch":150,"pan":0}
+</D-Animation>
+
+<D-Animation:shot&delay&lookCourse>
+arrival = 15 // 到達フレーム
+afterimage = 10 // 残像数
+afterimageInterval = 3 // 残像間隔
+</D-Animation>
+
+<D-Animation>
+delay = 15
+id = 1660
+script = target.startDamageShake();
+</D-Animation>

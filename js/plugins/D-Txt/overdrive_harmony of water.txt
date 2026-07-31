@@ -1,0 +1,42 @@
+<D-Motion:jump&wait&svGuard>
+playSe = FF6 dance hop
+arcY = -$DOT*10
+frame = 10
+</D-Motion>
+
+<D-Motion:jump&wait&svGuard>
+playSe = FF6 dance hop
+arcY = -$DOT*10
+frame = 10
+</D-Motion>
+
+<D-Motion:wait&dancespin>
+playSe = FF6 dance spin
+frame = 30
+</D-Motion>
+
+<D-Animation>
+delay = 40
+id = 2294
+sy = Graphics.boxHeight/2+48
+z = 0
+</D-Animation>
+
+<D-Animation>
+delay = 240
+id = 2295
+sy = Graphics.boxHeight/2+48
+z = 0
+</D-Animation>
+
+<D-Animation>
+delay = 100
+id = 2302
+sx = Graphics.boxWidth/2+64
+ex = Graphics.boxWidth/2-64
+</D-Animation>
+
+<D-Animation>
+delay = 200
+id = 2303
+</D-Animation>

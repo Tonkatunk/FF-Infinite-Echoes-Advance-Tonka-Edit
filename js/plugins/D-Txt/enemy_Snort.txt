@@ -1,0 +1,23 @@
+//同サイドが対象の場合、アニメーションを反転する
+<D-Setting:MirrorForFriend>
+
+<RangeEx:line>
+<D-Animation:noWait&pierce>
+arrival = 60;
+sy = a.y -a.height/2 - $DOT*6;
+id = 860;
+</D-Animation>
+
+//リザルトに除外が含まれていたら吹っ飛ばす
+<D-Motion:target>
+delay = 20
+condition = BattleManager._targets[0]._result.addedStates.includes(34)
+ex = Graphics.boxWidth*1.1
+frame = 5
+</D-Motion>
+
+<D-Animation>
+delay = 30
+id = 1
+script = BattleManager._targets[0].addStateInMotion()
+</D-Animation>

@@ -1,0 +1,78 @@
+<D-Motion:gunshotRmiss&noWait>
+frame = 20
+arcY = 0
+plugin = tintBB12 127 127 127 127 127 127
+</D-Motion>
+
+<D-Animation:beam>
+sy = a.y-a.height/2
+sx = a.x
+target = BattleManager.indexTarget(0);
+id = 2229
+</D-Animation>
+<D-Animation>
+delay = 60
+script = BattleManager.indexTarget(0).startDamageShake();
+id = 163
+target = BattleManager.indexTarget(0);
+</D-Animation>
+<D-Animation>
+delay = 60
+id = 2230
+target = BattleManager.indexTarget(0);
+</D-Animation>
+
+<D-Motion:gunshotRmiss&noWait>
+frame = 20
+delay = 90
+arcY = 0
+</D-Motion>
+
+<D-Animation:beam>
+delay = 90
+sy = a.y-a.height/2
+sx = a.x
+target = BattleManager.indexTarget(1);
+id = 2229
+</D-Animation>
+<D-Animation>
+delay = 150
+script = BattleManager.indexTarget(1).startDamageShake();
+id = 163
+target = BattleManager.indexTarget(1);
+</D-Animation>
+<D-Animation>
+delay = 150
+id = 2230
+target = BattleManager.indexTarget(1);
+</D-Animation>
+
+<D-Motion:gunshotRmiss&noWait>
+frame = 20
+delay = 180
+arcY = 0
+</D-Motion>
+
+<D-Animation:beam>
+delay = 180
+sy = a.y-a.height/2
+sx = a.x
+target = BattleManager.indexTarget(2);
+id = 2229
+</D-Animation>
+<D-Animation>
+delay = 240
+script = BattleManager.indexTarget(2).startDamageShake();
+id = 163
+target = BattleManager.indexTarget(2);
+</D-Animation>
+<D-Animation>
+delay = 240
+id = 2230
+target = BattleManager.indexTarget(2);
+</D-Animation>
+
+<D-Motion>
+delay = 240
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

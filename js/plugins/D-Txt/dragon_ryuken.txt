@@ -1,0 +1,96 @@
+//同サイドが対象の場合、アニメーションを反転する
+<D-Setting:MirrorForFriend>
+
+// アクターなら一歩前へ出る
+<D-Motion:stepForward>
+condition = a.isActor();
+ex += $TILE*2;
+</D-Motion>
+
+//バンザイ
+<D-Motion:svItem/>
+
+//効果音
+<D-Motion>
+playSe = {"name":"FF5 ryuken","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+//竜の身体
+<D-Animation:arc&lookCourse&shot>
+delay = 3 // 3フレーム待つ
+interval = 3 // 間隔
+repeat = 5 // 繰返回数
+scaleX = (5-r)*0.2
+scaleY = (5-r)*0.2
+arrival = 15 // 到達フレーム
+id = 903
+arcY = -$TILE/2
+</D-Animation>
+<D-Animation:arc&lookCourse&shot>
+arrival = 15 // 到達フレーム
+id = 902
+arcY = -$TILE/2
+</D-Animation>
+
+//竜の身体
+<D-Animation:arc&lookCourse&shot>
+delay = 18 // 18フレーム待つ
+interval = 3 // 間隔
+repeat = 5 // 繰返回数
+scaleX = (5-r)*0.2
+scaleY = (5-r)*0.2
+arrival = 15 // 到達フレーム
+sx = b.x
+sy = b.y - b.height/2
+ex = -$TILE/2
+ey = Graphics.boxHeight/3
+id = 903
+arcY = $TILE/2
+</D-Animation>
+<D-Animation:arc&lookCourse&wait>
+delay = 15 // 15フレーム待つ
+arrival = 15 // 到達フレーム
+sx = b.x
+sy = b.y - b.height/2
+ex = -$TILE/2
+ey = Graphics.boxHeight/3
+id = 902
+arcY = $TILE
+</D-Animation>
+<D-Animation:wait>
+id = 8
+</D-Animation>
+
+//効果音
+<D-Motion>
+playSe = {"name":"FF8 drawpoint","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+<D-Animation:lookCourse>
+arrival = 30 // 到達フレーム
+sx = b.x
+sy = b.y - b.height/2
+ex = a.x
+ey = a.y - a.height/2
+id = 904
+arcY = -$TILE
+</D-Animation>
+<D-Animation:lookCourse>
+arrival = 30 // 到達フレーム
+sx = b.x
+sy = b.y - b.height/2
+ex = a.x
+ey = a.y - a.height/2
+id = 904
+</D-Animation>
+<D-Animation:arc&lookCourse&wait>
+arrival = 30 // 到達フレーム
+sx = b.x
+sy = b.y - b.height/2
+ex = a.x
+ey = a.y - a.height/2
+id = 904
+arcY = $TILE
+</D-Animation>
+<D-Animation:self&wait>
+id = 905
+</D-Animation>

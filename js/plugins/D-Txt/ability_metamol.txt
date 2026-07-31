@@ -1,0 +1,49 @@
+<D-Animation:self>
+id = 1204
+</D-Animation>
+<D-Motion:noWait&svItem>
+frame = 25
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+delay = 25
+id = 1205
+sx = a.x
+sy = a.y-a.height
+ex = b.x
+ey = b.y-b.height/2
+</D-Animation>
+<D-Animation>
+delay = 30
+id = 1205
+sx = a.x
+sy = a.y-a.height
+ex = b.x
+ey = b.y-b.height/2
+scaleX = 0.75
+scaleY = 0.75
+</D-Animation>
+<D-Animation>
+delay = 35
+id = 1205
+sx = a.x
+sy = a.y-a.height
+ex = b.x
+ey = b.y-b.height/2
+scaleX = 0.5
+scaleY = 0.5
+</D-Animation>
+
+<D-Animation>
+id = 1206
+delay = 50
+condition = b.result().addedStates.length > 0
+</D-Animation>
+
+<D-Animation>
+id = 1
+delay = 80
+script = BattleManager.gainMetamol(b)
+condition = b.result().addedStates.length > 0
+</D-Animation>

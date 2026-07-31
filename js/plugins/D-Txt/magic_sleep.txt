@@ -1,0 +1,24 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+
+//同サイドが対象の場合、アニメーションを反転する
+<D-Setting:MirrorForFriend>
+
+<D-Animation>
+condition = BattleManager._targetNum > 0;
+target = BattleManager._firstTargets[0];
+id = BattleManager._firstTargets[0].getMagicAnimationId(BattleManager._action.item().meta.DAnimeId);
+script = BattleManager._firstTargets[0].startMagicNockback(0,16,BattleManager._firstTargets[0].getMagicAnimationId(BattleManager._action.item().meta.DAnimeId),BattleManager.resultList()[0]);
+</D-Animation>
+
+<D-Animation:delay>
+condition = BattleManager._reflectCount > 0;
+target = BattleManager._reflectTowards[0];
+id = BattleManager._action.item().meta.DAnimeId;
+</D-Animation>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

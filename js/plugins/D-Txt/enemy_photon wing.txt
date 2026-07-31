@@ -1,0 +1,43 @@
+<D-Animation:beam>
+repeat = 5
+interval = 4
+sx = a.x+a.width/6*2-r*3
+sy = a.y-a.height/3*2-r*2
+rotation = Math.PI * 2 / 360 * (30 - r * 6)
+id = 1512
+z = 0
+</D-Animation>
+
+<D-Animation:beam>
+repeat = 5
+interval = 4
+sx = a.x-a.width/6*2-r*3
+sy = a.y-a.height/3*2-r*2
+rotation = Math.PI * 2 / 360 * (30 - r * 6)
+id = 1512
+</D-Animation>
+
+<D-Animation:screen>
+delay = 120
+sx = Graphics.boxWidth/4*3
+sy = Graphics.boxHeight/8*5
+id = 1513
+</D-Animation>
+<D-Animation:screen>
+delay = 150
+sx = Graphics.boxWidth/4*3
+sy = Graphics.boxHeight/8*5
+id = 1513
+</D-Animation>
+
+<D-Animation>
+id = 1517
+z = -1
+playSe = {"name":"FF5 gravity","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+
+<D-Animation>
+id = 1518
+delay = 200
+z = -1
+</D-Animation>

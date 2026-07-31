@@ -1,0 +1,72 @@
+<D-Motion:svSwing&noWait>
+frame = 10
+plugin = tintBB12 127 127 127 127 127 127
+</D-Motion>
+<D-Animation:self>
+id = 1
+delay = 60
+playSe = {"name":"FF7 araise","volume":50,"pitch":100,"pan":0}
+</D-Animation>
+<D-Animation:self>
+id = 1
+delay = 120
+playSe = {"name":"FF7 araise2","volume":50,"pitch":100,"pan":0}
+</D-Animation>
+<D-Animation:self>
+sx = a.x + 3
+sy = a.y - 13
+ex = a.x - 20
+ey = a.y - 10
+arcY = -8
+id = 2231
+z = 2.9
+</D-Animation>
+<D-Animation:self>
+delay = 10
+sx = a.x - 20
+sy = a.y - 10
+ex = a.x -20
+id = 2232
+z = 2.9
+</D-Animation>
+<D-Animation:rain>
+scaleX = 0.25
+scaleY = 0.25
+delay = 60
+arrival = 60 // 到達フレーム
+id = 2234
+sx -= 64 * -mirroring
+sy = 0
+ey -= 48
+</D-Animation>
+<D-Animation>
+delay = 240
+id = 2235
+</D-Animation>
+<D-Animation:self>
+delay = 190
+sx = a.x - 20
+sy = a.y - 10
+ex = a.x -20
+id = 2232
+z = 2.9
+</D-Animation>
+<D-Motion:svSleep&noWait>
+delay = 20
+frame = 360
+</D-Motion>
+<D-Motion:svItem&noWait>
+delay = 380
+frame = 20
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>
+<D-Animation:self>
+delay = 370
+ex = a.x + 3
+ey = a.y - 13
+sx = a.x - 20
+sy = a.y - 10
+arcY = -8
+id = 2233
+z = 2.9
+</D-Animation>

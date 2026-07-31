@@ -1,0 +1,56 @@
+<D-Animation:noWait&self>
+id = 827
+</D-Animation>
+
+<D-Motion:self>
+delay = 10
+ey = -160
+frame = 40
+</D-Motion>
+
+<D-Motion>
+delay = 60
+frame = 90
+playSe = {"name":"FF6 flow","volume":90,"pitch":100,"pan":0}
+sx = Graphics.boxWidth/4*3
+scaleY = -1
+sy = -160
+</D-Motion>
+
+<D-Motion>
+delay = 150
+opponentSideZ = 0
+sx = Graphics.boxWidth/4*3
+ex = Graphics.boxWidth/4*3
+sy = -160
+ey = Graphics.boxHeight/5*4-a.height;
+scaleY = -1
+frame = 10
+</D-Motion>
+
+<D-Motion>
+delay = 159
+sx = Graphics.boxWidth/4*3
+sy = Graphics.boxHeight/5*4-a.height;
+opponentSideZ = 0
+scaleY = -1
+frame = 61
+</D-Motion>
+
+<D-Animation>
+z = 0
+delay = 160
+id = 828
+sx = Graphics.boxWidth/4*3
+script = for(target of BattleManager._targets){target.startDamageShake()};
+</D-Animation>
+
+<D-Motion:home>
+delay = 211
+arcY = -16
+scaleY = 1
+opponentSideZ = 0
+sy = Graphics.boxHeight/5*4;
+playSe = {"name":"FF6 steal","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+

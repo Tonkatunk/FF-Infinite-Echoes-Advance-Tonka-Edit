@@ -1,0 +1,43 @@
+<D-Motion:setupSword&noWait>
+arcY = 0
+frame = 60
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+
+<D-Animation>
+id = 2187
+repeat = 30
+interval = 3
+sx = Graphics.boxWidth/2+Graphics.boxWidth/4*mirroring
+sy = Graphics.boxHeight/3*2
+ey = sy - 160
+scaleX = 0.5
+scaleY = 0.5
+sxRandom = 32 // 始点Ｘ座標分散
+syRandom = 32 // 始点Ｘ座標分散
+</D-Animation>
+
+<D-Animation>
+sx = Graphics.boxWidth/2+Graphics.boxWidth/4*mirroring
+sy = Graphics.boxHeight/3*2
+id = 2188
+</D-Animation>
+
+<D-Animation>
+delay = 60
+id = 944
+sx = Graphics.boxWidth/2+Graphics.boxWidth/4*mirroring
+sy = Graphics.boxHeight/4*3
+</D-Animation>
+
+<D-Motion:raiseSword&noWait>
+delay = 60
+arcY = 0
+frame = 60
+</D-Motion>
+
+<D-Motion:return&noWait>
+delay = 150
+arcY = -8
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

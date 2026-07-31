@@ -1,0 +1,12 @@
+<D-Animation:self>
+sx = a.x-(a.width/2)*mirroring
+id = 1605
+</D-Animation>
+
+<D-Animation:shot&wait&delay>
+sx = a.x-(a.width/2)*mirroring
+id = 1606
+arrival = 20 // 到達フレーム
+
+script = target.startMagicNockback(10,20,BattleManager._firstTargets[0].getMagicAnimationId(BattleManager._action.item().meta.DAnimeId),BattleManager.resultList()[0]);
+</D-Animation>

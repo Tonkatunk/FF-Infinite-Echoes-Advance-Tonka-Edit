@@ -1,0 +1,20 @@
+//歩く動きをしながら小ジャンプ
+<D-Motion:roll&wait>
+playSe = 2000 Wind7
+arcY = -$TILE;
+ex = a.x-$TILE
+frame = 30;
+</D-Motion>
+
+//回転しながら大ジャンプ
+<D-Motion:near&roll&foot>
+rotation *= 3
+playSe = 2000 Wind6
+arcY = -$TILE*3
+frame = 40
+</D-Motion>
+
+<D-Motion:attack>
+delay = -5
+</D-Motion> // 武器振り
+<D-Animation/> // アニメーション

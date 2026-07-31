@@ -1,0 +1,274 @@
+// 上空へ瞬間移動
+<D-Motion:crash&soon&noWait>
+ex = BattleManager.indexTarget(0).x
+ey = BattleManager.indexTarget(0).y-$TILE*10
+</D-Motion>
+<D-Motion:delay>
+script = a.afterimage().start();
+</D-Motion>
+
+// 降下
+<D-Motion:crash&svItem&delay&noWait>
+playSe = FF5 landing
+position = 2 // 足元
+frame = 10
+</D-Motion>
+
+// しゃがみ
+<D-Motion:svDying&noWait>
+delay = 10
+script = a.removeState(23);
+frame = 10
+noShadow = false
+</D-Motion>
+
+// 飛び立つ
+<D-Motion:upper&noWait>
+delay = 20
+frame = 10
+ey = a.y-$TILE*10
+noShadow = true
+</D-Motion>
+
+<D-Animation>
+delay = 30
+target = BattleManager.indexTarget(0)
+scaleX = t > 45 ? 0.5-0.5*(t-45)/(et-45) : 0.5
+condition = !BattleManager.resultList()[0].missed && !BattleManager.resultList()[0].evaded
+</D-Animation>
+<D-Animation>
+id = 1
+delay = 30
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+condition = BattleManager.resultList()[0].missed || !BattleManager.resultList()[0].evaded
+</D-Animation>
+
+// 上空へ瞬間移動
+<D-Motion:crash&soon&noWait>
+delay = 49
+ex = BattleManager.indexTarget(1).x
+ey = BattleManager.indexTarget(1).y-$TILE*10
+</D-Motion>
+
+// 降下
+<D-Motion:svItem&delay&noWait>
+delay = 50
+playSe = FF5 landing
+position = 2 // 足元
+frame = 10
+ey = BattleManager.indexTarget(1).y
+</D-Motion>
+
+// しゃがみ
+<D-Motion:svDying&noWait>
+delay = 60
+frame = 10
+noShadow = false
+</D-Motion>
+
+// 飛び立つ
+<D-Motion:upper&noWait>
+delay = 70
+frame = 10
+ey = a.y-$TILE*10
+noShadow = true
+</D-Motion>
+
+<D-Animation>
+delay = 80
+target = BattleManager.indexTarget(1)
+scaleX = t > 45 ? 0.5-0.5*(t-45)/(et-45) : 0.5
+condition = !BattleManager.resultList()[1].missed && !BattleManager.resultList()[1].evaded
+</D-Animation>
+<D-Animation>
+delay = 80
+id = 1
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+condition = BattleManager.resultList()[1].missed || !BattleManager.resultList()[1].evaded
+</D-Animation>
+
+
+
+// 上空へ瞬間移動
+<D-Motion:crash&soon&noWait>
+delay = 99
+ex = BattleManager.indexTarget(2).x
+ey = BattleManager.indexTarget(2).y-$TILE*10
+</D-Motion>
+
+// 降下
+<D-Motion:svItem&delay&noWait>
+delay = 100
+playSe = FF5 landing
+position = 2 // 足元
+frame = 10
+ey = BattleManager.indexTarget(2).y
+</D-Motion>
+
+// しゃがみ
+<D-Motion:svDying&noWait>
+delay = 110
+frame = 10
+noShadow = false
+</D-Motion>
+
+// 飛び立つ
+<D-Motion:upper&noWait>
+delay = 120
+frame = 10
+ey = a.y-$TILE*10
+noShadow = true
+</D-Motion>
+
+<D-Animation>
+delay = 130
+target = BattleManager.indexTarget(2)
+scaleX = t > 45 ? 0.5-0.5*(t-45)/(et-45) : 0.5
+condition = !BattleManager.resultList()[2].missed && !BattleManager.resultList()[2].evaded
+</D-Animation>
+<D-Animation>
+delay = 130
+id = 1
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+condition = BattleManager.resultList()[2].missed || !BattleManager.resultList()[2].evaded
+</D-Animation>
+
+
+// 上空へ瞬間移動
+<D-Motion:crash&soon&noWait>
+delay = 149
+ex = BattleManager.indexTarget(3).x
+ey = BattleManager.indexTarget(3).y-$TILE*10
+</D-Motion>
+
+// 降下
+<D-Motion:svItem&delay&noWait>
+delay = 150
+playSe = FF5 landing
+position = 2 // 足元
+frame = 10
+ey = BattleManager.indexTarget(3).y
+</D-Motion>
+
+// しゃがみ
+<D-Motion:svDying&noWait>
+delay = 160
+frame = 10
+noShadow = false
+</D-Motion>
+
+// 飛び立つ
+<D-Motion:upper&noWait>
+delay = 170
+frame = 10
+ey = a.y-$TILE*10
+noShadow = true
+</D-Motion>
+
+<D-Animation>
+delay = 180
+target = BattleManager.indexTarget(3)
+scaleX = t > 45 ? 0.5-0.5*(t-45)/(et-45) : 0.5
+condition = !BattleManager.resultList()[3].missed && !BattleManager.resultList()[3].evaded
+</D-Animation>
+<D-Animation>
+delay = 180
+id = 1
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+condition = BattleManager.resultList()[3].missed || !BattleManager.resultList()[3].evaded
+</D-Animation>
+
+// 上空へ瞬間移動
+<D-Motion:crash&soon&noWait>
+delay = 199
+ex = BattleManager.indexTarget(4).x
+ey = BattleManager.indexTarget(4).y-$TILE*10
+</D-Motion>
+
+// 降下
+<D-Motion:svItem&delay&noWait>
+delay = 200
+playSe = FF5 landing
+position = 2 // 足元
+frame = 10
+ey = BattleManager.indexTarget(4).y
+</D-Motion>
+
+// しゃがみ
+<D-Motion:svDying&noWait>
+delay = 210
+frame = 10
+noShadow = false
+</D-Motion>
+
+// 飛び立つ
+<D-Motion:upper&noWait>
+delay = 220
+frame = 10
+ey = a.y-$TILE*10
+noShadow = true
+</D-Motion>
+
+<D-Animation>
+delay = 230
+target = BattleManager.indexTarget(4)
+scaleX = t > 45 ? 0.5-0.5*(t-45)/(et-45) : 0.5
+condition = !BattleManager.resultList()[4].missed && !BattleManager.resultList()[4].evaded
+</D-Animation>
+<D-Animation>
+delay = 230
+id = 1
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+condition = BattleManager.resultList()[4].missed || !BattleManager.resultList()[4].evaded
+</D-Animation>
+
+// 上空へ瞬間移動
+<D-Motion:crash&soon&noWait>
+delay = 249
+ex = BattleManager.indexTarget(5).x
+ey = BattleManager.indexTarget(5).y-$TILE*10
+</D-Motion>
+
+// 降下
+<D-Motion:svItem&delay&noWait>
+delay = 250
+playSe = FF5 landing
+position = 2 // 足元
+frame = 10
+ey = BattleManager.indexTarget(5).y
+</D-Motion>
+
+// しゃがみ
+<D-Motion:svDying&noWait>
+delay = 260
+frame = 10
+noShadow = false
+</D-Motion>
+
+// 飛び立つ
+<D-Motion:upper&noWait>
+delay = 270
+frame = 10
+ey = a.y-$TILE*10
+noShadow = true
+</D-Motion>
+
+<D-Animation>
+delay = 280
+target = BattleManager.indexTarget(5)
+scaleX = t > 45 ? 0.5-0.5*(t-45)/(et-45) : 0.5
+condition = !BattleManager.resultList()[5].missed && !BattleManager.resultList()[5].evaded
+</D-Animation>
+<D-Animation>
+delay = 280
+id = 1
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+condition = BattleManager.resultList()[5].missed || !BattleManager.resultList()[5].evaded
+</D-Animation>
+
+// 戻る
+<D-Motion:return&delay>
+script = a.afterimage().end();
+frame = 10
+arcY = -$TILE*2 // 少し高めにジャンプ
+</D-Motion>

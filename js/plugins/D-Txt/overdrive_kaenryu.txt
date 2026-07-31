@@ -1,0 +1,12 @@
+<D-Motion:svChant&noWait>
+frame = 60
+</D-Motion>
+
+<D-Animation:shot>
+id = 2085
+arrival = 10
+</D-Animation>
+
+<D-Animation>
+id = 2086
+</D-Animation>

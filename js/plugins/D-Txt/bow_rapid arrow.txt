@@ -1,0 +1,47 @@
+<D-Animation:self>
+id = a.readyBowAnimationId()
+sy = a.y - 10
+sx = a.x - 1
+z = 0
+</D-Animation>
+
+<D-Animation:self>
+id = 1869
+sy = a.y - 9
+sx = a.x - 10
+</D-Animation>
+
+<D-Motion:readyBow>
+frame = 60
+playSe = {"name":"FF6 guard","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation>
+delay = 60
+id = a.readyBowAnimationId()+9
+condition = !b.result().missed && !b.result().evaded
+</D-Animation>
+
+<D-Animation>
+id = 1870
+delay = 60
+condition = !b.result().missed && !b.result().evaded
+</D-Animation>
+
+<D-Animation>
+id = 1871
+delay = 60
+condition = !b.result().missed && !b.result().evaded && b.result().critical
+</D-Animation>
+
+<D-Motion:shotArrow>
+delay = 60
+frame = 60
+playSe = {"name":"FF6 scratch","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation>
+delay = 60
+id = 113
+condition = b.result().missed || b.result().evaded
+</D-Animation>

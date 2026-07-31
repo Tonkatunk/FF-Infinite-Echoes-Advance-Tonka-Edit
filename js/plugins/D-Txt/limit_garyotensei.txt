@@ -1,0 +1,90 @@
+<D-Motion:upperW&noWait>
+frame = 60
+arcY = 0
+</D-Motion>
+<D-Animation:self>
+sx = a.x - 10
+sy = a.y - 56
+id = 1439
+</D-Animation>
+<D-Motion:spinningEdge&noWait>
+delay = 60
+frame = 30
+arcY = 0
+</D-Motion>
+<D-Motion:stubClaymore&noWait>
+delay = 90
+frame = 60
+</D-Motion>
+<D-Animation>
+delay = 70
+sx = a.x
+sy = a.y
+ex = Graphics.boxWidth/4
+ey = Graphics.boxHeight
+arrival = 120
+id = 1438
+</D-Animation>
+<D-Motion>
+delay = 80
+performer = BattleManager.indexTarget(0)
+ey = BattleManager.indexTarget(0).y-160
+condition = BattleManager.indexTarget(0).result().addedStates.includes(34)
+arrival = 30
+</D-Motion>
+<D-Motion>
+delay = 90
+performer = BattleManager.indexTarget(1)
+ey = BattleManager.indexTarget(1).y-160
+condition = BattleManager.indexTarget(1).result().addedStates.includes(34) && BattleManager._targets.length > 1
+arrival = 30
+</D-Motion>
+<D-Motion>
+delay = 100
+performer = BattleManager.indexTarget(2)
+ey = BattleManager.indexTarget(2).y-160
+condition = BattleManager.indexTarget(2).result().addedStates.includes(34) && BattleManager._targets.length > 2
+arrival = 30
+</D-Motion>
+<D-Motion>
+delay = 110
+performer = BattleManager.indexTarget(3)
+ey = BattleManager.indexTarget(3).y-160
+condition = BattleManager.indexTarget(3).result().addedStates.includes(34) && BattleManager._targets.length > 3
+arrival = 30
+</D-Motion>
+<D-Motion>
+delay = 120
+performer = BattleManager.indexTarget(4)
+ey = BattleManager.indexTarget(4).y-160
+condition = BattleManager.indexTarget(4).result().addedStates.includes(34) && BattleManager._targets.length > 4
+arrival = 30
+</D-Motion>
+<D-Motion>
+delay = 130
+performer = BattleManager.indexTarget(5)
+ey = BattleManager.indexTarget(5).y-160
+condition = BattleManager.indexTarget(5).result().addedStates.includes(34) && BattleManager._targets.length > 5
+arrival = 30
+</D-Motion>
+<D-Motion>
+delay = 140
+performer = BattleManager.indexTarget(6)
+ey = BattleManager.indexTarget(6).y-160
+condition = BattleManager.indexTarget(6).result().addedStates.includes(34) && BattleManager._targets.length > 6
+arrival = 30
+</D-Motion>
+<D-Motion>
+delay = 150
+performer = BattleManager.indexTarget(7)
+ey = BattleManager.indexTarget(7).y-160
+condition = BattleManager.indexTarget(7).result().addedStates.includes(34) && BattleManager._targets.length > 7
+arrival = 30
+</D-Motion>
+<D-Motion>
+delay = 160
+performer = BattleManager.indexTarget(8)
+ey = BattleManager.indexTarget(8).y-160
+condition = BattleManager.indexTarget(8).result().addedStates.includes(34) && BattleManager._targets.length > 8
+arrival = 30
+</D-Motion>

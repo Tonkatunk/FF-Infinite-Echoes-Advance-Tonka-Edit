@@ -1,0 +1,22 @@
+<D-Animation>
+sx = b.x
+sy = b.y - 8
+id = 1321
+z = 100
+</D-Animation>
+
+<D-Animation>
+delay = 24
+arcY = -8
+arrival = 12
+sx = b.x - 16
+ex = b.x - 32
+sy = b.y - 8
+id = 1322
+z = 100
+</D-Animation>
+
+<D-Animation>
+delay = 48
+id = 1323
+</D-Animation>

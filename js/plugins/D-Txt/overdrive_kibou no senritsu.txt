@@ -1,0 +1,23 @@
+// 一歩前へ出る
+<D-Motion:delay&stepForward>
+ex = sx-$TILE
+</D-Motion>
+
+<D-Motion:svChant>
+frame = 140
+plugin = tintBB12 127 127 127 127 127 127
+</D-Motion>
+<D-Animation:self>
+id = 2283
+</D-Animation>
+<D-Animation>
+sx = Graphics.boxWidth*3/4
+sy = Graphics.boxHeight*3/5
+delay = 90
+id = 2284
+</D-Animation>
+
+<D-Motion:delay&return>
+arcY = 0
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

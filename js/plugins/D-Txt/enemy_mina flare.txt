@@ -1,0 +1,304 @@
+<D-Motion:noWait>
+    frame = 10
+    ex = Graphics.boxWidth/2-a.width/2
+    ey = Graphics.boxHeight/2+a.height/5*4
+    condition = a.isEnemy()
+</D-Motion>
+<D-Motion:noWait>
+    frame = 10
+    ex = Graphics.boxWidth/2+16
+    ey = Graphics.boxHeight/3*2
+    condition = a.isActor()
+</D-Motion>
+
+<D-Animation>
+delay = 10
+sx = a.x+a.headX()+16
+sy = a.y+a.headY()
+id = 2441
+condition = a.isEnemy() 
+</D-Animation>
+<D-Animation>
+delay = 170
+sx = a.x+a.headX()+16
+sy = a.y+a.headY()
+id = 2443
+condition = a.isEnemy()
+</D-Animation>
+<D-Animation>
+delay = 170
+sx = a.x+a.headX()+16
+sy = a.y+a.headY()
+id = 2445
+z = 3.1
+condition = a.isEnemy()
+</D-Animation>
+<D-Animation>
+delay = 270
+sx = a.x+a.headX()+16
+sy = a.y+a.headY()
+id = 2446
+z = 3.1
+condition = a.isEnemy()
+</D-Animation>
+<D-Animation>
+delay = 370
+sx = a.x+a.headX()+16
+sy = a.y+a.headY()
+id = 2442
+condition = a.isEnemy()
+</D-Animation>
+
+<D-Animation>
+delay = 10
+sx = a.x+a.headX()-16
+sy = a.y+a.headY()
+id = 2441
+condition = !a.isEnemy()
+</D-Animation>
+<D-Animation>
+delay = 170
+sx = a.x+a.headX()-16
+sy = a.y+a.headY()
+id = 2443
+condition = !a.isEnemy()
+</D-Animation>
+<D-Animation>
+delay = 170
+sx = a.x+a.headX()-16
+sy = a.y+a.headY()
+id = 2445
+z = 3.1
+condition = !a.isEnemy()
+</D-Animation>
+<D-Animation>
+delay = 270
+sx = a.x+a.headX()-16
+sy = a.y+a.headY()
+id = 2446
+z = 3.1
+condition = !a.isEnemy()
+</D-Animation>
+<D-Animation>
+delay = 370
+sx = a.x+a.headX()-16
+sy = a.y+a.headY()
+id = 2442
+condition = !a.isEnemy()
+</D-Animation>
+
+
+//ベビー１
+<D-Animation>
+delay = 10
+scaleX = 0.25
+scaleY = 0.25
+id = 2441
+sx = $gameTroop.members()[1].x+$gameTroop.members()[1].headX()+8
+sy = $gameTroop.members()[1].y+$gameTroop.members()[1].headY()
+target = $gameTroop.members()[1]
+condition = a.isEnemy() && $gameTroop.members()[1].canMove() && $gameTroop.members()[1].enemyId() == 436 
+</D-Animation>
+<D-Animation>
+delay = 170
+scaleX = 0.25
+scaleY = 0.25
+id = 2443
+sx = $gameTroop.members()[1].x+$gameTroop.members()[1].headX()+8
+sy = $gameTroop.members()[1].y+$gameTroop.members()[1].headY()
+target = $gameTroop.members()[1]
+condition = a.isEnemy() && $gameTroop.members()[1].canMove() && $gameTroop.members()[1].enemyId() == 436
+</D-Animation>
+<D-Animation>
+delay = 170
+id = 2447
+sx = $gameTroop.members()[1].x+$gameTroop.members()[1].headX()+8
+sy = $gameTroop.members()[1].y+$gameTroop.members()[1].headY()
+target = $gameTroop.members()[1]
+condition = a.isEnemy() && $gameTroop.members()[1].canMove() && $gameTroop.members()[1].enemyId() == 436
+nextDelay = 20
+repeat = 10
+</D-Animation>
+//ベビー２
+<D-Animation>
+delay = 10
+scaleX = 0.25
+scaleY = 0.25
+id = 2441
+sx = $gameTroop.members()[2].x+$gameTroop.members()[2].headX()+8
+sy = $gameTroop.members()[2].y+$gameTroop.members()[2].headY()
+target = $gameTroop.members()[2]
+condition = a.isEnemy() && $gameTroop.members()[2].canMove() && $gameTroop.members()[2].enemyId() == 436
+</D-Animation>
+<D-Animation>
+delay = 170
+scaleX = 0.25
+scaleY = 0.25
+id = 2443
+sx = $gameTroop.members()[2].x+$gameTroop.members()[2].headX()+8
+sy = $gameTroop.members()[2].y+$gameTroop.members()[2].headY()
+target = $gameTroop.members()[2]
+condition = a.isEnemy() && $gameTroop.members()[2].canMove() && $gameTroop.members()[2].enemyId() == 436
+</D-Animation>
+<D-Animation>
+delay = 170
+id = 2447
+sx = $gameTroop.members()[2].x+$gameTroop.members()[2].headX()+8
+sy = $gameTroop.members()[2].y+$gameTroop.members()[2].headY()
+target = $gameTroop.members()[2]
+condition = a.isEnemy() && $gameTroop.members()[2].canMove() && $gameTroop.members()[2].enemyId() == 436
+nextDelay = 20
+repeat = 10
+</D-Animation>
+//ベビー３
+<D-Animation>
+delay = 10
+scaleX = 0.25
+scaleY = 0.25
+sx = $gameTroop.members()[3].x+$gameTroop.members()[3].headX()+8
+sy = $gameTroop.members()[3].y+$gameTroop.members()[3].headY()
+id = 2441
+target = $gameTroop.members()[3]
+condition = a.isEnemy() && $gameTroop.members()[3].canMove() && $gameTroop.members()[3].enemyId() == 436
+</D-Animation>
+<D-Animation>
+delay = 170
+scaleX = 0.25
+scaleY = 0.25
+id = 2441
+sx = $gameTroop.members()[3].x+$gameTroop.members()[3].headX()+8
+sy = $gameTroop.members()[3].y+$gameTroop.members()[3].headY()
+target = $gameTroop.members()[3]
+condition = a.isEnemy() && $gameTroop.members()[3].canMove() && $gameTroop.members()[3].enemyId() == 436
+</D-Animation>
+<D-Animation>
+delay = 170
+id = 2447
+sx = $gameTroop.members()[3].x+$gameTroop.members()[3].headX()+8
+sy = $gameTroop.members()[3].y+$gameTroop.members()[3].headY()
+target = $gameTroop.members()[3]
+condition = a.isEnemy() && $gameTroop.members()[3].canMove() && $gameTroop.members()[3].enemyId() == 436
+nextDelay = 20
+repeat = 10
+</D-Animation>
+//ベビー４
+<D-Animation>
+delay = 10
+scaleX = 0.25
+scaleY = 0.25
+id = 2441
+sx = $gameTroop.members()[4].x+$gameTroop.members()[4].headX()+8
+sy = $gameTroop.members()[4].y+$gameTroop.members()[4].headY()
+target = $gameTroop.members()[4]
+condition = a.isEnemy() && $gameTroop.members()[4].canMove() && $gameTroop.members()[4].enemyId() == 436
+</D-Animation>
+<D-Animation>
+delay = 170
+scaleX = 0.25
+scaleY = 0.25
+id = 2441
+sx = $gameTroop.members()[4].x+$gameTroop.members()[4].headX()+8
+sy = $gameTroop.members()[4].y+$gameTroop.members()[4].headY()
+target = $gameTroop.members()[4]
+condition = a.isEnemy() && $gameTroop.members()[4].canMove() && $gameTroop.members()[4].enemyId() == 436
+</D-Animation>
+<D-Animation>
+delay = 170
+id = 2447
+sx = $gameTroop.members()[4].x+$gameTroop.members()[4].headX()+8
+sy = $gameTroop.members()[4].y+$gameTroop.members()[4].headY()
+target = $gameTroop.members()[4]
+condition = a.isEnemy() && $gameTroop.members()[4].canMove() && $gameTroop.members()[4].enemyId() == 436
+nextDelay = 20
+repeat = 10
+</D-Animation>
+
+<D-Animation>
+delay = 170
+sx = Graphics.boxWidth/2+Graphics.boxWidth/3
+sy = Graphics.boxHeight/3*2
+sxRandom = 24
+syRandom = 24
+id = 2444
+repeat = 75
+interval = 3
+z = 3.0
+condition = a.isEnemy()
+</D-Animation>
+
+<D-Animation>
+delay = 170
+sx = Graphics.boxWidth/2-Graphics.boxWidth/4
+sy = Graphics.boxHeight/3*2
+sxRandom = 24
+syRandom = 24
+id = 2444
+repeat = 75
+interval = 3
+z = 3.0
+condition = !a.isEnemy()
+</D-Animation>
+
+<D-Motion:home&noWait>
+    delay = 470
+    frame = 10
+</D-Motion>
+<D-Motion:return>
+    delay = 480
+    frame = 1
+</D-Motion>
+
+<D-Motion>
+delay = 270
+condition = BattleManager.resultList().length > 0 && BattleManager.indexResult(0).hpDamage > 0
+target = BattleManager.indexTarget(0)
+script = BattleManager.indexTarget(0).startDamageShake();
+</D-Motion>
+<D-Motion>
+delay = 270
+condition = BattleManager.resultList().length > 1 && BattleManager.indexResult(1).hpDamage > 0
+target = BattleManager.indexTarget(1)
+script = BattleManager.indexTarget(1).startDamageShake();
+</D-Motion>
+<D-Motion>
+delay = 270
+condition = BattleManager.resultList().length > 2 && BattleManager.indexResult(2).hpDamage > 0
+target = BattleManager.indexTarget(2)
+script = BattleManager.indexTarget(2).startDamageShake();
+</D-Motion>
+<D-Motion>
+delay = 270
+condition = BattleManager.resultList().length > 3 && BattleManager.indexResult(3).hpDamage > 0
+target = BattleManager.indexTarget(3)
+script = BattleManager.indexTarget(3).startDamageShake();
+</D-Motion>
+<D-Motion>
+delay = 270
+condition = BattleManager.resultList().length > 4 && BattleManager.indexResult(4).hpDamage > 0
+target = BattleManager.indexTarget(4)
+script = BattleManager.indexTarget(4).startDamageShake();
+</D-Motion>
+<D-Motion>
+delay = 270
+condition = BattleManager.resultList().length > 5 && BattleManager.indexResult(5).hpDamage > 0
+target = BattleManager.indexTarget(5)
+script = BattleManager.indexTarget(5).startDamageShake();
+</D-Motion>
+<D-Motion>
+delay = 270
+condition = BattleManager.resultList().length > 6 && BattleManager.indexResult(6).hpDamage > 0
+target = BattleManager.indexTarget(6)
+script = BattleManager.indexTarget(6).startDamageShake();
+</D-Motion>
+<D-Motion>
+delay = 270
+condition = BattleManager.resultList().length > 7 && BattleManager.indexResult(7).hpDamage > 0
+target = BattleManager.indexTarget(7)
+script = BattleManager.indexTarget(7).startDamageShake();
+</D-Motion>
+<D-Motion>
+delay = 270
+condition = BattleManager.resultList().length > 8 && BattleManager.indexResult(8).hpDamage > 0
+target = BattleManager.indexTarget(8)
+script = BattleManager.indexTarget(8).startDamageShake();
+</D-Motion>

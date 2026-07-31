@@ -1,0 +1,28 @@
+<D-Animation:self>
+id = a.readyBowAnimationId()+21
+sy = a.y - 10
+sx = a.x - 1
+z = 0
+frame = 20
+</D-Animation>
+
+<D-Motion:readyBow>
+frame = 20
+</D-Motion>
+
+<D-Motion:shotArrow>
+frame = 60
+</D-Motion>
+
+<D-Animation>
+playSe = {"name":"FF5 throw","volume":100,"pitch":100,"pan":0}
+delay = 20
+id = 1883
+</D-Animation>
+
+<D-Animation>
+sx = a.x
+sy = a.y
+id = 1884
+z = 0
+</D-Animation>

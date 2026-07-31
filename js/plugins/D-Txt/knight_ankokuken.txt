@@ -1,0 +1,38 @@
+<D-Animation:self>
+id = 492
+</D-Animation>
+
+<D-Motion:swingbothWquick&noWait>
+delay = 42
+ex = a.x - 16
+arcY = -8
+</D-Motion>
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+delay = 42
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation>
+delay = 42
+id = 493
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+</D-Animation>
+
+<D-Animation>
+id = 1
+</D-Animation>
+
+<D-Motion:home&noWait>
+delay = 80
+frame = 10
+arcY = 0
+</D-Motion>
+
+<D-Motion:return>
+delay = 90
+frame = 1
+arcY = 0
+</D-Motion>

@@ -1,0 +1,5 @@
+<D-Animation:screen>
+id = 1107
+sx = Graphics.boxWidth/2
+noMirror = true
+</D-Animation>

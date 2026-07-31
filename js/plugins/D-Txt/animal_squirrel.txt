@@ -1,0 +1,104 @@
+<D-Animation>
+sx = b.x+200
+ex = b.x
+sy = b.y
+id = 1312
+z = 100
+playSe = {"name":"2000 Wind6","volume":100,"pitch":100,"pan":0}
+</D-Animation>
+<D-Animation>
+sx = b.x+200
+ex = b.x+16
+sy = b.y
+id = 1313
+scaleX = -1
+z = 99
+</D-Animation>
+<D-Animation>
+delay = 60
+sx = b.x
+ex = b.x-200
+sy = b.y
+id = 1312
+z = 100
+</D-Animation>
+<D-Animation>
+delay = 60
+sx = b.x+16
+ex = b.x-200
+sy = b.y
+id = 1313
+scaleX = -1
+z = 99
+</D-Animation>
+
+<D-Animation>
+sx = b.x+200+16
+ex = b.x+16
+sy = b.y-16
+id = 1312
+z = 100
+</D-Animation>
+<D-Animation>
+sx = b.x+200+16
+ex = b.x+16+16
+sy = b.y-16
+id = 1313
+scaleX = -1
+z = 99
+</D-Animation>
+<D-Animation>
+delay = 60
+sx = b.x+16
+ex = b.x-200+16
+sy = b.y-16
+id = 1312
+z = 100
+</D-Animation>
+<D-Animation>
+delay = 60
+sx = b.x+16+16
+ex = b.x-200+16
+sy = b.y-16
+id = 1313
+scaleX = -1
+z = 99
+</D-Animation>
+
+<D-Animation>
+sx = b.x+200+16
+ex = b.x+16
+sy = b.y+16
+id = 1312
+z = 100
+</D-Animation>
+<D-Animation>
+sx = b.x+200+16
+ex = b.x+16+16
+sy = b.y+16
+id = 1313
+scaleX = -1
+z = 99
+</D-Animation>
+<D-Animation>
+delay = 60
+sx = b.x+16
+ex = b.x-200+16
+sy = b.y+16
+id = 1312
+z = 100
+</D-Animation>
+<D-Animation>
+delay = 60
+sx = b.x+16+16
+ex = b.x-200+16
+sy = b.y+16
+id = 1313
+scaleX = -1
+z = 99
+</D-Animation>
+
+<D-Animation>
+delay = 60
+id = 2
+</D-Animation>

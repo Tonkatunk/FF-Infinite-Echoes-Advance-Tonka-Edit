@@ -1,0 +1,80 @@
+<D-Motion:pray&noWait>
+frame = 30
+plugin = tintBB12 127 127 127 127 127 127
+</D-Motion>
+<D-Animation>
+id = 2236
+sx = Graphics.boxWidth/2
+delay = 30
+</D-Animation>
+<D-Motion:svThrust&noWait>
+delay = 30
+frame = 20
+</D-Motion>
+<D-Motion:svChant&noWait>
+delay = 50
+frame = 180
+</D-Motion>
+<D-Animation:self>
+id = 2243
+sx = a.x
+sy = a.y - 8
+ey = a.y - 16
+ex = a.x - 16
+arcY = -8
+delay = 30
+</D-Animation>
+<D-Animation:self>
+id = 2242
+sy = a.y - 16
+sx = a.x - 16
+delay = 40
+</D-Animation>
+<D-Animation:self>
+id = 2244
+sy = a.y - 16
+sx = a.x - 16
+ey = a.y - 8
+ex = a.x
+delay = 220
+</D-Animation><D-Motion:svItem&noWait>
+frame = 30
+delay = 230
+</D-Motion>
+
+<D-Animation:screen>
+id = 2239
+sy = Graphics.boxHeight/2
+sx = Graphics.boxWidth/2
+delay = 160
+z = 0
+</D-Animation>
+
+<D-Animation>
+id = 2238
+sx = Graphics.boxWidth/4*3
+delay = 180
+z = 3
+</D-Animation>
+<D-Animation:screen>
+id = 2237
+delay = 200
+sx = Graphics.boxWidth/4*3
+sy = 0
+ey = Graphics.boxHeight/3*2
+plugin = tintBB12 255 255 255 255 255 255
+z = 3.1
+</D-Animation>
+<D-Animation:screen>
+id = 2240
+sy = Graphics.boxHeight/2
+sx = Graphics.boxWidth/2
+delay = 360
+z = 0
+</D-Animation>
+<D-Animation:screen>
+id = 2241
+sy = Graphics.boxHeight/3*2
+sx = Graphics.boxWidth/4*3
+delay = 290
+</D-Animation>

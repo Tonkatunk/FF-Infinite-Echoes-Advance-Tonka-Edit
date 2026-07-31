@@ -1,0 +1,19 @@
+// アクターなら一歩前へ出る
+<D-Motion:delay&stepForward>
+condition = a.isActor();
+ex += $TILE*2;
+</D-Motion>
+
+//バンザイ
+<D-Motion:svItem/>
+
+//黒魔法発動アニメーション
+<D-Animation:self&wait>
+id = 300;
+</D-Animation>
+
+//同サイドが対象の場合、アニメーションを反転する
+<D-Setting:MirrorForFriend>
+<D-Animation>
+id = b.getMagicAnimationId(BattleManager._action.item().meta.DAnimeId);
+</D-Animation>

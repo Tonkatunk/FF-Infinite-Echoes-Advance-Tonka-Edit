@@ -1,0 +1,31 @@
+//同サイドが対象の場合、アニメーションを反転する
+<D-Setting:MirrorForFriend>
+
+<D-Animation>
+id = 386
+z = 0
+</D-Animation>
+
+//爆発ランダム
+<D-Animation:randomAll>
+delay = 30
+repeat = 20
+interval = 6
+sx = Graphics.boxWidth/2-Graphics.boxWidth/3*mirroring
+sy = Graphics.boxHeight*2/3
+id = 385
+sxRandom = 48
+syRandom = 32
+</D-Animation>
+
+//爆発ランダム
+<D-Animation:randomAll>
+delay = 30
+repeat = 20
+interval = 6
+sx = Graphics.boxWidth/2-Graphics.boxWidth/3*mirroring
+sy = Graphics.boxHeight*2/3
+sxRandom = 48
+syRandom = 32
+id = 387
+</D-Animation>

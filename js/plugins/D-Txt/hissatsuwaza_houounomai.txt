@@ -1,0 +1,41 @@
+<D-Motion:svItem&noWait>
+arcY = -16
+ex = Graphics.boxWidth/2
+ey = Graphics.boxHeight/5*4
+playSe = FF6 steal
+frame = 15
+</D-Motion>
+
+<D-Motion:spinfast&noWait>
+delay = 15
+arcY = 0
+frame = 120
+</D-Motion>
+
+<D-Animation:screen>
+delay = 15
+id = 2086
+sx = a.x
+sy = a.y-16
+</D-Animation>
+//炎ランダム
+<D-Animation:randomAll>
+delay = 95
+repeat = 20
+interval = 4
+sx = defaultX - $TILE*2
+sy = defaultY + $TILE
+id = 916
+</D-Animation>
+
+<D-Motion:svItem&home&noWait>
+delay = 135
+arcY = -16
+frame = 15
+</D-Motion>
+
+<D-Motion:return>
+delay = 151
+arcY = 0
+frame = 1
+</D-Motion>

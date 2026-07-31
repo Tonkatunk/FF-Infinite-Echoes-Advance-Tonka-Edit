@@ -1,0 +1,53 @@
+
+<D-Motion:svItem&noWait>
+arcY = 0
+frame = 30
+</D-Motion>
+<D-Animation:self&follow>
+id = 1838
+z = 2.9
+</D-Animation>
+<D-Animation:self&follow>
+id = 1842
+</D-Animation>
+
+<D-Motion:svItem&roll&noWait&pattern2>
+delay = 30
+arcY = -16
+frame = 15
+ex = b.x + 60
+ey = b.y
+rotation *= -0.38
+playSe = FF6 steal
+</D-Motion>
+
+<D-Motion:svItem&noWait&pattern2>
+delay = 60
+arcY = -16
+frame = 20
+ex = b.x - 140
+ey = b.y - b.height/2*1.5
+</D-Motion>
+
+<D-Animation:self&follow>
+delay = 60
+id = 1839
+z = 2.9
+</D-Animation>
+
+<D-Animation>
+delay = 67
+id = 1840
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+</D-Animation>
+
+<D-Motion:roll>
+delay = 91
+frame = 1
+rotation *= 1
+</D-Motion>
+
+<D-Motion:return&svItem>
+delay = 120
+arcY = -16
+</D-Motion>

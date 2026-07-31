@@ -1,0 +1,53 @@
+<D-Motion:readyGunblade&noWait>
+frame = 20
+arcY = -8
+ex = b.x
+ey = b.y
+</D-Motion>
+
+<D-Motion:woundUpGunblade&noWait>
+delay = 20
+frame = 30
+ey = b.y - 150
+arcY = 0
+</D-Motion>
+
+<D-Animation>
+delay = 20
+id = 2364
+</D-Animation>
+
+<D-Animation>
+delay = 20
+id = 2366
+</D-Animation>
+
+<D-Animation>
+delay = 110
+id = 2365
+</D-Animation>
+
+<D-Animation:random>
+delay = 110
+id = 2367
+</D-Animation>
+<D-Animation>
+delay = 110
+repeat = 10
+interval = 3
+id = 2368
+sxRandom = 24
+syRandom = 24
+</D-Animation>
+
+<D-Motion:home&noWait>
+delay = 200
+frame = 20
+arcY = -16
+</D-Motion>
+
+<D-Motion:return>
+delay = 220
+frame = 1
+arcY = 0
+</D-Motion>

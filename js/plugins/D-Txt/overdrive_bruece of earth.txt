@@ -1,0 +1,58 @@
+<D-Motion:jump&wait&svGuard>
+playSe = FF6 dance hop
+arcY = -$DOT*10
+frame = 10
+</D-Motion>
+
+<D-Motion:jump&wait&svGuard>
+playSe = FF6 dance hop
+arcY = -$DOT*10
+frame = 10
+</D-Motion>
+
+<D-Motion:wait&dancespin>
+playSe = FF6 dance spin
+frame = 30
+</D-Motion>
+
+<D-Animation>
+delay = 20
+id = 2300
+sy = Graphics.boxHeight/2+48
+z = 0
+</D-Animation>
+<D-Animation>
+delay = 220
+id = 2301
+sy = Graphics.boxHeight/2+48
+z = 0
+</D-Animation>
+
+<D-Animation:screen>
+delay = 120
+id = 2307
+sy = Graphics.boxHeight/2+48
+</D-Animation>
+
+<D-Animation:screen>
+delay = 165
+id = 2307
+sy = Graphics.boxHeight/2+48
+</D-Animation>
+
+<D-Animation:screen>
+delay = 210
+id = 2307
+sy = Graphics.boxHeight/2+48
+</D-Animation>
+
+<D-Animation>
+delay = 60
+id = 1
+script = BattleManager.startSummonEffect();
+</D-Animation>
+<D-Animation>
+id = 1
+delay = 330
+script = BattleManager.endSummonEffect();
+</D-Animation>

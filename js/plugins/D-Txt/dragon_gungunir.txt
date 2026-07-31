@@ -1,0 +1,27 @@
+<D-Motion:noWait&pattern0&svSpell>
+frame = 20
+</D-Motion>
+
+<D-Motion:noWait&svSpell&pattern1>
+delay = 20
+</D-Motion>
+
+<D-Animation>
+sx = a.x + 6
+sy = a.y - 21
+id = 1984
+</D-Animation>
+
+<D-Animation:lookCourse&pierce>
+delay = 20
+sx = a.x + 6
+sy = a.y - 21
+id = 1985
+</D-Animation>
+
+<D-Animation:beam>
+sx = a.x + 6
+sy = a.y - 21
+delay = 22
+id = 1986
+</D-Animation>

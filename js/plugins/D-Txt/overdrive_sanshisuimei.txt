@@ -1,0 +1,95 @@
+<D-Animation>
+id = 2087
+z = 0
+</D-Animation>
+<D-Motion:noWait>
+delay = 30
+plugin = tintBB12 127 127 127 127 127 127
+</D-Motion>
+
+
+<D-Motion:svItem&noWait>
+frame = 20
+ex = a.x-16
+arcY = -16
+playSe = {"name":"FF6 steal","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Motion:svGuard&noWait>
+delay = 20
+frame = 20
+arcY = 0
+</D-Motion>
+
+<D-Motion:svItem&noWait>
+scaleX = -1
+delay = 40
+frame = 20
+ex = a.x+32
+arcY = -16
+playSe = {"name":"FF6 steal","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Motion:svGuard&noWait>
+scaleX = -1
+delay = 60
+frame = 20
+arcY = 0
+</D-Motion>
+
+<D-Motion:svGuard&noWait>
+scaleX = 1
+delay = 80
+frame = 10
+ex = a.x-16
+arcY = 0
+</D-Motion>
+
+<D-Motion:svItem&noWait>
+delay = 90
+frame = 60
+arcY = 0
+playSe = {"name":"FF6 steal","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation>
+delay = 90
+id = 2334
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/2
+</D-Animation>
+
+<D-Animation>
+delay = 240
+id = 2336
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/2
+</D-Animation>
+
+<D-Animation:screen>
+delay = 240
+id = 2335
+sx = a.x-8
+sy = a.y-8
+ex = Graphics.boxWidth/2
+ey = Graphics.boxHeight/2
+</D-Animation>
+
+<D-Motion:fastpunch&noWait>
+delay = 240
+frame = 60
+arcY = 0
+playSe = {"name":"FF6 sleep2","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation:screen>
+delay = 270
+sx = Graphics.boxWidth/2
+sy = Graphics.boxHeight/2
+id = 2337
+</D-Animation>
+
+<D-Motion:noWait>
+delay = 300
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

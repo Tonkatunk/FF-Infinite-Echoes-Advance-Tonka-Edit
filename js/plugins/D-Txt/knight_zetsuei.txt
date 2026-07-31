@@ -1,0 +1,138 @@
+<D-Motion:svItem&noWait>
+frame = 10
+arcY = -16
+ex = b.x + b.width/2 + 24
+ey = b.y
+playSe = {"name":"FF6 steal","volume":100,"pitch":100,"pan":0}
+script = a.afterimage().start();
+</D-Motion>
+
+<D-Motion:tackle&noWait>
+delay = 10
+frame = 10
+arcY = 0
+ex = b.x - b.width/2 - 24
+script = BattleManager.applyStepBackAttack(a);
+</D-Motion>
+
+<D-Animation>
+delay = 10
+id = 472
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+</D-Animation>
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+delay = 10
+arcY = 0
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+<D-Animation:follow&self>
+delay = 10
+id = 471
+</D-Animation>
+<D-Animation:follow&self>
+delay = 20
+id = 471
+</D-Animation>
+<D-Animation:follow&self>
+delay = 30
+id = 471
+</D-Animation>
+<D-Animation:follow&self>
+delay = 10
+id = 473
+z = 2.9
+</D-Animation>
+<D-Animation:follow&self>
+delay = 20
+id = 473
+z = 2.9
+</D-Animation>
+<D-Animation:follow&self>
+delay = 30
+id = 473
+z = 2.9
+</D-Animation>
+
+<D-Motion:tackle&noWait>
+delay = 20
+frame = 20
+arcY = 0
+</D-Motion>
+
+<D-Motion:tackle&noWait>
+delay = 40
+frame = 10
+arcY = 0
+ex = b.x + b.width/2 + 24
+</D-Motion>
+
+// 攻撃が命中しなかった場合、ミスの効果音を鳴らす
+<D-Motion>
+delay = 40
+arcY = 0
+condition = BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded;
+playSe = {"name":"FF7 cancel","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+<D-Animation:follow&self>
+scaleX = -1
+delay = 40
+id = 473
+</D-Animation>
+<D-Animation:follow&self>
+scaleX = -1
+delay = 50
+id = 473
+</D-Animation>
+<D-Animation:follow&self>
+scaleX = -1
+delay = 60
+id = 473
+</D-Animation>
+<D-Animation:follow&self>
+scaleX = -1
+delay = 40
+id = 473
+z = 2.9
+</D-Animation>
+<D-Animation:follow&self>
+scaleX = -1
+delay = 50
+id = 473
+z = 2.9
+</D-Animation>
+<D-Animation:follow&self>
+scaleX = -1
+delay = 60
+id = 473
+z = 2.9
+</D-Animation>
+
+<D-Animation>
+delay = 40
+scaleX = -1
+id = 472
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+</D-Animation>
+
+
+<D-Motion:tackle&noWait>
+delay = 50
+frame = 20
+arcY = 0
+scaleX = -1
+</D-Motion>
+
+<D-Motion:svItem&home&noWait>
+frame = 20
+arcY = -16
+delay = 70
+script = a.afterimage().end();
+</D-Motion>
+<D-Motion:return&noWait>
+frame = 0
+delay = 90
+scaleX = 1
+</D-Motion>

@@ -1,0 +1,25 @@
+//効果音
+<D-Motion>
+playSe = {"name":"FF8 fira2","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation>
+id = 895
+arrival = 30
+repeat = 18
+interval = 8
+sx = a.x+a.headX()
+ex = a.x-Graphics.boxWidth*mirroring
+sy = a.y+a.headY()
+ey = Graphics.boxHeight/4+Math.sin(Math.PI / 9 * (r%9))*$TILE*6
+</D-Animation>
+
+<D-Animation:randomAll>
+id = 916
+repeat = 40
+interval = 4
+sx = defaultX - Graphics.boxWidth/3 * mirroring
+sy = defaultY + $TILE*2
+sxRandom = Graphics.boxWidth/3
+syRandom = Graphics.boxHeight/5
+</D-Animation>

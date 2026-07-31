@@ -1,0 +1,30 @@
+//隠れていた場合行動者の座標を画面外へセット
+<D-Motion:soon&wait>
+condition = a.isStateAffected(21);
+ex = sx+$TILE*6;
+</D-Motion>
+
+<D-Motion>
+playSe = {"name":"FF5 throw","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Motion:svSwing&noWait>
+script = a.startThrowMotion(a.x-$DOT*16,a.y-a.height-$DOT*16,b.x,b.y-b.height-$DOT*8);
+frame = 20
+</D-Motion>
+
+<D-Animation:wait>
+id = 989
+</D-Animation>
+
+<D-Motion:home>
+delay = 20
+condition = !a.isStateAffected(21)
+</D-Motion>
+
+//隠れていた場合ランダムで現れる
+<D-Motion:home>
+delay = 40
+condition = a.isStateAffected(21)&&Math.random()<0.5
+script = a.removeState(21)
+</D-Motion>

@@ -1,0 +1,73 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+
+//効果音
+<D-Motion>
+playSe = {"name":"FF6 drain1","volume":90,"pitch":100,"pan":0}
+</D-Motion>
+
+//吸収対象に集まるオーラ
+<D-Animation:moveVortex>
+target = $gameTroop.members()[1];
+repeat = 8
+interval = 0 // 間隔
+id = 346
+radiusX /= 3 // 半径（Ｘ方向）
+radiusY /= 3 // 半径（Ｙ方向）
+radX += r*22.5;
+radY += r*22.5;
+condition = a.index() == 2
+</D-Animation>
+<D-Animation:moveVortex>
+target = $gameTroop.members()[2];
+repeat = 8
+interval = 0 // 間隔
+id = 346
+radiusX /= 3 // 半径（Ｘ方向）
+radiusY /= 3 // 半径（Ｙ方向）
+radX += r*22.5;
+radY += r*22.5;
+condition = a.index() == 1
+</D-Animation>
+
+//吸い取る
+<D-Animation:shot>
+delay = 20
+target = $gameTroop.members()[2];
+repeat = 5 // 繰返回数
+sx = $gameTroop.members()[2].x
+ex = a.x
+sy = $gameTroop.members()[2].y-$gameTroop.members()[2].height/2
+ey = a.y-a.height/2
+scaleX = (5-r)*0.2
+scaleY = (5-r)*0.2
+id = 346
+condition = a.index() == 1
+</D-Animation>
+<D-Animation:shot>
+delay = 20
+target = $gameTroop.members()[2];
+repeat = 5 // 繰返回数
+sx = $gameTroop.members()[2].x
+ex = a.x
+sy = $gameTroop.members()[2].y-$gameTroop.members()[2].height/2
+ey = a.y-a.height/2
+scaleX = (5-r)*0.2
+scaleY = (5-r)*0.2
+id = 346
+condition = a.index() == 1
+</D-Animation>
+
+<D-Animation>
+delay = 40
+id = 431
+sx = a.x+$TILE*9-8
+sy = a.y-$TILE*2+14
+z = 100
+</D-Animation>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

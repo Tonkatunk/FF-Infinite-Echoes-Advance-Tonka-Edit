@@ -1,0 +1,133 @@
+<D-Motion:gunshotRmiss&noWait>
+frame = 20
+arcY = 0
+plugin = tintBB12 127 127 127 127 127 127
+</D-Motion>
+<D-Animation:lookCourse&screen>
+scaleX = 0.75
+scaleY = 0.75
+delay = 8
+id = 2223
+afterimage = 10
+afterimageInterval = 5
+sx = a.x - 8
+sy = a.y - a.height/2
+ex = Graphics.boxWidth/3
+ey = Graphics.boxHeight/3*2
+arcY = -16
+arrival = 20
+</D-Animation>
+<D-Animation:screen>
+id = 2224
+delay = 48
+sx = Graphics.boxWidth/3
+sy = Graphics.boxHeight/3*2
+</D-Animation>
+<D-Animation:self>
+delay = 8
+id = 2225
+playSe = {"name":"MZ fire2","volume":50,"pitch":100,"pan":0}
+</D-Animation>
+<D-Animation:randomCircle>
+delay = 48
+id = 2226
+sx = Graphics.boxWidth/3
+sy = Graphics.boxHeight/3*2
+sxRandom = 75+r*2 // 始点Ｘ座標分散
+syRandom *= 0.5 // 始点Ｙ座標分散
+repeat = 10
+interval = 4
+scaleX = 0.75
+scaleY = 0.75
+</D-Animation>
+
+<D-Motion:gunshotRmiss&noWait>
+delay = 90
+frame = 20
+arcY = 0
+</D-Motion>
+<D-Animation:lookCourse&screen>
+delay = 98
+id = 2223
+afterimage = 10
+afterimageInterval = 5
+sx = a.x - 8
+sy = a.y - a.height/2
+ex = Graphics.boxWidth/3
+ey = Graphics.boxHeight/3*2
+scaleX = 0.75
+scaleY = 0.75
+arcY = -16
+arrival = 20
+</D-Animation>
+<D-Animation:screen>
+id = 2224
+delay = 138
+sx = Graphics.boxWidth/3
+sy = Graphics.boxHeight/3*2
+</D-Animation>
+<D-Animation:self>
+delay = 98
+id = 2225
+playSe = {"name":"MZ fire2","volume":50,"pitch":100,"pan":0}
+</D-Animation>
+<D-Animation:randomCircle>
+delay = 138
+id = 2226
+sx = Graphics.boxWidth/3
+sy = Graphics.boxHeight/3*2
+sxRandom = 75+r*2 // 始点Ｘ座標分散
+syRandom *= 0.5 // 始点Ｙ座標分散
+repeat = 10
+interval = 4
+scaleX = 0.75
+scaleY = 0.75
+</D-Animation>
+
+<D-Motion:gunshotRmiss&noWait>
+delay = 180
+frame = 20
+arcY = 0
+</D-Motion>
+<D-Animation:lookCourse&screen>
+scaleX = 0.75
+scaleY = 0.75
+delay = 188
+id = 2223
+afterimage = 10
+afterimageInterval = 5
+sx = a.x - 8
+sy = a.y - a.height/2
+ex = Graphics.boxWidth/3
+ey = Graphics.boxHeight/3*2
+arcY = -16
+arrival = 20
+</D-Animation>
+<D-Animation:screen>
+id = 2224
+delay = 228
+sx = Graphics.boxWidth/3
+sy = Graphics.boxHeight/3*2
+</D-Animation>
+<D-Animation:self>
+delay = 188
+id = 2225
+playSe = {"name":"MZ fire2","volume":50,"pitch":100,"pan":0}
+</D-Animation>
+<D-Animation:randomCircle>
+delay = 228
+id = 2226
+sx = Graphics.boxWidth/3
+sy = Graphics.boxHeight/3*2
+sxRandom = 75+r*2 // 始点Ｘ座標分散
+syRandom *= 0.5 // 始点Ｙ座標分散
+repeat = 10
+interval = 4
+scaleX = 0.75
+scaleY = 0.75
+</D-Animation>
+
+<D-Motion>
+delay = 228
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

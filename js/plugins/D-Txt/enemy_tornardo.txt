@@ -1,0 +1,16 @@
+<D-Animation:screen&revolve>
+radiusX /= 5 // 半径（Ｙ方向）
+radiusY = 0 // 半径（Ｙ方向）
+sx = Graphics.boxWidth/2-Graphics.boxWidth/3*mirroring
+sy = Graphics.boxHeight/5*4
+</D-Animation>
+
+//岩ランダム
+<D-Animation:randomAll>
+repeat = 30
+interval = 5
+sx = Graphics.boxWidth/2-Graphics.boxWidth/3*mirroring
+sy = Graphics.boxHeight/5*4
+sxRandom = $TILE*3 // 始点Ｘ座標分散
+id = 542
+</D-Animation>

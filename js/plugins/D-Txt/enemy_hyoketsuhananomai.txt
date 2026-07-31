@@ -1,0 +1,30 @@
+<D-Animation>
+z = 0
+id = 2087
+</D-Animation>
+
+<D-Animation>
+id = 1
+delay = 30
+plugin = tintBB12 127 127 127 127 127 127
+</D-Animation>
+
+<D-Animation>
+id = 1621
+sx = Graphics.boxWidth*3/4
+sy = Graphics.boxHeight*2/3
+</D-Animation>
+
+<D-Animation>
+id = 1622
+delay = 80
+sx = Graphics.boxWidth*3/4
+sy = Graphics.boxHeight*2/3
+</D-Animation>
+
+<D-Animation>
+z = 0
+delay = 80
+plugin = tintBB12 255 255 255 255 255 255
+id = 2093
+</D-Animation>

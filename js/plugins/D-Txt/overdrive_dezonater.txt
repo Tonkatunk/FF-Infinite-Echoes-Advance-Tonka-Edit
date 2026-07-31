@@ -1,0 +1,31 @@
+<D-Motion:svMissile&noWait>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+
+<D-Animation>
+id = 1196
+</D-Animation>
+<D-Motion:target&noWait>
+frame = 50
+scale = (et-t)/et
+ey = b.y-b.height/2
+condition = BattleManager._targets[0]._result.addedStates.includes(34)
+</D-Motion>
+<D-Motion:target&noWait>
+delay = 49
+sx = -Graphics.boxWidth
+sy = -Graphics.boxHeight
+ex = -Graphics.boxWidth
+ey = -Graphics.boxHeight
+condition = BattleManager._targets[0]._result.addedStates.includes(34)
+</D-Motion>
+<D-Motion:target&noWait>
+delay = 51
+script = BattleManager._targets[0].addStateInMotion()
+</D-Motion>
+
+
+<D-Motion>
+delay = 60
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

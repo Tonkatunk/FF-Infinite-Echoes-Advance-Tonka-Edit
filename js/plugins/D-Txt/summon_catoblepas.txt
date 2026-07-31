@@ -1,0 +1,32 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+<D-Animation:wait>
+id = 990
+script = BattleManager.startSummonEffect();
+</D-Animation>
+
+<D-Animation>
+id = 1109
+sx = Graphics.boxWidth/5*4
+sy = Graphics.boxHeight/2
+</D-Animation>
+<D-Animation>
+delay = 90
+id = 1110
+</D-Animation>
+<D-Animation>
+id = 1
+delay = 150
+script = BattleManager._targets[0].addStateInMotion()
+</D-Animation>
+
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>
+<D-Animation:delay&wait>
+id = 1
+script = BattleManager.endSummonEffect();
+</D-Animation>

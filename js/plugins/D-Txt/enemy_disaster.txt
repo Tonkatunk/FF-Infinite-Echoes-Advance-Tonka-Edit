@@ -1,0 +1,30 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+playSe = FF6 phantom
+</D-Motion>
+
+<D-Animation:randomAll&screen>
+repeat = 60
+interval = 1
+sxRandom = Graphics.boxWidth / 2 * 2
+syRandom = Graphics.boxHeight / 2 * 2
+ex = sx + (r % 2 == 0 ? -Graphics.width : Graphics.width)
+scaleX = 0.5 + 2.5 * da.random(1) // 横幅を0.5~3倍
+scaleY = 0.5 +1.5 * da.random(1) // 縦幅を0.5~2倍
+opacity = 128 * Math.sin(Math.PI * t/et) // 不透明度を0 -> 128 -> 0に
+id = 1111
+z = 2
+</D-Animation>
+<D-Animation:screen>
+sx = Graphics.boxWidth*2/3
+sy = Graphics.boxHeight*2/5
+arcY = $TILE*2
+id = 2539
+delay = 90
+z = 1.9
+</D-Animation>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

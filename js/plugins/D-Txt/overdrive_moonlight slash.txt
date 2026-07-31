@@ -1,0 +1,68 @@
+<D-Motion:woundUpClaymore&noWait>
+arcY = 0
+frame = 60
+script = a.afterimage().start();
+</D-Motion>
+
+<D-Animation>
+z = 0
+id = 2087
+</D-Animation>
+
+<D-Animation>
+id = 1
+delay = 30
+plugin = tintBB12 64 64 64 64 64 64
+</D-Animation>
+
+<D-Motion:woundUpClaymore&noWait>
+arcY = 0
+frame = 60
+</D-Motion>
+
+<D-Motion:noWait>
+delay = 60
+arcY = 0
+ex = b.x - b.width/2
+ey = b.y
+frame = 20
+</D-Motion>
+
+<D-Motion:swingClaymore&noWait>
+delay = 80
+arcY = 0
+frame = 60
+script = a.afterimage().start();
+</D-Motion>
+
+<D-Animation>
+delay = 70
+id = 2369
+</D-Animation>
+<D-Animation>
+delay = 90
+id = 2370
+</D-Animation>
+<D-Animation>
+delay = 90
+id = 2371
+</D-Animation>
+
+<D-Animation>
+z = 0
+delay = 150
+plugin = tintBB12 255 255 255 255 255 255
+id = 2093
+</D-Animation>
+
+<D-Motion:svItem&home&noWait>
+delay = 150
+arcY = -16
+frame = 20
+</D-Motion>
+
+<D-Motion:retrun>
+delay = 170
+arcY = 0
+frame = 1
+</D-Motion>

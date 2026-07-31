@@ -1,0 +1,24 @@
+<D-Animation>
+id = 1
+script = BattleManager.releaseReady(Number(BattleManager._action.item().meta.release));
+</D-Animation>
+
+//一歩前進
+<D-Motion:stepForward&wait>
+ex = sx-16;
+</D-Motion>v
+
+//バンザイ
+<D-Motion:svItem>
+motionPattern = 0
+</D-Motion>
+
+<D-Animation>
+playSe = {"name":"FF5 release","volume":90,"pitch":100,"pan":0}
+id = 1
+script = BattleManager.startSummonEffect();
+</D-Animation>
+<D-Animation:wait>
+id = 1000
+script = BattleManager.releaseAppear();
+</D-Animation>

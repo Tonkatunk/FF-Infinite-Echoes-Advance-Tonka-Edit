@@ -1,0 +1,28 @@
+<D-Animation:screen>
+afterimage = 10 // 残像数
+afterimageInterval = 2 // 残像間隔
+arrival = 20
+arcY = -32
+sx = Graphics.boxWidth+Graphics.boxWidth/4
+ex = Graphics.boxWidth*2/3
+sy = Graphics.boxHeight/3*2
+id = 1309
+z = 100
+</D-Animation>
+
+<D-Animation:screen>
+delay = 12
+sx = Graphics.boxWidth*2/3
+sy = Graphics.boxHeight/3*2
+id = 1310
+z = 100
+</D-Animation>
+
+<D-Animation:screen>
+delay = 12
+sx = Graphics.boxWidth*2/3
+ex = Graphics.boxWidth/2
+sy = Graphics.boxHeight/3*2
+id = 1311
+z = 100
+</D-Animation>

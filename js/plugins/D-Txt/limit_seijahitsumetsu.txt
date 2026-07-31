@@ -1,0 +1,228 @@
+<D-Animation>
+id = 1431
+z = 0
+</D-Animation>
+
+<D-Motion:noWait>
+    delay = 30
+    plugin = tintBB12 0 0 0 0 0 0
+</D-Motion>
+
+<D-Motion:near&foot&noWait>
+    script = a.afterimage().start()
+    playSe = FF7 dash
+    frame = 20
+    arcY = 0
+</D-Motion>
+
+<D-Motion:swingW&noWait>
+    delay = 20
+    frame = 15
+    arcY = 0
+    ey = BattleManager._targets[0].y
+    ex = BattleManager._targets[0].x - 16
+</D-Motion>
+<D-Animation>
+    delay = 20
+    id = 1427
+    target = BattleManager._targets[0]
+    script = BattleManager._targets[0].startDamageShake();
+</D-Animation>
+<D-Motion:swingW&noWait>
+    scaleX = -1
+    delay = 35
+    frame = 15
+    arcY = 0
+    plugin = tintBB12 0 0 0 0 0 0
+    ex = BattleManager._targets[0].x + 16
+</D-Motion>
+<D-Animation>
+    scaleX = -1
+    delay = 35
+    id = 1427
+    target = BattleManager._targets[0]
+    script = BattleManager._targets[0].startDamageShake();
+</D-Animation>
+<D-Motion:jumpSlash&noWait>
+    scaleX = 1
+    delay = 50
+    frame = 30
+    arcY = -32
+</D-Motion>
+<D-Animation>
+    id = 1428
+    delay = 50
+    target = BattleManager._targets[0]
+    script = BattleManager._targets[0].startDamageShake();
+</D-Animation>
+<D-Animation>
+    id = 1429
+    delay = 65
+    target = BattleManager._targets[0]
+    script = BattleManager._targets[0].startDamageShake();
+</D-Animation>
+
+<D-Motion:swingW&noWait>
+    delay = 80
+    frame = 15
+    arcY = 0
+    ey = BattleManager._targets[1].y
+    ex = BattleManager._targets[1].x - 16
+</D-Motion>
+<D-Animation>
+    delay = 80
+    id = 1427
+    target = BattleManager._targets[1]
+    script = BattleManager._targets[1].startDamageShake();
+</D-Animation>
+<D-Motion:swingW&noWait>
+    scaleX = -1
+    delay = 95
+    frame = 15
+    arcY = 0
+    plugin = tintBB12 0 0 0 0 0 0
+    ex = BattleManager._targets[1].x + 16
+</D-Motion>
+<D-Animation>
+    scaleX = -1
+    delay = 95
+    id = 1427
+    target = BattleManager._targets[1]
+    script = BattleManager._targets[1].startDamageShake();
+</D-Animation>
+<D-Motion:jumpSlash&noWait>
+    scaleX = 1
+    delay = 110
+    frame = 30
+    arcY = -32
+</D-Motion>
+<D-Animation>
+    id = 1428
+    delay = 110
+    target = BattleManager._targets[1]
+    script = BattleManager._targets[1].startDamageShake();
+</D-Animation>
+<D-Animation>
+    id = 1429
+    delay = 125
+    target = BattleManager._targets[1]
+    script = BattleManager._targets[1].startDamageShake();
+</D-Animation>
+
+<D-Motion:swingW&noWait>
+    delay = 140
+    frame = 15
+    arcY = 0
+    ey = BattleManager._targets[2].y
+    ex = BattleManager._targets[2].x - 16
+</D-Motion>
+<D-Animation>
+    delay = 140
+    id = 1427
+    target = BattleManager._targets[2]
+    script = BattleManager._targets[2].startDamageShake();
+</D-Animation>
+<D-Motion:swingW&noWait>
+    scaleX = -1
+    delay = 155
+    frame = 15
+    arcY = 0
+    plugin = tintBB12 0 0 0 0 0 0
+    ex = BattleManager._targets[2].x + 16
+</D-Motion>
+<D-Animation>
+    scaleX = -1
+    delay = 155
+    id = 1427
+    target = BattleManager._targets[2]
+    script = BattleManager._targets[2].startDamageShake();
+</D-Animation>
+<D-Motion:jumpSlash&noWait>
+    scaleX = 1
+    delay = 170
+    frame = 30
+    arcY = -32
+</D-Motion>
+<D-Animation>
+    id = 1428
+    delay = 170
+    target = BattleManager._targets[2]
+    script = BattleManager._targets[2].startDamageShake();
+</D-Animation>
+<D-Animation>
+    id = 1429
+    delay = 185
+    target = BattleManager._targets[2]
+    script = BattleManager._targets[2].startDamageShake();
+</D-Animation>
+
+<D-Motion:swingW&noWait>
+    delay = 200
+    frame = 15
+    arcY = 0
+    ey = BattleManager._targets[3].y
+    ex = BattleManager._targets[3].x - 16
+</D-Motion>
+<D-Animation>
+    delay = 200
+    id = 1427
+    target = BattleManager._targets[3]
+    script = BattleManager._targets[3].startDamageShake();
+</D-Animation>
+<D-Motion:swingW&noWait>
+    scaleX = -1
+    delay = 215
+    frame = 15
+    arcY = 0
+    plugin = tintBB12 0 0 0 0 0 0
+    ex = BattleManager._targets[3].x + 16
+</D-Motion>
+<D-Animation>
+    scaleX = -1
+    delay = 215
+    id = 1427
+    target = BattleManager._targets[3]
+    script = BattleManager._targets[3].startDamageShake();
+</D-Animation>
+<D-Motion:upperSlash&noWait>
+    scaleX = 1
+    delay = 230
+    frame = 10
+    noShadow = true
+    ey = a.y-32
+    plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>
+<D-Animation>
+    id = 1430
+    delay = 230
+    target = BattleManager._targets[3]
+    script = BattleManager._targets[3].startDamageShake();
+</D-Animation>
+<D-Motion:upperSlash&noWait>
+    delay = 240
+    frame = 110
+    noShadow = true
+    ey = a.y-8
+</D-Motion>
+<D-Motion:svWait&noWait>
+    delay = 330
+    frame = 10
+    noShadow = true
+    ey = a.y+40
+    script = a.afterimage().end()
+</D-Motion>
+<D-Motion:home&noWait>
+    delay = 340
+    frame = 20
+    noShadow = false
+</D-Motion>
+<D-Motion:return&noWait>
+    delay = 360
+    frame = 1
+</D-Motion>
+
+<D-Animation>
+id = 1432
+delay = 220
+z = 0
+</D-Animation>

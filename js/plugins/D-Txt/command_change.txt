@@ -1,0 +1,26 @@
+//移動---------------------------------------------------------------
+
+//後衛の場合
+<D-Motion:stepForward>
+condition = a.isStateAffected(33);
+sx = defaultX;
+ex = defaultX-$TILE;
+arcY = 0
+frame = 12
+</D-Motion>
+
+//前衛の場合
+<D-Motion:walk>
+condition = a.isStateAffected(32);
+arcY = 0
+ex = defaultX+$TILE;
+frame = 12
+</D-Motion>
+
+//ステートの反映---------------------------------------------------------------
+
+<D-Motion:delay>
+script = BattleManager.applyCommandChange(BattleManager._targets[0]);
+</D-Motion>
+<D-Motion:delay&soon&home>
+</D-Motion>

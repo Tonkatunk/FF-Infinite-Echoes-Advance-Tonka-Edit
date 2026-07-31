@@ -1,0 +1,65 @@
+<D-Animation>
+repeat = 10
+nextDelay = 1
+sx = a.x
+sy = a.y-a.height/2
+ex = b.x
+ey = b.y-b.height/2
+exRandom = 8
+eyRandom = 8
+arrival = 10
+</D-Animation>
+
+<D-Motion>
+delay = 10
+condition = BattleManager.resultList().length > 0 && BattleManager.resultList()[0].hpDamage > 0;
+script = BattleManager.indexTarget(0).startDamageShake()
+</D-Motion>
+
+<D-Motion>
+delay = 10
+condition = BattleManager.resultList().length > 1 && BattleManager.resultList()[1].hpDamage > 0;
+script = BattleManager.indexTarget(1).startDamageShake()
+</D-Motion>
+
+<D-Motion>
+delay = 10
+condition = BattleManager.resultList().length > 2 && BattleManager.resultList()[2].hpDamage > 0;
+script = BattleManager.indexTarget(2).startDamageShake()
+</D-Motion>
+
+<D-Motion>
+delay = 10
+condition = BattleManager.resultList().length > 3 && BattleManager.resultList()[3].hpDamage > 0;
+script = BattleManager.indexTarget(3).startDamageShake()
+</D-Motion>
+
+<D-Motion>
+delay = 10
+condition = BattleManager.resultList().length > 4 && BattleManager.resultList()[4].hpDamage > 0;
+script = BattleManager.indexTarget(4).startDamageShake()
+</D-Motion>
+
+<D-Motion>
+delay = 10
+condition = BattleManager.resultList().length > 5 && BattleManager.resultList()[5].hpDamage > 0;
+script = BattleManager.indexTarget(5).startDamageShake()
+</D-Motion>
+
+<D-Motion>
+delay = 10
+condition = BattleManager.resultList().length > 6 && BattleManager.resultList()[6].hpDamage > 0;
+script = BattleManager.indexTarget(6).startDamageShake()
+</D-Motion>
+
+<D-Motion>
+delay = 10
+condition = BattleManager.resultList().length > 7 && BattleManager.resultList()[7].hpDamage > 0;
+script = BattleManager.indexTarget(7).startDamageShake()
+</D-Motion>
+
+<D-Motion>
+delay = 10
+condition = BattleManager.resultList().length > 8 && BattleManager.resultList()[8].hpDamage > 0;
+script = BattleManager.indexTarget(8).startDamageShake()
+</D-Motion>

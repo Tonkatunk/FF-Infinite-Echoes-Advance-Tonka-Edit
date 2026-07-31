@@ -1,0 +1,18 @@
+<D-Animation>
+sx = Graphics.boxWidth
+ex = 0
+sy = 0
+ey = Graphics.boxHeight/2
+afterimage = 5 // 残像数
+afterimageInterval = 1 // 残像間隔
+</D-Animation>
+
+<D-Animation:delay>
+    id = 1304
+    ex = Graphics.boxWidth
+    sx = 0
+    sy = Graphics.boxHeight/2
+    ey = Graphics.boxHeight
+    afterimage = 5 // 残像数
+    afterimageInterval = 1 // 残像間隔
+</D-Animation>

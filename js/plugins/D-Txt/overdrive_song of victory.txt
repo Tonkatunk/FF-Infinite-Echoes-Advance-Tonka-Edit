@@ -1,0 +1,23 @@
+
+<D-Motion:svChant>
+frame = 170
+plugin = tintBB12 127 127 127 127 127 127
+</D-Motion>
+<D-Animation:self>
+id = 594
+</D-Animation>
+<D-Animation:self>
+delay = 60
+id = 596
+</D-Animation>
+<D-Animation:screen>
+delay = 90
+id = 2287
+</D-Animation>
+
+
+<D-Motion:delay&return>
+arcY = 0
+plugin = tintBB12 255 255 255 255 255 255
+script = a.addState(59)
+</D-Motion>

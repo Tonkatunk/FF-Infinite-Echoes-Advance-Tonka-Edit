@@ -1,0 +1,72 @@
+<D-Motion:swingSword&noWait>
+arcY = 0
+frame = 16
+</D-Motion>
+
+<D-Animation>
+id = 487
+z = 3.1
+</D-Animation>
+
+<D-Animation>
+id = 2257
+z = 0
+</D-Animation>
+
+<D-Animation>
+delay = 30
+id = 498
+afterimage = 10 // 残像数
+afterimageInterval = 1 // 残像間隔
+arcY = -32
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+sx = b.x
+sy = b.y-b.height/2
+delay = 20
+ex = a.x
+ey = a.y-a.height/2
+scaleX = 0.5
+scaleY = 0.5
+</D-Animation>
+
+<D-Animation>
+delay = 30
+id = 498
+afterimage = 10 // 残像数
+afterimageInterval = 1 // 残像間隔
+arcY = 0
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+sx = b.x
+sy = b.y-b.height/2
+delay = 20
+ex = a.x
+ey = a.y-a.height/2
+scaleX = 0.5
+scaleY = 0.5
+</D-Animation>
+
+<D-Animation>
+delay = 30
+id = 498
+afterimage = 10 // 残像数
+afterimageInterval = 1 // 残像間隔
+arcY = 32
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+sx = b.x
+sy = b.y-b.height/2
+delay = 20
+ex = a.x
+ey = a.y-a.height/2
+scaleX = 0.5
+scaleY = 0.5
+</D-Animation>
+
+<D-Animation:self>
+delay = 50
+id = 347
+</D-Animation>
+
+<D-Motion:return&noWait>
+    delay = 120
+    frame = 1
+</D-Motion>

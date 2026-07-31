@@ -1,0 +1,46 @@
+// 対象へ飛び込む
+<D-Motion:crash&svItem&noWait>
+playSe = FF6 steal
+position = 2 // 足元
+frame = 15
+ex = b.x + b.width/2 * mirroring
+arcY = -$TILE*2
+script = a.afterimage().start();
+</D-Motion>
+
+// 対象を中心に円運動
+<D-Motion:revolve&noWait&svGuard>
+delay = 15
+frame = 60
+sx = b.x
+radiusX = (15 + b.width/2) // Ｘ半径
+radiusY = (15 + b.width/2) / 2 // Ｙ半径
+radX *= 6 // Ｘ方向に6周
+radY *= 6 // Ｙ方向に6周
+playSe = 2000 Wind5
+z = a.y + (b.height - a.height)/2 > b.y ? b.z+1 : b.z-1
+scaleX = (a.y + (b.height - a.height)/2 > b.y ? 1 : -1) * mirroring
+</D-Motion>
+
+<D-Motion:swingW&noWait>
+delay = 75
+frame = 15
+script = a.afterimage().end();
+sx = b.x + b.width/2 * mirroring
+ex = b.x - b.width/2 * mirroring
+sy = b.y
+ey = b.y
+</D-Motion>
+
+<D-Animation:noWait>
+delay = 75
+id = 930
+</D-Animation>
+
+// 戻る
+<D-Motion:return&svItem>
+delay = 120
+frame = 15
+arcY = -$TILE*2 // 少し高めにジャンプ
+script = a.afterimage().end();
+</D-Motion>

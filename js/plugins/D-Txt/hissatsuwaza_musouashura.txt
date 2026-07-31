@@ -1,0 +1,143 @@
+<D-Animation>
+    id = 2087
+    z = 0
+</D-Animation>
+
+<D-Motion:noWait>
+    delay = 30
+    plugin = tintBB12 127 127 127 127 127 127
+</D-Motion>
+
+<D-Motion:svGuard&pattern0&noWait>
+frame = 60
+arcY = 0
+</D-Motion>
+
+<D-Animation:self>
+id = 1842
+z = 2.9
+sx = a.x - 6
+sy = a.y - 12
+playSe = EVFXForge03_11_SparkforgeStrike
+</D-Animation>
+
+<D-Animation:self>
+id = 1842
+sx = a.x + 6
+sy = a.y - 6
+</D-Animation>
+
+// 対象へ飛び込む
+<D-Motion:tackle&noWait>
+delay = 60
+script = a.afterimage().start();
+playSe = FF6 steal
+position = 2 // 足元
+frame = 12
+arcY = -$TILE*2
+ex = b.x + b.width/2
+ey = b.y
+</D-Motion>
+
+<D-Motion:missile&noWait>
+script = a.afterimage().end();
+delay = 74
+arcY = 0
+frame = 15
+</D-Motion>
+<D-Animation>
+delay = 72
+id = 1843
+target = BattleManager._targets[0]
+</D-Animation>
+
+<D-Motion:fastpunch&noWait>
+delay = 89
+arcY = 0
+frame = 15
+</D-Motion>
+<D-Animation>
+delay = 87
+id = 1844
+target = BattleManager._targets[0]
+</D-Animation>
+
+<D-Motion:missile&noWait>
+delay = 104
+arcY = 0
+frame = 15
+</D-Motion>
+<D-Animation>
+delay = 102
+id = 1843
+target = BattleManager._targets[0]
+</D-Animation>
+
+<D-Animation>
+delay = 117
+id = 1845
+target = BattleManager._targets[0]
+</D-Animation>
+<D-Motion:upper&noWait>
+delay = 119
+arcY = -32
+ey = a.y - 32
+frame = 30
+</D-Motion>
+<D-Motion:target>
+delay = 132
+arcY = 0
+frame = 20
+ey = b.y - 32
+</D-Motion>
+
+<D-Motion:missile&noWait>
+delay = 152
+arcY = 0
+frame = 15
+</D-Motion>
+<D-Animation:follow>
+delay = 150
+id = 1810
+target = BattleManager._targets[0]
+</D-Animation>
+<D-Motion:target>
+delay = 152
+arcY = 0
+frame = 10
+ey = b.y + 32
+</D-Motion>
+
+<D-Motion:missile&noWait>
+delay = 167
+arcY = 0
+frame = 10
+ey = a.y + 32
+</D-Motion>
+<D-Animation>
+delay = 154
+id = 250
+target = BattleManager._targets[0]
+</D-Animation>
+<D-Animation>
+delay = 164
+id = 1808
+target = BattleManager._targets[0]
+</D-Animation>
+
+<D-Motion:delay&svItem&return>
+delay = 210
+arcY = -16
+</D-Motion>
+
+<D-Animation>
+    delay = 210
+    id = 2093
+    z = 0
+target = BattleManager._targets[0]
+</D-Animation>
+
+<D-Motion:noWait>
+    delay = 210
+    plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>

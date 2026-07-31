@@ -1,0 +1,141 @@
+<D-Motion>
+plugin = tintBB12 64 64 64 64 64 64
+</D-Motion>
+<D-Animation:wait>
+id = 990
+script = BattleManager.startSummonEffect();
+</D-Animation>
+
+<D-Animation:screen>
+playSe = {"name":"ETC bat","volume":90,"pitch":100,"pan":0}
+id = 1;
+</D-Animation>
+
+//こうもり
+<D-Animation:converge&screen>
+arrival = 60
+id = 437
+repeat = 60
+interval = 1 // 間隔
+radiusX = $TILE*6 * (1-t/et) // 横幅
+radiusY = $TILE*6 * (1-t/et) // 縦幅
+radX = da.random() * Math.PI * 2 // 回転角度（Ｘ）
+radY = da.random() * Math.PI * 2 // 回転角度（ｙ）
+sx = defaultX - $TILE * mirroring + Graphics.boxWidth/5*2
+sy = defaultY + $TILE*2 - Graphics.boxHeight/6
+ex = Graphics.boxWidth/5*4
+ey = Graphics.boxHeight/3
+</D-Animation>
+
+//重力球
+<D-Animation>
+delay = 60
+id = 438
+sx = Graphics.boxWidth/5*4
+sy = Graphics.boxHeight/3
+scale = 0.75
+z = 100
+</D-Animation>
+//重力球
+<D-Animation>
+delay = 220
+id = 442
+sx = Graphics.boxWidth/5*4
+sy = Graphics.boxHeight/3
+ey = -(Graphics.boxHeight/2)
+scale = 0.75
+z = 100
+</D-Animation>
+//重力球
+<D-Animation>
+delay = 250
+id = 443
+sx = Graphics.boxWidth/3
+sy = -(Graphics.boxHeight/2)
+ey = Graphics.boxHeight/2
+scale = 1
+</D-Animation>
+//重力球つぶす
+<D-Animation>
+delay = 450
+id = 444
+sx = Graphics.boxWidth/3
+sy = Graphics.boxHeight/2
+ey = Graphics.boxHeight/2+$DOT*192/4
+scaleY = (et-t)/et
+</D-Animation>
+//つぶすオーラ
+<D-Animation>
+delay = 370
+id = 440
+sx = Graphics.boxWidth/3
+sy = Graphics.boxHeight/10*9
+</D-Animation>
+//対象をつぶす
+<D-Motion:target>
+delay = 370
+frame = 120
+scaleY = (et-t)/et
+</D-Motion>
+//対象をもどす
+<D-Motion:target>
+delay = 490
+frame = 120
+scaleY = t/et
+</D-Motion>
+
+
+//ﾃﾞｨｱﾎﾞﾛｽ
+<D-Animation>
+delay = 180
+id = 439
+scale = (t/et)/2 + 0.5
+sx = Graphics.boxWidth/5*4
+sy = Graphics.boxHeight/3
+ey = Graphics.boxHeight/2
+z = 99
+</D-Animation>
+//いるだけ
+<D-Animation>
+delay = 300
+id = 441
+sx = Graphics.boxWidth/5*4
+sy = Graphics.boxHeight/2
+z = 99
+</D-Animation>
+//いるだけ
+<D-Animation>
+delay = 410
+id = 441
+sx = Graphics.boxWidth/5*4
+sy = Graphics.boxHeight/2
+z = 99
+</D-Animation>
+//こうもりで散る
+<D-Animation:radiate>
+delay = 610
+arrival = 60
+id = 437
+repeat = 60
+interval = 1 // 間隔
+radiusX = $TILE*6 * t/et // 横幅
+radiusY = $TILE*6 * t/et // 縦幅
+radX = da.random() * Math.PI * 2 // 回転角度（Ｘ）
+radY = da.random() * Math.PI * 2 // 回転角度（ｙ）
+sx = Graphics.boxWidth/4*3
+sy = Graphics.boxHeight/5*3
+</D-Animation>
+<D-Animation:screen&wait>
+delay = 610
+playSe = {"name":"ETC bat","volume":90,"pitch":100,"pan":0}
+id = 1;
+</D-Animation>
+
+// アニメーション終了を待って実行
+<D-Motion:delay>
+plugin = tintBB12 255 255 255 255 255 255
+</D-Motion>
+<D-Animation:delay&wait>
+id = 1
+script = BattleManager.endSummonEffect();
+</D-Animation>

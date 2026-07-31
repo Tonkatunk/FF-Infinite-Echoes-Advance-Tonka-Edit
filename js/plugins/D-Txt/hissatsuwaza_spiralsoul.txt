@@ -1,0 +1,43 @@
+<D-Motion:spinfast&noWait>
+frame = 120
+arcY = 0
+</D-Motion>
+
+<D-Animation:self>
+id = 1825
+</D-Animation>
+
+<D-Motion:spinfast&noWait>
+delay = 90
+frame = 20
+ey = a.y - 100
+arcY = 0
+</D-Motion>
+
+<D-Motion>
+delay = 140
+playSe = FF7 araise2
+arcY = 0
+</D-Motion>
+
+<D-Animation:rain>
+delay = 140
+arrival = 30 // 到達フレーム
+id = 1826
+sx += 64 * mirroring
+sy = 0
+ey -= 48
+</D-Animation>
+
+<D-Motion:spinslow&home&noWait>
+delay = 260
+frame = 30
+arcY = 0
+</D-Motion>
+
+<D-Motion:return&noWait>
+delay = 290
+frame = 1
+arcY = 0
+script = a.addState(1)
+</D-Motion>

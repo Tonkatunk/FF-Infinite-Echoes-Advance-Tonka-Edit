@@ -1,0 +1,45 @@
+<D-Animation:lookCourse&screen>
+id = 2176
+repeat = 5 // 繰返回数
+interval = 15 // 間隔
+sx = Graphics.boxWidth/2
+sy = -64
+ex = Graphics.boxWidth/3
+ey = Graphics.boxHeight*2/3
+exRandom = Graphics.boxWidth/3
+eyRandom = Graphics.boxHeight/4
+arrival = 10
+</D-Animation>
+
+<D-Animation:lookCourse>
+arrival = 10
+id = 2176
+sx = Graphics.boxWidth/2
+sy = -64
+ex = b.x
+ey = b.y
+</D-Animation>
+
+// 上空へ瞬間移動
+<D-Motion:home>
+sx = Graphics.boxWidth/2
+sy = -32
+condition = a.tp <= 1
+arrival = 10
+script = a.afterimage().start(); a.removeState(23);
+</D-Motion>
+
+// しゃがみ
+<D-Motion:wait&svDying>
+condition = a.tp <= 1
+frame = 10
+noShadow = false
+</D-Motion>
+
+// 戻る
+<D-Motion:return>
+condition = a.tp <= 1
+script = a.afterimage().end();
+frame = 1
+arcY = 0
+</D-Motion>

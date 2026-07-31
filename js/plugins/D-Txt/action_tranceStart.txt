@@ -1,0 +1,44 @@
+<D-Motion:stepForward>
+ex = sx -$TILE
+</D-Motion>
+
+//バンザイ
+<D-Motion:delay&svItem>
+</D-Motion>
+
+//発動アニメーション１
+<D-Animation:self&wait>
+id = 103;
+</D-Animation>
+
+<D-Animation:delay&wait>
+id = 1;
+script = BattleManager._subject.addState(28)
+</D-Animation>
+
+//眠り・石化・麻痺・ストップ・捕らわれは解除
+<D-Animation:delay&wait>
+id = 1;
+script = BattleManager._subject.removeState(10)
+</D-Animation>
+<D-Animation:delay&wait>
+id = 1;
+script = BattleManager._subject.removeState(11)
+</D-Animation>
+<D-Animation:delay&wait>
+id = 1;
+script = BattleManager._subject.removeState(12)
+</D-Animation>
+<D-Animation:delay&wait>
+id = 1;
+script = BattleManager._subject.removeState(37)
+</D-Animation>
+<D-Animation:delay:delay&wait>
+id = 1;
+script = BattleManager._subject.removeState(62)
+</D-Animation>
+
+//発動アニメーション２
+<D-Animation:self&wait&delay>
+id = 104;
+</D-Animation>

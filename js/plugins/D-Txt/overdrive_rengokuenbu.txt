@@ -1,0 +1,14 @@
+<D-Motion:svItem&noWait>
+frame = 60
+playSe = {"name":"MZ Fire9","volume":100,"pitch":100,"pan":0}
+</D-Motion>
+
+<D-Animation:circle>
+id = 2084
+repeat = 20 // 繰り返し回数
+radiusX = 12 // 半径（Ｘ方向）
+radiusY = 8 // 半径（Ｙ方向）
+radX *= 2 // 回転角度（Ｘ）
+radY *= 2 // 回転角度（Ｙ）
+z = this.y < b.y ? b.z - 1 : this.z // Ｚ座標
+</D-Animation>

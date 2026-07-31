@@ -1,0 +1,39 @@
+<D-Motion:noWait&svItem>
+arcY = -16
+frame = 20
+playSe = FF6 steal
+ex = b.x+b.width
+ey = b.y
+</D-Motion>
+
+<D-Motion:thrustL&noWait>
+arcY = 0
+delay = 20
+frame = 10
+ex = b.x-b.width
+</D-Motion>
+
+<D-Animation>
+delay = 25
+id = a.sealdAttackAnimationId();
+condition = !(BattleManager.resultList()[0].missed||BattleManager.resultList()[0].evaded);
+script = b.startDamageShake();
+</D-Animation>
+
+<D-Animation:self&follow>
+delay = 24
+id = 474
+</D-Animation>
+
+<D-Motion:svItem&home&noWait>
+delay = 40
+arcY = -16
+frame = 20
+</D-Motion>
+
+<D-Motion:retrun>
+delay = 60
+arcY = 0
+frame = 1
+script = a.addState(2);
+</D-Motion>

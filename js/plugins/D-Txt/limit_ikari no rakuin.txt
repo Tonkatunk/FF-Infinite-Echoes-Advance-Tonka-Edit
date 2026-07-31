@@ -1,0 +1,21 @@
+<D-Motion:svGuard>
+frame = 20
+</D-Motion>
+
+<D-Motion:svItem&noWait&delay>
+    frame = 60
+</D-Motion>
+<D-Animation:noWait>
+    delay = 90
+    id = 1459
+    nextDelay = 0
+</D-Animation>
+<D-Animation:noWait>
+    delay = 136
+    id = 1460
+    nextDelay = 0
+</D-Animation>
+
+<D-Motion:delay&return>
+arcY = 0
+</D-Motion>

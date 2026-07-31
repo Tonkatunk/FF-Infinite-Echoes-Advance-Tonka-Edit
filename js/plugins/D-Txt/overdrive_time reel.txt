@@ -1,0 +1,184 @@
+<D-Motion:svItem&noWait>
+frame = 20
+arcY = -16
+ex = Graphics.boxWidth*5/6
+ey = Graphics.boxHeight/2
+</D-Motion>
+
+<D-Motion:accommodate&noWait>
+delay = 20
+frame = 50
+arcY = 0
+</D-Motion>
+
+<D-Animation:self>
+delay = 20
+id = 2352
+sx = a.x
+sy = a.y-12
+z = 2.9
+</D-Animation>
+<D-Animation:self>
+delay = 20
+id = 2346
+sx = a.x
+sy = a.y-12
+</D-Animation>
+
+<D-Animation:self>
+delay = 70
+id = 2351
+sx = a.x
+sy = a.y-20
+z = 2.9
+</D-Animation>
+<D-Motion:svItem&noWait>
+delay = 70
+frame = 5
+arcY = 0
+</D-Motion>
+
+<D-Animation:lookCourse>
+delay = 75
+target = BattleManager.indexTarget(0)
+id = 2355
+sx = a.x
+sy = a.y-20
+ex = b.x
+ey = b.y-b.height/2
+condition = BattleManager._targets.length > 0
+</D-Animation>
+<D-Animation>
+delay = 85
+target = BattleManager.indexTarget(0)
+condition = BattleManager._targets.length > 0
+</D-Animation>
+
+<D-Animation:lookCourse>
+delay = 75
+target = BattleManager.indexTarget(1)
+id = 2355
+sx = a.x
+sy = a.y-20
+ex = b.x
+ey = b.y-b.height/2
+condition = BattleManager._targets.length > 1
+</D-Animation>
+<D-Animation>
+delay = 85
+target = BattleManager.indexTarget(1)
+condition = BattleManager._targets.length > 1
+</D-Animation>
+
+<D-Animation:lookCourse>
+delay = 75
+target = BattleManager.indexTarget(2)
+id = 2355
+sx = a.x
+sy = a.y-20
+ex = b.x
+ey = b.y-b.height/2
+condition = BattleManager._targets.length > 2
+</D-Animation>
+<D-Animation>
+delay = 85
+target = BattleManager.indexTarget(2)
+condition = BattleManager._targets.length > 2
+</D-Animation>
+
+<D-Animation:lookCourse>
+delay = 75
+target = BattleManager.indexTarget(3)
+id = 2355
+sx = a.x
+sy = a.y-20
+ex = b.x
+ey = b.y-b.height/2
+condition = BattleManager._targets.length > 3
+</D-Animation>
+<D-Animation>
+delay = 85
+target = BattleManager.indexTarget(3)
+condition = BattleManager._targets.length > 3
+</D-Animation>
+
+<D-Animation:lookCourse>
+delay = 75
+target = BattleManager.indexTarget(4)
+id = 2355
+sx = a.x
+sy = a.y-20
+ex = b.x
+ey = b.y-b.height/2
+condition = BattleManager._targets.length > 4
+</D-Animation>
+<D-Animation>
+delay = 85
+target = BattleManager.indexTarget(4)
+condition = BattleManager._targets.length > 4
+</D-Animation>
+
+<D-Animation:lookCourse>
+delay = 75
+target = BattleManager.indexTarget(5)
+id = 2355
+sx = a.x
+sy = a.y-20
+ex = b.x
+ey = b.y-b.height/2
+condition = BattleManager._targets.length > 5
+</D-Animation>
+<D-Animation>
+delay = 85
+target = BattleManager.indexTarget(5)
+condition = BattleManager._targets.length > 5
+</D-Animation>
+
+<D-Animation:lookCourse>
+delay = 75
+target = BattleManager.indexTarget(6)
+id = 2355
+sx = a.x
+sy = a.y-20
+ex = b.x
+ey = b.y-b.height/2
+condition = BattleManager._targets.length > 6
+</D-Animation>
+<D-Animation>
+delay = 85
+target = BattleManager.indexTarget(6)
+condition = BattleManager._targets.length > 6
+</D-Animation>
+
+<D-Animation:lookCourse>
+delay = 75
+target = BattleManager.indexTarget(7)
+id = 2355
+sx = a.x
+sy = a.y-20
+ex = b.x
+ey = b.y-b.height/2
+condition = BattleManager._targets.length > 7
+</D-Animation>
+<D-Animation>
+delay = 85
+target = BattleManager.indexTarget(7)
+condition = BattleManager._targets.length > 7
+</D-Animation>
+
+<D-Motion:svSpell&noWait&pattern1>
+delay = 75
+frame = 60
+arcY = 0
+</D-Motion>
+
+<D-Motion:svItem&noWait&home>
+delay = 135
+frame = 20
+arcY = -16
+</D-Motion>
+
+<D-Motion:return&delay>
+frame = 1
+arcY = 0
+</D-Motion>
