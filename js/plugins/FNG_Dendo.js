@@ -224,7 +224,7 @@ Window_DendoList.prototype.makeItemList = function() {
 
     listData["16"]=[60,"Soldier Statues"];
     listData["17"]=[61,"T-Rexaur"];
-    listData["18"]=[62,"Imp"];
+    listData["18"]=[62,"Jackanapes"];
     listData["40"]=[63,"Pisco Demons"];
     listData["41"]=[64,"Twin Head"];
     listData["42"]=[65,"Cocytus"];

@@ -224,7 +224,7 @@ Game_Party.prototype.bountyInfo = function() {
     var data = [
         ["Chaos Shrine","I,173","Soldier Statues",1081,0],
         ["Chaos Shrine","W,7","T-Rexaur",1082,0],
-        ["Chaos Shrine","I,82","Imp",1083,0],
+        ["Chaos Shrine","I,82","Jackanapes",1083,0],
         ["Snow Cave","I,146","Pisco Demons",1084,5], //デスペル
         ["Snow Cave","A,50","Twin Head",1085,5], //だいちのころも
         ["Snow Cave","I,85","Cocytus",1086,5], //ミスリル

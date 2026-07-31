@@ -378,7 +378,7 @@ Scene_Result.prototype.toNext = function() {
     }
     if(this._phase == "plus"){
         AudioManager.stopBgs();
-        this._frameCount = 20;
+        this._frameCount = 120;
         this._resultCrystalsWindow.activate();
         //this._phase = "startItem1";
         //this._frameCount = 0;
@@ -392,7 +392,7 @@ Scene_Result.prototype.toNext = function() {
         }else{
             this._noticeItemgetWindow.pushContents("notget");           
         }
-        this._frameCount = 0;
+        this._frameCount = 80;
         this._resultCrystalsWindow.activate();
     }
     this._resultCrystalsWindow.activate();
