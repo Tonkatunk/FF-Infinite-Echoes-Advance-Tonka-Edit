@@ -17,7 +17,7 @@ Window_Options.prototype.initialize = function(rect) {
 var _scene_Options_create = Scene_Options.prototype.create;
 Scene_Options.prototype.create = function() {
     _scene_Options_create.apply(this,arguments);
-    this.createMenuNameWindow("コンフィグ");
+    this.createMenuNameWindow("Config");
 };
 
 Scene_Options.prototype.createMenuNameWindow = function(name) {

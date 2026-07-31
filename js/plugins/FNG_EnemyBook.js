@@ -116,7 +116,7 @@ Window_EnemyBookAchievement.prototype.initialize = function(rect,rate = 0) {
 
 Window_EnemyBookAchievement.prototype.refresh = function() {
     this.contents.clear();
-    this.drawText("Monsters defeated",0,this.innerHeight/2-$TILE/4,this.innerWidth);
+    this.drawText("Completion Percent",0,this.innerHeight/2-$TILE/4,this.innerWidth);
     this.drawText(this._rate+"%",0,this.innerHeight/2-$TILE/4,this.innerWidth,"right");
 };
 

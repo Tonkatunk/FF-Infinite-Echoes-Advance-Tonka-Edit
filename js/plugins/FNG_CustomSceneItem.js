@@ -5,7 +5,7 @@ Scene_Item.prototype.create = function() {
     this.createItemWindow();
     this.createHelpWindow();
     this.createActorWindow();
-    this.createMenuNameWindow("アイテム");
+    this.createMenuNameWindow("Items");
     this.createItemAmountWindow();
     this.createStatusWindow();
     this.createActorsWindow();
@@ -232,7 +232,7 @@ Scene_Item.prototype.refreshItemAmountWindow = function(item) {
     y += this._itemAmountWindow.lineHeight()*1.5;
     this._itemAmountWindow.drawText($gameParty.numItems(item), this.mainFontSize()/2, y, this.mainFontSize()*9, "right");
     this._itemAmountWindow.changeTextColor(ColorManager.systemColor());
-    this._itemAmountWindow.drawText("持っている数",this.mainFontSize()/2, y, this.mainFontSize()*9);
+    this._itemAmountWindow.drawText("Owned",this.mainFontSize()/2, y, this.mainFontSize()*9);
     this._itemAmountWindow.resetTextColor();
 };
 
@@ -339,13 +339,13 @@ Scene_Item.prototype.actorWindowRect = function() {
 
 Window_ItemCategory.prototype.makeCommandList = function() {
     if (this.needsCommand("item")) {
-        this.addCommand("つかう", "item");
+        this.addCommand("Items", "item");
     }
     if (this.needsCommand("sort")) {
-        this.addCommand("せいとん", "item");
+        this.addCommand("Sort", "item");
     }
     if (this.needsCommand("keyItem")) {
-        this.addCommand(TextManager.keyItem, "keyItem");
+        this.addCommand(TextManager.keyItem, "Key Items");
     }
 };
 

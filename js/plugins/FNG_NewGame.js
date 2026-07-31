@@ -261,7 +261,7 @@ Window_NewGameCommand.prototype.maxCols = function() {
 };
 
 Window_NewGameCommand.prototype.makeCommandList = function() {
-    this.addCommand("けってい", "decide");
+    this.addCommand("Start Game", "decide");
 };
 
 Window_NewGameCommand.prototype.processCursorMove = function() {

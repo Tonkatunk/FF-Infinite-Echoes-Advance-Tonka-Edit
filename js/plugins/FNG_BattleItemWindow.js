@@ -509,9 +509,9 @@ Window_BattleEquip.prototype.drawItem = function(index) {
         const rect = this.itemLineRect(index);
         this.changeTextColor(ColorManager.systemColor());
         if(DataManager.isWeapon(item)){
-            this.drawText("ぶき", rect.x, rect.y, rect.width);
+            this.drawText("Weapon", rect.x, rect.y, rect.width);
         }else{
-            this.drawText("たて", rect.x, rect.y, rect.width);          
+            this.drawText("Shield", rect.x, rect.y, rect.width);          
         }
         this.resetTextColor();
         if(DataManager.isGun(item)){

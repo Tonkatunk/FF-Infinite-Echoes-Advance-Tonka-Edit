@@ -60,7 +60,7 @@ Scene_Shop.prototype.createMenuNameWindow = function(name) {
     const width = this.mainFontSize()*8;
     var rect = new Rectangle(Graphics.boxWidth-width, 0,width,this.mainFontSize()*3.75);
     this._menuNameWindow = new Window_MenuName(rect);
-    this._menuNameWindow.drawMenuName("ショップ");
+    this._menuNameWindow.drawMenuName("Shop");
     this.addWindow(this._menuNameWindow);
 };
 Scene_Shop.prototype.createBuyWindow = function() {
@@ -366,7 +366,7 @@ Window_Possession.prototype.drawPossession = function(x, y) {
     const possessionWidth = this.textWidth("0000");
     this.changeTextColor(ColorManager.systemColor());
     this.drawText(TextManager.possession, x, y, width);
-    this.drawText("そうびしている", x, y+this.lineHeight(), width);
+    this.drawText("Equipped", x, y+this.lineHeight(), width);
     this.resetTextColor();
     this.drawText($gameParty.numItems(this._item), x, y, width, "right");
     this.drawText(this.numEquipped(this._item), x, y+this.lineHeight(), width, "right");
@@ -667,30 +667,30 @@ Window_ShopStatusEx.prototype.drawActorEquipInfo = function(x, y, actor) {
         
         this.changeTextColor(ColorManager.normalColor());
        if(this._item.etypeId == 1){
-           this.drawText("攻撃力",x+this.contents.fontSize*3,y+this.lineHeight()*0.5,this.contents.fontSize*4);
-           this.drawText("魔力",x+this.contents.fontSize*8.5,y+this.lineHeight()*0.5,this.contents.fontSize*3);
+           this.drawText("Atk",x+this.contents.fontSize*3,y+this.lineHeight()*0.5,this.contents.fontSize*4);
+           this.drawText("Mag",x+this.contents.fontSize*8.5,y+this.lineHeight()*0.5,this.contents.fontSize*3);
            this.drawParamChangeValue(2,x+this.contents.fontSize*6,y+this.lineHeight()*0.5,item1)
            this.drawParamChangeValue(4,x+this.contents.fontSize*10,y+this.lineHeight()*0.5,item1)
         }
         if(this._item.etypeId == 2){
-           this.drawText("かいひりつ",x+this.contents.fontSize*3,y+this.lineHeight()*0.5,this.contents.fontSize*6);
+           this.drawText("Eva",x+this.contents.fontSize*3,y+this.lineHeight()*0.5,this.contents.fontSize*6);
             this.drawTraitChangeValue(1,x+this.contents.fontSize*8,y+this.lineHeight()*0.5,item1)
         }
         if(this._item.etypeId == 3 || this._item.etypeId == 4){
-           this.drawText("防御",x+this.contents.fontSize*3,y+this.lineHeight()*0.5,this.contents.fontSize*3);
-           this.drawText("魔法防御",x+this.contents.fontSize*7.5,y+this.lineHeight()*0.5,this.contents.fontSize*5);
-           this.drawText("すばやさ",x+this.contents.fontSize*3,y+this.lineHeight()*1.5,this.contents.fontSize*5);
-           this.drawText("魔力",x+this.contents.fontSize*9,y+this.lineHeight()*1.5,this.contents.fontSize*4);
+           this.drawText("Def",x+this.contents.fontSize*3,y+this.lineHeight()*0.5,this.contents.fontSize*3);
+           this.drawText("M.Def",x+this.contents.fontSize*7.5,y+this.lineHeight()*0.5,this.contents.fontSize*5);
+           this.drawText("Agi",x+this.contents.fontSize*3,y+this.lineHeight()*1.5,this.contents.fontSize*5);
+           this.drawText("Mag",x+this.contents.fontSize*9,y+this.lineHeight()*1.5,this.contents.fontSize*4);
            this.drawParamChangeValue(3,x+this.contents.fontSize*5,y+this.lineHeight()*0.5,item1)
            this.drawParamChangeValue(5,x+this.contents.fontSize*11.5,y+this.lineHeight()*0.5,item1)
            this.drawParamChangeValue(6,x+this.contents.fontSize*6.5,y+this.lineHeight()*1.5,item1)
            this.drawParamChangeValue(4,x+this.contents.fontSize*10.5,y+this.lineHeight()*1.5,item1)
         }
         if(this._item.etypeId == 5 && (this._item.atypeId == 11 || this._item.atypeId == 16)){
-           this.drawText("防御",x+this.contents.fontSize*3,y+this.lineHeight()*0.5,this.contents.fontSize*3);
-           this.drawText("魔法防御",x+this.contents.fontSize*7.5,y+this.lineHeight()*0.5,this.contents.fontSize*5);
-           this.drawText("すばやさ",x+this.contents.fontSize*3,y+this.lineHeight()*1.5,this.contents.fontSize*5);
-           this.drawText("ちから",x+this.contents.fontSize*8.5,y+this.lineHeight()*1.5,this.contents.fontSize*4);
+           this.drawText("Def",x+this.contents.fontSize*3,y+this.lineHeight()*0.5,this.contents.fontSize*3);
+           this.drawText("M.Def",x+this.contents.fontSize*7.5,y+this.lineHeight()*0.5,this.contents.fontSize*5);
+           this.drawText("Agi",x+this.contents.fontSize*3,y+this.lineHeight()*1.5,this.contents.fontSize*5);
+           this.drawText("Str",x+this.contents.fontSize*8.5,y+this.lineHeight()*1.5,this.contents.fontSize*4);
            this.drawParamChangeValue(3,x+this.contents.fontSize*5,y+this.lineHeight()*0.5,item1)
            this.drawParamChangeValue(5,x+this.contents.fontSize*11.5,y+this.lineHeight()*0.5,item1)
            this.drawParamChangeValue(6,x+this.contents.fontSize*6.5,y+this.lineHeight()*1.5,item1)
@@ -699,7 +699,7 @@ Window_ShopStatusEx.prototype.drawActorEquipInfo = function(x, y, actor) {
     }else{
         this.drawSvActor(actor.battlerName(), 51, x, y);
         this.changeTextColor(ColorManager.normalColor());
-        this.drawText("そうびできない",x+this.contents.fontSize*3,y+this.lineHeight()*1.5,this.innerWidth/2);
+        this.drawText("Can not equip!",x+this.contents.fontSize*3,y+this.lineHeight()*1.5,this.innerWidth/2);
     }
 };
 

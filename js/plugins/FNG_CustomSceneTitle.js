@@ -79,7 +79,7 @@ Window_TitleCommand.prototype.makeCommandList = function() {
     const continueEnabled = this.isContinueEnabled();
     this.addCommand(TextManager.newGame, "newGame");
     this.addCommand(TextManager.continue_, "continue", continueEnabled);
-    this.addCommand("コンフィグ", "options");
+    this.addCommand("Options", "options");
 };
 
 Scene_Title.prototype.commandOptions = function() {
@@ -124,7 +124,7 @@ Scene_TitleOptions.prototype.createMenuNameWindow = function(name) {
 Scene_TitleOptions.prototype.create = function() {
     Scene_MenuBase.prototype.create.call(this);
     this.createOptionsWindow();
-    this.createMenuNameWindow("コンフィグ");
+    this.createMenuNameWindow("Config");
 };
 
 Scene_TitleOptions.prototype.terminate = function() {
@@ -197,8 +197,8 @@ Window_TitleOptions.prototype.addVolumeOptions = function() {
 };
 
 Window_TitleOptions.prototype.addAssignOptions = function() {
-    this.addCommand("パッドコンフィグ", "padconfig");
-    this.addCommand("キーコンフィグ", "keyconfig");
+    this.addCommand("Controller Input", "padconfig");
+    this.addCommand("Keyboard Input", "keyconfig");
 };
 
 Window_TitleOptions.prototype.itemRect = function(index) {

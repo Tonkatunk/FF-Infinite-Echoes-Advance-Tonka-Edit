@@ -402,7 +402,7 @@ Window_Libra.prototype.drawStateInfo = function(battler){
     const areaY = $TILE/4;
     
     this.changeTextColor(ColorManager.systemColor());
-    this.drawText("Eff%",areaX,areaY,areaX);
+    this.drawText("Effciency %",areaX,areaY,areaX);
     this.drawText("Cannot fight",areaX,areaY+(this.lineHeight()-1)*1.5,areaX);
     this.drawText("Death",areaX,areaY+(this.lineHeight()-1)*2.5,areaX2);
     this.drawText("Poison",areaX,areaY+(this.lineHeight()-1)*3.5,areaX2);
@@ -420,7 +420,7 @@ Window_Libra.prototype.drawStateInfo = function(battler){
     this.drawText("Zombie",areaX,areaY+(this.lineHeight()-1)*9.5,areaX2);
     this.drawText("Stop",areaX2,areaY+(this.lineHeight()-1)*9.5,areaX2);
     this.drawText("Slow",areaX,areaY+(this.lineHeight()-1)*10.5,areaX2);
-    this.drawText("Slip",areaX2,areaY+(this.lineHeight()-1)*10.5,areaX2);
+    this.drawText("Flinch",areaX2,areaY+(this.lineHeight()-1)*10.5,areaX2);
     this.drawText("Transp.",areaX,areaY+(this.lineHeight()-1)*11.5,areaX2);
     this.drawText("ATK\u2193",areaX2,areaY+(this.lineHeight()-1)*11.5,areaX2);
     this.drawText("DEF\u2193",areaX,areaY+(this.lineHeight()-1)*12.5,areaX2);
@@ -443,7 +443,7 @@ Window_Libra.prototype.drawStateInfo = function(battler){
     this.drawText(Math.floor(battler.stateRate(36)*100)+"%",areaX+this.textWidth("Zombie"),areaY+(this.lineHeight()-1)*9.5,this.textWidth("000%"),"right");
     this.drawText(Math.floor(battler.stateRate(37)*100)+"%",areaX2+this.textWidth("Stop"),areaY+(this.lineHeight()-1)*9.5,this.textWidth("000%"),"right");
     this.drawText(Math.floor(battler.stateRate(40)*100)+"%",areaX+this.textWidth("Slow"),areaY+(this.lineHeight()-1)*10.5,this.textWidth("000%"),"right");
-    this.drawText(Math.floor(battler.stateRate(42)*100)+"%",areaX2+this.textWidth("Slip"),areaY+(this.lineHeight()-1)*10.5,this.textWidth("000%"),"right");
+    this.drawText(Math.floor(battler.stateRate(42)*100)+"%",areaX2+this.textWidth("Flinch"),areaY+(this.lineHeight()-1)*10.5,this.textWidth("000%"),"right");
     this.drawText(Math.floor(battler.stateRate(46)*100)+"%",areaX+this.textWidth("Transp."),areaY+(this.lineHeight()-1)*11.5,this.textWidth("000%"),"right");
     this.drawText(Math.floor(battler.stateRate(55)*100)+"%",areaX2+this.textWidth("ATK\u2193"),areaY+(this.lineHeight()-1)*11.5,this.textWidth("000%"),"right");
     this.drawText(Math.floor(battler.stateRate(56)*100)+"%",areaX+this.textWidth("DEF\u2193"),areaY+(this.lineHeight()-1)*12.5,this.textWidth("000%"),"right");

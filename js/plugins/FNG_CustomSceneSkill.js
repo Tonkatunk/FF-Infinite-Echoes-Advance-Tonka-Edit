@@ -13,7 +13,7 @@ Scene_Skill.prototype.create = function() {
     Scene_ItemBase.prototype.create.call(this);
     this.createHelpWindow();
     this.createStatusWindow();
-    this.createMenuNameWindow("とくしゅ");
+    this.createMenuNameWindow("Special");
     this.createItemWindow();
     this.createMonomaneCommandListWindow();
     this.createLicenseListWindow();
@@ -101,7 +101,7 @@ Scene_Skill.prototype.commandMonomane = function() {
     this._monomaneCommandListWindow.show();
     this._monomaneCommandsWindow.activate();
     this._skillTypeWindow.deactivate();
-    this.updateMenuNameWindow("ものまね");
+    this.updateMenuNameWindow("Impersonate");
 };
 
 Scene_Skill.prototype.commandLicense = function() {
@@ -109,7 +109,7 @@ Scene_Skill.prototype.commandLicense = function() {
     this._licenseCommandWindow.activate();
     this._skillTypeWindow.deactivate();
     this._licenseAbilityListWindow.show();
-    this.updateMenuNameWindow("ライセンス");
+    this.updateMenuNameWindow("License");
 };
 
 Scene_Skill.prototype.createMonomaneCommandsWindow = function() {

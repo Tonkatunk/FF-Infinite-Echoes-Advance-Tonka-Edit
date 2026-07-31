@@ -3312,7 +3312,7 @@ BattleManager.endAction = function() {
     if(!item.meta.comboTo){
         this.endNoDeath();
     }
-    //ロッド折り技なら装備を消費
+    //Wand Breaking command
     if(item.meta.consumeEquip&&!this._subject.isStateAffected(57)){
         const weapon = $dataWeapons[Number(item.meta.consumeEquip)];
         if(this._subject.equips()[0].id == Number(item.meta.consumeEquip)){
@@ -6571,7 +6571,7 @@ BattleManager.gainMetamol = function(target){
     if(!item){
         return;
     }
-    BattleManager.pushActiveMessage(item.name + "になるがいい！");
+    BattleManager.pushActiveMessage(item.name + "So be it!");
     $gameParty.gainItem(item,1);
 }
 
@@ -6730,7 +6730,7 @@ BattleManager.displayVictoryMessage = function() {
 
 BattleManager.displayDefeatMessage = function() {
     //BattleManager.OutMessageWindow();
-    BattleManager.pushActiveMessage("全滅した",180);
+    BattleManager.pushActiveMessage("Eliminated!",180);
     const scene = SceneManager._scene;
     if (scene && scene._messageWindow) {
         scene._messageWindow.x = -10000;

@@ -4,7 +4,7 @@ Scene_Equip.prototype.create = function() {
     this.createSlotWindow();
     this.createCommandWindow();
     this.createItemWindow();
-    this.createMenuNameWindow("そうび");
+    this.createMenuNameWindow("Equipment");
     this.createHelpWindow();
     this._helpWindow.hide();
     this._slotWindow.setHelpWindow(this._helpWindow);

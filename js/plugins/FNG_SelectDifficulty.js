@@ -116,7 +116,7 @@ Window_DifficultySelect.prototype.constructor = Window_DifficultySelect;
 Window_DifficultySelect.prototype.initialize = function(rect) {
     Window_Command.prototype.initialize.call(this, rect);
     this.addCommand("ＥＡＳＹ", "ok", false);
-    this.addCommand("ＮＯＲＡＭＬ", "ok", true);
+    this.addCommand("ＮＯＲＭＡＬ", "ok", true);
     this.addCommand("ＨＡＲＤ", "ok", true);
     this.drawAllItems();
 };

@@ -170,12 +170,12 @@ Window_ActorCommand.prototype.addCommandsAbilities = function() {
                     enable = !this.canUseStypeInFanatic(stypeId);
                 }
                 if(stypeId == 19){
-                    this.addCommand(name, "skill",!this._actor.isSkillTypeSealed(stypeId)&&this._actor.canUseMagicSword()&&enable, stypeId);
+                    this.addCommand(name, "Release",!this._actor.isSkillTypeSealed(stypeId)&&this._actor.canUseMagicSword()&&enable, stypeId);
                 }else if(stypeId == 20){
                     if(this.isFanaticMode()){
                         enable = false;
                     }
-                    this.addCommand("まじゅう", `release`, !this._actor.isSkillTypeSealed(stypeId)&&enable, stypeId);
+                    this.addCommand("Beast", `release`, !this._actor.isSkillTypeSealed(stypeId)&&enable, stypeId);
                 }else if(stypeId >= 5){
                     this.addCommand(name, "skill",!this._actor.isSkillTypeSealed(stypeId)&&enable, stypeId);
                 }

@@ -1535,7 +1535,7 @@ Scene_Composition.prototype.createMenuNameWindow = function(name) {
     const width = this.mainFontSize()*8;
     var rect = new Rectangle(Graphics.boxWidth-width, 0,width,this.mainFontSize()*3.75);
     this._menuNameWindow = new Window_MenuName(rect);
-    this._menuNameWindow.drawMenuName("ごうせい");
+    this._menuNameWindow.drawMenuName("Synthesis");
     this.addWindow(this._menuNameWindow);
 };
 
@@ -1806,7 +1806,7 @@ Window_Materials.prototype.initialize = function(rect) {
 Window_Materials.prototype.setItem = function(item) {
     this.contents.clear();
     this.changeTextColor(ColorManager.systemColor());
-    this.drawText("ごうせいそざい",0,0,this.innnerWidth);
+    this.drawText("Synthesis Material",0,0,this.innnerWidth);
     const recipe = $gameParty.getItemRecipe(item);
     for(let i=2;i<recipe.length;i++){
         var info = recipe[i];

@@ -19,12 +19,21 @@ Now it's important to note, I take a lot of issues with ajbrave's translations. 
 If you want my translations with the edits, you can compare the two in something like Notepad+ in a side by side, or use some other diffing tool like Winmerge. But you will have to make the edits yourself. If you're not basing the changes to the original Japanese version, make sure you do credit ajbrave as my work is still based off his.
 
 ------------------------------------
-Translations. 
+Translations
+
+Game will crash if you hit Continue, quit to menu, then hit New Game. Just relaunch the game.
+
 White Mages use Staff, Black Mages use Wands. I thought this distinction was easier when the version I had, had mixed them.
 
 Sped up battle speed.
 
 Sped up running speed. (not fleeing!)
+
+Sped up text speed.
+
+Sped up items earned after battle window.
+
+Post-battle reward: Removed pop-up and ding that only announced you got no item! It will still chime for getting an item.
 
 Translations.
 
@@ -53,18 +62,30 @@ Some weapons and/or armor descriptions initially said they'd resist or add a sta
 If it was not actually listed in the equipment properties, I would use my judgment to either add/remove that effect. 
 For ones that did have an effect that I did not see in the description, it always made sense to not change weapon effects and simply edit the description so you know it has that property. Or if the name would mismatch, like a lightning name being on a water weapon I'd adjust the name to match the properties. Coral was a mismatched item/effect iirc.
 
+◆Symbol means adding an attribute/damage type. Or adding an unseen benefit, like enhancing the effect of steal.
+♣Symbol means adding a resistance. Whether it be to an element or status.
+☼Symbol should be adding a command or job ability to your character. So this is things like actually adding Steal or Throw to your character's abilities.
+
+
+There's a Whisper enemy at a certain point, it can summon a Soul Eater. The Soul Eater will heavily prioritize enemies first. There was a bug that the one that summons it, goes immortal. Using Libra, its health becomes NaN. This ability has been removed from the Whisper.
+
 Translations.
 
 Reformatted the files for Skills, Enemies, Weapons, Armors, and Items. 
 The previous translation had it all as one huge run on line. Each entry has its own unique line now.
 
-◆Symbol means adding an attribute/damage type. Or adding an unseen benefit, like enhancing the effect of steal.
-♣Symbol means adding a resistance. Whether it be to an element or status.
-☼Symbol should be adding a command or job ability to your character. So this is things like actually adding Steal or Throw to your character's abilities.
-
-persuit on weapons is an on-hit skill. <persuit:902,25> is Pursuit Blizzard Skill with a 25% chance to activate
 
 
+---------------------------------
+
+Bounty Board: /js/plugins/FNG_BountySystem.js
+Hall of Fame: /js/plugins/FNG_Dendo.js
+
+Somewhere is the file to control weapon and shields you equip in battle. There is no text entry for using or removing the equipped item, only a control code. Changing that crashes the game. May be able to go through the file and change all references on the command, untested. May break commands from other files, unsure.
+
+"So be it!" - /js/plugins/FNG_MotionSetting.js Translated this line. Should happen in combat and is item related. Occurence unknown.
+
+persuit on weapons is an on-hit skill. <persuit:902,25> is Pursuit Blizzard Skill with a 25% chance to activate.
 
 ---------------------------------
 

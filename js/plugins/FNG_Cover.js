@@ -57,7 +57,7 @@ Game_Battler.prototype.coverable = function(hpRate){
 
 Game_Battler.prototype.performCoverStart = function(){
     if(this.isEnemy()){
-        BattleManager.pushActiveMessage(this.enemy().name+"はかばっている！");
+        BattleManager.pushActiveMessage(this.enemy().name+"Covering!");
         //かばうの行動を示すアニメーション
         $gameTemp.requestAnimation([this], 130);
         BattleManager.addWaitCount(30);

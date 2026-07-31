@@ -79,7 +79,7 @@ Game_Battler.prototype.addState = function(stateId) {
     // あやつられるとあやつったバトラーにあやつりステートを付加
     if (stateId == 17) {
         const enemy = $dataEnemies[this.enemyId()];
-        BattleManager.pushActiveMessage(enemy.name + "をあやつった");
+        BattleManager.pushActiveMessage(enemy.name + "Controlled");
         BattleManager._subject.addState(16);
         BattleManager._subject.setManipulate(this);
         //ゲージをリセット

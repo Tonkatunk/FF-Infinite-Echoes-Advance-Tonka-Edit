@@ -1947,9 +1947,9 @@
 (function() {
 	"use strict";
 	var parameters = PluginManager.parameters('ABMZ_EnemyBook');
-	var EnemyBookCommandName = (parameters['EnemyBookCommandName'] || "敵の情報");
+	var EnemyBookCommandName = (parameters['EnemyBookCommandName'] || "Info");
 	var ShowCommandInBattle = (parameters['ShowCommandInBattle'] == 1) ? true : false;
-	var EnemyBookAllCommandName = (parameters['EnemyBookAllCommandName'] || "図鑑");
+	var EnemyBookAllCommandName = (parameters['EnemyBookAllCommandName'] || "Illustrations");
 	var ShowAllBookCommandInBattle = (parameters['ShowAllBookCommandInBattle'] == 1) ? true : false;
 	var ResisterTiming = Number(parameters['ResisterTiming']);
 	var Achievement = String(parameters['Achievement'] || "");

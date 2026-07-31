@@ -69,7 +69,7 @@ Scene_PartySeparate.prototype.create = function() {
     Scene_MenuBase.prototype.create.call(this);
     this._tempWindow = null;
     this._tempIndex = null;
-    this.createMenuNameWindow("へんせい");
+    this.createMenuNameWindow("Modification");
     this.createNumWindow();
     this.createSubMembersWindow();
     this.createDummyWindow();
@@ -783,7 +783,7 @@ Window_MakePartyNum.prototype.initialize = function(rect) {
 
 Window_MakePartyNum.prototype.refresh = function() {
     this.contents.clear();
-    this.drawText("パーティを "+$gameParty.partyNum()+"つ つくってください",0,this.innerHeight/2-$TILE/4,this.innerWidth);
+    this.drawText("Please choose "+$gameParty.partyNum()+"members for your party.",0,this.innerHeight/2-$TILE/4,this.innerWidth);
 };
 
 Window_MakePartyNum.prototype.setup = function(num) {

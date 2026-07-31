@@ -28,13 +28,13 @@ Scene_File.prototype.helpWindowRect = function() {
 
 Scene_Save.prototype.create = function() {
     Scene_File.prototype.create.call(this);
-    this.createMenuNameWindow("セーブ");
+    this.createMenuNameWindow("Save");
     DataManager.loadAllSavefileImages();
 };
 
 Scene_Load.prototype.create = function() {
     Scene_File.prototype.create.call(this);
-    this.createMenuNameWindow("ロード");
+    this.createMenuNameWindow("Load");
     DataManager.loadAllSavefileImages();
 };
 
@@ -229,9 +229,9 @@ Scene_GameEnd.prototype.createInterruptMessageWindow = function(info) {
     var rect = new Rectangle(Graphics.boxWidth/2-width/2, Graphics.boxHeight/2-$TILE*3.5, width,height);
     this._messageWindow = new Window_Base(rect);
     this._messageWindow.changeTextColor(ColorManager.crisisColor());
-    this._messageWindow.drawText("ちゅうだんセーブをして",0,$DOT);
-    this._messageWindow.drawText("ゲームをしゅうりょう",0,9);
-    this._messageWindow.drawText("しますか？",0,17);
+    this._messageWindow.drawText("Please SAVE before you Quit!",0,$DOT);
+    this._messageWindow.drawText("Quit to title",0,9);
+    this._messageWindow.drawText("Are you sure?",0,17);
     this._messageWindow.resetTextColor();
     this.addWindow(this._messageWindow);
 };

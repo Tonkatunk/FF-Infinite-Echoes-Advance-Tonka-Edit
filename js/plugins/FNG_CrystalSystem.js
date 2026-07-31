@@ -304,7 +304,7 @@ Scene_Crystal.prototype.initialize = function() {
 
 Scene_Crystal.prototype.create = function() {
     Scene_MenuBase.prototype.create.call(this);
-    this.createMenuNameWindow("クリスタル");
+    this.createMenuNameWindow("Crystal");
     this.createHelpWindow();
     this.createMateriaListWindow();
     this.createStatusWindow();
@@ -617,9 +617,9 @@ Window_CrystalCommand.prototype.callUpdateHelp = function() {
 Window_CrystalCommand.prototype.updateHelp = function() {
     this._helpWindow.clear();
     if(this._index == 0){
-        this._helpWindow.setText("クリスタルのもつＡＰと、\nマテリアアイテムを交換します");
+        this._helpWindow.setText("Exchange the Crystals' AP for Materia");
     }else{
-        this._helpWindow.setText("クリスタルをジャンクションさせる\nキャラクターを選びます");
+        this._helpWindow.setText("Select a character to junction the Crystal to.");
     }
 };
 
@@ -630,8 +630,8 @@ Window_CrystalCommand.prototype.makeCommandList = function() {
 
 Window_CrystalCommand.prototype.drawItem = function(){
     this.contents.clear();
-    this.drawText("マテリア",0,this.lineHeight()/4,this.innerWidth/2,"center");
-    this.drawText("ジャンクション",this.innerWidth/2,this.lineHeight()/4,this.innerWidth/2,"center");
+    this.drawText("Materia",0,this.lineHeight()/4,this.innerWidth/2,"center");
+    this.drawText("Junction",this.innerWidth/2,this.lineHeight()/4,this.innerWidth/2,"center");
 }
 
 Window_CrystalCommand.prototype.itemRect = function() {

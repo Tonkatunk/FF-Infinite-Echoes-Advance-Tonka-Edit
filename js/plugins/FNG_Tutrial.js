@@ -217,11 +217,11 @@ Window_TutrialMessage.prototype.drawPage = function(index){
             break;
         case 2:
             text = "Q. What is Junction?\n\n"+
-                    "A. It's the system that connects Crystal items like Crystal Shards and Earth Crystals to party members. From the menu's Crystal screen, you assign a party member to each Crystal you have. The Crystal gains the same AP that member earns, and you can trade accumulated AP for equippable Materia."
+                    "A. It's the system that connects Crystal items like Crystal Shards and Earth Crystals to party members. The Crystal gains the same AP that character earns, and you can trade accumulated AP for equippable Materia. If the character has max AP, then the Crystal gets double!"
             break;
         case 3:
             text = "Q. The enemies are too strong\n\n"+
-                    "A. Use the white magic Libra to find their weaknesses. Make sure to use items and equip gear. You may need a magic user and healer."
+                    "A. Use the white magic Libra to find their weaknesses. Make sure to use items and equip your gear. You may need a magic user and healer."
             break;
         case 4:
             text = "Q. I want to defeat enemies faster\n\n"+

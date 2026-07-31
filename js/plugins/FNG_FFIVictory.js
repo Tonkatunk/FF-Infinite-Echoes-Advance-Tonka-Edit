@@ -32,7 +32,7 @@ Scene_Result.prototype.initialize = function() {
 
 Scene_Result.prototype.create = function() {
     Scene_MenuBase.prototype.create.call(this);
-    this.createMenuNameWindow("リザルト");
+    this.createMenuNameWindow("Results");
     this.createResultWindow();
     this.createResultActorWindows();
     this.createResultCrystalsWindow();
@@ -378,7 +378,7 @@ Scene_Result.prototype.toNext = function() {
     }
     if(this._phase == "plus"){
         AudioManager.stopBgs();
-        this._frameCount = 178;
+        this._frameCount = 20;
         this._resultCrystalsWindow.activate();
         //this._phase = "startItem1";
         //this._frameCount = 0;
@@ -520,20 +520,20 @@ Window_NoticeItemGet.prototype.startItemGet = function() {
     this.x = Graphics.boxWidth*0.75 - this.width/2;
     this.y = Graphics.boxHeight/2 - this.height/2;;
     this.contents.clear();
-    this.drawText("アイテムをてにいれました",0,0,this.innerWidth,"left");
+    this.drawText("You have obtained an item!!",0,0,this.innerWidth,"left");
 };
 
-Window_NoticeItemGet.prototype.startItemNotGet = function() {
-    AudioManager.playSe({"name":"FF8 loadready","volume":90,"pitch":100,"pan":0});
-    this._mode = this._contents.shift();
-    this.visible = true;
-    this.open();
-    this.width = $TILE*8 + $TILE * 5/8;
-    this.height = $TILE/2 + $TILE * 5/8;
-    this.x = Graphics.boxWidth/2-this.width/2;
-    this.y = Graphics.boxHeight/2 - this.height/2;
-    this.contents.clear();
-    this.drawText("アイテムはてにはいりませんでした",0,0,this.innerWidth,"left");
+Window_NoticeItemGet.prototype.startItemNotGet = function() { null;
+//    AudioManager.playSe({"name":"FF8 loadready","volume":90,"pitch":100,"pan":0});
+//    this._mode = this._contents.shift();
+//   this.visible = true;
+//    this.open();
+//    this.width = $TILE*8 + $TILE * 5/8;
+//    this.height = $TILE/2 + $TILE * 5/8;
+//    this.x = Graphics.boxWidth/2-this.width/2;
+//    this.y = Graphics.boxHeight/2 - this.height/2;
+//    this.contents.clear();
+//    this.drawText("You did not obtain any items",0,0,this.innerWidth,"left");
 };
 
 Window_NoticeItemGet.prototype.lineHeight = function() {
@@ -726,7 +726,7 @@ Window_ResultCrystals.prototype.initialize = function(rect) {
     this._countStop = false;
     this.contents.clear();
     this.refresh();
-    this.addCommand("かくにん","next",true);
+    this.addCommand("Confirm","next",true);
     this.select(0);
     this.drawStatusBasic();
     this.updateParam(0);
@@ -767,7 +767,7 @@ Window_ResultCrystals.prototype.drawStatusBasic = function() {
         }
     }
     this.changeTextColor(ColorManager.normalColor());
-    this.drawText("かくにん",Math.floor(this.innerWidth/2)+$TILE/2,this.lineHeight()*2.5-$TILE/8,Math.floor(this.innerWidth/2),"center");
+    this.drawText("Continue",Math.floor(this.innerWidth/2)+$TILE/2,this.lineHeight()*2.5-$TILE/8,Math.floor(this.innerWidth/2),"center");
 };
 
 Window_ResultCrystals.prototype.updateParam = function(frame) {
@@ -875,14 +875,14 @@ Window_BattleResult.prototype.drawEXPs = function() {
     const ap = String(BattleManager._rewards.ap);
     const exp = String(BattleManager._rewards.exp);
     const gold = String(BattleManager._rewards.gold);
-    const text = " GET: "+gold +"ギル, EXP " + exp + ", AP " + ap;
+    const text = "GET:"+"Gil " +gold + ", EXP " + exp + ", AP " + ap;
     this.changeTextColor(ColorManager.normalColor());
     this.drawText(text,0,$TILE/8,this.innerWidth,this.innerHeight);
 };
 
 Window_BattleResult.prototype.drawOtakara = function() {
     this.contents.clear();
-    this.drawText("GET:おたから",0,$TILE/8,this.innerWidth,this.innerHeight);
+    this.drawText("GET:Treasure",0,$TILE/8,this.innerWidth,this.innerHeight);
 };
 
 //-----------------------------------------------------------------------------

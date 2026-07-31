@@ -12,7 +12,7 @@
 const _Scene_Status_create = Scene_Status.prototype.create;
 Scene_Status.prototype.create = function() {
     _Scene_Status_create.apply(this,arguments);
-    this.createMenuNameWindow("ステータス");
+    this.createMenuNameWindow("Status");
     this.createCommandWindow();
 };
 
@@ -77,8 +77,8 @@ Window_Status.prototype.drawBlock1 = function() {
     this.drawActorName(this._actor, $TILE*3, y+this.lineHeight(), $TILE*3);
     this.drawActorClass(this._actor, $TILE*6.5, y+this.lineHeight(), $TILE*3);
     this.changeTextColor(ColorManager.systemColor());
-    this.drawText("ジャンクション", 0,y+this.lineHeight()*5, $TILE*3.5);
-    this.drawText("コマンド", $TILE*10.75, y+this.lineHeight()*3, $TILE*2);
+    this.drawText("Junction", 0,y+this.lineHeight()*5, $TILE*3.5);
+    this.drawText("Commands", $TILE*10.75, y+this.lineHeight()*3, $TILE*2);
     this.drawText("Lv.", $TILE*3,y+this.lineHeight()*2);
     this.drawText("JLv.", $TILE*3,y+this.lineHeight()*3);
     this.changeTextColor(ColorManager.normalColor());
@@ -203,7 +203,7 @@ Window_StatusParams.prototype.drawffParamName = function(x, y, paramId) {
             width = this.contents.fontSize*3;
             break;
         case 3:
-            text = "Stamina"
+            text = "Vitality"
             width = this.contents.fontSize*5;
             break;
     }

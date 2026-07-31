@@ -128,7 +128,7 @@ BattleManager.applyLearning = function(target) {
             learnId = Number(this._action.item().meta.learnAs)
         }
         AudioManager.playSe({"name":"FF5 item","volume":100,"pitch":100,"pan":0});
-        BattleManager.pushActiveMessage(this._action.item().name + "をラーニング");
+        BattleManager.pushActiveMessage(this._action.item().name + "Learned!");
         if(target.isActor()){
             $gameParty.addLearnedSkill(this._action.item().id);
         }else{

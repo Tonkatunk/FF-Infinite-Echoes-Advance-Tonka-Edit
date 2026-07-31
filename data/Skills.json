@@ -4181,7 +4181,7 @@
 {"id":1403,"animationId":4,"damage":{"critical":false,"elementId":-1,"formula":"80","type":1,"variance":10},"description":"","effects":[],"hitType":1,"iconIndex":0,"message1":"","message2":"","mpCost":6,"name":"wing combo","note":"\n","occasion":0,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":4,"speed":0,"stypeId":30,"successRate":100,"tpCost":0,"tpGain":0,"messageType":1},
 
 
-{"id":1404,"animationId":807,"damage":{"critical":false,"elementId":-1,"formula":"150","type":1,"variance":10},"description":"","effects":[],"hitType":1,"iconIndex":0,"message1":"","message2":"","mpCost":0,"name":"scissors","note":"","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":1,"speed":0,"stypeId":30,"successRate":100,"tpCost":0,"tpGain":0,"messageType":1},
+{"id":1404,"animationId":807,"damage":{"critical":false,"elementId":-1,"formula":"150","type":1,"variance":10},"description":"","effects":[],"hitType":1,"iconIndex":0,"message1":"","message2":"","mpCost":0,"name":"Scissors","note":"","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":1,"speed":0,"stypeId":30,"successRate":100,"tpCost":0,"tpGain":0,"messageType":1},
 
 
 {"id":1405,"animationId":803,"damage":{"critical":false,"elementId":-1,"formula":"150","type":1,"variance":10},"description":"","effects":[],"hitType":1,"iconIndex":0,"message1":"Front Tooth","message2":"","mpCost":0,"name":"front tooth","note":"","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":1,"speed":0,"stypeId":30,"successRate":100,"tpCost":0,"tpGain":0,"messageType":1},

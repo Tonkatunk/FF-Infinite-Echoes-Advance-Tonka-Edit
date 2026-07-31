@@ -110,7 +110,7 @@ Window_MenuCommand.prototype.lineHeight = function() {
 Window_MenuCommand.prototype.addOriginalCommands = function() {
     // 
     this.addCommand("Crystal", "crystal", true);
-    this.addCommand("Composition", "composition", true);
+    this.addCommand("Synthesis", "composition", true);
     this.addCommand("Library", "library", true);
     this.addCommand("Bestiary", "book", true);
 };
