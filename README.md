@@ -9,6 +9,9 @@ BACKUP "data" and "js" folders of your game, before you copy/paste these in!
 This is where I got my version of the game.
 https://x.com/spanish_ESP16/status/2012722574866948266
 
+This is a blog linked by the same user, which currently goes up to version 0.57
+https://w.atwiki.jp/iea1/pages/15.html
+
 This is where I grabbed my initial translations from.
 https://codeberg.org/ajbrave/ff_infinite_echoes_advance_eng/
 

@@ -32,7 +32,7 @@ Scene_Result.prototype.initialize = function() {
 
 Scene_Result.prototype.create = function() {
     Scene_MenuBase.prototype.create.call(this);
-    this.createMenuNameWindow("Results");
+    this.createMenuNameWindow("Rewards");
     this.createResultWindow();
     this.createResultActorWindows();
     this.createResultCrystalsWindow();
@@ -378,7 +378,7 @@ Scene_Result.prototype.toNext = function() {
     }
     if(this._phase == "plus"){
         AudioManager.stopBgs();
-        this._frameCount = 120;
+        this._frameCount = 200;
         this._resultCrystalsWindow.activate();
         //this._phase = "startItem1";
         //this._frameCount = 0;
@@ -392,7 +392,7 @@ Scene_Result.prototype.toNext = function() {
         }else{
             this._noticeItemgetWindow.pushContents("notget");           
         }
-        this._frameCount = 80;
+        this._frameCount = 0; //Raising this will let you skip the get item window faster, but will disable all AP rewards for some reason.
         this._resultCrystalsWindow.activate();
     }
     this._resultCrystalsWindow.activate();
@@ -520,20 +520,20 @@ Window_NoticeItemGet.prototype.startItemGet = function() {
     this.x = Graphics.boxWidth*0.75 - this.width/2;
     this.y = Graphics.boxHeight/2 - this.height/2;;
     this.contents.clear();
-    this.drawText("You have obtained an item!!",0,0,this.innerWidth,"left");
+    this.drawText("Obtained an item!",0,0,this.innerWidth,"left");
 };
 
-Window_NoticeItemGet.prototype.startItemNotGet = function() { null;
+Window_NoticeItemGet.prototype.startItemNotGet = function() {null;
 //    AudioManager.playSe({"name":"FF8 loadready","volume":90,"pitch":100,"pan":0});
 //    this._mode = this._contents.shift();
-//   this.visible = true;
+//    this.visible = true;
 //    this.open();
 //    this.width = $TILE*8 + $TILE * 5/8;
 //    this.height = $TILE/2 + $TILE * 5/8;
 //    this.x = Graphics.boxWidth/2-this.width/2;
 //    this.y = Graphics.boxHeight/2 - this.height/2;
 //    this.contents.clear();
-//    this.drawText("You did not obtain any items",0,0,this.innerWidth,"left");
+//    this.drawText("アイテムはてにはいりませんでした",0,0,this.innerWidth,"left");
 };
 
 Window_NoticeItemGet.prototype.lineHeight = function() {
@@ -726,7 +726,7 @@ Window_ResultCrystals.prototype.initialize = function(rect) {
     this._countStop = false;
     this.contents.clear();
     this.refresh();
-    this.addCommand("Confirm","next",true);
+    this.addCommand("Continue","next",true);
     this.select(0);
     this.drawStatusBasic();
     this.updateParam(0);
@@ -875,7 +875,7 @@ Window_BattleResult.prototype.drawEXPs = function() {
     const ap = String(BattleManager._rewards.ap);
     const exp = String(BattleManager._rewards.exp);
     const gold = String(BattleManager._rewards.gold);
-    const text = "GET:"+"Gil " +gold + ", EXP " + exp + ", AP " + ap;
+    const text = " GET: Gil "+gold +", EXP " + exp + ", AP " + ap;
     this.changeTextColor(ColorManager.normalColor());
     this.drawText(text,0,$TILE/8,this.innerWidth,this.innerHeight);
 };
